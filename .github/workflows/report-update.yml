@@ -1,0 +1,35 @@
+name: Report Update
+
+on:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron:  '0 */1 * * *'
+
+jobs:
+  report-update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v1
+      - name: Install Dependencies
+        run: |
+          python3 -m pip install -r requirements.txt
+          python3 -m pip install papermill ipykernel nbformat nbconvert
+          python3 -m ipykernel install --user
+      - name: Report Update
+        run: |
+          python3 -m papermill.cli Notebooks/RadarCOVID-Report/Source/RadarCOVID-Report.ipynb RadarCOVID-Report.ipynb
+          cp RadarCOVID-Report.ipynb Notebooks/RadarCOVID-Report/Daily/RadarCOVID-Report-`date --utc +%F`.ipynb
+          cp RadarCOVID-Report.ipynb Notebooks/RadarCOVID-Report/Hourly/RadarCOVID-Report-`date --utc +%F@%H`.ipynb
+          cp RadarCOVID-Report.ipynb Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb
+        env:
+          RADARCOVID_REPORT__ENABLE_PUBLISH_ON_TWITTER: "TRUE"
+          RADARCOVID_REPORT__TWITTER_API_AUTH_KEYS: ${{ secrets.RADARCOVID_REPORT__TWITTER_API_AUTH_KEYS }}
+      - name: Commit Report Update
+        uses: EndBug/add-and-commit@v4
+        with:
+          author_name: GitHub Action - Report Update
+          author_email: report-update@action.github.com
+          message: "Report Update"

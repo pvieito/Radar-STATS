@@ -1,0 +1,2 @@
+class NoDataFoundForDateException(Exception):
+    pass
