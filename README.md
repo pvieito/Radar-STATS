@@ -12,7 +12,7 @@ Project to monitor and report the Temporary Exposure Keys (TEKs) from Spain's â€
 
 ## Last Results
 
-- [Report 2020-09-04@01](https://github.com/pvieito/RadarCOVID-Report/blob/master/Notebooks/RadarCOVID-Report/Hourly/RadarCOVID-Report-2020-09-04@01.ipynb)
+- [Report 2020-09-04@02](https://github.com/pvieito/RadarCOVID-Report/blob/master/Notebooks/RadarCOVID-Report/Hourly/RadarCOVID-Report-2020-09-04@02.ipynb)
 
 ### Summary Table
 
@@ -47,22 +47,22 @@ Project to monitor and report the Temporary Exposure Keys (TEKs) from Spain's â€
     <tr>
       <th>2020-09-04</th>
       <td>NaN</td>
-      <td>0.0</td>
+      <td>8.0</td>
       <td>16858.857143</td>
       <td>16858.857143</td>
       <td>NaN</td>
-      <td>0.000000</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
+      <td>0.000475</td>
+      <td>8.0</td>
+      <td>0.000475</td>
+      <td>1.000000</td>
     </tr>
     <tr>
       <th>2020-09-03</th>
-      <td>NaN</td>
+      <td>8.0</td>
       <td>49.0</td>
       <td>17918.000000</td>
       <td>16858.857143</td>
-      <td>NaN</td>
+      <td>0.000475</td>
       <td>0.002906</td>
       <td>19.0</td>
       <td>0.001127</td>
