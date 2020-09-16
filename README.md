@@ -12,7 +12,7 @@ Project to monitor and report the Temporary Exposure Keys (TEKs) from Spain's â€
 
 ## Last Results
 
-- [Report 2020-09-16@17](https://github.com/pvieito/RadarCOVID-Report/blob/master/Notebooks/RadarCOVID-Report/Hourly/RadarCOVID-Report-2020-09-16@17.ipynb)
+- [Report 2020-09-16@18](https://github.com/pvieito/RadarCOVID-Report/blob/master/Notebooks/RadarCOVID-Report/Hourly/RadarCOVID-Report-2020-09-16@18.ipynb)
 
 ### Summary Table
 
@@ -47,22 +47,22 @@ Project to monitor and report the Temporary Exposure Keys (TEKs) from Spain's â€
     <tr>
       <th>2020-09-16</th>
       <td>NaN</td>
-      <td>51.0</td>
+      <td>62.0</td>
       <td>19615.428571</td>
       <td>19615.428571</td>
       <td>NaN</td>
-      <td>0.002600</td>
-      <td>21</td>
-      <td>0.001071</td>
-      <td>2.428571</td>
+      <td>0.003161</td>
+      <td>23</td>
+      <td>0.001173</td>
+      <td>2.695652</td>
     </tr>
     <tr>
       <th>2020-09-15</th>
-      <td>21.0</td>
+      <td>23.0</td>
       <td>58.0</td>
       <td>18874.000000</td>
       <td>19615.428571</td>
-      <td>0.001071</td>
+      <td>0.001173</td>
       <td>0.002957</td>
       <td>23</td>
       <td>0.001173</td>
@@ -70,11 +70,11 @@ Project to monitor and report the Temporary Exposure Keys (TEKs) from Spain's â€
     </tr>
     <tr>
       <th>2020-09-14</th>
-      <td>32.0</td>
+      <td>34.0</td>
       <td>61.0</td>
       <td>54808.000000</td>
       <td>19480.285714</td>
-      <td>0.001643</td>
+      <td>0.001745</td>
       <td>0.003131</td>
       <td>28</td>
       <td>0.001437</td>
@@ -82,11 +82,11 @@ Project to monitor and report the Temporary Exposure Keys (TEKs) from Spain's â€
     </tr>
     <tr>
       <th>2020-09-13</th>
-      <td>46.0</td>
+      <td>48.0</td>
       <td>92.0</td>
       <td>0.000000</td>
       <td>19239.142857</td>
-      <td>0.002391</td>
+      <td>0.002495</td>
       <td>0.004782</td>
       <td>32</td>
       <td>0.001663</td>
@@ -94,11 +94,11 @@ Project to monitor and report the Temporary Exposure Keys (TEKs) from Spain's â€
     </tr>
     <tr>
       <th>2020-09-12</th>
-      <td>57.0</td>
+      <td>59.0</td>
       <td>92.0</td>
       <td>0.000000</td>
       <td>19239.142857</td>
-      <td>0.002963</td>
+      <td>0.003067</td>
       <td>0.004782</td>
       <td>33</td>
       <td>0.001715</td>
@@ -106,11 +106,11 @@ Project to monitor and report the Temporary Exposure Keys (TEKs) from Spain's â€
     </tr>
     <tr>
       <th>2020-09-11</th>
-      <td>72.0</td>
+      <td>75.0</td>
       <td>46.0</td>
       <td>24366.000000</td>
       <td>19239.142857</td>
-      <td>0.003742</td>
+      <td>0.003898</td>
       <td>0.002391</td>
       <td>19</td>
       <td>0.000988</td>
