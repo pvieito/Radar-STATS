@@ -12,7 +12,7 @@ Project to monitor and report the Temporary Exposure Keys (TEKs) from Spain's â€
 
 ## Last Results
 
-- [Report 2020-09-16@23](https://github.com/pvieito/RadarCOVID-Report/blob/master/Notebooks/RadarCOVID-Report/Hourly/RadarCOVID-Report-2020-09-16@23.ipynb)
+- [Report 2020-09-17@00](https://github.com/pvieito/RadarCOVID-Report/blob/master/Notebooks/RadarCOVID-Report/Hourly/RadarCOVID-Report-2020-09-17@00.ipynb)
 
 ### Summary Table
 
@@ -45,14 +45,26 @@ Project to monitor and report the Temporary Exposure Keys (TEKs) from Spain's â€
   </thead>
   <tbody>
     <tr>
+      <th>2020-09-17</th>
+      <td>NaN</td>
+      <td>0.0</td>
+      <td>20280.285714</td>
+      <td>20280.285714</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
       <th>2020-09-16</th>
       <td>NaN</td>
       <td>62.0</td>
-      <td>22386.0</td>
+      <td>22386.000000</td>
       <td>20280.285714</td>
       <td>NaN</td>
       <td>0.003057</td>
-      <td>23</td>
+      <td>23.0</td>
       <td>0.001134</td>
       <td>2.695652</td>
     </tr>
@@ -60,11 +72,11 @@ Project to monitor and report the Temporary Exposure Keys (TEKs) from Spain's â€
       <th>2020-09-15</th>
       <td>23.0</td>
       <td>58.0</td>
-      <td>18874.0</td>
+      <td>18874.000000</td>
       <td>19615.428571</td>
       <td>0.001173</td>
       <td>0.002957</td>
-      <td>23</td>
+      <td>23.0</td>
       <td>0.001173</td>
       <td>2.521739</td>
     </tr>
@@ -72,11 +84,11 @@ Project to monitor and report the Temporary Exposure Keys (TEKs) from Spain's â€
       <th>2020-09-14</th>
       <td>34.0</td>
       <td>61.0</td>
-      <td>54808.0</td>
+      <td>54808.000000</td>
       <td>19480.285714</td>
       <td>0.001745</td>
       <td>0.003131</td>
-      <td>28</td>
+      <td>28.0</td>
       <td>0.001437</td>
       <td>2.178571</td>
     </tr>
@@ -84,11 +96,11 @@ Project to monitor and report the Temporary Exposure Keys (TEKs) from Spain's â€
       <th>2020-09-13</th>
       <td>48.0</td>
       <td>92.0</td>
-      <td>0.0</td>
+      <td>0.000000</td>
       <td>19239.142857</td>
       <td>0.002495</td>
       <td>0.004782</td>
-      <td>32</td>
+      <td>32.0</td>
       <td>0.001663</td>
       <td>2.875000</td>
     </tr>
@@ -96,11 +108,11 @@ Project to monitor and report the Temporary Exposure Keys (TEKs) from Spain's â€
       <th>2020-09-12</th>
       <td>59.0</td>
       <td>92.0</td>
-      <td>0.0</td>
+      <td>0.000000</td>
       <td>19239.142857</td>
       <td>0.003067</td>
       <td>0.004782</td>
-      <td>33</td>
+      <td>33.0</td>
       <td>0.001715</td>
       <td>2.787879</td>
     </tr>
@@ -108,11 +120,11 @@ Project to monitor and report the Temporary Exposure Keys (TEKs) from Spain's â€
       <th>2020-09-11</th>
       <td>75.0</td>
       <td>46.0</td>
-      <td>24366.0</td>
+      <td>24366.000000</td>
       <td>19239.142857</td>
       <td>0.003898</td>
       <td>0.002391</td>
-      <td>19</td>
+      <td>19.0</td>
       <td>0.000988</td>
       <td>2.421053</td>
     </tr>
@@ -120,11 +132,11 @@ Project to monitor and report the Temporary Exposure Keys (TEKs) from Spain's â€
       <th>2020-09-10</th>
       <td>68.0</td>
       <td>45.0</td>
-      <td>21528.0</td>
+      <td>21528.000000</td>
       <td>18751.428571</td>
       <td>0.003626</td>
       <td>0.002400</td>
-      <td>15</td>
+      <td>15.0</td>
       <td>0.000800</td>
       <td>3.000000</td>
     </tr>
@@ -132,11 +144,11 @@ Project to monitor and report the Temporary Exposure Keys (TEKs) from Spain's â€
       <th>2020-09-09</th>
       <td>60.0</td>
       <td>67.0</td>
-      <td>17732.0</td>
+      <td>17732.000000</td>
       <td>18235.714286</td>
       <td>0.003290</td>
       <td>0.003674</td>
-      <td>21</td>
+      <td>21.0</td>
       <td>0.001152</td>
       <td>3.190476</td>
     </tr>
@@ -144,11 +156,11 @@ Project to monitor and report the Temporary Exposure Keys (TEKs) from Spain's â€
       <th>2020-09-08</th>
       <td>61.0</td>
       <td>44.0</td>
-      <td>17928.0</td>
+      <td>17928.000000</td>
       <td>18154.285714</td>
       <td>0.003360</td>
       <td>0.002424</td>
-      <td>18</td>
+      <td>18.0</td>
       <td>0.000992</td>
       <td>2.444444</td>
     </tr>
@@ -156,11 +168,11 @@ Project to monitor and report the Temporary Exposure Keys (TEKs) from Spain's â€
       <th>2020-09-07</th>
       <td>58.0</td>
       <td>52.0</td>
-      <td>53120.0</td>
+      <td>53120.000000</td>
       <td>17911.714286</td>
       <td>0.003238</td>
       <td>0.002903</td>
-      <td>22</td>
+      <td>22.0</td>
       <td>0.001228</td>
       <td>2.363636</td>
     </tr>
@@ -168,11 +180,11 @@ Project to monitor and report the Temporary Exposure Keys (TEKs) from Spain's â€
       <th>2020-09-06</th>
       <td>54.0</td>
       <td>60.0</td>
-      <td>0.0</td>
+      <td>0.000000</td>
       <td>17058.000000</td>
       <td>0.003166</td>
       <td>0.003517</td>
-      <td>24</td>
+      <td>24.0</td>
       <td>0.001407</td>
       <td>2.500000</td>
     </tr>
@@ -180,36 +192,24 @@ Project to monitor and report the Temporary Exposure Keys (TEKs) from Spain's â€
       <th>2020-09-05</th>
       <td>56.0</td>
       <td>40.0</td>
-      <td>0.0</td>
+      <td>0.000000</td>
       <td>17058.000000</td>
       <td>0.003283</td>
       <td>0.002345</td>
-      <td>17</td>
+      <td>17.0</td>
       <td>0.000997</td>
       <td>2.352941</td>
     </tr>
     <tr>
       <th>2020-09-04</th>
       <td>52.0</td>
-      <td>58.0</td>
-      <td>20952.0</td>
+      <td>NaN</td>
+      <td>20952.000000</td>
       <td>17058.000000</td>
       <td>0.003048</td>
-      <td>0.003400</td>
-      <td>20</td>
+      <td>NaN</td>
+      <td>20.0</td>
       <td>0.001172</td>
-      <td>2.900000</td>
-    </tr>
-    <tr>
-      <th>2020-09-03</th>
-      <td>51.0</td>
-      <td>NaN</td>
-      <td>17918.0</td>
-      <td>16858.857143</td>
-      <td>0.003025</td>
-      <td>NaN</td>
-      <td>19</td>
-      <td>0.001127</td>
       <td>NaN</td>
     </tr>
   </tbody>
