@@ -81,11 +81,11 @@ def download_radar_covid_exposure_keys(date: datetime.datetime) -> pd.DataFrame:
                         f"Invalid key 'rolling_start_interval_number': "
                         f"{key_rolling_start_interval_number_in_epoch_seconds} "
                         f"(expected: {sample_datetime_in_epoch_seconds})")
-                if key_rolling_period_in_seconds != _expected_rolling_period_in_seconds:
+                if key_rolling_period_in_seconds > _expected_rolling_period_in_seconds:
                     raise Exception(
                         f"Invalid key 'key_rolling_period': "
                         f"{key_rolling_period_in_seconds}s "
-                        f"(expected: {_expected_rolling_period_in_seconds}s)")
+                        f"(expected: <={_expected_rolling_period_in_seconds}s)")
 
                 key_uuid = uuid.UUID(bytes=key.key_data)
                 date_temporary_exposure_keys.append(dict(
@@ -126,7 +126,5 @@ def download_last_radar_covid_exposure_keys(days=None) -> Any:
             exposure_keys_df = exposure_keys_df.append(date_exposure_keys_df)
         except radar_covid_exceptions.NoDataFoundForDateException as e:
             logging.warning(repr(e))
-        except Exception as e:
-            logging.warning(repr(e), exc_info=True)
 
     return exposure_keys_df
