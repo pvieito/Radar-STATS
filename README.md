@@ -9,6 +9,7 @@ Project to monitor and report the Temporary Exposure Keys (TEKs) from Spain's â€
 - [Last Report](https://github.com/pvieito/RadarCOVID-Report/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb) 
 - [Archived Reports](https://github.com/pvieito/RadarCOVID-Report/tree/master/Notebooks/RadarCOVID-Report)
 - [TEK Dumps](https://github.com/pvieito/RadarCOVID-Report/tree/master/Data/TEKs)
+- [Twitter Bot](https://twitter.com/radarcovidstats)
 
 ## Last Results
 
@@ -20,13 +21,13 @@ Project to monitor and report the Temporary Exposure Keys (TEKs) from Spain's â€
   <thead>
     <tr style="text-align: right;">
       <th></th>
+      <th>region</th>
+      <th>rolling_mean_new_cases</th>
       <th>tek_count</th>
       <th>new_tek_count</th>
-      <th>new_cases</th>
-      <th>rolling_mean_new_cases</th>
+      <th>new_tek_devices</th>
       <th>tek_count_per_new_case</th>
       <th>new_tek_count_per_new_case</th>
-      <th>new_tek_devices</th>
       <th>new_tek_devices_per_new_case</th>
       <th>new_tek_count_per_new_tek_device</th>
     </tr>
@@ -46,169 +47,169 @@ Project to monitor and report the Temporary Exposure Keys (TEKs) from Spain's â€
   <tbody>
     <tr>
       <th>2020-09-19</th>
+      <td>ES</td>
+      <td>21061.0</td>
       <td>2</td>
       <td>71.0</td>
-      <td>21061.142857</td>
-      <td>21061.142857</td>
+      <td>35</td>
       <td>0.000095</td>
       <td>0.003371</td>
-      <td>35</td>
       <td>0.001662</td>
       <td>2.028571</td>
     </tr>
     <tr>
       <th>2020-09-18</th>
+      <td>ES</td>
+      <td>21061.0</td>
       <td>35</td>
       <td>138.0</td>
-      <td>28778.000000</td>
-      <td>21061.142857</td>
+      <td>52</td>
       <td>0.001662</td>
       <td>0.006552</td>
-      <td>52</td>
       <td>0.002469</td>
       <td>2.653846</td>
     </tr>
     <tr>
       <th>2020-09-17</th>
+      <td>ES</td>
+      <td>20431.0</td>
       <td>60</td>
       <td>63.0</td>
-      <td>22582.000000</td>
-      <td>20430.857143</td>
+      <td>29</td>
       <td>0.002937</td>
       <td>0.003084</td>
-      <td>29</td>
       <td>0.001419</td>
       <td>2.172414</td>
     </tr>
     <tr>
       <th>2020-09-16</th>
+      <td>ES</td>
+      <td>20280.0</td>
       <td>63</td>
       <td>62.0</td>
-      <td>22386.000000</td>
-      <td>20280.285714</td>
-      <td>0.003106</td>
-      <td>0.003057</td>
       <td>23</td>
+      <td>0.003107</td>
+      <td>0.003057</td>
       <td>0.001134</td>
       <td>2.695652</td>
     </tr>
     <tr>
       <th>2020-09-15</th>
+      <td>ES</td>
+      <td>19615.0</td>
       <td>64</td>
       <td>58.0</td>
-      <td>18874.000000</td>
-      <td>19615.428571</td>
+      <td>23</td>
       <td>0.003263</td>
       <td>0.002957</td>
-      <td>23</td>
       <td>0.001173</td>
       <td>2.521739</td>
     </tr>
     <tr>
       <th>2020-09-14</th>
+      <td>ES</td>
+      <td>19480.0</td>
       <td>70</td>
       <td>61.0</td>
-      <td>54808.000000</td>
-      <td>19480.285714</td>
+      <td>28</td>
       <td>0.003593</td>
       <td>0.003131</td>
-      <td>28</td>
       <td>0.001437</td>
       <td>2.178571</td>
     </tr>
     <tr>
       <th>2020-09-13</th>
+      <td>ES</td>
+      <td>19239.0</td>
       <td>75</td>
       <td>92.0</td>
-      <td>0.000000</td>
-      <td>19239.142857</td>
+      <td>32</td>
       <td>0.003898</td>
       <td>0.004782</td>
-      <td>32</td>
       <td>0.001663</td>
       <td>2.875000</td>
     </tr>
     <tr>
       <th>2020-09-12</th>
+      <td>ES</td>
+      <td>19239.0</td>
       <td>67</td>
       <td>92.0</td>
-      <td>0.000000</td>
-      <td>19239.142857</td>
-      <td>0.003482</td>
-      <td>0.004782</td>
       <td>33</td>
+      <td>0.003483</td>
+      <td>0.004782</td>
       <td>0.001715</td>
       <td>2.787879</td>
     </tr>
     <tr>
       <th>2020-09-11</th>
+      <td>ES</td>
+      <td>19239.0</td>
       <td>75</td>
       <td>46.0</td>
-      <td>24366.000000</td>
-      <td>19239.142857</td>
+      <td>19</td>
       <td>0.003898</td>
       <td>0.002391</td>
-      <td>19</td>
       <td>0.000988</td>
       <td>2.421053</td>
     </tr>
     <tr>
       <th>2020-09-10</th>
+      <td>ES</td>
+      <td>18751.0</td>
       <td>68</td>
       <td>45.0</td>
-      <td>21528.000000</td>
-      <td>18751.428571</td>
+      <td>15</td>
       <td>0.003626</td>
       <td>0.002400</td>
-      <td>15</td>
       <td>0.000800</td>
       <td>3.000000</td>
     </tr>
     <tr>
       <th>2020-09-09</th>
+      <td>ES</td>
+      <td>18236.0</td>
       <td>60</td>
       <td>67.0</td>
-      <td>17732.000000</td>
-      <td>18235.714286</td>
+      <td>21</td>
       <td>0.003290</td>
       <td>0.003674</td>
-      <td>21</td>
       <td>0.001152</td>
       <td>3.190476</td>
     </tr>
     <tr>
       <th>2020-09-08</th>
+      <td>ES</td>
+      <td>18154.0</td>
       <td>61</td>
       <td>44.0</td>
-      <td>17928.000000</td>
-      <td>18154.285714</td>
+      <td>18</td>
       <td>0.003360</td>
       <td>0.002424</td>
-      <td>18</td>
       <td>0.000992</td>
       <td>2.444444</td>
     </tr>
     <tr>
       <th>2020-09-07</th>
+      <td>ES</td>
+      <td>17912.0</td>
       <td>58</td>
       <td>52.0</td>
-      <td>53120.000000</td>
-      <td>17911.714286</td>
+      <td>22</td>
       <td>0.003238</td>
       <td>0.002903</td>
-      <td>22</td>
       <td>0.001228</td>
       <td>2.363636</td>
     </tr>
     <tr>
       <th>2020-09-06</th>
+      <td>ES</td>
+      <td>17058.0</td>
       <td>54</td>
       <td>NaN</td>
-      <td>0.000000</td>
-      <td>17058.000000</td>
+      <td>24</td>
       <td>0.003166</td>
       <td>NaN</td>
-      <td>24</td>
       <td>0.001407</td>
       <td>NaN</td>
     </tr>
@@ -224,3 +225,7 @@ Project to monitor and report the Temporary Exposure Keys (TEKs) from Spain's â€
 ### Hourly Summary Plots
 
 ![RadarCOVID-Report-Hourly-Summary-Plot](https://github.com/pvieito/RadarCOVID-Report/raw/master/Data/Resources/Current/RadarCOVID-Report-Hourly-Summary-Plots.png)
+
+### Multi-Region Summary Table
+
+![RadarCOVID-Report-Multi-Region-Summary-Table](https://github.com/pvieito/RadarCOVID-Report/raw/master/Data/Resources/Current/RadarCOVID-Report-Multi-Region-Summary-Table.png)
