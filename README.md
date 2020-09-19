@@ -228,4 +228,79 @@ Project to monitor and report the Temporary Exposure Keys (TEKs) from Spain's â€
 
 ### Multi-Region Summary Table
 
-![RadarCOVID-Report-Multi-Region-Summary-Table](https://github.com/pvieito/RadarCOVID-Report/raw/master/Data/Resources/Current/RadarCOVID-Report-Multi-Region-Summary-Table.png)
+<table border="1" class="dataframe">
+  <thead>
+    <tr>
+      <th></th>
+      <th>tek_count</th>
+    </tr>
+    <tr>
+      <th>region</th>
+      <th>ES</th>
+    </tr>
+    <tr>
+      <th>sample_date_string</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2020-09-19</th>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>2020-09-18</th>
+      <td>35</td>
+    </tr>
+    <tr>
+      <th>2020-09-17</th>
+      <td>60</td>
+    </tr>
+    <tr>
+      <th>2020-09-16</th>
+      <td>63</td>
+    </tr>
+    <tr>
+      <th>2020-09-15</th>
+      <td>64</td>
+    </tr>
+    <tr>
+      <th>2020-09-14</th>
+      <td>70</td>
+    </tr>
+    <tr>
+      <th>2020-09-13</th>
+      <td>75</td>
+    </tr>
+    <tr>
+      <th>2020-09-12</th>
+      <td>67</td>
+    </tr>
+    <tr>
+      <th>2020-09-11</th>
+      <td>75</td>
+    </tr>
+    <tr>
+      <th>2020-09-10</th>
+      <td>68</td>
+    </tr>
+    <tr>
+      <th>2020-09-09</th>
+      <td>60</td>
+    </tr>
+    <tr>
+      <th>2020-09-08</th>
+      <td>61</td>
+    </tr>
+    <tr>
+      <th>2020-09-07</th>
+      <td>58</td>
+    </tr>
+    <tr>
+      <th>2020-09-06</th>
+      <td>54</td>
+    </tr>
+  </tbody>
+</table>
+
+- [Multi-Region Summary Table File](https://github.com/pvieito/RadarCOVID-Report/blob/master/Data/Resources/Current/RadarCOVID-Report-Multi-Region-Summary-Table.csv)
