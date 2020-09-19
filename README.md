@@ -12,7 +12,7 @@ Project to monitor and report the Temporary Exposure Keys (TEKs) from Spain's â€
 
 ## Last Results
 
-- [Report 2020-09-19@09](https://github.com/pvieito/RadarCOVID-Report/blob/master/Notebooks/RadarCOVID-Report/Hourly/RadarCOVID-Report-2020-09-19@09.ipynb)
+- [Report 2020-09-19@10](https://github.com/pvieito/RadarCOVID-Report/blob/master/Notebooks/RadarCOVID-Report/Hourly/RadarCOVID-Report-2020-09-19@10.ipynb)
 
 ### Summary Table
 
@@ -47,22 +47,22 @@ Project to monitor and report the Temporary Exposure Keys (TEKs) from Spain's â€
     <tr>
       <th>2020-09-19</th>
       <td>1</td>
-      <td>31.0</td>
+      <td>40.0</td>
       <td>21061.142857</td>
       <td>21061.142857</td>
       <td>0.000047</td>
-      <td>0.001472</td>
-      <td>24</td>
-      <td>0.001140</td>
-      <td>1.291667</td>
+      <td>0.001899</td>
+      <td>27</td>
+      <td>0.001282</td>
+      <td>1.481481</td>
     </tr>
     <tr>
       <th>2020-09-18</th>
-      <td>24</td>
+      <td>27</td>
       <td>138.0</td>
       <td>28778.000000</td>
       <td>21061.142857</td>
-      <td>0.001140</td>
+      <td>0.001282</td>
       <td>0.006552</td>
       <td>52</td>
       <td>0.002469</td>
@@ -70,11 +70,11 @@ Project to monitor and report the Temporary Exposure Keys (TEKs) from Spain's â€
     </tr>
     <tr>
       <th>2020-09-17</th>
-      <td>53</td>
+      <td>55</td>
       <td>63.0</td>
       <td>22582.000000</td>
       <td>20430.857143</td>
-      <td>0.002594</td>
+      <td>0.002692</td>
       <td>0.003084</td>
       <td>29</td>
       <td>0.001419</td>
@@ -82,11 +82,11 @@ Project to monitor and report the Temporary Exposure Keys (TEKs) from Spain's â€
     </tr>
     <tr>
       <th>2020-09-16</th>
-      <td>55</td>
+      <td>57</td>
       <td>62.0</td>
       <td>22386.000000</td>
       <td>20280.285714</td>
-      <td>0.002712</td>
+      <td>0.002811</td>
       <td>0.003057</td>
       <td>23</td>
       <td>0.001134</td>
@@ -94,11 +94,11 @@ Project to monitor and report the Temporary Exposure Keys (TEKs) from Spain's â€
     </tr>
     <tr>
       <th>2020-09-15</th>
-      <td>56</td>
+      <td>58</td>
       <td>58.0</td>
       <td>18874.000000</td>
       <td>19615.428571</td>
-      <td>0.002855</td>
+      <td>0.002957</td>
       <td>0.002957</td>
       <td>23</td>
       <td>0.001173</td>
