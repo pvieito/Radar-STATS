@@ -51,11 +51,11 @@ Project to monitor and report the Temporary Exposure Keys (TEKs) from Spain's â€
       <td>21061.0</td>
       <td>NaN</td>
       <td>105.0</td>
-      <td>44</td>
+      <td>42</td>
       <td>NaN</td>
       <td>0.004986</td>
-      <td>0.002089</td>
-      <td>2.386364</td>
+      <td>0.001994</td>
+      <td>2.500000</td>
     </tr>
     <tr>
       <th>2020-09-19</th>
@@ -63,11 +63,11 @@ Project to monitor and report the Temporary Exposure Keys (TEKs) from Spain's â€
       <td>21061.0</td>
       <td>44.0</td>
       <td>90.0</td>
-      <td>40</td>
+      <td>39</td>
       <td>0.002089</td>
       <td>0.004273</td>
-      <td>0.001899</td>
-      <td>2.250000</td>
+      <td>0.001852</td>
+      <td>2.307692</td>
     </tr>
     <tr>
       <th>2020-09-18</th>
@@ -300,3 +300,11 @@ Project to monitor and report the Temporary Exposure Keys (TEKs) from Spain's â€
 </table>
 
 - [Multi-Region Summary Table File](https://github.com/pvieito/RadarCOVID-Report/blob/master/Data/Resources/Current/RadarCOVID-Report-Multi-Region-Summary-Table.csv)
+
+## Related Links
+
+- [Radar COVID Project](https://github.com/RadarCOVID)
+- [DP3T Project](https://github.com/DP-3T)
+- [Diagnosis Key Analysis for Corona-Warn-App](https://github.com/micb25/dka/blob/master/README.en.md)
+- [Testing Apps for COVID-19 Tracing (TACT) - TEK Survey](https://down.dsg.cs.tcd.ie/tact/tek-counts/)
+- [European Federation Gateway Service (EFGS) Project](https://github.com/eu-federation-gateway-service/efgs-federation-gateway)
