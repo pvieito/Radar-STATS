@@ -34,3 +34,11 @@ Project to monitor and report the Temporary Exposure Keys (TEKs) from Spain's â€
 {multi_region_summary_table_html}
 
 - [Multi-Region Summary Table File](https://github.com/pvieito/RadarCOVID-Report/blob/master/Data/Resources/Current/RadarCOVID-Report-Multi-Region-Summary-Table.csv)
+
+## Related Links
+
+- [Radar COVID Project](https://github.com/RadarCOVID)
+- [DP3T Project](https://github.com/DP-3T)
+- [Diagnosis Key Analysis for Corona-Warn-App](https://github.com/micb25/dka/blob/master/README.en.md)
+- [Testing Apps for COVID-19 Tracing (TACT) - TEK Survey](https://down.dsg.cs.tcd.ie/tact/tek-counts/)
+- [European Federation Gateway Service (EFGS) Project](https://github.com/eu-federation-gateway-service/efgs-federation-gateway)
