@@ -190,12 +190,12 @@ Project to monitor and report the Temporary Exposure Keys (TEKs) from Spain's â€
       <th>2020-09-07</th>
       <td>8956.0</td>
       <td>58.0</td>
-      <td>NaN</td>
+      <td>52.0</td>
       <td>22</td>
       <td>0.006476</td>
-      <td>NaN</td>
+      <td>0.005806</td>
       <td>0.002456</td>
-      <td>NaN</td>
+      <td>2.363636</td>
     </tr>
   </tbody>
 </table>
