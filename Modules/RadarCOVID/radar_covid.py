@@ -21,7 +21,8 @@ _unix_epoch_datetime = datetime.datetime(year=1970, month=1, day=1, tzinfo=pytz.
 _maximum_rolling_period_in_seconds = 24 * 60 * 60  # 24h
 
 
-def download_radar_covid_exposure_keys(date: datetime.datetime) -> pd.DataFrame:
+def download_radar_covid_exposure_keys(
+        date: datetime.datetime, save_raw_zip_path=None) -> pd.DataFrame:
     sample_datetime = datetime.datetime(
         year=date.year,
         month=date.month,
@@ -38,14 +39,23 @@ def download_radar_covid_exposure_keys(date: datetime.datetime) -> pd.DataFrame:
     date_exposed_tokens_url = \
         _radar_covid_api_endpoint_exposed_tokens_url + str(sample_datetime_in_epoch_seconds) + "000"
     logging.info(
-        f"Downloading exposed tokens for day '{sample_date_string}' from '{date_exposed_tokens_url}'...")
+        f"Downloading TEKs for day '{sample_date_string}' from '{date_exposed_tokens_url}'...")
     date_exposed_tokens_response = requests.get(url=date_exposed_tokens_url)
     date_exposed_tokens_response.raise_for_status()
     date_exposed_tokens_bytes = date_exposed_tokens_response.content
 
     if len(date_exposed_tokens_bytes) == 0:
         raise radar_covid_exceptions.NoDataFoundForDateException(
-            f"No exposed tokens found for day '{sample_date_string}'.")
+            f"No TEKs found for day '{sample_date_string}'.")
+
+    if save_raw_zip_path:
+        if isinstance(save_raw_zip_path, str):
+            save_raw_zip_path = [save_raw_zip_path]
+
+        for raw_zip_path in save_raw_zip_path:
+            os.makedirs(os.path.dirname(raw_zip_path), exist_ok=True)
+            with open(raw_zip_path.format(sample_date=sample_date_string), "wb") as f:
+                f.write(date_exposed_tokens_bytes)
 
     date_temporary_exposure_keys = []
     with io.BytesIO(date_exposed_tokens_bytes) as f:
@@ -118,7 +128,7 @@ def download_radar_covid_exposure_keys(date: datetime.datetime) -> pd.DataFrame:
     return pd.DataFrame.from_records(date_temporary_exposure_keys)
 
 
-def download_last_radar_covid_exposure_keys(days=None) -> Any:
+def download_last_radar_covid_exposure_keys(days=None, **kwargs) -> Any:
     if days is None:
         days = 14
 
@@ -128,7 +138,8 @@ def download_last_radar_covid_exposure_keys(days=None) -> Any:
     for i in range(days):
         try:
             sample_datetime = now_datetime - datetime.timedelta(days=i)
-            date_exposure_keys_df = download_radar_covid_exposure_keys(date=sample_datetime)
+            date_exposure_keys_df = download_radar_covid_exposure_keys(
+                date=sample_datetime, **kwargs)
             exposure_keys_df = exposure_keys_df.append(date_exposure_keys_df)
         except radar_covid_exceptions.NoDataFoundForDateException as e:
             logging.warning(repr(e))
