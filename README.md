@@ -16,7 +16,7 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
 
 ## Last Results
 
-- [Report 2020-09-21@18](https://github.com/pvieito/RadarCOVID-Report/blob/master/Notebooks/RadarCOVID-Report/Hourly/RadarCOVID-Report-2020-09-21@18.ipynb)
+- [Report 2020-09-21@19](https://github.com/pvieito/RadarCOVID-Report/blob/master/Notebooks/RadarCOVID-Report/Hourly/RadarCOVID-Report-2020-09-21@19.ipynb)
 
 ### Daily Summary Plots
 
@@ -32,7 +32,7 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
       <th>Shared TEKs by Generation Date</th>
       <th>Shared TEKs by Upload Date</th>
       <th>Shared Diagnoses (Estimation)</th>
-      <th>Average Number of TEKs Uploaded per Shared Diagnose</th>
+      <th>Average Number of TEKs Uploaded per Shared Diagnosis</th>
       <th>Usage Ratio (Shared Diagnoses per COVID-19 Case)</th>
     </tr>
     <tr>
@@ -192,8 +192,8 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
 - **COVID-19 Cases** (`covid_cases`): Confirmed COVID-19 cases in Spain estimated with a 7-day rolling average.
 - **Shared TEKs by Generation Date** (`shared_teks_by_generation_date`): TEKs uploaded to the Radar COVID server by the date they were generated on-device.
 - **Shared TEKs by Upload Date** (`shared_teks_by_upload_date`): TEKs uploaded to the Radar COVID server by the date they were uploaded using the one-time code sent by the Health Authorities.
-- **Shared Diagnoses** (`shared_diagnoses`): Estimation of the shared diagnoses via the Radar COVID app. The estimation is inferred from the number of TEKs uploaded each day which were generated on-device the previous day: typically each device sharing a positive diagnose should upload at least the TEK generated on-device the previous day.
-- **Average Number of TEKs Uploaded per Shared Diagnose** (`teks_per_shared_diagnose`): The average number of TEKs uploaded with each shared diagnose. This number should ideally be around 13 TEKs uploaded for each shared diagnose.
+- **Shared Diagnoses** (`shared_diagnoses`): Estimation of the shared diagnoses via the Radar COVID app. The estimation is inferred from the number of TEKs uploaded each day which were generated on-device the previous day: typically each device sharing a positive diagnosis should upload at least the TEK generated on-device the previous day.
+- **Average Number of TEKs Uploaded per Shared Diagnosis** (`teks_per_shared_diagnosis`): The average number of TEKs uploaded with each shared diagnosis. This number should ideally be around 13 TEKs uploaded for each shared diagnosis.
 - **Usage Ratio** (`shared_diagnoses_per_covid_case`): This is the ratio of shared diagnoses per COVID-19 case. Ideally it should be 100% (ie. all confirmed cases sharing their TEKs with Radar COVID). 
 
 **NOTE**: TEKs on the Radar COVID server may be padded with artificial random TEKs to increase anonymization. Currently there is no known technique to detect such alterations, so metrics dependent on the number of uploaded TEKs (eg. shared diagnoses or usage ratio) may be lower than the estimated.
