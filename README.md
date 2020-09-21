@@ -213,6 +213,8 @@ Only files on these directories should be modified as other files are generated 
 - `Modules/`
 - `Notebooks/*/Source/`
 
+The project _entry point_ is a Python notebook located at [`Notebooks/RadarCOVID-Report/Source/RadarCOVID-Report.ipynb`](https://github.com/pvieito/RadarCOVID-Report/blob/master/Notebooks/RadarCOVID-Report/Source/RadarCOVID-Report.ipynb).
+
 ## Related Links
 
 - [Radar COVID Website](https://radarcovid.gob.es/)
