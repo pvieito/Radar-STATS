@@ -27,6 +27,7 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
+      <th></th>
       <th>COVID-19 Cases (7-day Rolling Average)</th>
       <th>Shared TEKs by Generation Date</th>
       <th>Shared TEKs by Upload Date</th>
@@ -34,17 +35,28 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
       <th>Average Number of TEKs Uploaded per Shared Diagnosis</th>
       <th>Usage Ratio (Fraction of COVID-19 Cases Which Shared Diagnosis)</th>
     </tr>
+    <tr>
+      <th>Date</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
   </thead>
   <tbody>
     <tr>
-      <td>10531.0</td>
+      <th>2020-09-21</th>
+      <td>11105.0</td>
       <td>NaN</td>
       <td>190.0</td>
       <td>45.0</td>
       <td>4.22</td>
-      <td>0.43%</td>
+      <td>0.41%</td>
     </tr>
     <tr>
+      <th>2020-09-20</th>
       <td>10531.0</td>
       <td>45.0</td>
       <td>116.0</td>
@@ -53,6 +65,7 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
       <td>0.43%</td>
     </tr>
     <tr>
+      <th>2020-09-19</th>
       <td>10531.0</td>
       <td>85.0</td>
       <td>90.0</td>
@@ -61,6 +74,7 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
       <td>0.37%</td>
     </tr>
     <tr>
+      <th>2020-09-18</th>
       <td>10531.0</td>
       <td>98.0</td>
       <td>138.0</td>
@@ -69,6 +83,7 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
       <td>0.49%</td>
     </tr>
     <tr>
+      <th>2020-09-17</th>
       <td>10215.0</td>
       <td>117.0</td>
       <td>63.0</td>
@@ -77,6 +92,7 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
       <td>0.28%</td>
     </tr>
     <tr>
+      <th>2020-09-16</th>
       <td>10140.0</td>
       <td>119.0</td>
       <td>62.0</td>
@@ -85,6 +101,7 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
       <td>0.23%</td>
     </tr>
     <tr>
+      <th>2020-09-15</th>
       <td>9808.0</td>
       <td>82.0</td>
       <td>58.0</td>
@@ -93,6 +110,7 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
       <td>0.23%</td>
     </tr>
     <tr>
+      <th>2020-09-14</th>
       <td>9740.0</td>
       <td>73.0</td>
       <td>61.0</td>
@@ -101,6 +119,7 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
       <td>0.29%</td>
     </tr>
     <tr>
+      <th>2020-09-13</th>
       <td>9620.0</td>
       <td>75.0</td>
       <td>92.0</td>
@@ -109,6 +128,7 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
       <td>0.33%</td>
     </tr>
     <tr>
+      <th>2020-09-12</th>
       <td>9620.0</td>
       <td>67.0</td>
       <td>92.0</td>
@@ -117,6 +137,7 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
       <td>0.34%</td>
     </tr>
     <tr>
+      <th>2020-09-11</th>
       <td>9620.0</td>
       <td>75.0</td>
       <td>46.0</td>
@@ -125,6 +146,7 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
       <td>0.20%</td>
     </tr>
     <tr>
+      <th>2020-09-10</th>
       <td>9376.0</td>
       <td>68.0</td>
       <td>45.0</td>
@@ -133,6 +155,7 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
       <td>0.16%</td>
     </tr>
     <tr>
+      <th>2020-09-09</th>
       <td>9118.0</td>
       <td>60.0</td>
       <td>67.0</td>
@@ -141,6 +164,7 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
       <td>0.23%</td>
     </tr>
     <tr>
+      <th>2020-09-08</th>
       <td>9077.0</td>
       <td>61.0</td>
       <td>44.0</td>
