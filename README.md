@@ -189,7 +189,7 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
 
 ### Metrics
 
-- **COVID-19 Cases** (`covid_cases`): Confirmed COVID-19 cases in Spain estimated with a 7-day rolling average.
+- **COVID-19 Cases** (`covid_cases`): Confirmed new COVID-19 cases in Spain estimated with a 7-day rolling average.
 - **Shared TEKs by Generation Date** (`shared_teks_by_generation_date`): TEKs uploaded to the Radar COVID server by the date they were generated on-device.
 - **Shared TEKs by Upload Date** (`shared_teks_by_upload_date`): TEKs uploaded to the Radar COVID server by the date they were uploaded using the one-time code sent by the Health Authorities.
 - **Shared Diagnoses** (`shared_diagnoses`): Estimation of the shared diagnoses via the Radar COVID app. The estimation is inferred from the number of TEKs uploaded each day which were generated on-device the previous day: typically each device sharing a positive diagnosis should upload at least the TEK generated on-device the previous day.
