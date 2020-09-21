@@ -18,13 +18,13 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
 
 - [Report {extraction_date_with_hour}]({report_url_with_hour})
 
-### Summary Table
+### Daily Summary Table
 
-{summary_table_html}
+{daily_summary_table_html}
 
 - [Summary Table File](https://github.com/pvieito/RadarCOVID-Report/blob/master/Data/Resources/Current/RadarCOVID-Report-Summary-Table.csv)
 
-### Summary Plots
+### Daily Summary Plots
 
 ![RadarCOVID-Report-Summary-Plot](https://github.com/pvieito/RadarCOVID-Report/raw/master/Data/Resources/Current/RadarCOVID-Report-Summary-Plots.png)
 
