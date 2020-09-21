@@ -56,7 +56,7 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
 
 ## Contributions
 
-Contributions to the **RadarCOVID-Report** are welcome, both as [Pull Requests](https://github.com/pvieito/RadarCOVID-Report/pulls) or [Issues](https://github.com/pvieito/RadarCOVID-Report/issues).
+Contributions to the **RadarCOVID-Report** project are welcome, both as [Pull Requests](https://github.com/pvieito/RadarCOVID-Report/pulls) or [Issues](https://github.com/pvieito/RadarCOVID-Report/issues).
 
 Only files on these directories should be modified as other files are generated automatically by the [Report Update GitHub Action](https://github.com/pvieito/RadarCOVID-Report/blob/master/.github/workflows/report-update.yml):
 
