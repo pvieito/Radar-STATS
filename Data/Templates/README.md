@@ -7,6 +7,7 @@ Project to monitor and report the Temporary Exposure Keys (TEKs) from Spain's â€
 - [Links](#links)
 - [Last Results](#last-results)
 - [Documentation](#documentation)
+- [Contributions](#contributions)
 - [Related Links](#related-links)
 
 ## Links
