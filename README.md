@@ -36,7 +36,7 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
       <th>Usage Ratio (Fraction of Cases Which Shared Diagnosis)</th>
     </tr>
     <tr>
-      <th>Sample Date</th>
+      <th>Sample Date (UTC)</th>
       <th></th>
       <th></th>
       <th></th>
