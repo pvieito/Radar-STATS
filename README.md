@@ -172,69 +172,6 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
       <td>2.444444</td>
       <td>0.001983</td>
     </tr>
-    <tr>
-      <th>2020-09-07</th>
-      <td>8956.0</td>
-      <td>58.0</td>
-      <td>52.0</td>
-      <td>22.0</td>
-      <td>2.363636</td>
-      <td>0.002456</td>
-    </tr>
-    <tr>
-      <th>2020-09-06</th>
-      <td>8529.0</td>
-      <td>54.0</td>
-      <td>60.0</td>
-      <td>24.0</td>
-      <td>2.500000</td>
-      <td>0.002814</td>
-    </tr>
-    <tr>
-      <th>2020-09-05</th>
-      <td>8529.0</td>
-      <td>56.0</td>
-      <td>40.0</td>
-      <td>17.0</td>
-      <td>2.352941</td>
-      <td>0.001993</td>
-    </tr>
-    <tr>
-      <th>2020-09-04</th>
-      <td>8529.0</td>
-      <td>52.0</td>
-      <td>58.0</td>
-      <td>20.0</td>
-      <td>2.900000</td>
-      <td>0.002345</td>
-    </tr>
-    <tr>
-      <th>2020-09-03</th>
-      <td>8429.0</td>
-      <td>51.0</td>
-      <td>49.0</td>
-      <td>19.0</td>
-      <td>2.578947</td>
-      <td>0.002254</td>
-    </tr>
-    <tr>
-      <th>2020-09-02</th>
-      <td>8529.0</td>
-      <td>52.0</td>
-      <td>57.0</td>
-      <td>14.0</td>
-      <td>4.071429</td>
-      <td>0.001641</td>
-    </tr>
-    <tr>
-      <th>2020-09-01</th>
-      <td>8346.0</td>
-      <td>46.0</td>
-      <td>39.0</td>
-      <td>14.0</td>
-      <td>2.785714</td>
-      <td>0.001677</td>
-    </tr>
   </tbody>
 </table>
 
