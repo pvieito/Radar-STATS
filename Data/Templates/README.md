@@ -2,17 +2,14 @@
 
 [![Report Update](https://github.com/pvieito/RadarCOVID-Report/workflows/Report%20Update/badge.svg?event=schedule)](https://github.com/pvieito/RadarCOVID-Report/blob/master/RadarCOVID-Report.ipynb)
 
-Project to monitor and report the Temporary Exposure Keys (TEKs) from Spain's “Radar COVID” app Exposure Notification service.
+Project to monitor and report hourly statistics about Spain's “Radar COVID” app Exposure Notification service.
 
-- [Links](#links)
+## Links
+
 - [Last Results](#last-results)
 - [Documentation](#documentation)
 - [Contributions](#contributions)
 - [Related Links](#related-links)
-
-## Links
-
-- [Last Report](https://github.com/pvieito/RadarCOVID-Report/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb) 
 - [Archived Reports](https://github.com/pvieito/RadarCOVID-Report/tree/master/Notebooks/RadarCOVID-Report)
 - [TEK Dumps](https://github.com/pvieito/RadarCOVID-Report/tree/master/Data/TEKs)
 - [Twitter Bot](https://twitter.com/radarcovidstats)
@@ -52,14 +49,20 @@ Project to monitor and report the Temporary Exposure Keys (TEKs) from Spain's �
 
 **NOTE**: TEKs on the Radar COVID server may be padded with artificial random TEKs to increase anonymization. Currently there is no known technique to detect such alterations, so metrics dependent on the number of uploaded TEKs (eg. shared diagnoses or usage ratio) may be lower than the estimated.
 
+### Data Sources
+
+- **COVID-19 Cases**: [Narrativa API](https://covid19tracking.narrativa.com)
+- **TEKs**: [Radar COVID API](https://radarcovid.gob.es/)
+
 ## Contributions
 
 Contributions to the **RadarCOVID-Report** are welcome, both as [Pull Requests](https://github.com/pvieito/RadarCOVID-Report/pulls) or [Issues](https://github.com/pvieito/RadarCOVID-Report/issues).
 
 Only files on these directories should be modified as other files are generated automatically by the [Report Update GitHub Action](https://github.com/pvieito/RadarCOVID-Report/blob/master/.github/workflows/report-update.yml):
 
+- `Data/Templates/`
 - `Modules/`
-- `Notebooks/RadarCOVID-Report/Source/`
+- `Notebooks/*/Source/`
 
 ## Related Links
 
