@@ -4,6 +4,11 @@
 
 Project to monitor and report the Temporary Exposure Keys (TEKs) from Spain's “Radar COVID” app Exposure Notification service.
 
+- [Links](#links)
+- [Last Results](#last-results)
+- [Documentation](#documentation)
+- [Related Links](#related-links)
+
 ## Links
 
 - [Last Report](https://github.com/pvieito/RadarCOVID-Report/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb) 
