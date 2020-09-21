@@ -16,7 +16,7 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
 
 ## Last Results
 
-- [Report 2020-09-21@19](https://github.com/pvieito/RadarCOVID-Report/blob/master/Notebooks/RadarCOVID-Report/Hourly/RadarCOVID-Report-2020-09-21@19.ipynb)
+- [Report 2020-09-21@20](https://github.com/pvieito/RadarCOVID-Report/blob/master/Notebooks/RadarCOVID-Report/Hourly/RadarCOVID-Report-2020-09-21@20.ipynb)
 
 ### Daily Summary Plots
 
@@ -50,15 +50,15 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
       <th>2020-09-21</th>
       <td>10531.0</td>
       <td>NaN</td>
-      <td>169.0</td>
-      <td>41.0</td>
-      <td>4.121951</td>
-      <td>0.003893</td>
+      <td>187.0</td>
+      <td>44.0</td>
+      <td>4.250000</td>
+      <td>0.004178</td>
     </tr>
     <tr>
       <th>2020-09-20</th>
       <td>10531.0</td>
-      <td>41.0</td>
+      <td>44.0</td>
       <td>116.0</td>
       <td>45.0</td>
       <td>2.577778</td>
@@ -67,7 +67,7 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
     <tr>
       <th>2020-09-19</th>
       <td>10531.0</td>
-      <td>81.0</td>
+      <td>84.0</td>
       <td>90.0</td>
       <td>39.0</td>
       <td>2.307692</td>
@@ -76,7 +76,7 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
     <tr>
       <th>2020-09-18</th>
       <td>10531.0</td>
-      <td>94.0</td>
+      <td>97.0</td>
       <td>138.0</td>
       <td>52.0</td>
       <td>2.653846</td>
@@ -85,7 +85,7 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
     <tr>
       <th>2020-09-17</th>
       <td>10215.0</td>
-      <td>112.0</td>
+      <td>117.0</td>
       <td>63.0</td>
       <td>29.0</td>
       <td>2.172414</td>
@@ -94,7 +94,7 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
     <tr>
       <th>2020-09-16</th>
       <td>10140.0</td>
-      <td>115.0</td>
+      <td>119.0</td>
       <td>62.0</td>
       <td>23.0</td>
       <td>2.695652</td>
