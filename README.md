@@ -197,17 +197,6 @@ Project to monitor and report the Temporary Exposure Keys (TEKs) from Spain's â€
       <td>0.001983</td>
       <td>2.444444</td>
     </tr>
-    <tr>
-      <th>2020-09-07</th>
-      <td>8956.0</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>22.0</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>0.002456</td>
-      <td>NaN</td>
-    </tr>
   </tbody>
 </table>
 
@@ -220,77 +209,6 @@ Project to monitor and report the Temporary Exposure Keys (TEKs) from Spain's â€
 ### Hourly Summary Plots
 
 ![RadarCOVID-Report-Hourly-Summary-Plot](https://github.com/pvieito/RadarCOVID-Report/raw/master/Data/Resources/Current/RadarCOVID-Report-Hourly-Summary-Plots.png)
-
-### Multi-Region Summary Table
-
-<table border="1" class="dataframe">
-  <thead>
-    <tr>
-      <th></th>
-      <th>tek_count</th>
-    </tr>
-    <tr>
-      <th>region</th>
-      <th>ES</th>
-    </tr>
-    <tr>
-      <th>sample_date_string</th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>2020-09-19</th>
-      <td>48</td>
-    </tr>
-    <tr>
-      <th>2020-09-18</th>
-      <td>62</td>
-    </tr>
-    <tr>
-      <th>2020-09-17</th>
-      <td>81</td>
-    </tr>
-    <tr>
-      <th>2020-09-16</th>
-      <td>85</td>
-    </tr>
-    <tr>
-      <th>2020-09-15</th>
-      <td>82</td>
-    </tr>
-    <tr>
-      <th>2020-09-14</th>
-      <td>73</td>
-    </tr>
-    <tr>
-      <th>2020-09-13</th>
-      <td>75</td>
-    </tr>
-    <tr>
-      <th>2020-09-12</th>
-      <td>67</td>
-    </tr>
-    <tr>
-      <th>2020-09-11</th>
-      <td>75</td>
-    </tr>
-    <tr>
-      <th>2020-09-10</th>
-      <td>68</td>
-    </tr>
-    <tr>
-      <th>2020-09-09</th>
-      <td>60</td>
-    </tr>
-    <tr>
-      <th>2020-09-08</th>
-      <td>61</td>
-    </tr>
-  </tbody>
-</table>
-
-- [Multi-Region Summary Table File](https://github.com/pvieito/RadarCOVID-Report/blob/master/Data/Resources/Current/RadarCOVID-Report-Multi-Region-Summary-Table.csv)
 
 ## Related Links
 
