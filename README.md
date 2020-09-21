@@ -52,8 +52,8 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
       <td>NaN</td>
       <td>187.0</td>
       <td>44.0</td>
-      <td>4.250000</td>
-      <td>0.004178</td>
+      <td>4.25</td>
+      <td>0.42%</td>
     </tr>
     <tr>
       <th>2020-09-20</th>
@@ -61,8 +61,8 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
       <td>44.0</td>
       <td>116.0</td>
       <td>45.0</td>
-      <td>2.577778</td>
-      <td>0.004273</td>
+      <td>2.58</td>
+      <td>0.43%</td>
     </tr>
     <tr>
       <th>2020-09-19</th>
@@ -70,8 +70,8 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
       <td>84.0</td>
       <td>90.0</td>
       <td>39.0</td>
-      <td>2.307692</td>
-      <td>0.003703</td>
+      <td>2.31</td>
+      <td>0.37%</td>
     </tr>
     <tr>
       <th>2020-09-18</th>
@@ -79,8 +79,8 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
       <td>97.0</td>
       <td>138.0</td>
       <td>52.0</td>
-      <td>2.653846</td>
-      <td>0.004938</td>
+      <td>2.65</td>
+      <td>0.49%</td>
     </tr>
     <tr>
       <th>2020-09-17</th>
@@ -88,8 +88,8 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
       <td>117.0</td>
       <td>63.0</td>
       <td>29.0</td>
-      <td>2.172414</td>
-      <td>0.002839</td>
+      <td>2.17</td>
+      <td>0.28%</td>
     </tr>
     <tr>
       <th>2020-09-16</th>
@@ -97,8 +97,8 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
       <td>119.0</td>
       <td>62.0</td>
       <td>23.0</td>
-      <td>2.695652</td>
-      <td>0.002268</td>
+      <td>2.70</td>
+      <td>0.23%</td>
     </tr>
     <tr>
       <th>2020-09-15</th>
@@ -106,8 +106,8 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
       <td>82.0</td>
       <td>58.0</td>
       <td>23.0</td>
-      <td>2.521739</td>
-      <td>0.002345</td>
+      <td>2.52</td>
+      <td>0.23%</td>
     </tr>
     <tr>
       <th>2020-09-14</th>
@@ -115,8 +115,8 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
       <td>73.0</td>
       <td>61.0</td>
       <td>28.0</td>
-      <td>2.178571</td>
-      <td>0.002875</td>
+      <td>2.18</td>
+      <td>0.29%</td>
     </tr>
     <tr>
       <th>2020-09-13</th>
@@ -124,8 +124,8 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
       <td>75.0</td>
       <td>92.0</td>
       <td>32.0</td>
-      <td>2.875000</td>
-      <td>0.003326</td>
+      <td>2.88</td>
+      <td>0.33%</td>
     </tr>
     <tr>
       <th>2020-09-12</th>
@@ -133,8 +133,8 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
       <td>67.0</td>
       <td>92.0</td>
       <td>33.0</td>
-      <td>2.787879</td>
-      <td>0.003430</td>
+      <td>2.79</td>
+      <td>0.34%</td>
     </tr>
     <tr>
       <th>2020-09-11</th>
@@ -142,8 +142,8 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
       <td>75.0</td>
       <td>46.0</td>
       <td>19.0</td>
-      <td>2.421053</td>
-      <td>0.001975</td>
+      <td>2.42</td>
+      <td>0.20%</td>
     </tr>
     <tr>
       <th>2020-09-10</th>
@@ -151,8 +151,8 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
       <td>68.0</td>
       <td>45.0</td>
       <td>15.0</td>
-      <td>3.000000</td>
-      <td>0.001600</td>
+      <td>3.00</td>
+      <td>0.16%</td>
     </tr>
     <tr>
       <th>2020-09-09</th>
@@ -160,8 +160,8 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
       <td>60.0</td>
       <td>67.0</td>
       <td>21.0</td>
-      <td>3.190476</td>
-      <td>0.002303</td>
+      <td>3.19</td>
+      <td>0.23%</td>
     </tr>
     <tr>
       <th>2020-09-08</th>
@@ -169,8 +169,8 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
       <td>61.0</td>
       <td>44.0</td>
       <td>18.0</td>
-      <td>2.444444</td>
-      <td>0.001983</td>
+      <td>2.44</td>
+      <td>0.20%</td>
     </tr>
   </tbody>
 </table>
