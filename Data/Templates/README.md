@@ -47,9 +47,9 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
 - **TEKs Uploaded per Shared Diagnosis** (`teks_per_shared_diagnosis`): The average number of TEKs uploaded with each shared diagnosis. This number should ideally be around 14 TEKs uploaded for each shared diagnosis.
 - **Usage Ratio** (`shared_diagnoses_per_covid_case`): Fraction of COVID-19 cases which shared their diagnosis via Radar COVID. Ideally it should be 100% (ie. all confirmed cases sharing their TEKs with Radar COVID). 
 
-**NOTES**:
+**IMPORTANT NOTES**
 - TEKs on the Radar COVID server may be padded with artificial random TEKs to increase anonymization. Currently there is no known technique to detect such alterations, so metrics dependent on the number of uploaded TEKs (eg. shared diagnoses or usage ratio) may be lower than the estimated.
-- Some devices use the Exposure Notification API version 1, which shares the last TEK (ie. the TEK generated the day the diagnosis is shared) a day after it was generated, so two uploads (one with the previous TEKs and another with the last TEK) will take place on different days. This will lead to a duplication on the shared diagnoses metric. This duplication effect will disappear once all devices are updated to the Exposure Notification API version 2 which shares all 14 TEKs at once.
+- Some devices use the Exposure Notification API version 1, which shares the last TEK (ie. the TEK generated the day the diagnosis is shared) a day after it was generated, so two uploads (one with the previous TEKs and another with the last TEK) will take place on different days. This will lead to a duplication on the shared diagnoses metric. This duplication effect will disappear once all devices are using the Exposure Notification API version 2 which shares all 14 TEKs at once.
 
 ### Data Sources
 
