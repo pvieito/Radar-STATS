@@ -73,6 +73,7 @@ The project _entry point_ is a Python notebook located at [`Notebooks/RadarCOVID
 - [Radar COVID Website](https://radarcovid.gob.es/)
 - [Radar COVID Project](https://github.com/RadarCOVID)
 - [DP3T Project](https://github.com/DP-3T)
+- [SwissCovid App Monitoring - Swiss Federal Statistical Office](https://www.experimental.bfs.admin.ch/expstat/en/home/innovative-methods/swisscovid-app-monitoring.html)
 - [Diagnosis Key Analysis for Corona-Warn-App](https://github.com/micb25/dka/blob/master/README.en.md)
 - [Testing Apps for COVID-19 Tracing (TACT) - TEK Survey](https://down.dsg.cs.tcd.ie/tact/tek-counts/)
 - [European Federation Gateway Service (EFGS) Project](https://github.com/eu-federation-gateway-service/efgs-federation-gateway)
