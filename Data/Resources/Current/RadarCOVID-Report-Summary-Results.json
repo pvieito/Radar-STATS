@@ -1,5 +1,5 @@
 {
-    "extraction_datetime": 1601117070676,
+    "extraction_datetime": 1601117906219,
     "extraction_date": "2020-09-26",
     "extraction_date_with_hour": "2020-09-26@10",
     "last_hour": {
@@ -8,15 +8,17 @@
     },
     "today": {
         "covid_cases": 10920,
+        "shared_teks_by_generation_date": 17,
         "shared_teks_by_upload_date": 140,
         "shared_diagnoses": 55,
         "teks_per_shared_diagnosis": 2.5454545455,
         "shared_diagnoses_per_covid_case": 0.00503663
     },
     "last_7_days": {
-        "covid_cases": 77313.0,
-        "shared_teks_by_upload_date": 1456.0,
-        "shared_diagnoses": 445.0,
+        "covid_cases": 77313,
+        "shared_teks_by_generation_date": 988,
+        "shared_teks_by_upload_date": 1456,
+        "shared_diagnoses": 445,
         "teks_per_shared_diagnosis": 3.2719101124,
         "shared_diagnoses_per_covid_case": 0.0057558237
     },
