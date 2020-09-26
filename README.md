@@ -1,6 +1,6 @@
-# RadarCOVID-Report
+# RadarCOVID STATS
 
-[![Report Update](https://github.com/pvieito/RadarCOVID-Report/workflows/Report%20Update/badge.svg?event=schedule)](https://github.com/pvieito/RadarCOVID-Report/blob/master/RadarCOVID-Report.ipynb)
+[![Report Update](https://github.com/pvieito/RadarCOVID-STATS/workflows/Report%20Update/badge.svg?event=schedule)](https://github.com/pvieito/RadarCOVID-STATS/blob/master/RadarCOVID-Report.ipynb)
 
 Project to monitor and report hourly statistics about Spain's “Radar COVID” app Exposure Notification service.
 
@@ -10,17 +10,17 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
 - [Documentation](#documentation)
 - [Contributions](#contributions)
 - [Related Links](#related-links)
-- [Archived Reports](https://github.com/pvieito/RadarCOVID-Report/tree/master/Notebooks/RadarCOVID-Report)
-- [TEK Dumps](https://github.com/pvieito/RadarCOVID-Report/tree/master/Data/TEKs)
+- [Archived Reports](https://github.com/pvieito/RadarCOVID-STATS/tree/master/Notebooks/RadarCOVID-Report)
+- [TEK Dumps](https://github.com/pvieito/RadarCOVID-STATS/tree/master/Data/TEKs)
 - [Twitter Bot](https://twitter.com/radarcovidstats)
 
 ## Last Results
 
-- [Report 2020-09-26@09](https://github.com/pvieito/RadarCOVID-Report/blob/master/Notebooks/RadarCOVID-Report/Hourly/RadarCOVID-Report-2020-09-26@09.ipynb)
+- [Report 2020-09-26@10](https://github.com/pvieito/RadarCOVID-STATS/blob/master/Notebooks/RadarCOVID-Report/Hourly/RadarCOVID-Report-2020-09-26@10.ipynb)
 
 ### Daily Summary Plots
 
-![RadarCOVID-Report-Summary-Plot](https://github.com/pvieito/RadarCOVID-Report/raw/master/Data/Resources/Current/RadarCOVID-Report-Summary-Plots.png)
+![RadarCOVID-Report-Summary-Plot](https://github.com/pvieito/RadarCOVID-STATS/raw/master/Data/Resources/Current/RadarCOVID-Report-Summary-Plots.png)
 
 ### Daily Summary Table
 
@@ -49,16 +49,16 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
     <tr>
       <th>2020-09-26</th>
       <td>10920</td>
-      <td>4</td>
-      <td>77</td>
-      <td>43</td>
-      <td>1.79</td>
-      <td>0.39%</td>
+      <td>17</td>
+      <td>140</td>
+      <td>55</td>
+      <td>2.55</td>
+      <td>0.50%</td>
     </tr>
     <tr>
       <th>2020-09-25</th>
       <td>10920</td>
-      <td>57</td>
+      <td>69</td>
       <td>306</td>
       <td>86</td>
       <td>3.56</td>
@@ -67,7 +67,7 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
     <tr>
       <th>2020-09-24</th>
       <td>11223</td>
-      <td>111</td>
+      <td>119</td>
       <td>289</td>
       <td>89</td>
       <td>3.25</td>
@@ -76,7 +76,7 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
     <tr>
       <th>2020-09-23</th>
       <td>11314</td>
-      <td>153</td>
+      <td>163</td>
       <td>267</td>
       <td>70</td>
       <td>3.81</td>
@@ -85,7 +85,7 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
     <tr>
       <th>2020-09-22</th>
       <td>11300</td>
-      <td>172</td>
+      <td>182</td>
       <td>148</td>
       <td>55</td>
       <td>2.69</td>
@@ -94,7 +94,7 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
     <tr>
       <th>2020-09-21</th>
       <td>11105</td>
-      <td>210</td>
+      <td>220</td>
       <td>190</td>
       <td>45</td>
       <td>4.22</td>
@@ -175,11 +175,11 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
   </tbody>
 </table>
 
-- [Summary Table File](https://github.com/pvieito/RadarCOVID-Report/blob/master/Data/Resources/Current/RadarCOVID-Report-Summary-Table.csv)
+- [Summary Table File](https://github.com/pvieito/RadarCOVID-STATS/blob/master/Data/Resources/Current/RadarCOVID-Report-Summary-Table.csv)
 
 ### Hourly Summary Plots
 
-![RadarCOVID-Report-Hourly-Summary-Plot](https://github.com/pvieito/RadarCOVID-Report/raw/master/Data/Resources/Current/RadarCOVID-Report-Hourly-Summary-Plots.png)
+![RadarCOVID-Report-Hourly-Summary-Plot](https://github.com/pvieito/RadarCOVID-STATS/raw/master/Data/Resources/Current/RadarCOVID-Report-Hourly-Summary-Plots.png)
 
 ## Documentation
 
@@ -209,15 +209,15 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
 
 ## Contributions
 
-Contributions to the **RadarCOVID-Report** project are welcome, both as [Pull Requests](https://github.com/pvieito/RadarCOVID-Report/pulls) or [Issues](https://github.com/pvieito/RadarCOVID-Report/issues).
+Contributions to the **RadarCOVID-Report** project are welcome, both as [Pull Requests](https://github.com/pvieito/RadarCOVID-STATS/pulls) or [Issues](https://github.com/pvieito/RadarCOVID-STATS/issues).
 
-Only files on the following directories should be modified as other files are generated automatically by the [Report Update GitHub Action](https://github.com/pvieito/RadarCOVID-Report/blob/master/.github/workflows/report-update.yml):
+Only files on the following directories should be modified as other files are generated automatically by the [Report Update GitHub Action](https://github.com/pvieito/RadarCOVID-STATS/blob/master/.github/workflows/report-update.yml):
 
 - `Data/Templates/`
 - `Modules/`
 - `Notebooks/*/Source/`
 
-The project _entry point_ is a Python notebook located at [`Notebooks/RadarCOVID-Report/Source/RadarCOVID-Report.ipynb`](https://github.com/pvieito/RadarCOVID-Report/blob/master/Notebooks/RadarCOVID-Report/Source/RadarCOVID-Report.ipynb).
+The project _entry point_ is a Python notebook located at [`Notebooks/RadarCOVID-Report/Source/RadarCOVID-Report.ipynb`](https://github.com/pvieito/RadarCOVID-STATS/blob/master/Notebooks/RadarCOVID-Report/Source/RadarCOVID-Report.ipynb).
 
 ## Related Links
 
