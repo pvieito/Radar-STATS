@@ -22,7 +22,6 @@ jobs:
         run: |
           python3 -m papermill.cli Notebooks/RadarCOVID-Report/Source/RadarCOVID-Report.ipynb RadarCOVID-Report.ipynb
           cp RadarCOVID-Report.ipynb Notebooks/RadarCOVID-Report/Daily/RadarCOVID-Report-`date --utc +%F`.ipynb
-          cp RadarCOVID-Report.ipynb Notebooks/RadarCOVID-Report/Hourly/RadarCOVID-Report-`date --utc +%F@%H`.ipynb
           cp RadarCOVID-Report.ipynb Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb
           rm RadarCOVID-Report.ipynb
         env:

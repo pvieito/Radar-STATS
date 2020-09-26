@@ -97,12 +97,6 @@ def download_radar_covid_exposure_keys(
                         f"{key_rolling_period_in_seconds}s "
                         f"(expected: <={_maximum_rolling_period_in_seconds}s)")
 
-                if key_rolling_period_in_seconds != _maximum_rolling_period_in_seconds:
-                    logging.warning(
-                        f"Unexpected key 'key_rolling_period': "
-                        f"{key_rolling_period_in_seconds}s "
-                        f"(expected: {_maximum_rolling_period_in_seconds}s)")
-
                 key_uuid = uuid.UUID(bytes=key.key_data)
                 date_temporary_exposure_keys.append(dict(
                     sample_datetime=sample_datetime,
