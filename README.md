@@ -12,6 +12,7 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
 - [Related Links](#related-links)
 - [Archived Reports](https://github.com/pvieito/RadarCOVID-STATS/tree/master/Notebooks/RadarCOVID-Report)
 - [TEK Dumps](https://github.com/pvieito/RadarCOVID-STATS/tree/master/Data/TEKs)
+- [JSON Results](https://raw.githubusercontent.com/pvieito/RadarCOVID-STATS/master/Data/Resources/Current/RadarCOVID-Report-Summary-Results.json)
 - [Twitter Bot](https://twitter.com/radarcovidstats)
 
 ## Last Results
