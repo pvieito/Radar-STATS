@@ -18,7 +18,9 @@ _radar_covid_api_endpoint_base_url = "https://radarcovid.covid19.gob.es/"
 _radar_covid_api_endpoint_exposed_tokens_url = _radar_covid_api_endpoint_base_url + "dp3t/v1/gaen/exposed/"
 
 _unix_epoch_datetime = datetime.datetime(year=1970, month=1, day=1, tzinfo=pytz.utc)
-_maximum_rolling_period_in_seconds = 24 * 60 * 60  # 24h
+
+maximum_key_rolling_period = 24 * 60  # 24h in 10 min intervals
+maximum_key_rolling_period_in_seconds = 24 * 60 * 60
 
 
 def download_radar_covid_exposure_keys(
@@ -91,11 +93,11 @@ def download_radar_covid_exposure_keys(
                         f"Invalid key 'rolling_start_interval_number': "
                         f"{key_rolling_start_interval_number_in_epoch_seconds} "
                         f"(expected: {sample_datetime_in_epoch_seconds})")
-                if key_rolling_period_in_seconds > _maximum_rolling_period_in_seconds:
+                if key_rolling_period_in_seconds > maximum_key_rolling_period_in_seconds:
                     raise Exception(
                         f"Invalid key 'key_rolling_period': "
                         f"{key_rolling_period_in_seconds}s "
-                        f"(expected: <={_maximum_rolling_period_in_seconds}s)")
+                        f"(expected: <={maximum_key_rolling_period_in_seconds}s)")
 
                 key_uuid = uuid.UUID(bytes=key.key_data)
                 date_temporary_exposure_keys.append(dict(
