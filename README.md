@@ -1,6 +1,6 @@
 # RadarCOVID STATS
 
-[![Report Update](https://github.com/pvieito/RadarCOVID-STATS/workflows/Report%20Update/badge.svg?event=schedule)](https://github.com/pvieito/RadarCOVID-STATS/blob/master/RadarCOVID-Report.ipynb)
+[![Report Update](https://github.com/pvieito/RadarCOVID-STATS/workflows/Report%20Update/badge.svg?event=schedule)](https://github.com/pvieito/RadarCOVID-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 Project to monitor and report hourly statistics about Spain's “Radar COVID” app Exposure Notification service.
 
