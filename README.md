@@ -17,7 +17,7 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
 
 ## Last Results
 
-- [Report 2020-09-30@15](https://github.com/pvieito/RadarCOVID-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2020-09-30@16](https://github.com/pvieito/RadarCOVID-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
@@ -52,17 +52,17 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
     <tr>
       <th>2020-09-30</th>
       <td>9428</td>
-      <td>29</td>
-      <td>133</td>
-      <td>29</td>
-      <td>27</td>
-      <td>4.93</td>
-      <td>0.29%</td>
+      <td>38</td>
+      <td>187</td>
+      <td>38</td>
+      <td>37</td>
+      <td>5.05</td>
+      <td>0.39%</td>
     </tr>
     <tr>
       <th>2020-09-29</th>
       <td>9428</td>
-      <td>59</td>
+      <td>69</td>
       <td>178</td>
       <td>32</td>
       <td>44</td>
@@ -72,7 +72,7 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
     <tr>
       <th>2020-09-28</th>
       <td>10971</td>
-      <td>107</td>
+      <td>116</td>
       <td>211</td>
       <td>44</td>
       <td>54</td>
@@ -82,7 +82,7 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
     <tr>
       <th>2020-09-27</th>
       <td>10920</td>
-      <td>198</td>
+      <td>207</td>
       <td>449</td>
       <td>98</td>
       <td>108</td>
@@ -92,7 +92,7 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
     <tr>
       <th>2020-09-26</th>
       <td>10920</td>
-      <td>262</td>
+      <td>271</td>
       <td>448</td>
       <td>79</td>
       <td>110</td>
@@ -102,7 +102,7 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
     <tr>
       <th>2020-09-25</th>
       <td>10920</td>
-      <td>262</td>
+      <td>270</td>
       <td>306</td>
       <td>14</td>
       <td>86</td>
