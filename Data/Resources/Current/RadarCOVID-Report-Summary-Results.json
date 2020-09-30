@@ -1,7 +1,7 @@
 {
-    "extraction_datetime": 1601443148537,
+    "extraction_datetime": 1601446925451,
     "extraction_date": "2020-09-30",
-    "extraction_date_with_hour": "2020-09-30@05",
+    "extraction_date_with_hour": "2020-09-30@06",
     "last_hour": {
         "shared_teks_by_upload_date": 0,
         "shared_diagnoses": 0
