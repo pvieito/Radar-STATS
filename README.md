@@ -1,6 +1,6 @@
 # Radar STATS
 
-[![Report Update]($https://github.com/pvieito/RadarCOVID-STATS/workflows/Report%20Update/badge.svg?event=schedule)]($https://github.com/pvieito/RadarCOVID-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+[![Report Update](https://github.com/pvieito/Radar-STATS/workflows/Report%20Update/badge.svg?event=schedule)](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 Open-source project to monitor and report hourly statistics about Spain's “Radar COVID” app Exposure Notification service.
 
@@ -10,18 +10,18 @@ Open-source project to monitor and report hourly statistics about Spain's “Rad
 - [Documentation](#documentation)
 - [Contributions](#contributions)
 - [Related Links](#related-links)
-- [Archived Reports]($https://github.com/pvieito/RadarCOVID-STATS/tree/master/Notebooks/RadarCOVID-Report)
-- [TEK Dumps]($https://github.com/pvieito/RadarCOVID-STATS/tree/master/Data/TEKs)
+- [Archived Reports](https://github.com/pvieito/Radar-STATS/tree/master/Notebooks/RadarCOVID-Report)
+- [TEK Dumps](https://github.com/pvieito/Radar-STATS/tree/master/Data/TEKs)
 - [JSON Results](https://raw.githubusercontent.com/pvieito/RadarCOVID-STATS/master/Data/Resources/Current/RadarCOVID-Report-Summary-Results.json)
 - [Twitter Bot](https://twitter.com/radarcovidstats)
 
 ## Last Results
 
-- [Report 2020-10-02@14]($https://github.com/pvieito/RadarCOVID-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2020-10-02@14](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
-![RadarCOVID-Report-Summary-Plot]($https://github.com/pvieito/RadarCOVID-STATS/raw/master/Data/Resources/Current/RadarCOVID-Report-Summary-Plots.png)
+![RadarCOVID-Report-Summary-Plot](https://github.com/pvieito/Radar-STATS/raw/master/Data/Resources/Current/RadarCOVID-Report-Summary-Plots.png)
 
 ### Daily Summary Table
 
@@ -192,11 +192,11 @@ Open-source project to monitor and report hourly statistics about Spain's “Rad
   </tbody>
 </table>
 
-- [Summary Table File]($https://github.com/pvieito/RadarCOVID-STATS/blob/master/Data/Resources/Current/RadarCOVID-Report-Summary-Table.csv)
+- [Summary Table File](https://github.com/pvieito/Radar-STATS/blob/master/Data/Resources/Current/RadarCOVID-Report-Summary-Table.csv)
 
 ### Hourly Summary Plots
 
-![RadarCOVID-Report-Hourly-Summary-Plot]($https://github.com/pvieito/RadarCOVID-STATS/raw/master/Data/Resources/Current/RadarCOVID-Report-Hourly-Summary-Plots.png)
+![RadarCOVID-Report-Hourly-Summary-Plot](https://github.com/pvieito/Radar-STATS/raw/master/Data/Resources/Current/RadarCOVID-Report-Hourly-Summary-Plots.png)
 
 ## Documentation
 
@@ -227,15 +227,15 @@ Open-source project to monitor and report hourly statistics about Spain's “Rad
 
 ## Contributions
 
-Contributions to the **Radar STATS** project are welcome, both as [Pull Requests]($https://github.com/pvieito/RadarCOVID-STATS/pulls) or [Issues]($https://github.com/pvieito/RadarCOVID-STATS/issues).
+Contributions to the **Radar STATS** project are welcome, both as [Pull Requests](https://github.com/pvieito/Radar-STATS/pulls) or [Issues](https://github.com/pvieito/Radar-STATS/issues).
 
-Only files on the following directories should be modified as other files are generated automatically by the [Report Update GitHub Action]($https://github.com/pvieito/RadarCOVID-STATS/blob/master/.github/workflows/report-update.yml):
+Only files on the following directories should be modified as other files are generated automatically by the [Report Update GitHub Action](https://github.com/pvieito/Radar-STATS/blob/master/.github/workflows/report-update.yml):
 
 - `Data/Templates/`
 - `Modules/`
 - `Notebooks/*/Source/`
 
-The project _entry point_ is a Python notebook located at [`Notebooks/RadarCOVID-Report/Source/RadarCOVID-Report.ipynb`]($https://github.com/pvieito/RadarCOVID-STATS/blob/master/Notebooks/RadarCOVID-Report/Source/RadarCOVID-Report.ipynb).
+The project _entry point_ is a Python notebook located at [`Notebooks/RadarCOVID-Report/Source/RadarCOVID-Report.ipynb`](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Source/RadarCOVID-Report.ipynb).
 
 ## Related Links
 
