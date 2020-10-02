@@ -2,7 +2,7 @@
 
 [![Report Update]({github_project_base_url}/workflows/Report%20Update/badge.svg?event=schedule)]({github_project_base_url}/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
-Open-source project to monitor and report hourly statistics about Spain's “Radar COVID” app Exposure Notification service.
+Open-source project to monitor and report hourly statistics about Spain's “Radar COVID” app Exposure Notification service – Created by [@pvieito](https://twitter.com/pvieito)
 
 ## Links
 
