@@ -1,8 +1,8 @@
-# RadarCOVID STATS
+# Radar STATS
 
-[![Report Update](https://github.com/pvieito/RadarCOVID-STATS/workflows/Report%20Update/badge.svg?event=schedule)](https://github.com/pvieito/RadarCOVID-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+[![Report Update](${github_project_base_url}/workflows/Report%20Update/badge.svg?event=schedule)](${github_project_base_url}/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
-Project to monitor and report hourly statistics about Spain's “Radar COVID” app Exposure Notification service.
+Open-source project to monitor and report hourly statistics about Spain's “Radar COVID” app Exposure Notification service.
 
 ## Links
 
@@ -10,28 +10,28 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
 - [Documentation](#documentation)
 - [Contributions](#contributions)
 - [Related Links](#related-links)
-- [Archived Reports](https://github.com/pvieito/RadarCOVID-STATS/tree/master/Notebooks/RadarCOVID-Report)
-- [TEK Dumps](https://github.com/pvieito/RadarCOVID-STATS/tree/master/Data/TEKs)
+- [Archived Reports](${github_project_base_url}/tree/master/Notebooks/RadarCOVID-Report)
+- [TEK Dumps](${github_project_base_url}/tree/master/Data/TEKs)
 - [JSON Results](https://raw.githubusercontent.com/pvieito/RadarCOVID-STATS/master/Data/Resources/Current/RadarCOVID-Report-Summary-Results.json)
 - [Twitter Bot](https://twitter.com/radarcovidstats)
 
 ## Last Results
 
-- [Report {extraction_date_with_hour}](https://github.com/pvieito/RadarCOVID-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report {extraction_date_with_hour}](${github_project_base_url}/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
-![RadarCOVID-Report-Summary-Plot](https://github.com/pvieito/RadarCOVID-STATS/raw/master/Data/Resources/Current/RadarCOVID-Report-Summary-Plots.png)
+![RadarCOVID-Report-Summary-Plot](${github_project_base_url}/raw/master/Data/Resources/Current/RadarCOVID-Report-Summary-Plots.png)
 
 ### Daily Summary Table
 
 {daily_summary_table_html}
 
-- [Summary Table File](https://github.com/pvieito/RadarCOVID-STATS/blob/master/Data/Resources/Current/RadarCOVID-Report-Summary-Table.csv)
+- [Summary Table File](${github_project_base_url}/blob/master/Data/Resources/Current/RadarCOVID-Report-Summary-Table.csv)
 
 ### Hourly Summary Plots
 
-![RadarCOVID-Report-Hourly-Summary-Plot](https://github.com/pvieito/RadarCOVID-STATS/raw/master/Data/Resources/Current/RadarCOVID-Report-Hourly-Summary-Plots.png)
+![RadarCOVID-Report-Hourly-Summary-Plot](${github_project_base_url}/raw/master/Data/Resources/Current/RadarCOVID-Report-Hourly-Summary-Plots.png)
 
 ## Documentation
 
@@ -62,15 +62,15 @@ Project to monitor and report hourly statistics about Spain's “Radar COVID” 
 
 ## Contributions
 
-Contributions to the **RadarCOVID STATS** project are welcome, both as [Pull Requests](https://github.com/pvieito/RadarCOVID-STATS/pulls) or [Issues](https://github.com/pvieito/RadarCOVID-STATS/issues).
+Contributions to the **Radar STATS** project are welcome, both as [Pull Requests](${github_project_base_url}/pulls) or [Issues](${github_project_base_url}/issues).
 
-Only files on the following directories should be modified as other files are generated automatically by the [Report Update GitHub Action](https://github.com/pvieito/RadarCOVID-STATS/blob/master/.github/workflows/report-update.yml):
+Only files on the following directories should be modified as other files are generated automatically by the [Report Update GitHub Action](${github_project_base_url}/blob/master/.github/workflows/report-update.yml):
 
 - `Data/Templates/`
 - `Modules/`
 - `Notebooks/*/Source/`
 
-The project _entry point_ is a Python notebook located at [`Notebooks/RadarCOVID-Report/Source/RadarCOVID-Report.ipynb`](https://github.com/pvieito/RadarCOVID-STATS/blob/master/Notebooks/RadarCOVID-Report/Source/RadarCOVID-Report.ipynb).
+The project _entry point_ is a Python notebook located at [`Notebooks/RadarCOVID-Report/Source/RadarCOVID-Report.ipynb`](${github_project_base_url}/blob/master/Notebooks/RadarCOVID-Report/Source/RadarCOVID-Report.ipynb).
 
 ## Related Links
 
