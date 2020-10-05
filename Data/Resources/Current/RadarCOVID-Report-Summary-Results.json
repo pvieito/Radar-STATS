@@ -1,28 +1,39 @@
 {
-    "extraction_datetime": 1601853567702,
-    "extraction_date": "2020-10-04",
-    "extraction_date_with_hour": "2020-10-04@23",
+    "extraction_datetime": 1601859420685,
+    "extraction_date": "2020-10-05",
+    "extraction_date_with_hour": "2020-10-05@00",
     "last_hour": {
         "shared_teks_by_upload_date": 0,
         "shared_diagnoses": 0
     },
     "today": {
         "covid_cases": 10493,
-        "shared_teks_by_generation_date": 76,
-        "shared_teks_by_upload_date": 331,
-        "shared_diagnoses": 78,
-        "teks_per_shared_diagnosis": 4.2435897436,
-        "shared_diagnoses_per_covid_case": 0.0074335271
+        "shared_teks_by_generation_date": 0,
+        "shared_teks_by_upload_date": 0,
+        "shared_diagnoses": 0,
+        "teks_per_shared_diagnosis": 0.0,
+        "shared_diagnoses_per_covid_case": 0.0
     },
     "last_7_days": {
-        "covid_cases": 73311,
-        "shared_teks_by_generation_date": 1441,
-        "shared_teks_by_upload_date": 1981,
-        "shared_diagnoses": 449,
-        "teks_per_shared_diagnosis": 4.4120267261,
-        "shared_diagnoses_per_covid_case": 0.0061245925
+        "covid_cases": 72833,
+        "shared_teks_by_generation_date": 1175,
+        "shared_teks_by_upload_date": 1770,
+        "shared_diagnoses": 395,
+        "teks_per_shared_diagnosis": 4.4810126582,
+        "shared_diagnoses_per_covid_case": 0.0054233658
     },
     "daily_results": [
+        {
+            "sample_date": 1601856000000,
+            "covid_cases": 10493,
+            "shared_teks_by_generation_date": 0,
+            "shared_teks_by_upload_date": 0,
+            "shared_teks_uploaded_on_generation_date": 0,
+            "shared_diagnoses": 0,
+            "teks_per_shared_diagnosis": null,
+            "shared_diagnoses_per_covid_case": 0.0,
+            "sample_date_string": "2020-10-05"
+        },
         {
             "sample_date": 1601769600000,
             "covid_cases": 10493,
@@ -242,17 +253,6 @@
             "teks_per_shared_diagnosis": 2.5217391304,
             "shared_diagnoses_per_covid_case": 0.0023450245,
             "sample_date_string": "2020-09-15"
-        },
-        {
-            "sample_date": 1600041600000,
-            "covid_cases": 9740,
-            "shared_teks_by_generation_date": 73,
-            "shared_teks_by_upload_date": 61,
-            "shared_teks_uploaded_on_generation_date": 0,
-            "shared_diagnoses": 28,
-            "teks_per_shared_diagnosis": 2.1785714286,
-            "shared_diagnoses_per_covid_case": 0.0028747433,
-            "sample_date_string": "2020-09-14"
         }
     ]
 }
