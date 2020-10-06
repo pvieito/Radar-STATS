@@ -17,7 +17,7 @@ Open-source project to monitor and report hourly statistics about Spain's “Rad
 
 ## Last Results
 
-- [Report 2020-10-06@01](https://github.com/Radar-STATS/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2020-10-06@02](https://github.com/Radar-STATS/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
@@ -53,16 +53,16 @@ Open-source project to monitor and report hourly statistics about Spain's “Rad
       <th>2020-10-06</th>
       <td>9307</td>
       <td>0</td>
+      <td>16</td>
       <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>nan</td>
-      <td>0.00%</td>
+      <td>16</td>
+      <td>1.00</td>
+      <td>0.17%</td>
     </tr>
     <tr>
       <th>2020-10-05</th>
       <td>9307</td>
-      <td>52</td>
+      <td>68</td>
       <td>273</td>
       <td>52</td>
       <td>69</td>
