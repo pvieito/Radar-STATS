@@ -26,7 +26,7 @@ class CoronaWarnAppBackendKeysDownloader(BaseBackendKeysDownloader):
             exposure_keys_export_endpoints.append(dict(
                 endpoint=exposure_keys_export_endpoint,
                 country=self.target_country,
-                upload_date=upload_date_string,
+                sample_date=upload_date_string,
                 server_endpoint_url=self.server_endpoint_url,
             ))
         return exposure_keys_export_endpoints

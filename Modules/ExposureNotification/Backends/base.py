@@ -45,6 +45,8 @@ class BaseBackendKeysDownloader:
             self, endpoint, parameters=None, save_raw_zip_path=None, **_kwargs) -> pd.DataFrame:
         if parameters is None:
             parameters = dict()
+        parameters = parameters.copy()
+        parameters.update(dict(backend_identifier=self.backend_identifier))
 
         logging.info(f"Downloading TEKs from '{endpoint}' (parameters: {parameters})...")
         no_keys_found_exception = \
@@ -65,8 +67,9 @@ class BaseBackendKeysDownloader:
                 save_raw_zip_path = [save_raw_zip_path]
 
             for raw_zip_path in save_raw_zip_path:
+                raw_zip_path = raw_zip_path.format(**parameters)
                 os.makedirs(os.path.dirname(raw_zip_path), exist_ok=True)
-                with open(raw_zip_path.format(**parameters), "wb") as f:
+                with open(raw_zip_path, "wb") as f:
                     f.write(file_bytes)
 
         if len(file_bytes) == 0:

@@ -15,10 +15,10 @@ _backend_keys_downloaders = [
     DP3TBackendKeysDownloader(
         backend_identifier="PT",
         server_endpoint_url="https://stayaway.incm.pt"),
-    # CoronaWarnAppBackendKeysDownloader(
-    #     backend_identifier="DE",
-    #     server_endpoint_url="https://svc90.main.px.t-online.de",
-    #     target_country="DE"),
+    CoronaWarnAppBackendKeysDownloader(
+        backend_identifier="DE",
+        server_endpoint_url="https://svc90.main.px.t-online.de",
+        target_country="DE"),
     CoronaWarnAppBackendKeysDownloader(
         backend_identifier="DE-NL",
         server_endpoint_url="https://svc90.main.px.t-online.de",

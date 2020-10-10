@@ -32,7 +32,7 @@ class DP3TBackendKeysDownloader(BaseBackendKeysDownloader):
                 self.server_endpoint_url + _dp3t_server_exposed_endpoint_path + endpoint_timestamp
             exposure_keys_export_endpoints.append(dict(
                 endpoint=exposure_keys_export_endpoint,
-                generation_date=generation_date_string,
+                sample_date=generation_date_string,
                 server_endpoint_url=self.server_endpoint_url,
             ))
         return exposure_keys_export_endpoints
