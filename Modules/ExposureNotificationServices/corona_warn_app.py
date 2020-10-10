@@ -17,7 +17,7 @@ class CoronaWarnAppServiceKeysDownloader(ExposureNotificationServiceKeysDownload
             server_endpoint_url = _corona_warn_app_default_server_endpoint_url
         if countries is None:
             countries = _corona_warn_app_default_country
-        elif isinstance(countries, str):
+        if isinstance(countries, str):
             countries = [countries]
 
         exposure_keys_export_endpoints = []
