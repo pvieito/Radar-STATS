@@ -1,43 +1,43 @@
 {
-    "extraction_datetime": 1602343273813,
+    "extraction_datetime": 1602347066490,
     "extraction_date": "2020-10-10",
-    "extraction_date_with_hour": "2020-10-10@15",
+    "extraction_date_with_hour": "2020-10-10@16",
     "last_hour": {
-        "shared_teks_by_upload_date": 0,
-        "shared_diagnoses": 0
+        "shared_teks_by_upload_date": 56,
+        "shared_diagnoses": 11
     },
     "today": {
         "covid_cases": 10169,
         "shared_teks_by_generation_date": 0,
-        "shared_teks_by_upload_date": 299,
-        "shared_diagnoses": 103,
-        "teks_per_shared_diagnosis": 2.9029126214,
-        "shared_diagnoses_per_covid_case": 0.0101288229
+        "shared_teks_by_upload_date": 355,
+        "shared_diagnoses": 114,
+        "teks_per_shared_diagnosis": 3.1140350877,
+        "shared_diagnoses_per_covid_case": 0.0112105418
     },
     "last_7_days": {
         "covid_cases": 70649,
-        "shared_teks_by_generation_date": 1321,
-        "shared_teks_by_upload_date": 1934,
-        "shared_diagnoses": 551,
-        "teks_per_shared_diagnosis": 3.5099818512,
-        "shared_diagnoses_per_covid_case": 0.0077991196
+        "shared_teks_by_generation_date": 1374,
+        "shared_teks_by_upload_date": 1990,
+        "shared_diagnoses": 562,
+        "teks_per_shared_diagnosis": 3.5409252669,
+        "shared_diagnoses_per_covid_case": 0.0079548189
     },
     "daily_results": [
         {
             "sample_date": 1602288000000,
             "covid_cases": 10169,
             "shared_teks_by_generation_date": 0,
-            "shared_teks_by_upload_date": 299,
+            "shared_teks_by_upload_date": 355,
             "shared_teks_uploaded_on_generation_date": 0,
-            "shared_diagnoses": 103,
-            "teks_per_shared_diagnosis": 2.9029126214,
-            "shared_diagnoses_per_covid_case": 0.0101288229,
+            "shared_diagnoses": 114,
+            "teks_per_shared_diagnosis": 3.1140350877,
+            "shared_diagnoses_per_covid_case": 0.0112105418,
             "sample_date_string": "2020-10-10"
         },
         {
             "sample_date": 1602201600000,
             "covid_cases": 10169,
-            "shared_teks_by_generation_date": 104,
+            "shared_teks_by_generation_date": 115,
             "shared_teks_by_upload_date": 348,
             "shared_teks_uploaded_on_generation_date": 1,
             "shared_diagnoses": 105,
@@ -48,7 +48,7 @@
         {
             "sample_date": 1602115200000,
             "covid_cases": 9960,
-            "shared_teks_by_generation_date": 161,
+            "shared_teks_by_generation_date": 172,
             "shared_teks_by_upload_date": 272,
             "shared_teks_uploaded_on_generation_date": 1,
             "shared_diagnoses": 86,
@@ -59,7 +59,7 @@
         {
             "sample_date": 1602028800000,
             "covid_cases": 9530,
-            "shared_teks_by_generation_date": 195,
+            "shared_teks_by_generation_date": 206,
             "shared_teks_by_upload_date": 178,
             "shared_teks_uploaded_on_generation_date": 0,
             "shared_diagnoses": 54,
@@ -70,7 +70,7 @@
         {
             "sample_date": 1601942400000,
             "covid_cases": 11021,
-            "shared_teks_by_generation_date": 265,
+            "shared_teks_by_generation_date": 275,
             "shared_teks_by_upload_date": 233,
             "shared_teks_uploaded_on_generation_date": 60,
             "shared_diagnoses": 56,
@@ -81,7 +81,7 @@
         {
             "sample_date": 1601856000000,
             "covid_cases": 9307,
-            "shared_teks_by_generation_date": 279,
+            "shared_teks_by_generation_date": 286,
             "shared_teks_by_upload_date": 273,
             "shared_teks_uploaded_on_generation_date": 52,
             "shared_diagnoses": 69,
@@ -92,7 +92,7 @@
         {
             "sample_date": 1601769600000,
             "covid_cases": 10493,
-            "shared_teks_by_generation_date": 317,
+            "shared_teks_by_generation_date": 320,
             "shared_teks_by_upload_date": 331,
             "shared_teks_uploaded_on_generation_date": 76,
             "shared_diagnoses": 78,
@@ -103,7 +103,7 @@
         {
             "sample_date": 1601683200000,
             "covid_cases": 10493,
-            "shared_teks_by_generation_date": 289,
+            "shared_teks_by_generation_date": 291,
             "shared_teks_by_upload_date": 324,
             "shared_teks_uploaded_on_generation_date": 69,
             "shared_diagnoses": 76,
@@ -114,7 +114,7 @@
         {
             "sample_date": 1601596800000,
             "covid_cases": 10493,
-            "shared_teks_by_generation_date": 299,
+            "shared_teks_by_generation_date": 300,
             "shared_teks_by_upload_date": 299,
             "shared_teks_uploaded_on_generation_date": 72,
             "shared_diagnoses": 72,
