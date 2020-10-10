@@ -44,12 +44,15 @@ class ExposureNotificationServiceKeysDownloader:
             parameters = dict()
 
         logging.info(f"Downloading TEKs from '{endpoint}' (parameters: {parameters})...")
+        no_keys_found_exception = \
+            exposure_notification_exceptions.NoKeysFoundException(
+                f"No exposure keys found on endpoint '{endpoint}' (parameters: {parameters}).")
         request_response = requests.get(url=endpoint)
         try:
             request_response.raise_for_status()
         except requests.exceptions.HTTPError as e:
             if request_response.status_code == 404:
-                raise exposure_notification_exceptions.NoKeysFoundException()
+                raise no_keys_found_exception
             else:
                 raise e
         file_bytes = request_response.content
@@ -63,14 +66,14 @@ class ExposureNotificationServiceKeysDownloader:
                 with open(raw_zip_path.format(**parameters), "wb") as f:
                     f.write(file_bytes)
 
+        if len(file_bytes) == 0:
+            raise no_keys_found_exception
+
         return self._parse_exposure_keys_export_file(file_bytes=file_bytes)
 
     @staticmethod
     def _parse_exposure_keys_export_file(*, file_bytes: bytes = None) -> pd.DataFrame:
-        if len(file_bytes) == 0:
-            raise exposure_notification_exceptions.NoKeysFoundException()
-
-        date_temporary_exposure_keys = []
+        exposure_keys = []
         with io.BytesIO(file_bytes) as f:
             with zipfile.ZipFile(f, "r") as z:
                 temporary_directory = tempfile.gettempdir()
@@ -120,7 +123,7 @@ class ExposureNotificationServiceKeysDownloader:
                     generation_date_string = generation_datetime.strftime("%Y-%m-%d")
 
                     key_uuid = uuid.UUID(bytes=key.key_data)
-                    date_temporary_exposure_keys.append(dict(
+                    exposure_keys.append(dict(
                         generation_datetime=generation_datetime,
                         generation_date_string=generation_date_string,
                         region=str(g.region).upper(),
@@ -140,7 +143,7 @@ class ExposureNotificationServiceKeysDownloader:
                 logging_details = "\n".join(logging_details)
                 logging.info(logging_details)
 
-        return pd.DataFrame.from_records(date_temporary_exposure_keys)
+        return pd.DataFrame.from_records(exposure_keys)
 
     @staticmethod
     def get_dates_from_parameters(*, dates: List[datetime.datetime] = None, days: int, **_kwargs):

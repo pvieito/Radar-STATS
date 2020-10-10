@@ -12,18 +12,19 @@ _corona_warn_app_default_country = "DE"
 
 class CoronaWarnAppServiceKeysDownloader(ExposureNotificationServiceKeysDownloader):
     def generate_exposure_keys_export_endpoints_with_parameters(
-            self, server_endpoint_url: str = None, countries: List[str] = None, **kwargs) -> List[dict]:
+            self, server_endpoint_url: str = None, country: str = None, **kwargs) -> List[dict]:
         if server_endpoint_url is None:
             server_endpoint_url = _corona_warn_app_default_server_endpoint_url
-        if countries is None:
-            countries = _corona_warn_app_default_country
-        if isinstance(countries, str):
-            countries = [countries]
+        if country is None:
+            country = _corona_warn_app_default_country
+        if isinstance(country, str):
+            country = [country]
+        country_list = country
 
         exposure_keys_export_endpoints = []
         dates = self.get_dates_from_parameters(**kwargs)
         for date in dates:
-            for country in countries:
+            for country in country_list:
                 upload_date_string = date.strftime("%Y-%m-%d")
                 diagnosis_keys_endpoint_url = \
                     server_endpoint_url + \
