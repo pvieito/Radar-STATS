@@ -32,7 +32,7 @@ jobs:
           RADARCOVID_REPORT__TWITTER_API_AUTH_KEYS: ${{ secrets.RADARCOVID_REPORT__TWITTER_API_AUTH_KEYS }}
       - name: Clean Data
         run: |
-          find Data/TEKs/Hourly/*.json | sort | head -n -72 | xargs rm
+          find Data/TEKs/Hourly/*.json | sort | head -n -72 | xargs -r rm
       - name: Commit Report Update
         uses: EndBug/add-and-commit@v4
         if: ${{ github.ref == 'refs/heads/master' }}
