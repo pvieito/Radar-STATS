@@ -4,8 +4,11 @@ on:
   push:
     branches:
       - master
+  pull_request:
+    branches:
+      - master
   schedule:
-    - cron:  '0 */1 * * *'
+    - cron: '0 */1 * * *'
 
 jobs:
   report-update:
@@ -29,6 +32,7 @@ jobs:
           RADARCOVID_REPORT__TWITTER_API_AUTH_KEYS: ${{ secrets.RADARCOVID_REPORT__TWITTER_API_AUTH_KEYS }}
       - name: Commit Report Update
         uses: EndBug/add-and-commit@v4
+        if: ${{ github.ref == 'refs/heads/master' }}
         with:
           author_name: GitHub Action - Report Update
           author_email: report-update@action.github.com
