@@ -1,3 +1,4 @@
+import logging
 from typing import *
 
 import pandas as pd
@@ -31,11 +32,20 @@ _backend_keys_downloaders = [
 
 
 def download_exposure_keys_from_backends(
-        *, backend_identifiers=None, **kwargs) -> List[dict]:
+        *, backend_identifiers=None, fail_on_error_backend_identifiers=None, **kwargs) -> List[dict]:
     exposure_keys_df = pd.DataFrame()
     for downloader in _backend_keys_downloaders:
         if backend_identifiers and downloader.backend_identifier not in backend_identifiers:
             continue
-        backend_exposure_keys_df = downloader.download_exposure_keys_with_parameters(**kwargs)
-        exposure_keys_df = exposure_keys_df.append(backend_exposure_keys_df)
+
+        try:
+            backend_exposure_keys_df = downloader.download_exposure_keys_with_parameters(**kwargs)
+            exposure_keys_df = exposure_keys_df.append(backend_exposure_keys_df)
+        except Exception as e:
+            if fail_on_error_backend_identifiers and \
+                    downloader.backend_identifier in fail_on_error_backend_identifiers:
+                raise e
+            logging.warning(
+                f"Error downloading exposure keys from "
+                f"backend '{downloader.backend_identifier}': {repr(e)}", exc_info=True)
     return exposure_keys_df
