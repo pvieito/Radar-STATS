@@ -28,6 +28,10 @@ _backend_keys_downloaders = [
         backend_identifier="DE-ES",
         server_endpoint_url="https://svc90.main.px.t-online.de",
         target_country="ES"),
+    CoronaWarnAppBackendKeysDownloader(
+        backend_identifier="BE",
+        server_endpoint_url="https://c19distcdn-prd.ixor.be",
+        target_country="BE"),
 ]
 
 
