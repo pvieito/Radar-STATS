@@ -1,6 +1,6 @@
 ,shared_teks_by_generation_date,shared_teks_by_generation_date,shared_teks_by_generation_date
 region,CH,ES,PT
-sample_date_string,,,
+sample_date,,,
 2020-10-10,162,106,16
 2020-10-09,355,170,25
 2020-10-08,528,220,30

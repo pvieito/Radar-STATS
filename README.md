@@ -342,7 +342,7 @@ Open-source project to monitor and report hourly statistics about Spain's “Rad
 
 ### Multi-Region Summary Table
 
-_**NOTE:** This table includes data extracted from different Exposure Notification backends for each region (eg. Switzerland data is from SwissCovid server). You can find the exact region to backend mapping in the [`exposure_notification_io` module](https://github.com/Radar-STATS/Radar-STATS/blob/master/Modules/ExposureNotification/exposure_notification_io.py)._ 
+_**NOTE:** This table includes data extracted from different Exposure Notification backends for each region (eg. Switzerland data is from the SwissCovid server). You can find the exact region to backend mapping in the [`exposure_notification_io` module](https://github.com/Radar-STATS/Radar-STATS/blob/master/Modules/ExposureNotification/exposure_notification_io.py)._ 
 
 <table border="1" class="dataframe">
   <thead>
@@ -351,13 +351,13 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <th colspan="3" halign="left">Shared TEKs by Generation Date</th>
     </tr>
     <tr>
-      <th>region</th>
+      <th>Backend Region</th>
       <th>CH</th>
       <th>ES</th>
       <th>PT</th>
     </tr>
     <tr>
-      <th>sample_date_string</th>
+      <th>Sample Date (UTC)</th>
       <th></th>
       <th></th>
       <th></th>
