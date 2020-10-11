@@ -17,7 +17,7 @@ Open-source project to monitor and report hourly statistics about Spain's “Rad
 
 ## Last Results
 
-- [Report 2020-10-10@23](https://github.com/Radar-STATS/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2020-10-11@01](https://github.com/Radar-STATS/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
@@ -50,6 +50,16 @@ Open-source project to monitor and report hourly statistics about Spain's “Rad
   </thead>
   <tbody>
     <tr>
+      <th>2020-10-11</th>
+      <td>10169</td>
+      <td>0</td>
+      <td>8</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.00</td>
+      <td>0.00%</td>
+    </tr>
+    <tr>
       <th>2020-10-10</th>
       <td>10169</td>
       <td>0</td>
@@ -62,7 +72,7 @@ Open-source project to monitor and report hourly statistics about Spain's “Rad
     <tr>
       <th>2020-10-09</th>
       <td>10169</td>
-      <td>134</td>
+      <td>135</td>
       <td>348</td>
       <td>1</td>
       <td>105</td>
@@ -72,7 +82,7 @@ Open-source project to monitor and report hourly statistics about Spain's “Rad
     <tr>
       <th>2020-10-08</th>
       <td>9960</td>
-      <td>191</td>
+      <td>192</td>
       <td>272</td>
       <td>1</td>
       <td>86</td>
@@ -82,7 +92,7 @@ Open-source project to monitor and report hourly statistics about Spain's “Rad
     <tr>
       <th>2020-10-07</th>
       <td>9530</td>
-      <td>219</td>
+      <td>220</td>
       <td>178</td>
       <td>0</td>
       <td>54</td>
@@ -92,7 +102,7 @@ Open-source project to monitor and report hourly statistics about Spain's “Rad
     <tr>
       <th>2020-10-06</th>
       <td>11021</td>
-      <td>283</td>
+      <td>284</td>
       <td>233</td>
       <td>60</td>
       <td>56</td>
@@ -102,7 +112,7 @@ Open-source project to monitor and report hourly statistics about Spain's “Rad
     <tr>
       <th>2020-10-05</th>
       <td>9307</td>
-      <td>293</td>
+      <td>294</td>
       <td>273</td>
       <td>52</td>
       <td>69</td>
@@ -112,7 +122,7 @@ Open-source project to monitor and report hourly statistics about Spain's “Rad
     <tr>
       <th>2020-10-04</th>
       <td>10493</td>
-      <td>323</td>
+      <td>324</td>
       <td>331</td>
       <td>76</td>
       <td>78</td>
@@ -122,7 +132,7 @@ Open-source project to monitor and report hourly statistics about Spain's “Rad
     <tr>
       <th>2020-10-03</th>
       <td>10493</td>
-      <td>294</td>
+      <td>295</td>
       <td>324</td>
       <td>69</td>
       <td>76</td>
@@ -132,7 +142,7 @@ Open-source project to monitor and report hourly statistics about Spain's “Rad
     <tr>
       <th>2020-10-02</th>
       <td>10493</td>
-      <td>302</td>
+      <td>303</td>
       <td>299</td>
       <td>72</td>
       <td>72</td>
@@ -318,16 +328,6 @@ Open-source project to monitor and report hourly statistics about Spain's “Rad
       <td>28</td>
       <td>2.18</td>
       <td>0.29%</td>
-    </tr>
-    <tr>
-      <th>2020-09-13</th>
-      <td>9620</td>
-      <td>75</td>
-      <td>92</td>
-      <td>0</td>
-      <td>32</td>
-      <td>2.88</td>
-      <td>0.33%</td>
     </tr>
   </tbody>
 </table>
