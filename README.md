@@ -368,19 +368,19 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <th>2020-10-10</th>
       <td>162</td>
       <td>106</td>
-      <td>15</td>
+      <td>16</td>
     </tr>
     <tr>
       <th>2020-10-09</th>
       <td>355</td>
       <td>170</td>
-      <td>24</td>
+      <td>25</td>
     </tr>
     <tr>
       <th>2020-10-08</th>
       <td>528</td>
       <td>220</td>
-      <td>29</td>
+      <td>30</td>
     </tr>
     <tr>
       <th>2020-10-07</th>
@@ -392,13 +392,13 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <th>2020-10-06</th>
       <td>832</td>
       <td>302</td>
-      <td>48</td>
+      <td>49</td>
     </tr>
     <tr>
       <th>2020-10-05</th>
       <td>874</td>
       <td>304</td>
-      <td>48</td>
+      <td>49</td>
     </tr>
     <tr>
       <th>2020-10-04</th>
