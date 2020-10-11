@@ -334,11 +334,11 @@ Open-source project to monitor and report hourly statistics about Spain's “Rad
 
 - [Summary Table File](https://github.com/Radar-STATS/Radar-STATS/blob/master/Data/Resources/Current/RadarCOVID-Report-Summary-Table.csv)
 
-### Hourly Summary Plots
+### Daily Generation to Upload Period Table
 
-![RadarCOVID-Report-Hourly-Summary-Plot](https://github.com/Radar-STATS/Radar-STATS/raw/master/Data/Resources/Current/RadarCOVID-Report-Hourly-Summary-Plots.png)
+![RadarCOVID-Report-Generation-Upload-Period-Table](https://github.com/Radar-STATS/Radar-STATS/raw/master/Data/Resources/Current/RadarCOVID-Report-Generation-Upload-Period-Table.png)
 
-- [Hourly Summary Table File](https://github.com/Radar-STATS/Radar-STATS/blob/master/Data/Resources/Current/RadarCOVID-Report-Hourly-Summary-Table.csv)
+- [Daily Generation to Upload Period Table File](https://github.com/Radar-STATS/Radar-STATS/blob/master/Data/Resources/Current/RadarCOVID-Report-Generation-Upload-Period-Table.csv)
 
 ### Multi-Region Summary Table
 
