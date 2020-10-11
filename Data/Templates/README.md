@@ -37,7 +37,7 @@ Open-source project to monitor and report hourly statistics about Spain's “Rad
 
 ### Multi-Region Summary Table
 
-_**NOTE:** This table includes data extracted from different Exposure Notification backends for each region (eg. Switzerland data is from SwissCovid server). You can find the exact region to backend mapping in the [`exposure_notification_io` module]({github_project_base_url}/blob/master/Modules/ExposureNotification/exposure_notification_io.py)._ 
+_**NOTE:** This table includes data extracted from different Exposure Notification backends for each region (eg. Switzerland data is from the SwissCovid server). You can find the exact region to backend mapping in the [`exposure_notification_io` module]({github_project_base_url}/blob/master/Modules/ExposureNotification/exposure_notification_io.py)._ 
 
 {multi_region_summary_table_html}
 
