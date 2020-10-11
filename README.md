@@ -17,7 +17,7 @@ Open-source project to monitor and report hourly statistics about Spain's “Rad
 
 ## Last Results
 
-- [Report 2020-10-11@05](https://github.com/Radar-STATS/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2020-10-11@06](https://github.com/Radar-STATS/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
@@ -53,16 +53,16 @@ Open-source project to monitor and report hourly statistics about Spain's “Rad
       <th>2020-10-11</th>
       <td>10169</td>
       <td>0</td>
-      <td>64</td>
+      <td>75</td>
       <td>0</td>
-      <td>56</td>
-      <td>1.14</td>
-      <td>0.55%</td>
+      <td>59</td>
+      <td>1.27</td>
+      <td>0.58%</td>
     </tr>
     <tr>
       <th>2020-10-10</th>
       <td>10169</td>
-      <td>56</td>
+      <td>59</td>
       <td>429</td>
       <td>0</td>
       <td>133</td>
@@ -72,7 +72,7 @@ Open-source project to monitor and report hourly statistics about Spain's “Rad
     <tr>
       <th>2020-10-09</th>
       <td>10169</td>
-      <td>135</td>
+      <td>137</td>
       <td>348</td>
       <td>1</td>
       <td>105</td>
@@ -82,7 +82,7 @@ Open-source project to monitor and report hourly statistics about Spain's “Rad
     <tr>
       <th>2020-10-08</th>
       <td>9960</td>
-      <td>192</td>
+      <td>194</td>
       <td>272</td>
       <td>1</td>
       <td>86</td>
@@ -92,7 +92,7 @@ Open-source project to monitor and report hourly statistics about Spain's “Rad
     <tr>
       <th>2020-10-07</th>
       <td>9530</td>
-      <td>220</td>
+      <td>222</td>
       <td>178</td>
       <td>0</td>
       <td>54</td>
@@ -102,7 +102,7 @@ Open-source project to monitor and report hourly statistics about Spain's “Rad
     <tr>
       <th>2020-10-06</th>
       <td>11021</td>
-      <td>284</td>
+      <td>285</td>
       <td>233</td>
       <td>60</td>
       <td>56</td>
@@ -112,7 +112,7 @@ Open-source project to monitor and report hourly statistics about Spain's “Rad
     <tr>
       <th>2020-10-05</th>
       <td>9307</td>
-      <td>294</td>
+      <td>295</td>
       <td>273</td>
       <td>52</td>
       <td>69</td>
