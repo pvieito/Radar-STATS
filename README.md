@@ -336,7 +336,9 @@ Open-source project to monitor and report hourly statistics about Spain's “Rad
 
 ### Daily Generation to Upload Period Table
 
-![RadarCOVID-Report-Generation-Upload-Period-Table](https://github.com/Radar-STATS/Radar-STATS/raw/master/Data/Resources/Current/RadarCOVID-Report-Generation-Upload-Period-Table.png)
+<div style="text-align: center;">
+<img alt="RadarCOVID-Report-Generation-Upload-Period-Table" src="https://github.com/Radar-STATS/Radar-STATS/raw/master/Data/Resources/Current/RadarCOVID-Report-Generation-Upload-Period-Table.png" />
+</div>
 
 - [Daily Generation to Upload Period Table File](https://github.com/Radar-STATS/Radar-STATS/blob/master/Data/Resources/Current/RadarCOVID-Report-Generation-Upload-Period-Table.csv)
 
