@@ -17,7 +17,7 @@ Open-source project to monitor and report hourly statistics about Spain's “Rad
 
 ## Last Results
 
-- [Report 2020-10-11@11](https://github.com/Radar-STATS/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2020-10-11@12](https://github.com/Radar-STATS/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
@@ -53,16 +53,16 @@ Open-source project to monitor and report hourly statistics about Spain's “Rad
       <th>2020-10-11</th>
       <td>10169</td>
       <td>0</td>
-      <td>217</td>
+      <td>244</td>
       <td>0</td>
-      <td>97</td>
-      <td>2.24</td>
-      <td>0.95%</td>
+      <td>106</td>
+      <td>2.30</td>
+      <td>1.04%</td>
     </tr>
     <tr>
       <th>2020-10-10</th>
       <td>10169</td>
-      <td>97</td>
+      <td>106</td>
       <td>429</td>
       <td>0</td>
       <td>133</td>
@@ -72,7 +72,7 @@ Open-source project to monitor and report hourly statistics about Spain's “Rad
     <tr>
       <th>2020-10-09</th>
       <td>10169</td>
-      <td>164</td>
+      <td>170</td>
       <td>348</td>
       <td>1</td>
       <td>105</td>
@@ -82,7 +82,7 @@ Open-source project to monitor and report hourly statistics about Spain's “Rad
     <tr>
       <th>2020-10-08</th>
       <td>9960</td>
-      <td>215</td>
+      <td>220</td>
       <td>272</td>
       <td>1</td>
       <td>86</td>
@@ -92,7 +92,7 @@ Open-source project to monitor and report hourly statistics about Spain's “Rad
     <tr>
       <th>2020-10-07</th>
       <td>9530</td>
-      <td>239</td>
+      <td>243</td>
       <td>178</td>
       <td>0</td>
       <td>54</td>
@@ -102,7 +102,7 @@ Open-source project to monitor and report hourly statistics about Spain's “Rad
     <tr>
       <th>2020-10-06</th>
       <td>11021</td>
-      <td>299</td>
+      <td>302</td>
       <td>233</td>
       <td>60</td>
       <td>56</td>
@@ -337,6 +337,115 @@ Open-source project to monitor and report hourly statistics about Spain's “Rad
 ### Hourly Summary Plots
 
 ![RadarCOVID-Report-Hourly-Summary-Plot](https://github.com/Radar-STATS/Radar-STATS/raw/master/Data/Resources/Current/RadarCOVID-Report-Hourly-Summary-Plots.png)
+
+- [Hourly Summary Table File](https://github.com/Radar-STATS/Radar-STATS/blob/master/Data/Resources/Current/RadarCOVID-Report-Hourly-Summary-Table.csv)
+
+### Multi-Region Summary Table
+
+_**NOTE:** This table includes data extracted from different Exposure Notification backends for each region (eg. Switzerland data is from SwissCovid server). You can find the exact region to backend mapping in the [`exposure_notification_io` module](https://github.com/Radar-STATS/Radar-STATS/blob/master/Modules/ExposureNotification/exposure_notification_io.py)._ 
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr>
+      <th></th>
+      <th colspan="3" halign="left">Shared TEKs by Generation Date</th>
+    </tr>
+    <tr>
+      <th>region</th>
+      <th>CH</th>
+      <th>ES</th>
+      <th>PT</th>
+    </tr>
+    <tr>
+      <th>sample_date_string</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2020-10-10</th>
+      <td>162</td>
+      <td>106</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <th>2020-10-09</th>
+      <td>355</td>
+      <td>170</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <th>2020-10-08</th>
+      <td>528</td>
+      <td>220</td>
+      <td>29</td>
+    </tr>
+    <tr>
+      <th>2020-10-07</th>
+      <td>694</td>
+      <td>243</td>
+      <td>38</td>
+    </tr>
+    <tr>
+      <th>2020-10-06</th>
+      <td>832</td>
+      <td>302</td>
+      <td>48</td>
+    </tr>
+    <tr>
+      <th>2020-10-05</th>
+      <td>874</td>
+      <td>304</td>
+      <td>48</td>
+    </tr>
+    <tr>
+      <th>2020-10-04</th>
+      <td>839</td>
+      <td>328</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <th>2020-10-03</th>
+      <td>758</td>
+      <td>297</td>
+      <td>45</td>
+    </tr>
+    <tr>
+      <th>2020-10-02</th>
+      <td>648</td>
+      <td>305</td>
+      <td>45</td>
+    </tr>
+    <tr>
+      <th>2020-10-01</th>
+      <td>628</td>
+      <td>313</td>
+      <td>48</td>
+    </tr>
+    <tr>
+      <th>2020-09-30</th>
+      <td>612</td>
+      <td>293</td>
+      <td>56</td>
+    </tr>
+    <tr>
+      <th>2020-09-29</th>
+      <td>533</td>
+      <td>265</td>
+      <td>55</td>
+    </tr>
+    <tr>
+      <th>2020-09-28</th>
+      <td>455</td>
+      <td>269</td>
+      <td>50</td>
+    </tr>
+  </tbody>
+</table>
+
+- [Multi-Region Summary Table File](https://github.com/Radar-STATS/Radar-STATS/blob/master/Data/Resources/Current/RadarCOVID-Report-Multi-Region-Summary-Table.csv)
 
 ## Documentation
 
