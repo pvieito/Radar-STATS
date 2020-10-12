@@ -17,7 +17,7 @@ Open-source project to monitor and report hourly statistics about Spain's “Rad
 
 ## Last Results
 
-- [Report 2020-10-12@17](https://github.com/Radar-STATS/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2020-10-12@18](https://github.com/Radar-STATS/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
@@ -53,16 +53,16 @@ Open-source project to monitor and report hourly statistics about Spain's “Rad
       <th>2020-10-12</th>
       <td>10169</td>
       <td>1</td>
-      <td>278</td>
+      <td>306</td>
       <td>1</td>
-      <td>124</td>
-      <td>2.24</td>
-      <td>1.22%</td>
+      <td>131</td>
+      <td>2.34</td>
+      <td>1.29%</td>
     </tr>
     <tr>
       <th>2020-10-11</th>
       <td>10169</td>
-      <td>125</td>
+      <td>132</td>
       <td>422</td>
       <td>1</td>
       <td>147</td>
@@ -72,7 +72,7 @@ Open-source project to monitor and report hourly statistics about Spain's “Rad
     <tr>
       <th>2020-10-10</th>
       <td>10169</td>
-      <td>188</td>
+      <td>195</td>
       <td>429</td>
       <td>0</td>
       <td>133</td>
@@ -82,7 +82,7 @@ Open-source project to monitor and report hourly statistics about Spain's “Rad
     <tr>
       <th>2020-10-09</th>
       <td>10169</td>
-      <td>246</td>
+      <td>251</td>
       <td>348</td>
       <td>1</td>
       <td>105</td>
@@ -92,7 +92,7 @@ Open-source project to monitor and report hourly statistics about Spain's “Rad
     <tr>
       <th>2020-10-08</th>
       <td>9960</td>
-      <td>281</td>
+      <td>285</td>
       <td>272</td>
       <td>1</td>
       <td>86</td>
@@ -102,7 +102,7 @@ Open-source project to monitor and report hourly statistics about Spain's “Rad
     <tr>
       <th>2020-10-07</th>
       <td>9530</td>
-      <td>286</td>
+      <td>288</td>
       <td>178</td>
       <td>0</td>
       <td>54</td>
@@ -112,7 +112,7 @@ Open-source project to monitor and report hourly statistics about Spain's “Rad
     <tr>
       <th>2020-10-06</th>
       <td>11021</td>
-      <td>333</td>
+      <td>334</td>
       <td>233</td>
       <td>60</td>
       <td>56</td>
@@ -122,7 +122,7 @@ Open-source project to monitor and report hourly statistics about Spain's “Rad
     <tr>
       <th>2020-10-05</th>
       <td>9307</td>
-      <td>321</td>
+      <td>322</td>
       <td>273</td>
       <td>52</td>
       <td>69</td>
@@ -132,7 +132,7 @@ Open-source project to monitor and report hourly statistics about Spain's “Rad
     <tr>
       <th>2020-10-04</th>
       <td>10493</td>
-      <td>336</td>
+      <td>337</td>
       <td>331</td>
       <td>76</td>
       <td>78</td>
@@ -372,67 +372,67 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
     </tr>
     <tr>
       <th>2020-10-11</th>
-      <td>245</td>
-      <td>125</td>
+      <td>253</td>
+      <td>132</td>
       <td>21</td>
     </tr>
     <tr>
       <th>2020-10-10</th>
-      <td>447</td>
-      <td>188</td>
+      <td>455</td>
+      <td>195</td>
       <td>29</td>
     </tr>
     <tr>
       <th>2020-10-09</th>
-      <td>630</td>
-      <td>246</td>
+      <td>637</td>
+      <td>251</td>
       <td>37</td>
     </tr>
     <tr>
       <th>2020-10-08</th>
-      <td>794</td>
-      <td>281</td>
+      <td>800</td>
+      <td>285</td>
       <td>42</td>
     </tr>
     <tr>
       <th>2020-10-07</th>
-      <td>936</td>
-      <td>286</td>
+      <td>942</td>
+      <td>288</td>
       <td>50</td>
     </tr>
     <tr>
       <th>2020-10-06</th>
-      <td>1023</td>
-      <td>333</td>
+      <td>1029</td>
+      <td>334</td>
       <td>60</td>
     </tr>
     <tr>
       <th>2020-10-05</th>
-      <td>995</td>
-      <td>321</td>
+      <td>1000</td>
+      <td>322</td>
       <td>57</td>
     </tr>
     <tr>
       <th>2020-10-04</th>
-      <td>917</td>
-      <td>336</td>
+      <td>918</td>
+      <td>337</td>
       <td>56</td>
     </tr>
     <tr>
       <th>2020-10-03</th>
-      <td>799</td>
+      <td>800</td>
       <td>302</td>
       <td>49</td>
     </tr>
     <tr>
       <th>2020-10-02</th>
-      <td>671</td>
+      <td>672</td>
       <td>309</td>
       <td>46</td>
     </tr>
     <tr>
       <th>2020-10-01</th>
-      <td>637</td>
+      <td>638</td>
       <td>315</td>
       <td>49</td>
     </tr>
