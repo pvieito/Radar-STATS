@@ -1,10 +1,10 @@
 {
-    "extraction_datetime": 1602620599377,
+    "extraction_datetime": 1602623708487,
     "extraction_date": "2020-10-13",
-    "extraction_date_with_hour": "2020-10-13@20",
+    "extraction_date_with_hour": "2020-10-13@21",
     "last_hour": {
-        "shared_teks_by_upload_date": 25,
-        "shared_diagnoses": 6
+        "shared_teks_by_upload_date": 0,
+        "shared_diagnoses": 0
     },
     "today": {
         "covid_cases": 10794,
