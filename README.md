@@ -17,7 +17,7 @@ The **Radar STATS** (_née RadarCOVID-STATS_) open-source project is designed to
 
 ## Last Results
 
-- [Report 2020-10-13@21](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2020-10-13@22](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
@@ -51,18 +51,18 @@ The **Radar STATS** (_née RadarCOVID-STATS_) open-source project is designed to
   <tbody>
     <tr>
       <th>2020-10-13</th>
-      <td>10794</td>
+      <td>10097</td>
       <td>1</td>
-      <td>331</td>
+      <td>334</td>
       <td>1</td>
-      <td>111</td>
+      <td>112</td>
       <td>2.98</td>
-      <td>1.03%</td>
+      <td>1.11%</td>
     </tr>
     <tr>
       <th>2020-10-12</th>
       <td>10794</td>
-      <td>113</td>
+      <td>114</td>
       <td>326</td>
       <td>2</td>
       <td>136</td>
@@ -72,7 +72,7 @@ The **Radar STATS** (_née RadarCOVID-STATS_) open-source project is designed to
     <tr>
       <th>2020-10-11</th>
       <td>10169</td>
-      <td>197</td>
+      <td>198</td>
       <td>422</td>
       <td>1</td>
       <td>147</td>
@@ -82,7 +82,7 @@ The **Radar STATS** (_née RadarCOVID-STATS_) open-source project is designed to
     <tr>
       <th>2020-10-10</th>
       <td>10169</td>
-      <td>249</td>
+      <td>250</td>
       <td>429</td>
       <td>0</td>
       <td>133</td>
@@ -348,16 +348,18 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
   <thead>
     <tr>
       <th></th>
-      <th colspan="3" halign="left">Shared TEKs by Generation Date</th>
+      <th colspan="4" halign="left">Shared TEKs by Generation Date</th>
     </tr>
     <tr>
       <th>Backend Region</th>
       <th>CH</th>
+      <th>EE</th>
       <th>ES</th>
-      <th>PT</th>
+      <th>MT</th>
     </tr>
     <tr>
       <th>Sample Date (UTC)</th>
+      <th></th>
       <th></th>
       <th></th>
       <th></th>
@@ -366,87 +368,101 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
   <tbody>
     <tr>
       <th>2020-10-13</th>
-      <td>91</td>
+      <td>95</td>
+      <td>0</td>
       <td>1</td>
       <td>0</td>
     </tr>
     <tr>
       <th>2020-10-12</th>
-      <td>281</td>
-      <td>113</td>
-      <td>26</td>
+      <td>296</td>
+      <td>3</td>
+      <td>114</td>
+      <td>107</td>
     </tr>
     <tr>
       <th>2020-10-11</th>
-      <td>484</td>
-      <td>197</td>
-      <td>35</td>
+      <td>498</td>
+      <td>4</td>
+      <td>198</td>
+      <td>110</td>
     </tr>
     <tr>
       <th>2020-10-10</th>
-      <td>677</td>
-      <td>249</td>
-      <td>44</td>
+      <td>692</td>
+      <td>5</td>
+      <td>250</td>
+      <td>111</td>
     </tr>
     <tr>
       <th>2020-10-09</th>
-      <td>841</td>
+      <td>855</td>
+      <td>4</td>
       <td>293</td>
-      <td>51</td>
+      <td>112</td>
     </tr>
     <tr>
       <th>2020-10-08</th>
-      <td>968</td>
+      <td>981</td>
+      <td>5</td>
       <td>318</td>
-      <td>53</td>
+      <td>113</td>
     </tr>
     <tr>
       <th>2020-10-07</th>
-      <td>1070</td>
+      <td>1079</td>
+      <td>4</td>
       <td>308</td>
-      <td>62</td>
+      <td>117</td>
     </tr>
     <tr>
       <th>2020-10-06</th>
-      <td>1107</td>
+      <td>1115</td>
+      <td>8</td>
       <td>345</td>
-      <td>67</td>
+      <td>120</td>
     </tr>
     <tr>
       <th>2020-10-05</th>
-      <td>1042</td>
+      <td>1046</td>
+      <td>5</td>
       <td>327</td>
-      <td>62</td>
+      <td>118</td>
     </tr>
     <tr>
       <th>2020-10-04</th>
       <td>949</td>
+      <td>6</td>
       <td>341</td>
-      <td>60</td>
+      <td>119</td>
     </tr>
     <tr>
       <th>2020-10-03</th>
       <td>814</td>
+      <td>7</td>
       <td>304</td>
-      <td>52</td>
+      <td>118</td>
     </tr>
     <tr>
       <th>2020-10-02</th>
       <td>677</td>
+      <td>10</td>
       <td>310</td>
-      <td>47</td>
+      <td>116</td>
     </tr>
     <tr>
       <th>2020-10-01</th>
       <td>641</td>
+      <td>8</td>
       <td>316</td>
-      <td>50</td>
+      <td>114</td>
     </tr>
     <tr>
       <th>2020-09-30</th>
       <td>619</td>
+      <td>9</td>
       <td>294</td>
-      <td>58</td>
+      <td>112</td>
     </tr>
   </tbody>
 </table>
