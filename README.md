@@ -1,6 +1,6 @@
 # Radar STATS
 
-[![Report Update](https://github.com/Radar-STATS/Radar-STATS/workflows/Report%20Update/badge.svg?event=schedule)](https://github.com/Radar-STATS/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+[![Report Update](https://github.com/pvieito/Radar-STATS/workflows/Report%20Update/badge.svg?event=schedule)](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 Open-source project to monitor and report hourly statistics about Spain's “Radar COVID” app Exposure Notification service – Created by [@pvieito](https://twitter.com/pvieito)
 
@@ -10,18 +10,18 @@ Open-source project to monitor and report hourly statistics about Spain's “Rad
 - [Documentation](#documentation)
 - [Contributions](#contributions)
 - [Related Links](#related-links)
-- [Archived Reports](https://github.com/Radar-STATS/Radar-STATS/tree/master/Notebooks/RadarCOVID-Report)
-- [TEK Dumps](https://github.com/Radar-STATS/Radar-STATS/tree/master/Data/TEKs)
+- [Archived Reports](https://github.com/pvieito/Radar-STATS/tree/master/Notebooks/RadarCOVID-Report)
+- [TEK Dumps](https://github.com/pvieito/Radar-STATS/tree/master/Data/TEKs)
 - [JSON Results](https://raw.githubusercontent.com/pvieito/RadarCOVID-STATS/master/Data/Resources/Current/RadarCOVID-Report-Summary-Results.json)
 - [Twitter Bot](https://twitter.com/radarcovidstats)
 
 ## Last Results
 
-- [Report 2020-10-13@15](https://github.com/Radar-STATS/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2020-10-13@16](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
-![RadarCOVID-Report-Summary-Plot](https://github.com/Radar-STATS/Radar-STATS/raw/master/Data/Resources/Current/RadarCOVID-Report-Summary-Plots.png)
+![RadarCOVID-Report-Summary-Plot](https://github.com/pvieito/Radar-STATS/raw/master/Data/Resources/Current/RadarCOVID-Report-Summary-Plots.png)
 
 ### Daily Summary Table
 
@@ -52,17 +52,17 @@ Open-source project to monitor and report hourly statistics about Spain's “Rad
     <tr>
       <th>2020-10-13</th>
       <td>10794</td>
-      <td>0</td>
-      <td>289</td>
-      <td>0</td>
-      <td>98</td>
-      <td>2.95</td>
-      <td>0.91%</td>
+      <td>1</td>
+      <td>301</td>
+      <td>1</td>
+      <td>103</td>
+      <td>2.92</td>
+      <td>0.95%</td>
     </tr>
     <tr>
       <th>2020-10-12</th>
       <td>10794</td>
-      <td>100</td>
+      <td>105</td>
       <td>326</td>
       <td>2</td>
       <td>136</td>
@@ -72,7 +72,7 @@ Open-source project to monitor and report hourly statistics about Spain's “Rad
     <tr>
       <th>2020-10-11</th>
       <td>10169</td>
-      <td>185</td>
+      <td>189</td>
       <td>422</td>
       <td>1</td>
       <td>147</td>
@@ -82,7 +82,7 @@ Open-source project to monitor and report hourly statistics about Spain's “Rad
     <tr>
       <th>2020-10-10</th>
       <td>10169</td>
-      <td>241</td>
+      <td>243</td>
       <td>429</td>
       <td>0</td>
       <td>133</td>
@@ -332,17 +332,17 @@ Open-source project to monitor and report hourly statistics about Spain's “Rad
   </tbody>
 </table>
 
-- [Summary Table File](https://github.com/Radar-STATS/Radar-STATS/blob/master/Data/Resources/Current/RadarCOVID-Report-Summary-Table.csv)
+- [Summary Table File](https://github.com/pvieito/Radar-STATS/blob/master/Data/Resources/Current/RadarCOVID-Report-Summary-Table.csv)
 
 ### Daily Generation to Upload Period Table
 
-![RadarCOVID-Report-Generation-Upload-Period-Table](https://github.com/Radar-STATS/Radar-STATS/raw/master/Data/Resources/Current/RadarCOVID-Report-Generation-Upload-Period-Table.png)
+![RadarCOVID-Report-Generation-Upload-Period-Table](https://github.com/pvieito/Radar-STATS/raw/master/Data/Resources/Current/RadarCOVID-Report-Generation-Upload-Period-Table.png)
 
-- [Daily Generation to Upload Period Table File](https://github.com/Radar-STATS/Radar-STATS/blob/master/Data/Resources/Current/RadarCOVID-Report-Generation-Upload-Period-Table.csv)
+- [Daily Generation to Upload Period Table File](https://github.com/pvieito/Radar-STATS/blob/master/Data/Resources/Current/RadarCOVID-Report-Generation-Upload-Period-Table.csv)
 
 ### Multi-Region Summary Table
 
-_**NOTE:** This table includes data extracted from different Exposure Notification backends for each region (eg. Switzerland data is from the SwissCovid server). You can find the exact region to backend mapping in the [`exposure_notification_io` module](https://github.com/Radar-STATS/Radar-STATS/blob/master/Modules/ExposureNotification/exposure_notification_io.py)._ 
+_**NOTE:** This table includes data extracted from different Exposure Notification backends for each region (eg. Switzerland data is from the SwissCovid server). You can find the exact region to backend mapping in the [`exposure_notification_io` module](https://github.com/pvieito/Radar-STATS/blob/master/Modules/ExposureNotification/exposure_notification_io.py)._ 
 
 <table border="1" class="dataframe">
   <thead>
@@ -366,92 +366,92 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
   <tbody>
     <tr>
       <th>2020-10-13</th>
-      <td>44</td>
-      <td>0</td>
+      <td>68</td>
+      <td>1</td>
       <td>0</td>
     </tr>
     <tr>
       <th>2020-10-12</th>
-      <td>176</td>
-      <td>100</td>
-      <td>18</td>
+      <td>230</td>
+      <td>105</td>
+      <td>21</td>
     </tr>
     <tr>
       <th>2020-10-11</th>
-      <td>383</td>
-      <td>185</td>
-      <td>27</td>
+      <td>437</td>
+      <td>189</td>
+      <td>30</td>
     </tr>
     <tr>
       <th>2020-10-10</th>
-      <td>579</td>
-      <td>241</td>
-      <td>36</td>
+      <td>630</td>
+      <td>243</td>
+      <td>39</td>
     </tr>
     <tr>
       <th>2020-10-09</th>
-      <td>752</td>
+      <td>799</td>
       <td>289</td>
-      <td>43</td>
-    </tr>
-    <tr>
-      <th>2020-10-08</th>
-      <td>894</td>
-      <td>315</td>
-      <td>47</td>
-    </tr>
-    <tr>
-      <th>2020-10-07</th>
-      <td>1021</td>
-      <td>307</td>
-      <td>56</td>
-    </tr>
-    <tr>
-      <th>2020-10-06</th>
-      <td>1081</td>
-      <td>345</td>
-      <td>63</td>
-    </tr>
-    <tr>
-      <th>2020-10-05</th>
-      <td>1029</td>
-      <td>327</td>
-      <td>58</td>
-    </tr>
-    <tr>
-      <th>2020-10-04</th>
-      <td>939</td>
-      <td>341</td>
-      <td>57</td>
-    </tr>
-    <tr>
-      <th>2020-10-03</th>
-      <td>811</td>
-      <td>304</td>
-      <td>49</td>
-    </tr>
-    <tr>
-      <th>2020-10-02</th>
-      <td>676</td>
-      <td>310</td>
       <td>46</td>
     </tr>
     <tr>
+      <th>2020-10-08</th>
+      <td>936</td>
+      <td>315</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <th>2020-10-07</th>
+      <td>1054</td>
+      <td>307</td>
+      <td>59</td>
+    </tr>
+    <tr>
+      <th>2020-10-06</th>
+      <td>1098</td>
+      <td>345</td>
+      <td>65</td>
+    </tr>
+    <tr>
+      <th>2020-10-05</th>
+      <td>1037</td>
+      <td>327</td>
+      <td>60</td>
+    </tr>
+    <tr>
+      <th>2020-10-04</th>
+      <td>945</td>
+      <td>341</td>
+      <td>59</td>
+    </tr>
+    <tr>
+      <th>2020-10-03</th>
+      <td>814</td>
+      <td>304</td>
+      <td>51</td>
+    </tr>
+    <tr>
+      <th>2020-10-02</th>
+      <td>677</td>
+      <td>310</td>
+      <td>47</td>
+    </tr>
+    <tr>
       <th>2020-10-01</th>
-      <td>640</td>
+      <td>641</td>
       <td>316</td>
-      <td>49</td>
+      <td>50</td>
     </tr>
     <tr>
       <th>2020-09-30</th>
-      <td>618</td>
+      <td>619</td>
       <td>294</td>
-      <td>57</td>
+      <td>58</td>
     </tr>
   </tbody>
 </table>
 
-- [Multi-Region Summary Table File](https://github.com/Radar-STATS/Radar-STATS/blob/master/Data/Resources/Current/RadarCOVID-Report-Multi-Region-Summary-Table.csv)
+- [Multi-Region Summary Table File](https://github.com/pvieito/Radar-STATS/blob/master/Data/Resources/Current/RadarCOVID-Report-Multi-Region-Summary-Table.csv)
 
 ## Documentation
 
@@ -482,15 +482,15 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
 
 ## Contributions
 
-Contributions to the **Radar STATS** project are welcome, both as [Pull Requests](https://github.com/Radar-STATS/Radar-STATS/pulls) or [Issues](https://github.com/Radar-STATS/Radar-STATS/issues).
+Contributions to the **Radar STATS** project are welcome, both as [Pull Requests](https://github.com/pvieito/Radar-STATS/pulls) or [Issues](https://github.com/pvieito/Radar-STATS/issues).
 
-Only files on the following directories should be modified as other files are generated automatically by the [Report Update GitHub Action](https://github.com/Radar-STATS/Radar-STATS/blob/master/.github/workflows/report-update.yml):
+Only files on the following directories should be modified as other files are generated automatically by the [Report Update GitHub Action](https://github.com/pvieito/Radar-STATS/blob/master/.github/workflows/report-update.yml):
 
 - `Data/Templates/`
 - `Modules/`
 - `Notebooks/*/Source/`
 
-The project _entry point_ is a Python notebook located at [`Notebooks/RadarCOVID-Report/Source/RadarCOVID-Report.ipynb`](https://github.com/Radar-STATS/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Source/RadarCOVID-Report.ipynb).
+The project _entry point_ is a Python notebook located at [`Notebooks/RadarCOVID-Report/Source/RadarCOVID-Report.ipynb`](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Source/RadarCOVID-Report.ipynb).
 
 ## Related Links
 
