@@ -16,6 +16,12 @@ _backend_keys_downloaders = [
     DP3TBackendKeysDownloader(
         backend_identifier="PT",
         server_endpoint_url="https://stayaway.incm.pt"),
+    DP3TBackendKeysDownloader(
+        backend_identifier="EE",
+        server_endpoint_url="https://enapi.sm.ee/authorization"),
+    DP3TBackendKeysDownloader(
+        backend_identifier="MT",
+        server_endpoint_url="https://mt-dpppt-ws.azurewebsites.net"),
     CoronaWarnAppBackendKeysDownloader(
         backend_identifier="DE",
         server_endpoint_url="https://svc90.main.px.t-online.de",
@@ -33,10 +39,14 @@ _backend_keys_downloaders = [
         server_endpoint_url="https://c19distcdn-prd.ixor.be",
         target_country="BE"),
 ]
+_default_backend_identifiers = ["ES", "CH", "EE", "MT", "DE-NL", "DE-ES"]
 
 
 def download_exposure_keys_from_backends(
         *, backend_identifiers=None, fail_on_error_backend_identifiers=None, **kwargs) -> List[dict]:
+    if backend_identifiers is None:
+        backend_identifiers = _default_backend_identifiers
+
     exposure_keys_df = pd.DataFrame()
     for downloader in _backend_keys_downloaders:
         if backend_identifiers and downloader.backend_identifier not in backend_identifiers:
