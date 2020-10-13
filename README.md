@@ -17,7 +17,7 @@ The **Radar STATS** (_née RadarCOVID-STATS_) open-source project is designed to
 
 ## Last Results
 
-- [Report 2020-10-13@17](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2020-10-13@18](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
@@ -53,16 +53,16 @@ The **Radar STATS** (_née RadarCOVID-STATS_) open-source project is designed to
       <th>2020-10-13</th>
       <td>10794</td>
       <td>1</td>
-      <td>301</td>
+      <td>306</td>
       <td>1</td>
-      <td>103</td>
-      <td>2.92</td>
-      <td>0.95%</td>
+      <td>105</td>
+      <td>2.91</td>
+      <td>0.97%</td>
     </tr>
     <tr>
       <th>2020-10-12</th>
       <td>10794</td>
-      <td>105</td>
+      <td>107</td>
       <td>326</td>
       <td>2</td>
       <td>136</td>
@@ -72,7 +72,7 @@ The **Radar STATS** (_née RadarCOVID-STATS_) open-source project is designed to
     <tr>
       <th>2020-10-11</th>
       <td>10169</td>
-      <td>189</td>
+      <td>191</td>
       <td>422</td>
       <td>1</td>
       <td>147</td>
@@ -82,7 +82,7 @@ The **Radar STATS** (_née RadarCOVID-STATS_) open-source project is designed to
     <tr>
       <th>2020-10-10</th>
       <td>10169</td>
-      <td>243</td>
+      <td>244</td>
       <td>429</td>
       <td>0</td>
       <td>133</td>
@@ -366,69 +366,69 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
   <tbody>
     <tr>
       <th>2020-10-13</th>
-      <td>68</td>
+      <td>83</td>
       <td>1</td>
       <td>0</td>
     </tr>
     <tr>
       <th>2020-10-12</th>
-      <td>230</td>
-      <td>105</td>
-      <td>21</td>
+      <td>263</td>
+      <td>107</td>
+      <td>24</td>
     </tr>
     <tr>
       <th>2020-10-11</th>
-      <td>437</td>
-      <td>189</td>
-      <td>30</td>
+      <td>468</td>
+      <td>191</td>
+      <td>33</td>
     </tr>
     <tr>
       <th>2020-10-10</th>
-      <td>630</td>
-      <td>243</td>
-      <td>39</td>
+      <td>661</td>
+      <td>244</td>
+      <td>42</td>
     </tr>
     <tr>
       <th>2020-10-09</th>
-      <td>799</td>
+      <td>829</td>
       <td>289</td>
-      <td>46</td>
+      <td>49</td>
     </tr>
     <tr>
       <th>2020-10-08</th>
-      <td>936</td>
+      <td>959</td>
       <td>315</td>
-      <td>50</td>
+      <td>52</td>
     </tr>
     <tr>
       <th>2020-10-07</th>
-      <td>1054</td>
+      <td>1064</td>
       <td>307</td>
-      <td>59</td>
+      <td>61</td>
     </tr>
     <tr>
       <th>2020-10-06</th>
-      <td>1098</td>
+      <td>1105</td>
       <td>345</td>
-      <td>65</td>
+      <td>66</td>
     </tr>
     <tr>
       <th>2020-10-05</th>
-      <td>1037</td>
+      <td>1041</td>
       <td>327</td>
-      <td>60</td>
+      <td>61</td>
     </tr>
     <tr>
       <th>2020-10-04</th>
-      <td>945</td>
+      <td>948</td>
       <td>341</td>
-      <td>59</td>
+      <td>60</td>
     </tr>
     <tr>
       <th>2020-10-03</th>
       <td>814</td>
       <td>304</td>
-      <td>51</td>
+      <td>52</td>
     </tr>
     <tr>
       <th>2020-10-02</th>
