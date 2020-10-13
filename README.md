@@ -38,7 +38,7 @@ The **Radar STATS** (_née RadarCOVID-STATS_) open-source project is designed to
       <th>Usage Ratio (Fraction of Cases Which Shared Diagnosis)</th>
     </tr>
     <tr>
-      <th>Sample Date (UTC)</th>
+      <th>Sample Date (UTC)</th>
       <th></th>
       <th></th>
       <th></th>
@@ -357,7 +357,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <th>PT</th>
     </tr>
     <tr>
-      <th>Sample Date (UTC)</th>
+      <th>Sample Date (UTC)</th>
       <th></th>
       <th></th>
       <th></th>
