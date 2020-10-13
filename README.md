@@ -348,7 +348,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
   <thead>
     <tr>
       <th></th>
-      <th colspan="4" halign="left">Shared TEKs by Generation Date</th>
+      <th colspan="5" halign="left">Shared TEKs by Generation Date</th>
     </tr>
     <tr>
       <th>Backend Region</th>
@@ -356,9 +356,11 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <th>EE</th>
       <th>ES</th>
       <th>MT</th>
+      <th>PT</th>
     </tr>
     <tr>
       <th>Sample Date (UTC)</th>
+      <th></th>
       <th></th>
       <th></th>
       <th></th>
@@ -372,6 +374,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>0</td>
       <td>1</td>
       <td>0</td>
+      <td>0</td>
     </tr>
     <tr>
       <th>2020-10-12</th>
@@ -379,6 +382,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>3</td>
       <td>114</td>
       <td>107</td>
+      <td>26</td>
     </tr>
     <tr>
       <th>2020-10-11</th>
@@ -386,6 +390,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>4</td>
       <td>198</td>
       <td>110</td>
+      <td>35</td>
     </tr>
     <tr>
       <th>2020-10-10</th>
@@ -393,6 +398,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>5</td>
       <td>250</td>
       <td>111</td>
+      <td>44</td>
     </tr>
     <tr>
       <th>2020-10-09</th>
@@ -400,6 +406,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>4</td>
       <td>293</td>
       <td>112</td>
+      <td>51</td>
     </tr>
     <tr>
       <th>2020-10-08</th>
@@ -407,6 +414,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>5</td>
       <td>318</td>
       <td>113</td>
+      <td>53</td>
     </tr>
     <tr>
       <th>2020-10-07</th>
@@ -414,6 +422,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>4</td>
       <td>308</td>
       <td>117</td>
+      <td>62</td>
     </tr>
     <tr>
       <th>2020-10-06</th>
@@ -421,6 +430,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>8</td>
       <td>345</td>
       <td>120</td>
+      <td>67</td>
     </tr>
     <tr>
       <th>2020-10-05</th>
@@ -428,6 +438,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>5</td>
       <td>327</td>
       <td>118</td>
+      <td>62</td>
     </tr>
     <tr>
       <th>2020-10-04</th>
@@ -435,6 +446,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>6</td>
       <td>341</td>
       <td>119</td>
+      <td>60</td>
     </tr>
     <tr>
       <th>2020-10-03</th>
@@ -442,6 +454,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>7</td>
       <td>304</td>
       <td>118</td>
+      <td>52</td>
     </tr>
     <tr>
       <th>2020-10-02</th>
@@ -449,6 +462,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>10</td>
       <td>310</td>
       <td>116</td>
+      <td>47</td>
     </tr>
     <tr>
       <th>2020-10-01</th>
@@ -456,6 +470,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>8</td>
       <td>316</td>
       <td>114</td>
+      <td>50</td>
     </tr>
     <tr>
       <th>2020-09-30</th>
@@ -463,6 +478,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>9</td>
       <td>294</td>
       <td>112</td>
+      <td>58</td>
     </tr>
   </tbody>
 </table>
