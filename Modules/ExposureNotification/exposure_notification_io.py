@@ -39,7 +39,7 @@ _backend_keys_downloaders = [
         server_endpoint_url="https://c19distcdn-prd.ixor.be",
         target_country="BE"),
 ]
-_default_backend_identifiers = ["ES", "CH", "EE", "MT", "DE-NL", "DE-ES"]
+_default_backend_identifiers = ["ES", "CH", "PT", "EE", "MT", "DE-NL", "DE-ES"]
 
 
 def download_exposure_keys_from_backends(
