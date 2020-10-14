@@ -17,7 +17,7 @@ The **Radar STATS** (_née RadarCOVID-STATS_) open-source project is designed to
 
 ## Last Results
 
-- [Report 2020-10-14@09](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2020-10-14@10](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
@@ -53,16 +53,16 @@ The **Radar STATS** (_née RadarCOVID-STATS_) open-source project is designed to
       <th>2020-10-14</th>
       <td>10097</td>
       <td>0</td>
-      <td>111</td>
+      <td>208</td>
       <td>0</td>
-      <td>56</td>
-      <td>1.98</td>
-      <td>0.55%</td>
+      <td>78</td>
+      <td>2.67</td>
+      <td>0.77%</td>
     </tr>
     <tr>
       <th>2020-10-13</th>
       <td>10097</td>
-      <td>57</td>
+      <td>79</td>
       <td>334</td>
       <td>1</td>
       <td>112</td>
@@ -72,7 +72,7 @@ The **Radar STATS** (_née RadarCOVID-STATS_) open-source project is designed to
     <tr>
       <th>2020-10-12</th>
       <td>10794</td>
-      <td>126</td>
+      <td>141</td>
       <td>326</td>
       <td>2</td>
       <td>136</td>
@@ -82,7 +82,7 @@ The **Radar STATS** (_née RadarCOVID-STATS_) open-source project is designed to
     <tr>
       <th>2020-10-11</th>
       <td>10169</td>
-      <td>210</td>
+      <td>222</td>
       <td>422</td>
       <td>1</td>
       <td>147</td>
@@ -92,7 +92,7 @@ The **Radar STATS** (_née RadarCOVID-STATS_) open-source project is designed to
     <tr>
       <th>2020-10-10</th>
       <td>10169</td>
-      <td>260</td>
+      <td>273</td>
       <td>429</td>
       <td>0</td>
       <td>133</td>
@@ -102,7 +102,7 @@ The **Radar STATS** (_née RadarCOVID-STATS_) open-source project is designed to
     <tr>
       <th>2020-10-09</th>
       <td>10169</td>
-      <td>301</td>
+      <td>310</td>
       <td>348</td>
       <td>1</td>
       <td>105</td>
@@ -112,7 +112,7 @@ The **Radar STATS** (_née RadarCOVID-STATS_) open-source project is designed to
     <tr>
       <th>2020-10-08</th>
       <td>9960</td>
-      <td>326</td>
+      <td>335</td>
       <td>272</td>
       <td>1</td>
       <td>86</td>
@@ -122,7 +122,7 @@ The **Radar STATS** (_née RadarCOVID-STATS_) open-source project is designed to
     <tr>
       <th>2020-10-07</th>
       <td>9530</td>
-      <td>312</td>
+      <td>321</td>
       <td>178</td>
       <td>0</td>
       <td>54</td>
@@ -132,7 +132,7 @@ The **Radar STATS** (_née RadarCOVID-STATS_) open-source project is designed to
     <tr>
       <th>2020-10-06</th>
       <td>11021</td>
-      <td>346</td>
+      <td>350</td>
       <td>233</td>
       <td>60</td>
       <td>56</td>
@@ -142,7 +142,7 @@ The **Radar STATS** (_née RadarCOVID-STATS_) open-source project is designed to
     <tr>
       <th>2020-10-05</th>
       <td>9307</td>
-      <td>327</td>
+      <td>330</td>
       <td>273</td>
       <td>52</td>
       <td>69</td>
@@ -152,7 +152,7 @@ The **Radar STATS** (_née RadarCOVID-STATS_) open-source project is designed to
     <tr>
       <th>2020-10-04</th>
       <td>10493</td>
-      <td>341</td>
+      <td>342</td>
       <td>331</td>
       <td>76</td>
       <td>78</td>
@@ -370,7 +370,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
   <tbody>
     <tr>
       <th>2020-10-14</th>
-      <td>9</td>
+      <td>27</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -378,87 +378,87 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
     </tr>
     <tr>
       <th>2020-10-13</th>
-      <td>155</td>
+      <td>210</td>
       <td>1</td>
-      <td>57</td>
-      <td>103</td>
-      <td>15</td>
+      <td>79</td>
+      <td>105</td>
+      <td>17</td>
     </tr>
     <tr>
       <th>2020-10-12</th>
-      <td>329</td>
+      <td>384</td>
       <td>3</td>
-      <td>126</td>
-      <td>107</td>
+      <td>141</td>
+      <td>109</td>
       <td>26</td>
     </tr>
     <tr>
       <th>2020-10-11</th>
-      <td>531</td>
+      <td>584</td>
       <td>5</td>
-      <td>210</td>
-      <td>110</td>
+      <td>222</td>
+      <td>112</td>
       <td>35</td>
     </tr>
     <tr>
       <th>2020-10-10</th>
-      <td>724</td>
+      <td>777</td>
       <td>6</td>
-      <td>260</td>
-      <td>111</td>
+      <td>273</td>
+      <td>112</td>
       <td>44</td>
     </tr>
     <tr>
       <th>2020-10-09</th>
-      <td>885</td>
+      <td>930</td>
       <td>4</td>
-      <td>301</td>
-      <td>112</td>
+      <td>310</td>
+      <td>113</td>
       <td>51</td>
     </tr>
     <tr>
       <th>2020-10-08</th>
-      <td>1007</td>
+      <td>1040</td>
       <td>5</td>
-      <td>326</td>
-      <td>113</td>
+      <td>335</td>
+      <td>114</td>
       <td>53</td>
     </tr>
     <tr>
       <th>2020-10-07</th>
-      <td>1095</td>
+      <td>1121</td>
       <td>4</td>
-      <td>312</td>
+      <td>321</td>
       <td>117</td>
       <td>62</td>
     </tr>
     <tr>
       <th>2020-10-06</th>
-      <td>1123</td>
+      <td>1141</td>
       <td>8</td>
-      <td>346</td>
+      <td>350</td>
       <td>120</td>
       <td>67</td>
     </tr>
     <tr>
       <th>2020-10-05</th>
-      <td>1053</td>
+      <td>1063</td>
       <td>5</td>
-      <td>327</td>
+      <td>330</td>
       <td>118</td>
       <td>62</td>
     </tr>
     <tr>
       <th>2020-10-04</th>
-      <td>953</td>
+      <td>957</td>
       <td>6</td>
-      <td>341</td>
+      <td>342</td>
       <td>119</td>
       <td>60</td>
     </tr>
     <tr>
       <th>2020-10-03</th>
-      <td>817</td>
+      <td>818</td>
       <td>7</td>
       <td>304</td>
       <td>118</td>
@@ -466,7 +466,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
     </tr>
     <tr>
       <th>2020-10-02</th>
-      <td>679</td>
+      <td>680</td>
       <td>10</td>
       <td>310</td>
       <td>116</td>
@@ -474,7 +474,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
     </tr>
     <tr>
       <th>2020-10-01</th>
-      <td>643</td>
+      <td>644</td>
       <td>8</td>
       <td>316</td>
       <td>114</td>
