@@ -17,7 +17,7 @@ The **Radar STATS** (_née RadarCOVID-STATS_) open-source project is designed to
 
 ## Last Results
 
-- [Report 2020-10-14@01](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2020-10-14@02](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
@@ -53,16 +53,16 @@ The **Radar STATS** (_née RadarCOVID-STATS_) open-source project is designed to
       <th>2020-10-14</th>
       <td>10097</td>
       <td>0</td>
+      <td>33</td>
       <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0.00</td>
-      <td>0.00%</td>
+      <td>33</td>
+      <td>1.00</td>
+      <td>0.33%</td>
     </tr>
     <tr>
       <th>2020-10-13</th>
       <td>10097</td>
-      <td>1</td>
+      <td>34</td>
       <td>334</td>
       <td>1</td>
       <td>112</td>
@@ -370,11 +370,11 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
   <tbody>
     <tr>
       <th>2020-10-13</th>
-      <td>96</td>
+      <td>115</td>
       <td>0</td>
-      <td>1</td>
-      <td>2</td>
-      <td>0</td>
+      <td>34</td>
+      <td>103</td>
+      <td>15</td>
     </tr>
     <tr>
       <th>2020-10-12</th>
