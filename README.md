@@ -17,7 +17,7 @@ The **Radar STATS** (_née RadarCOVID-STATS_) open-source project is designed to
 
 ## Last Results
 
-- [Report 2020-10-14@00](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2020-10-14@01](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
