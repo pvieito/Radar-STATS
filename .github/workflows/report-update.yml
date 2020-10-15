@@ -12,7 +12,7 @@ on:
 
 jobs:
   report-update:
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v1
@@ -32,7 +32,7 @@ jobs:
           RADARCOVID_REPORT__TWITTER_API_AUTH_KEYS: ${{ secrets.RADARCOVID_REPORT__TWITTER_API_AUTH_KEYS }}
       - name: Clean Data
         run: |
-          find Data/TEKs/Hourly/*.json | sort | ghead -n -72 | xargs -r rm
+          find Data/TEKs/Hourly/*.json | sort | head -n -72 | xargs -r rm
       - name: Commit Report Update
         uses: EndBug/add-and-commit@v4
         if: ${{ github.ref == 'refs/heads/master' }}
