@@ -1,7 +1,8 @@
 ,shared_teks_by_generation_date,shared_teks_by_generation_date,shared_teks_by_generation_date,shared_teks_by_generation_date,shared_teks_by_generation_date
 region,CH,EE,ES,MT,PT
 sample_date,,,,,
-2020-10-14,96,0,5,2,0
+2020-10-15,0,0,1,0,0
+2020-10-14,112,0,43,102,16
 2020-10-13,420,1,137,107,36
 2020-10-12,587,3,197,111,44
 2020-10-11,777,5,269,114,53
