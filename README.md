@@ -348,18 +348,20 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
   <thead>
     <tr>
       <th></th>
-      <th colspan="5" halign="left">Shared TEKs by Generation Date</th>
+      <th colspan="6" halign="left">Shared TEKs by Generation Date</th>
     </tr>
     <tr>
       <th>Backend Region</th>
       <th>CH</th>
       <th>EE</th>
       <th>ES</th>
+      <th>ES@PRE</th>
       <th>MT</th>
       <th>PT</th>
     </tr>
     <tr>
       <th>Sample Date (UTC)</th>
+      <th></th>
       <th></th>
       <th></th>
       <th></th>
@@ -373,6 +375,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>36</td>
       <td>0</td>
       <td>63</td>
+      <td>1</td>
       <td>0</td>
       <td>0</td>
     </tr>
@@ -381,6 +384,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>277</td>
       <td>3</td>
       <td>212</td>
+      <td>3</td>
       <td>103</td>
       <td>37</td>
     </tr>
@@ -389,6 +393,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>561</td>
       <td>4</td>
       <td>223</td>
+      <td>341</td>
       <td>106</td>
       <td>64</td>
     </tr>
@@ -397,6 +402,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>837</td>
       <td>5</td>
       <td>278</td>
+      <td>339</td>
       <td>110</td>
       <td>76</td>
     </tr>
@@ -405,6 +411,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>994</td>
       <td>7</td>
       <td>308</td>
+      <td>375</td>
       <td>114</td>
       <td>82</td>
     </tr>
@@ -413,6 +420,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>1145</td>
       <td>9</td>
       <td>342</td>
+      <td>53</td>
       <td>117</td>
       <td>91</td>
     </tr>
@@ -421,6 +429,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>1251</td>
       <td>10</td>
       <td>350</td>
+      <td>54</td>
       <td>118</td>
       <td>91</td>
     </tr>
@@ -429,6 +438,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>1282</td>
       <td>6</td>
       <td>359</td>
+      <td>53</td>
       <td>116</td>
       <td>93</td>
     </tr>
@@ -437,6 +447,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>1284</td>
       <td>5</td>
       <td>366</td>
+      <td>60</td>
       <td>117</td>
       <td>85</td>
     </tr>
@@ -445,6 +456,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>1263</td>
       <td>4</td>
       <td>343</td>
+      <td>69</td>
       <td>120</td>
       <td>88</td>
     </tr>
@@ -453,6 +465,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>1216</td>
       <td>8</td>
       <td>365</td>
+      <td>124</td>
       <td>121</td>
       <td>86</td>
     </tr>
@@ -461,6 +474,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>1106</td>
       <td>5</td>
       <td>340</td>
+      <td>127</td>
       <td>118</td>
       <td>74</td>
     </tr>
@@ -469,6 +483,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>975</td>
       <td>6</td>
       <td>349</td>
+      <td>60</td>
       <td>119</td>
       <td>69</td>
     </tr>
@@ -477,6 +492,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>830</td>
       <td>7</td>
       <td>308</td>
+      <td>58</td>
       <td>118</td>
       <td>58</td>
     </tr>
