@@ -11,6 +11,9 @@ _backend_keys_downloaders = [
         backend_identifier="ES",
         server_endpoint_url="https://radarcovid.covid19.gob.es/dp3t"),
     DP3TBackendKeysDownloader(
+        backend_identifier="ES@PRE",
+        server_endpoint_url="https://radarcovidpre.covid19.gob.es/dp3t"),
+    DP3TBackendKeysDownloader(
         backend_identifier="CH",
         server_endpoint_url="https://www.pt.bfs.admin.ch"),
     DP3TBackendKeysDownloader(
@@ -39,7 +42,7 @@ _backend_keys_downloaders = [
         server_endpoint_url="https://c19distcdn-prd.ixor.be",
         target_country="BE"),
 ]
-_default_backend_identifiers = ["ES", "CH", "PT", "EE", "MT", "DE-NL", "DE-ES"]
+_default_backend_identifiers = ["ES", "ES@PRE", "CH", "PT", "EE", "MT", "DE-NL", "DE-ES"]
 
 
 def download_exposure_keys_from_backends(
