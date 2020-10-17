@@ -17,7 +17,7 @@
 
 ## Last Results
 
-- [Report 2020-10-17@01](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2020-10-17@02](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
@@ -52,17 +52,17 @@
     <tr>
       <th>2020-10-17</th>
       <td>10778</td>
-      <td>0</td>
-      <td>8</td>
-      <td>0</td>
-      <td>2</td>
-      <td>4.00</td>
-      <td>0.02%</td>
+      <td>1</td>
+      <td>12</td>
+      <td>1</td>
+      <td>5</td>
+      <td>2.40</td>
+      <td>0.05%</td>
     </tr>
     <tr>
       <th>2020-10-16</th>
       <td>10778</td>
-      <td>151</td>
+      <td>154</td>
       <td>769</td>
       <td>149</td>
       <td>141</td>
@@ -371,13 +371,22 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
   </thead>
   <tbody>
     <tr>
+      <th>2020-10-17</th>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
       <th>2020-10-16</th>
-      <td>157</td>
+      <td>189</td>
       <td>0</td>
-      <td>151</td>
+      <td>154</td>
       <td>12</td>
-      <td>0</td>
-      <td>0</td>
+      <td>101</td>
+      <td>35</td>
     </tr>
     <tr>
       <th>2020-10-15</th>
