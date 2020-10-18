@@ -16,7 +16,7 @@ class DP3TBackendKeysDownloader(BaseBackendKeysDownloader):
 
     def generate_exposure_keys_export_endpoints_with_parameters(self, **kwargs) -> List[dict]:
         exposure_keys_export_endpoints = []
-        dates = self.get_dates_from_parameters(**kwargs)
+        dates = self.get_generation_dates_from_parameters(**kwargs)
         for date in dates:
             generation_datetime = datetime.datetime(
                 year=date.year,

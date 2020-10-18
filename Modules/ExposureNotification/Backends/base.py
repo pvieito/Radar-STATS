@@ -44,6 +44,13 @@ class BaseBackendKeysDownloader:
                 exposure_keys_df = exposure_keys_df.append(endpoint_exposure_keys_df)
             except exposure_notification_exceptions.NoKeysFoundException as e:
                 logging.warning(repr(e))
+
+        if not exposure_keys_df.empty:
+            valid_generation_dates = self.get_generation_dates_from_parameters(
+                as_string=True, **kwargs)
+            exposure_keys_df = exposure_keys_df[
+                exposure_keys_df.generation_date_string.isin(valid_generation_dates)]
+
         return exposure_keys_df
 
     def _download_exposure_keys_from_endpoint_with_parameters(
@@ -164,12 +171,18 @@ class BaseBackendKeysDownloader:
         return requests.get(url, **kwargs)
 
     @staticmethod
-    def get_dates_from_parameters(*, dates: List[datetime.datetime] = None, days: int, **_kwargs):
-        now_datetime = datetime.datetime.utcnow()
-        if isinstance(dates, datetime.datetime):
-            dates = [dates]
-        elif days:
-            dates = [now_datetime - datetime.timedelta(days=i) for i in range(days)]
-        elif dates is None:
-            dates = [now_datetime]
-        return dates
+    def get_generation_dates_from_parameters(
+            *, generation_dates: List[datetime.datetime] = None,
+            generation_days: int = None, as_string: bool = None, **_kwargs):
+        if isinstance(generation_dates, datetime.datetime):
+            generation_dates = [generation_dates]
+        else:
+            if generation_days is None:
+                generation_days = 14
+            now_datetime = datetime.datetime.utcnow()
+            generation_dates = [now_datetime - datetime.timedelta(days=i) for i in range(generation_days)]
+
+        if as_string:
+            generation_dates = list(map(lambda x: x.strftime("%Y-%m-%d"), generation_dates))
+
+        return generation_dates
