@@ -18,9 +18,9 @@ jobs:
       - name: Install OpenVPN
         run: |
           sudo apt-get install openvpn
-          sudo printenv OPENVPN_CONFIGURATION > /etc/openvpn/vpn.conf
-          sudo printenv OPENVPN_CREDENTIALS > /etc/openvpn/vpn.credentials
-          sudo service openvpn start vpn
+          printenv OPENVPN_CONFIGURATION > /tmp/vpn.openvpn
+          printenv OPENVPN_CREDENTIALS > /tmp/vpn.credentials
+          sudo service openvpn start /tmp/vpn.openvpn
         env:
           OPENVPN_CONFIGURATION: ${{ secrets.OPENVPN_CONFIGURATION }}
           OPENVPN_CREDENTIALS: ${{ secrets.OPENVPN_CREDENTIALS }}
