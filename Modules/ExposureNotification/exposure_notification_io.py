@@ -42,6 +42,18 @@ _backend_keys_downloaders = [
         backend_identifier="BE",
         server_endpoint_url="https://c19distcdn-prd.ixor.be",
         target_country="BE"),
+    CoronaWarnAppBackendKeysDownloader(
+        backend_identifier="BE@TST",
+        server_endpoint_url="https://c19distcdn-tst.ixor.be",
+        target_country="BE"),
+    CoronaWarnAppBackendKeysDownloader(
+        backend_identifier="BE@TST-ES",
+        server_endpoint_url="https://c19distcdn-tst.ixor.be",
+        target_country="ES"),
+    CoronaWarnAppBackendKeysDownloader(
+        backend_identifier="BE@TST-IE",
+        server_endpoint_url="https://c19distcdn-tst.ixor.be",
+        target_country="IE"),
     ImmuniBackendKeysDownloader(
         backend_identifier="IT",
         server_endpoint_url="https://get.immuni.gov.it"),
@@ -54,8 +66,13 @@ _backend_keys_downloaders = [
         server_endpoint_url="https://get.immuni.gov.it",
         eu_country="IE"),
 ]
-_default_backend_identifiers = \
-    ["ES", "ES@PRE", "CH", "PT", "EE", "MT", "BE", "DE-IE", "DE-ES", "IT", "IT-ES", "IT-IE"]
+_default_backend_identifiers = [
+    "ES", "ES@PRE",
+    "CH", "PT", "EE", "MT",
+    "BE", "BE@TST", "BE@TST-ES", "BE@TST-IE",
+    "DE-ES", "DE-IE",
+    "IT", "IT-ES", "IT-IE"
+]
 
 
 def download_exposure_keys_from_backends(
