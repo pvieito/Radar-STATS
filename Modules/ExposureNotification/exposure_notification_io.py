@@ -5,6 +5,7 @@ import pandas as pd
 
 from .Backends.corona_warn_app import CoronaWarnAppBackendKeysDownloader
 from .Backends.dp3t import DP3TBackendKeysDownloader
+from .Backends.immuni import ImmuniBackendKeysDownloader
 
 _backend_keys_downloaders = [
     DP3TBackendKeysDownloader(
@@ -30,9 +31,9 @@ _backend_keys_downloaders = [
         server_endpoint_url="https://svc90.main.px.t-online.de",
         target_country="DE"),
     CoronaWarnAppBackendKeysDownloader(
-        backend_identifier="DE-NL",
+        backend_identifier="DE-IE",
         server_endpoint_url="https://svc90.main.px.t-online.de",
-        target_country="NL"),
+        target_country="IE"),
     CoronaWarnAppBackendKeysDownloader(
         backend_identifier="DE-ES",
         server_endpoint_url="https://svc90.main.px.t-online.de",
@@ -41,8 +42,20 @@ _backend_keys_downloaders = [
         backend_identifier="BE",
         server_endpoint_url="https://c19distcdn-prd.ixor.be",
         target_country="BE"),
+    ImmuniBackendKeysDownloader(
+        backend_identifier="IT",
+        server_endpoint_url="https://get.immuni.gov.it"),
+    ImmuniBackendKeysDownloader(
+        backend_identifier="IT-ES",
+        server_endpoint_url="https://get.immuni.gov.it",
+        eu_country="ES"),
+    ImmuniBackendKeysDownloader(
+        backend_identifier="IT-IE",
+        server_endpoint_url="https://get.immuni.gov.it",
+        eu_country="IE"),
 ]
-_default_backend_identifiers = ["ES", "ES@PRE", "CH", "PT", "EE", "MT", "DE-NL", "DE-ES"]
+_default_backend_identifiers = \
+    ["ES", "ES@PRE", "CH", "PT", "EE", "MT", "DE-IE", "DE-ES", "IT", "IT-ES", "IT-IE"]
 
 
 def download_exposure_keys_from_backends(

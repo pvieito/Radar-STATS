@@ -42,7 +42,7 @@ class BaseBackendKeysDownloader:
         return exposure_keys_df
 
     def _download_exposure_keys_from_endpoint_with_parameters(
-            self, endpoint, parameters=None, save_raw_zip_path=None, **_kwargs) -> pd.DataFrame:
+            self, endpoint, parameters=None, save_raw_zip_path_prefix=None, **_kwargs) -> pd.DataFrame:
         if parameters is None:
             parameters = dict()
         parameters = parameters.copy()
@@ -62,15 +62,15 @@ class BaseBackendKeysDownloader:
                 raise e
         file_bytes = request_response.content
 
-        if save_raw_zip_path:
-            if isinstance(save_raw_zip_path, str):
-                save_raw_zip_path = [save_raw_zip_path]
-
-            for raw_zip_path in save_raw_zip_path:
-                raw_zip_path = raw_zip_path.format(**parameters)
-                os.makedirs(os.path.dirname(raw_zip_path), exist_ok=True)
-                with open(raw_zip_path, "wb") as f:
-                    f.write(file_bytes)
+        if save_raw_zip_path_prefix:
+            endpoint_identifier_components = \
+                [self.backend_identifier] + parameters["endpoint_identifier_components"]
+            endpoint_identifier_components = "-".join(map(str, endpoint_identifier_components))
+            raw_zip_path = self.backend_identifier + f"/Current/TEKs-{endpoint_identifier_components}.zip"
+            raw_zip_path = save_raw_zip_path_prefix + raw_zip_path
+            os.makedirs(os.path.dirname(raw_zip_path), exist_ok=True)
+            with open(raw_zip_path, "wb") as f:
+                f.write(file_bytes)
 
         if len(file_bytes) == 0:
             raise no_keys_found_exception
