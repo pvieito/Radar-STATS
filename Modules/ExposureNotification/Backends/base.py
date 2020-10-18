@@ -159,19 +159,8 @@ class BaseBackendKeysDownloader:
         exposure_keys_df["backend_identifier"] = self.backend_identifier
         return exposure_keys_df
 
-    def send_get_request(self, url, **kwargs):
-        kwargs = kwargs.copy()
-        if self.use_proxy_if_available:
-            proxy_url = self.proxy_url
-            if proxy_url is None:
-                proxy_url = os.environ.get("EXPOSURE_NOTIFICATION_BACKEND_KEYS_DOWNLOADER__PROXY_URL")
-            if proxy_url == "TOR":
-                proxy_url = "socks5://127.0.0.1:9050"
-            if proxy_url:
-                kwargs.update(dict(proxies={
-                    "http": proxy_url,
-                    "https": proxy_url,
-                }))
+    @staticmethod
+    def send_get_request(url, **kwargs):
         return requests.get(url, **kwargs)
 
     @staticmethod
