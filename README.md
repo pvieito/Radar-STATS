@@ -17,7 +17,7 @@
 
 ## Last Results
 
-- [Report 2020-10-18@16](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2020-10-18@17](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
@@ -348,7 +348,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
   <thead>
     <tr>
       <th></th>
-      <th colspan="6" halign="left">Shared TEKs by Generation Date</th>
+      <th colspan="5" halign="left">Shared TEKs by Generation Date</th>
     </tr>
     <tr>
       <th>Backend Region</th>
@@ -357,11 +357,9 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <th>ES</th>
       <th>ES@PRE</th>
       <th>MT</th>
-      <th>PT</th>
     </tr>
     <tr>
       <th>Sample Date (UTC)</th>
-      <th></th>
       <th></th>
       <th></th>
       <th></th>
@@ -377,7 +375,6 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>119</td>
       <td>0</td>
       <td>0</td>
-      <td>0</td>
     </tr>
     <tr>
       <th>2020-10-17</th>
@@ -386,7 +383,6 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>285</td>
       <td>2</td>
       <td>106</td>
-      <td>43</td>
     </tr>
     <tr>
       <th>2020-10-16</th>
@@ -395,7 +391,6 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>380</td>
       <td>14</td>
       <td>111</td>
-      <td>89</td>
     </tr>
     <tr>
       <th>2020-10-15</th>
@@ -404,7 +399,6 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>487</td>
       <td>6</td>
       <td>114</td>
-      <td>123</td>
     </tr>
     <tr>
       <th>2020-10-14</th>
@@ -413,7 +407,6 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>481</td>
       <td>343</td>
       <td>116</td>
-      <td>132</td>
     </tr>
     <tr>
       <th>2020-10-13</th>
@@ -422,7 +415,6 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>474</td>
       <td>341</td>
       <td>119</td>
-      <td>137</td>
     </tr>
     <tr>
       <th>2020-10-12</th>
@@ -431,7 +423,6 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>445</td>
       <td>376</td>
       <td>121</td>
-      <td>136</td>
     </tr>
     <tr>
       <th>2020-10-11</th>
@@ -440,7 +431,6 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>426</td>
       <td>54</td>
       <td>124</td>
-      <td>132</td>
     </tr>
     <tr>
       <th>2020-10-10</th>
@@ -449,7 +439,6 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>403</td>
       <td>55</td>
       <td>124</td>
-      <td>125</td>
     </tr>
     <tr>
       <th>2020-10-09</th>
@@ -458,7 +447,6 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>402</td>
       <td>54</td>
       <td>122</td>
-      <td>117</td>
     </tr>
     <tr>
       <th>2020-10-08</th>
@@ -467,7 +455,6 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>401</td>
       <td>61</td>
       <td>122</td>
-      <td>105</td>
     </tr>
     <tr>
       <th>2020-10-07</th>
@@ -476,7 +463,6 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>368</td>
       <td>70</td>
       <td>124</td>
-      <td>104</td>
     </tr>
     <tr>
       <th>2020-10-06</th>
@@ -485,7 +471,6 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>380</td>
       <td>125</td>
       <td>124</td>
-      <td>100</td>
     </tr>
     <tr>
       <th>2020-10-05</th>
@@ -494,7 +479,6 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>350</td>
       <td>128</td>
       <td>120</td>
-      <td>83</td>
     </tr>
   </tbody>
 </table>
