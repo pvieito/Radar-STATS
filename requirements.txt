@@ -3,8 +3,6 @@ pandas~=0.25.3
 protobuf~=3.13.0
 PySocks~=1.7.1
 pytz~=2019.3
-requests[security]~=2.24.0
-requests[socks]~=2.24.0
 requests~=2.24.0
 
 # For Notebooks:
