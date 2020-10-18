@@ -15,15 +15,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Install OpenVPN
-        run: |
-          sudo apt-get install openvpn
-          printenv OPENVPN_CONFIGURATION > /tmp/vpn.openvpn
-          printenv OPENVPN_CREDENTIALS > /tmp/vpn.credentials
-          sudo service openvpn start /tmp/vpn.openvpn
-        env:
-          OPENVPN_CONFIGURATION: ${{ secrets.OPENVPN_CONFIGURATION }}
-          OPENVPN_CREDENTIALS: ${{ secrets.OPENVPN_CREDENTIALS }}
       - uses: actions/setup-python@v1
         with:
           python-version: 3.8
@@ -32,6 +23,16 @@ jobs:
           python3 -m pip install -r requirements.txt
           python3 -m pip install papermill ipykernel nbformat nbconvert
           python3 -m ipykernel install --user
+      - name: Install OpenVPN
+        run: |
+          sudo apt-get install openvpn
+          cd /etc/openvpn
+          printenv OPENVPN_CONFIGURATION | sudo tee vpn.conf
+          printenv OPENVPN_CREDENTIALS | sudo tee vpn.credentials
+          sudo openvpn --config vpn.conf --daemon && sleep 15
+        env:
+          OPENVPN_CONFIGURATION: ${{ secrets.OPENVPN_CONFIGURATION }}
+          OPENVPN_CREDENTIALS: ${{ secrets.OPENVPN_CREDENTIALS }}
       - name: Report Update
         run: |
           python3 -m papermill.cli Notebooks/RadarCOVID-Report/Source/RadarCOVID-Report.ipynb RadarCOVID-Report.ipynb
