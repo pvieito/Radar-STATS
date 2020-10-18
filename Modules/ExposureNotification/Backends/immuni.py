@@ -1,6 +1,7 @@
 from typing import *
 
-from Modules.ExposureNotification import exposure_notification_requests
+import requests
+
 from .base import BaseBackendKeysDownloader
 
 _immuni_server_keys_endpoint_path = "/v1/keys/"
@@ -25,7 +26,7 @@ class ImmuniBackendKeysDownloader(BaseBackendKeysDownloader):
         server_keys_endpoint_url = self.server_endpoint_url + server_keys_endpoint_path
         server_keys_index_endpoint_url = server_keys_endpoint_url + "index"
 
-        response = exposure_notification_requests.get(server_keys_index_endpoint_url)
+        response = requests.get(server_keys_index_endpoint_url)
         response.raise_for_status()
         response_result = response.json()
         oldest_batch_id = response_result["oldest"]

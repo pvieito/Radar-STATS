@@ -10,8 +10,7 @@ from typing import *
 import pandas as pd
 import requests
 
-from Modules.ExposureNotification import exposure_notification_exceptions, \
-    exposure_notification_requests, TemporaryExposureKeyExport_pb2
+from Modules.ExposureNotification import exposure_notification_exceptions, TemporaryExposureKeyExport_pb2
 
 maximum_key_rolling_period = 24 * 60  # 24h in 10 min intervals
 maximum_key_rolling_period_in_seconds = 24 * 60 * 60
@@ -53,7 +52,7 @@ class BaseBackendKeysDownloader:
         no_keys_found_exception = \
             exposure_notification_exceptions.NoKeysFoundException(
                 f"No exposure keys found on endpoint '{endpoint}' (parameters: {parameters}).")
-        request_response = exposure_notification_requests.get(url=endpoint)
+        request_response = requests.get(url=endpoint)
         try:
             request_response.raise_for_status()
         except requests.exceptions.HTTPError as e:
