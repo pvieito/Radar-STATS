@@ -348,18 +348,24 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
   <thead>
     <tr>
       <th></th>
-      <th colspan="5" halign="left">Shared TEKs by Generation Date</th>
+      <th colspan="8" halign="left">Shared TEKs by Generation Date</th>
     </tr>
     <tr>
       <th>Backend Region</th>
+      <th>BE</th>
       <th>CH</th>
       <th>EE</th>
       <th>ES</th>
       <th>ES@PRE</th>
+      <th>IT</th>
       <th>MT</th>
+      <th>PT</th>
     </tr>
     <tr>
       <th>Sample Date (UTC)</th>
+      <th></th>
+      <th></th>
+      <th></th>
       <th></th>
       <th></th>
       <th></th>
@@ -370,115 +376,157 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
   <tbody>
     <tr>
       <th>2020-10-18</th>
+      <td>0</td>
       <td>102</td>
       <td>0</td>
       <td>119</td>
       <td>0</td>
       <td>0</td>
+      <td>0</td>
+      <td>0</td>
     </tr>
     <tr>
       <th>2020-10-17</th>
+      <td>0</td>
       <td>498</td>
       <td>5</td>
       <td>285</td>
       <td>2</td>
+      <td>36</td>
       <td>106</td>
+      <td>43</td>
     </tr>
     <tr>
       <th>2020-10-16</th>
+      <td>210</td>
       <td>913</td>
       <td>6</td>
       <td>380</td>
       <td>14</td>
+      <td>69</td>
       <td>111</td>
+      <td>89</td>
     </tr>
     <tr>
       <th>2020-10-15</th>
+      <td>350</td>
       <td>1323</td>
       <td>8</td>
       <td>487</td>
       <td>6</td>
+      <td>137</td>
       <td>114</td>
+      <td>123</td>
     </tr>
     <tr>
       <th>2020-10-14</th>
+      <td>478</td>
       <td>1587</td>
       <td>9</td>
       <td>481</td>
       <td>343</td>
+      <td>195</td>
       <td>116</td>
+      <td>132</td>
     </tr>
     <tr>
       <th>2020-10-13</th>
+      <td>529</td>
       <td>1781</td>
       <td>10</td>
       <td>474</td>
       <td>341</td>
+      <td>243</td>
       <td>119</td>
+      <td>137</td>
     </tr>
     <tr>
       <th>2020-10-12</th>
+      <td>527</td>
       <td>1794</td>
       <td>11</td>
       <td>445</td>
       <td>376</td>
+      <td>260</td>
       <td>121</td>
+      <td>136</td>
     </tr>
     <tr>
       <th>2020-10-11</th>
+      <td>474</td>
       <td>1740</td>
       <td>13</td>
       <td>426</td>
       <td>54</td>
+      <td>277</td>
       <td>124</td>
+      <td>132</td>
     </tr>
     <tr>
       <th>2020-10-10</th>
+      <td>415</td>
       <td>1632</td>
       <td>12</td>
       <td>403</td>
       <td>55</td>
+      <td>278</td>
       <td>124</td>
+      <td>125</td>
     </tr>
     <tr>
       <th>2020-10-09</th>
+      <td>381</td>
       <td>1515</td>
       <td>6</td>
       <td>402</td>
       <td>54</td>
+      <td>274</td>
       <td>122</td>
+      <td>117</td>
     </tr>
     <tr>
       <th>2020-10-08</th>
+      <td>348</td>
       <td>1406</td>
       <td>5</td>
       <td>401</td>
       <td>61</td>
+      <td>277</td>
       <td>122</td>
+      <td>105</td>
     </tr>
     <tr>
       <th>2020-10-07</th>
+      <td>296</td>
       <td>1335</td>
       <td>4</td>
       <td>368</td>
       <td>70</td>
+      <td>267</td>
       <td>124</td>
+      <td>104</td>
     </tr>
     <tr>
       <th>2020-10-06</th>
+      <td>237</td>
       <td>1250</td>
       <td>8</td>
       <td>380</td>
       <td>125</td>
+      <td>243</td>
       <td>124</td>
+      <td>100</td>
     </tr>
     <tr>
       <th>2020-10-05</th>
+      <td>211</td>
       <td>1124</td>
       <td>5</td>
       <td>350</td>
       <td>128</td>
+      <td>208</td>
       <td>120</td>
+      <td>83</td>
     </tr>
   </tbody>
 </table>
