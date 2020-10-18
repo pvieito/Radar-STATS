@@ -18,7 +18,6 @@ jobs:
       - name: Install OpenVPN
         run: |
           sudo apt-get install openvpn
-          sudo mkdir -p /etc/openvpn
           printenv OPENVPN_CONFIGURATION | sudo tee /etc/openvpn/vpn.openvpn
           printenv OPENVPN_CREDENTIALS | sudo tee /etc/openvpn/vpn.credentials
           sudo service openvpn start vpn
