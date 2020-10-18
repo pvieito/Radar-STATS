@@ -18,9 +18,9 @@ jobs:
       - name: Install OpenVPN
         run: |
           sudo apt-get install openvpn
-          printenv OPENVPN_CONFIGURATION | sudo tee /etc/openvpn/vpn.conf
-          printenv OPENVPN_CREDENTIALS | sudo tee /etc/openvpn/vpn.credentials
-          sudo service openvpn start vpn
+          printenv OPENVPN_CONFIGURATION | sudo tee /tmp/vpn.ovpn
+          printenv OPENVPN_CREDENTIALS | sudo tee /tmp/vpn.credentials
+          sudo openvpn --config /tmp/vpn.ovpn --daemon
           curl 10.10.10.10
         env:
           OPENVPN_CONFIGURATION: ${{ secrets.OPENVPN_CONFIGURATION }}
