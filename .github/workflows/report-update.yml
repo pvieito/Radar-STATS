@@ -27,8 +27,8 @@ jobs:
         run: |
           sudo apt-get install openvpn
           cd /etc/openvpn
-          printenv OPENVPN_CONFIGURATION | sudo tee vpn.conf
-          printenv OPENVPN_CREDENTIALS | sudo tee vpn.credentials
+          printenv OPENVPN_CONFIGURATION | sudo tee vpn.conf > /dev/null
+          printenv OPENVPN_CREDENTIALS | sudo tee vpn.credentials > /dev/null
           sudo openvpn --config vpn.conf --daemon && sleep 15
         env:
           OPENVPN_CONFIGURATION: ${{ secrets.OPENVPN_CONFIGURATION }}
