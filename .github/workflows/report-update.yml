@@ -21,7 +21,7 @@ jobs:
           cd /etc/openvpn
           printenv OPENVPN_CONFIGURATION | sudo tee vpn.conf
           printenv OPENVPN_CREDENTIALS | sudo tee vpn.credentials
-          sudo openvpn --config vpn.conf --daemon
+          sudo openvpn --config vpn.conf
           curl 10.10.10.10
         env:
           OPENVPN_CONFIGURATION: ${{ secrets.OPENVPN_CONFIGURATION }}
