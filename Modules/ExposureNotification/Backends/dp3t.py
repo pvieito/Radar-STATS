@@ -16,12 +16,12 @@ class DP3TBackendKeysDownloader(BaseBackendKeysDownloader):
 
     def generate_exposure_keys_export_endpoints_with_parameters(self, **kwargs) -> List[dict]:
         exposure_keys_export_endpoints = []
-        dates = self.get_generation_dates_from_parameters(**kwargs)
-        for date in dates:
+        generation_dates = self.get_generation_dates_from_parameters(**kwargs)
+        for generation_date in generation_dates:
             generation_datetime = datetime.datetime(
-                year=date.year,
-                month=date.month,
-                day=date.day,
+                year=generation_date.year,
+                month=generation_date.month,
+                day=generation_date.day,
                 tzinfo=pytz.utc)
             generation_date_string = generation_datetime.strftime("%Y-%m-%d")
             generation_datetime_in_epoch_seconds = \
