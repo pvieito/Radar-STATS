@@ -15,6 +15,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - name: Install OpenVPN
+        run: |
+          sudo apt-get install openvpn
+          printenv OPENVPN_CONFIGURATION > /etc/openvpn/vpn.conf
+          printenv OPENVPN_CREDENTIALS > /etc/openvpn/vpn.credentials
+          sudo service openvpn start vpn
+        env:
+          OPENVPN_CONFIGURATION: ${{ secrets.OPENVPN_CONFIGURATION }}
+          OPENVPN_CREDENTIALS: ${{ secrets.OPENVPN_CREDENTIALS }}
       - uses: actions/setup-python@v1
         with:
           python-version: 3.8
