@@ -7,9 +7,8 @@ _corona_warn_app_server_diagnosis_keys_endpoint_path = \
 
 
 class CoronaWarnAppBackendKeysDownloader(BaseBackendKeysDownloader):
-    def __init__(self, backend_identifier: str, server_endpoint_url: str, target_country: str):
-        super().__init__(backend_identifier=backend_identifier)
-        self.server_endpoint_url = server_endpoint_url
+    def __init__(self, target_country: str, **kwargs):
+        super().__init__(**kwargs)
         self.target_country = target_country
 
     def generate_exposure_keys_export_endpoints_with_parameters(
@@ -25,7 +24,6 @@ class CoronaWarnAppBackendKeysDownloader(BaseBackendKeysDownloader):
                 country=self.target_country, upload_date_string=upload_date_string)
             exposure_keys_export_endpoints.append(dict(
                 endpoint=exposure_keys_export_endpoint,
-                server_endpoint_url=self.server_endpoint_url,
                 country=self.target_country,
                 upload_date=upload_date_string,
                 endpoint_identifier_components=[

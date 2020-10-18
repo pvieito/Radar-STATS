@@ -19,8 +19,13 @@ _exposure_keys_export_file_name = "export.bin"
 
 
 class BaseBackendKeysDownloader:
-    def __init__(self, backend_identifier: str):
+    def __init__(
+            self, *, backend_identifier: str, server_endpoint_url: str = None,
+            use_proxy_if_available=None, proxy_url=None):
         self.backend_identifier = backend_identifier
+        self.server_endpoint_url = server_endpoint_url
+        self.use_proxy_if_available = use_proxy_if_available
+        self.proxy_url = proxy_url
 
     def generate_exposure_keys_export_endpoints_with_parameters(self, **kwargs) -> List[dict]:
         raise NotImplemented()
@@ -46,13 +51,15 @@ class BaseBackendKeysDownloader:
         if parameters is None:
             parameters = dict()
         parameters = parameters.copy()
-        parameters.update(dict(backend_identifier=self.backend_identifier))
+        parameters.update(dict(
+            backend_identifier=self.backend_identifier,
+            server_endpoint_url=self.server_endpoint_url))
 
         logging.info(f"Downloading TEKs from '{endpoint}' (parameters: {parameters})...")
         no_keys_found_exception = \
             exposure_notification_exceptions.NoKeysFoundException(
                 f"No exposure keys found on endpoint '{endpoint}' (parameters: {parameters}).")
-        request_response = requests.get(url=endpoint)
+        request_response = self.send_get_request(url=endpoint)
         try:
             request_response.raise_for_status()
         except requests.exceptions.HTTPError as e:
@@ -151,6 +158,10 @@ class BaseBackendKeysDownloader:
         exposure_keys_df = pd.DataFrame.from_records(exposure_keys)
         exposure_keys_df["backend_identifier"] = self.backend_identifier
         return exposure_keys_df
+
+    @staticmethod
+    def send_get_request(url, **kwargs):
+        return requests.get(url, **kwargs)
 
     @staticmethod
     def get_dates_from_parameters(*, dates: List[datetime.datetime] = None, days: int, **_kwargs):

@@ -55,7 +55,7 @@ _backend_keys_downloaders = [
         eu_country="IE"),
 ]
 _default_backend_identifiers = \
-    ["ES", "ES@PRE", "CH", "PT", "EE", "MT", "DE-IE", "DE-ES", "IT", "IT-ES", "IT-IE"]
+    ["ES", "ES@PRE", "CH", "PT", "EE", "MT", "BE", "DE-IE", "DE-ES", "IT", "IT-ES", "IT-IE"]
 
 
 def download_exposure_keys_from_backends(
