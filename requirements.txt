@@ -1,8 +1,10 @@
 # For Modules:
 pandas~=0.25.3
-pytz~=2019.3
-requests~=2.24.0
 protobuf~=3.13.0
+pytz~=2019.3
+requests[security]~=2.24.0
+requests[socks]~=2.24.0
+requests~=2.24.0
 
 # For Notebooks:
 seaborn~=0.9.0
