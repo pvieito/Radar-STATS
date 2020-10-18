@@ -10,8 +10,7 @@ from typing import *
 import pandas as pd
 import requests
 
-from Modules.ExposureNotification import exposure_notification_exceptions, \
-    exposure_notification_requests, TemporaryExposureKeyExport_pb2
+from Modules.ExposureNotification import exposure_notification_exceptions, TemporaryExposureKeyExport_pb2
 
 maximum_key_rolling_period = 24 * 60  # 24h in 10 min intervals
 maximum_key_rolling_period_in_seconds = 24 * 60 * 60
@@ -20,8 +19,13 @@ _exposure_keys_export_file_name = "export.bin"
 
 
 class BaseBackendKeysDownloader:
-    def __init__(self, backend_identifier: str):
+    def __init__(
+            self, *, backend_identifier: str, server_endpoint_url: str = None,
+            use_proxy_if_available=None, proxy_url=None):
         self.backend_identifier = backend_identifier
+        self.server_endpoint_url = server_endpoint_url
+        self.use_proxy_if_available = use_proxy_if_available
+        self.proxy_url = proxy_url
 
     def generate_exposure_keys_export_endpoints_with_parameters(self, **kwargs) -> List[dict]:
         raise NotImplemented()
@@ -47,13 +51,15 @@ class BaseBackendKeysDownloader:
         if parameters is None:
             parameters = dict()
         parameters = parameters.copy()
-        parameters.update(dict(backend_identifier=self.backend_identifier))
+        parameters.update(dict(
+            backend_identifier=self.backend_identifier,
+            server_endpoint_url=self.server_endpoint_url))
 
         logging.info(f"Downloading TEKs from '{endpoint}' (parameters: {parameters})...")
         no_keys_found_exception = \
             exposure_notification_exceptions.NoKeysFoundException(
                 f"No exposure keys found on endpoint '{endpoint}' (parameters: {parameters}).")
-        request_response = exposure_notification_requests.get(url=endpoint)
+        request_response = self.send_get_request(url=endpoint)
         try:
             request_response.raise_for_status()
         except requests.exceptions.HTTPError as e:
@@ -152,6 +158,21 @@ class BaseBackendKeysDownloader:
         exposure_keys_df = pd.DataFrame.from_records(exposure_keys)
         exposure_keys_df["backend_identifier"] = self.backend_identifier
         return exposure_keys_df
+
+    def send_get_request(self, url, **kwargs):
+        kwargs = kwargs.copy()
+        if self.use_proxy_if_available:
+            proxy_url = self.proxy_url
+            if proxy_url is None:
+                proxy_url = os.environ.get("EXPOSURE_NOTIFICATION_BACKEND_KEYS_DOWNLOADER__PROXY_URL")
+            if proxy_url == "TOR":
+                proxy_url = "socks5://127.0.0.1:9050"
+            if proxy_url:
+                kwargs.update(dict(proxies={
+                    "http": proxy_url,
+                    "https": proxy_url,
+                }))
+        return requests.get(url, **kwargs)
 
     @staticmethod
     def get_dates_from_parameters(*, dates: List[datetime.datetime] = None, days: int, **_kwargs):

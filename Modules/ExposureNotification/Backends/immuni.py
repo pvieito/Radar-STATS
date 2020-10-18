@@ -1,6 +1,5 @@
 from typing import *
 
-from Modules.ExposureNotification import exposure_notification_requests
 from .base import BaseBackendKeysDownloader
 
 _immuni_server_keys_endpoint_path = "/v1/keys/"
@@ -9,9 +8,8 @@ _immuni_server_keys_eu_country_endpoint_path = "/v1/keys/eu/{eu_country}/"
 
 class ImmuniBackendKeysDownloader(BaseBackendKeysDownloader):
     def __init__(
-            self, backend_identifier: str, server_endpoint_url: str, eu_country: str = None):
-        super().__init__(backend_identifier=backend_identifier)
-        self.server_endpoint_url = server_endpoint_url
+            self, *, eu_country: str = None, **kwargs):
+        super().__init__(**kwargs)
         self.eu_country = eu_country
 
     def generate_exposure_keys_export_endpoints_with_parameters(self, **kwargs) -> List[dict]:
@@ -25,7 +23,7 @@ class ImmuniBackendKeysDownloader(BaseBackendKeysDownloader):
         server_keys_endpoint_url = self.server_endpoint_url + server_keys_endpoint_path
         server_keys_index_endpoint_url = server_keys_endpoint_url + "index"
 
-        response = exposure_notification_requests.get(server_keys_index_endpoint_url)
+        response = self.send_get_request(server_keys_index_endpoint_url)
         response.raise_for_status()
         response_result = response.json()
         oldest_batch_id = response_result["oldest"]
@@ -36,7 +34,6 @@ class ImmuniBackendKeysDownloader(BaseBackendKeysDownloader):
             exposure_keys_export_endpoint = server_keys_endpoint_url + str(batch_id)
             exposure_keys_export_endpoints.append(dict(
                 endpoint=exposure_keys_export_endpoint,
-                server_endpoint_url=self.server_endpoint_url,
                 eu_country=self.eu_country,
                 batch_id=batch_id,
                 endpoint_identifier_components=[

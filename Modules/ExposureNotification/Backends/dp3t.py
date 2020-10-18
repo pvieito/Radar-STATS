@@ -11,9 +11,8 @@ _unix_epoch_datetime = datetime.datetime(year=1970, month=1, day=1, tzinfo=pytz.
 
 
 class DP3TBackendKeysDownloader(BaseBackendKeysDownloader):
-    def __init__(self, backend_identifier: str, server_endpoint_url: str):
-        super().__init__(backend_identifier=backend_identifier)
-        self.server_endpoint_url = server_endpoint_url
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
 
     def generate_exposure_keys_export_endpoints_with_parameters(self, **kwargs) -> List[dict]:
         exposure_keys_export_endpoints = []
@@ -33,7 +32,6 @@ class DP3TBackendKeysDownloader(BaseBackendKeysDownloader):
             exposure_keys_export_endpoints.append(dict(
                 endpoint=exposure_keys_export_endpoint,
                 generation_date=generation_date_string,
-                server_endpoint_url=self.server_endpoint_url,
                 endpoint_identifier_components=[
                     generation_date_string
                 ],

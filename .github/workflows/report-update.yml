@@ -34,7 +34,7 @@ jobs:
           cp RadarCOVID-Report.ipynb Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb
           rm RadarCOVID-Report.ipynb
         env:
-          EXPOSURE_NOTIFICATION_REQUESTS__USE_TOR_PROXY: "TRUE"
+          EXPOSURE_NOTIFICATION_BACKEND_KEYS_DOWNLOADER__PROXY_URL: "TOR"
           RADARCOVID_REPORT__ENABLE_PUBLISH_ON_TWITTER: "TRUE"
           RADARCOVID_REPORT__TWITTER_API_AUTH_KEYS: ${{ secrets.RADARCOVID_REPORT__TWITTER_API_AUTH_KEYS }}
       - name: Clean Data
