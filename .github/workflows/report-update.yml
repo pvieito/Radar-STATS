@@ -21,6 +21,7 @@ jobs:
           printenv OPENVPN_CONFIGURATION > /tmp/vpn.openvpn
           printenv OPENVPN_CREDENTIALS > /tmp/vpn.credentials
           sudo service openvpn start /tmp/vpn.openvpn
+          curl 10.10.10.10
         env:
           OPENVPN_CONFIGURATION: ${{ secrets.OPENVPN_CONFIGURATION }}
           OPENVPN_CREDENTIALS: ${{ secrets.OPENVPN_CREDENTIALS }}
@@ -44,6 +45,7 @@ jobs:
       - name: Clean Data
         run: |
           find Data/TEKs/Hourly/*.json | sort | head -n -72 | xargs -r rm
+          ls Data/TEKs/Raw/
       - name: Commit Report Update
         uses: EndBug/add-and-commit@v4
         if: ${{ github.ref == 'refs/heads/master' }}
