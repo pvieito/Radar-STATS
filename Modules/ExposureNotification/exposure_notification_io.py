@@ -39,6 +39,10 @@ _backend_keys_downloaders = [
         server_endpoint_url="https://svc90.main.px.t-online.de",
         target_country="IE"),
     CoronaWarnAppBackendKeysDownloader(
+        backend_identifier="DE-IT",
+        server_endpoint_url="https://svc90.main.px.t-online.de",
+        target_country="IT"),
+    CoronaWarnAppBackendKeysDownloader(
         backend_identifier="BE",
         server_endpoint_url="https://c19distcdn-prd.ixor.be",
         target_country="BE"),
@@ -53,11 +57,15 @@ _backend_keys_downloaders = [
         backend_identifier="IT-IE",
         server_endpoint_url="https://get.immuni.gov.it",
         eu_country="IE"),
+    ImmuniBackendKeysDownloader(
+        backend_identifier="IT-DE",
+        server_endpoint_url="https://get.immuni.gov.it",
+        eu_country="DE"),
 ]
 _default_backend_identifiers = [
     "ES", "ES@PRE", "CH", "PT",  # DP3T
-    "BE", "DE-ES", "DE-IE",  # Corona-Warn-App
-    "IT", "IT-ES", "IT-IE",  # Immuni
+    "BE", "DE-ES", "DE-IE", "DE-IT",  # Corona-Warn-App
+    "IT", "IT-ES", "IT-IE", "IT-DE",  # Immuni
 ]
 
 
