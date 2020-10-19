@@ -31,29 +31,17 @@ _backend_keys_downloaders = [
         server_endpoint_url="https://svc90.main.px.t-online.de",
         target_country="DE"),
     CoronaWarnAppBackendKeysDownloader(
-        backend_identifier="DE-IE",
-        server_endpoint_url="https://svc90.main.px.t-online.de",
-        target_country="IE"),
-    CoronaWarnAppBackendKeysDownloader(
         backend_identifier="DE-ES",
         server_endpoint_url="https://svc90.main.px.t-online.de",
         target_country="ES"),
     CoronaWarnAppBackendKeysDownloader(
+        backend_identifier="DE-IE",
+        server_endpoint_url="https://svc90.main.px.t-online.de",
+        target_country="IE"),
+    CoronaWarnAppBackendKeysDownloader(
         backend_identifier="BE",
         server_endpoint_url="https://c19distcdn-prd.ixor.be",
         target_country="BE"),
-    CoronaWarnAppBackendKeysDownloader(
-        backend_identifier="BE@TST",
-        server_endpoint_url="https://c19distcdn-tst.ixor.be",
-        target_country="BE"),
-    CoronaWarnAppBackendKeysDownloader(
-        backend_identifier="BE@TST-ES",
-        server_endpoint_url="https://c19distcdn-tst.ixor.be",
-        target_country="ES"),
-    CoronaWarnAppBackendKeysDownloader(
-        backend_identifier="BE@TST-IE",
-        server_endpoint_url="https://c19distcdn-tst.ixor.be",
-        target_country="IE"),
     ImmuniBackendKeysDownloader(
         backend_identifier="IT",
         server_endpoint_url="https://get.immuni.gov.it"),
@@ -67,11 +55,9 @@ _backend_keys_downloaders = [
         eu_country="IE"),
 ]
 _default_backend_identifiers = [
-    "ES", "ES@PRE",
-    "CH", "PT", "EE", "MT",
-    "BE", "BE@TST", "BE@TST-ES", "BE@TST-IE",
-    "DE-ES", "DE-IE",
-    "IT", "IT-ES", "IT-IE"
+    "ES", "ES@PRE", "CH", "PT", "EE", "MT",  # DP3T
+    "BE", "DE-ES", "DE-IE",  # Corona-Warn-App
+    "IT", "IT-ES", "IT-IE",  # Immuni
 ]
 
 
