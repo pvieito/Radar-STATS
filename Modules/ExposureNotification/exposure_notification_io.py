@@ -55,7 +55,7 @@ _backend_keys_downloaders = [
         eu_country="IE"),
 ]
 _default_backend_identifiers = [
-    "ES", "ES@PRE", "CH", "PT", "EE", "MT",  # DP3T
+    "ES", "ES@PRE", "CH", "PT",  # DP3T
     "BE", "DE-ES", "DE-IE",  # Corona-Warn-App
     "IT", "IT-ES", "IT-IE",  # Immuni
 ]
