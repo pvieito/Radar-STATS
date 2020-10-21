@@ -17,7 +17,7 @@
 
 ## Last Results
 
-- [Report 2020-10-21@10](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2020-10-21@11](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
@@ -348,7 +348,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
   <thead>
     <tr>
       <th></th>
-      <th colspan="6" halign="left">Shared TEKs by Generation Date</th>
+      <th colspan="7" halign="left">Shared TEKs by Generation Date</th>
     </tr>
     <tr>
       <th>Backend Region</th>
@@ -357,10 +357,12 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <th>ES</th>
       <th>ES@PRE</th>
       <th>IT</th>
+      <th>IT-IT</th>
       <th>PT</th>
     </tr>
     <tr>
       <th>Sample Date (UTC)</th>
+      <th></th>
       <th></th>
       <th></th>
       <th></th>
@@ -378,6 +380,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>2</td>
       <td>0</td>
       <td>0</td>
+      <td>0</td>
     </tr>
     <tr>
       <th>2020-10-20</th>
@@ -385,6 +388,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>379</td>
       <td>196</td>
       <td>6</td>
+      <td>0</td>
       <td>0</td>
       <td>28</td>
     </tr>
@@ -395,6 +399,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>314</td>
       <td>55</td>
       <td>547</td>
+      <td>76</td>
       <td>71</td>
     </tr>
     <tr>
@@ -404,6 +409,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>424</td>
       <td>63</td>
       <td>537</td>
+      <td>61</td>
       <td>123</td>
     </tr>
     <tr>
@@ -413,6 +419,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>560</td>
       <td>64</td>
       <td>560</td>
+      <td>57</td>
       <td>144</td>
     </tr>
     <tr>
@@ -422,6 +429,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>604</td>
       <td>71</td>
       <td>568</td>
+      <td>56</td>
       <td>185</td>
     </tr>
     <tr>
@@ -431,6 +439,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>663</td>
       <td>68</td>
       <td>624</td>
+      <td>54</td>
       <td>211</td>
     </tr>
     <tr>
@@ -440,6 +449,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>625</td>
       <td>400</td>
       <td>653</td>
+      <td>54</td>
       <td>208</td>
     </tr>
     <tr>
@@ -449,6 +459,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>560</td>
       <td>393</td>
       <td>680</td>
+      <td>51</td>
       <td>200</td>
     </tr>
     <tr>
@@ -458,6 +469,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>510</td>
       <td>427</td>
       <td>685</td>
+      <td>52</td>
       <td>184</td>
     </tr>
     <tr>
@@ -467,6 +479,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>467</td>
       <td>101</td>
       <td>688</td>
+      <td>50</td>
       <td>166</td>
     </tr>
     <tr>
@@ -476,6 +489,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>432</td>
       <td>98</td>
       <td>670</td>
+      <td>51</td>
       <td>148</td>
     </tr>
     <tr>
@@ -485,6 +499,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>422</td>
       <td>94</td>
       <td>654</td>
+      <td>51</td>
       <td>134</td>
     </tr>
     <tr>
@@ -494,6 +509,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>415</td>
       <td>98</td>
       <td>639</td>
+      <td>52</td>
       <td>112</td>
     </tr>
   </tbody>
