@@ -50,6 +50,10 @@ _backend_keys_downloaders = [
         backend_identifier="IT",
         server_endpoint_url="https://get.immuni.gov.it"),
     ImmuniBackendKeysDownloader(
+        backend_identifier="IT-IT",
+        server_endpoint_url="https://get.immuni.gov.it",
+        eu_country="IT"),
+    ImmuniBackendKeysDownloader(
         backend_identifier="IT-ES",
         server_endpoint_url="https://get.immuni.gov.it",
         eu_country="ES"),
@@ -65,7 +69,7 @@ _backend_keys_downloaders = [
 _default_backend_identifiers = [
     "ES", "ES@PRE", "CH", "PT",  # DP3T
     "BE", "DE-ES", "DE-IE", "DE-IT",  # Corona-Warn-App
-    "IT", "IT-ES", "IT-IE", "IT-DE",  # Immuni
+    "IT", "IT-IT", "IT-ES", "IT-IE", "IT-DE",  # Immuni
 ]
 
 
