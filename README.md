@@ -17,7 +17,7 @@
 
 ## Last Results
 
-- [Report 2020-10-22@13](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2020-10-22@14](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
@@ -52,17 +52,17 @@
     <tr>
       <th>2020-10-22</th>
       <td>13891</td>
-      <td>71</td>
-      <td>344</td>
-      <td>71</td>
-      <td>71</td>
-      <td>4.85</td>
-      <td>0.51%</td>
+      <td>88</td>
+      <td>423</td>
+      <td>88</td>
+      <td>82</td>
+      <td>5.16</td>
+      <td>0.59%</td>
     </tr>
     <tr>
       <th>2020-10-21</th>
       <td>13891</td>
-      <td>228</td>
+      <td>239</td>
       <td>841</td>
       <td>157</td>
       <td>153</td>
@@ -72,7 +72,7 @@
     <tr>
       <th>2020-10-20</th>
       <td>13177</td>
-      <td>356</td>
+      <td>367</td>
       <td>772</td>
       <td>149</td>
       <td>135</td>
@@ -82,7 +82,7 @@
     <tr>
       <th>2020-10-19</th>
       <td>12212</td>
-      <td>463</td>
+      <td>473</td>
       <td>791</td>
       <td>142</td>
       <td>123</td>
@@ -92,7 +92,7 @@
     <tr>
       <th>2020-10-18</th>
       <td>10778</td>
-      <td>543</td>
+      <td>551</td>
       <td>726</td>
       <td>146</td>
       <td>132</td>
@@ -102,7 +102,7 @@
     <tr>
       <th>2020-10-17</th>
       <td>10778</td>
-      <td>653</td>
+      <td>660</td>
       <td>767</td>
       <td>174</td>
       <td>138</td>
@@ -112,7 +112,7 @@
     <tr>
       <th>2020-10-16</th>
       <td>10778</td>
-      <td>658</td>
+      <td>662</td>
       <td>769</td>
       <td>149</td>
       <td>141</td>
@@ -122,7 +122,7 @@
     <tr>
       <th>2020-10-15</th>
       <td>10436</td>
-      <td>693</td>
+      <td>697</td>
       <td>671</td>
       <td>151</td>
       <td>175</td>
@@ -132,7 +132,7 @@
     <tr>
       <th>2020-10-14</th>
       <td>10308</td>
-      <td>649</td>
+      <td>651</td>
       <td>463</td>
       <td>1</td>
       <td>133</td>
@@ -142,7 +142,7 @@
     <tr>
       <th>2020-10-13</th>
       <td>10097</td>
-      <td>576</td>
+      <td>577</td>
       <td>334</td>
       <td>1</td>
       <td>112</td>
@@ -152,7 +152,7 @@
     <tr>
       <th>2020-10-12</th>
       <td>10794</td>
-      <td>523</td>
+      <td>524</td>
       <td>326</td>
       <td>2</td>
       <td>136</td>
@@ -162,7 +162,7 @@
     <tr>
       <th>2020-10-11</th>
       <td>10169</td>
-      <td>475</td>
+      <td>476</td>
       <td>422</td>
       <td>1</td>
       <td>147</td>
@@ -172,7 +172,7 @@
     <tr>
       <th>2020-10-10</th>
       <td>10169</td>
-      <td>436</td>
+      <td>437</td>
       <td>429</td>
       <td>0</td>
       <td>133</td>
@@ -182,7 +182,7 @@
     <tr>
       <th>2020-10-09</th>
       <td>10169</td>
-      <td>425</td>
+      <td>426</td>
       <td>348</td>
       <td>1</td>
       <td>105</td>
@@ -384,11 +384,11 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <th>2020-10-22</th>
       <td>0</td>
       <td>0</td>
-      <td>100</td>
+      <td>137</td>
       <td>0</td>
       <td>0</td>
-      <td>71</td>
-      <td>18</td>
+      <td>88</td>
+      <td>21</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -398,183 +398,183 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <th>2020-10-21</th>
       <td>0</td>
       <td>0</td>
-      <td>474</td>
+      <td>572</td>
       <td>0</td>
-      <td>6</td>
-      <td>228</td>
-      <td>18</td>
+      <td>8</td>
+      <td>239</td>
+      <td>24</td>
       <td>21</td>
       <td>0</td>
-      <td>105</td>
-      <td>40</td>
+      <td>106</td>
+      <td>52</td>
     </tr>
     <tr>
       <th>2020-10-20</th>
       <td>370</td>
       <td>48</td>
-      <td>969</td>
+      <td>1067</td>
       <td>1374</td>
-      <td>11</td>
-      <td>356</td>
-      <td>25</td>
+      <td>13</td>
+      <td>367</td>
+      <td>26</td>
       <td>1046</td>
       <td>0</td>
-      <td>111</td>
-      <td>74</td>
+      <td>112</td>
+      <td>84</td>
     </tr>
     <tr>
       <th>2020-10-19</th>
       <td>597</td>
       <td>50</td>
-      <td>1425</td>
+      <td>1523</td>
       <td>2300</td>
-      <td>12</td>
-      <td>463</td>
+      <td>14</td>
+      <td>473</td>
       <td>69</td>
       <td>1500</td>
       <td>76</td>
-      <td>113</td>
-      <td>116</td>
+      <td>114</td>
+      <td>125</td>
     </tr>
     <tr>
       <th>2020-10-18</th>
       <td>678</td>
       <td>45</td>
-      <td>1793</td>
+      <td>1882</td>
       <td>2649</td>
-      <td>12</td>
-      <td>543</td>
+      <td>14</td>
+      <td>551</td>
       <td>76</td>
       <td>1400</td>
       <td>61</td>
-      <td>116</td>
-      <td>166</td>
+      <td>117</td>
+      <td>175</td>
     </tr>
     <tr>
       <th>2020-10-17</th>
       <td>804</td>
       <td>55</td>
-      <td>2123</td>
+      <td>2205</td>
       <td>3051</td>
-      <td>16</td>
-      <td>653</td>
+      <td>18</td>
+      <td>660</td>
       <td>77</td>
       <td>1399</td>
       <td>57</td>
-      <td>118</td>
-      <td>181</td>
+      <td>119</td>
+      <td>189</td>
     </tr>
     <tr>
       <th>2020-10-16</th>
       <td>829</td>
       <td>56</td>
-      <td>2358</td>
+      <td>2425</td>
       <td>4621</td>
-      <td>13</td>
-      <td>658</td>
+      <td>14</td>
+      <td>662</td>
       <td>85</td>
       <td>1376</td>
       <td>56</td>
-      <td>123</td>
-      <td>218</td>
+      <td>124</td>
+      <td>225</td>
     </tr>
     <tr>
       <th>2020-10-15</th>
       <td>831</td>
       <td>54</td>
-      <td>2554</td>
+      <td>2597</td>
       <td>8600</td>
-      <td>12</td>
-      <td>693</td>
+      <td>13</td>
+      <td>697</td>
       <td>79</td>
       <td>1417</td>
       <td>54</td>
-      <td>125</td>
-      <td>238</td>
+      <td>126</td>
+      <td>242</td>
     </tr>
     <tr>
       <th>2020-10-14</th>
       <td>794</td>
       <td>50</td>
-      <td>2566</td>
+      <td>2597</td>
       <td>11862</td>
-      <td>10</td>
-      <td>649</td>
+      <td>11</td>
+      <td>651</td>
       <td>411</td>
       <td>1422</td>
       <td>54</td>
-      <td>128</td>
-      <td>229</td>
+      <td>129</td>
+      <td>232</td>
     </tr>
     <tr>
       <th>2020-10-13</th>
       <td>734</td>
       <td>48</td>
-      <td>2512</td>
+      <td>2534</td>
       <td>14360</td>
-      <td>10</td>
-      <td>576</td>
+      <td>11</td>
+      <td>577</td>
       <td>404</td>
       <td>1424</td>
       <td>51</td>
-      <td>126</td>
-      <td>216</td>
+      <td>127</td>
+      <td>219</td>
     </tr>
     <tr>
       <th>2020-10-12</th>
       <td>638</td>
       <td>43</td>
-      <td>2347</td>
+      <td>2361</td>
       <td>16233</td>
       <td>11</td>
-      <td>523</td>
+      <td>524</td>
       <td>438</td>
       <td>1408</td>
       <td>52</td>
-      <td>128</td>
-      <td>195</td>
+      <td>129</td>
+      <td>199</td>
     </tr>
     <tr>
       <th>2020-10-11</th>
       <td>517</td>
       <td>53</td>
-      <td>2104</td>
+      <td>2112</td>
       <td>17217</td>
       <td>13</td>
-      <td>475</td>
+      <td>476</td>
       <td>112</td>
       <td>1398</td>
       <td>50</td>
-      <td>131</td>
-      <td>177</td>
+      <td>132</td>
+      <td>181</td>
     </tr>
     <tr>
       <th>2020-10-10</th>
       <td>430</td>
       <td>55</td>
-      <td>1833</td>
+      <td>1834</td>
       <td>18286</td>
       <td>12</td>
-      <td>436</td>
+      <td>437</td>
       <td>109</td>
       <td>1357</td>
       <td>51</td>
-      <td>129</td>
-      <td>153</td>
+      <td>130</td>
+      <td>156</td>
     </tr>
     <tr>
       <th>2020-10-09</th>
       <td>387</td>
       <td>42</td>
-      <td>1621</td>
+      <td>1622</td>
       <td>20208</td>
       <td>6</td>
-      <td>425</td>
+      <td>426</td>
       <td>107</td>
       <td>1329</td>
       <td>51</td>
-      <td>127</td>
-      <td>135</td>
+      <td>128</td>
+      <td>136</td>
     </tr>
   </tbody>
 </table>
