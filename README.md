@@ -348,12 +348,13 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
   <thead>
     <tr>
       <th></th>
-      <th colspan="7" halign="left">Shared TEKs by Generation Date</th>
+      <th colspan="8" halign="left">Shared TEKs by Generation Date</th>
     </tr>
     <tr>
       <th>Backend Region</th>
       <th>BE</th>
       <th>CH</th>
+      <th>DE</th>
       <th>ES</th>
       <th>ES@PRE</th>
       <th>IT</th>
@@ -369,6 +370,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <th></th>
       <th></th>
       <th></th>
+      <th></th>
     </tr>
   </thead>
   <tbody>
@@ -376,6 +378,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <th>2020-10-22</th>
       <td>0</td>
       <td>21</td>
+      <td>0</td>
       <td>15</td>
       <td>0</td>
       <td>0</td>
@@ -386,6 +389,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <th>2020-10-21</th>
       <td>0</td>
       <td>296</td>
+      <td>0</td>
       <td>178</td>
       <td>10</td>
       <td>3</td>
@@ -396,6 +400,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <th>2020-10-20</th>
       <td>370</td>
       <td>806</td>
+      <td>1374</td>
       <td>311</td>
       <td>12</td>
       <td>1028</td>
@@ -406,6 +411,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <th>2020-10-19</th>
       <td>597</td>
       <td>1266</td>
+      <td>2300</td>
       <td>422</td>
       <td>58</td>
       <td>1484</td>
@@ -416,6 +422,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <th>2020-10-18</th>
       <td>678</td>
       <td>1637</td>
+      <td>2649</td>
       <td>514</td>
       <td>65</td>
       <td>1386</td>
@@ -426,6 +433,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <th>2020-10-17</th>
       <td>804</td>
       <td>1985</td>
+      <td>3051</td>
       <td>633</td>
       <td>66</td>
       <td>1388</td>
@@ -436,6 +444,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <th>2020-10-16</th>
       <td>829</td>
       <td>2260</td>
+      <td>4621</td>
       <td>649</td>
       <td>73</td>
       <td>1366</td>
@@ -446,6 +455,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <th>2020-10-15</th>
       <td>831</td>
       <td>2486</td>
+      <td>8600</td>
       <td>687</td>
       <td>68</td>
       <td>1408</td>
@@ -456,6 +466,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <th>2020-10-14</th>
       <td>794</td>
       <td>2519</td>
+      <td>11862</td>
       <td>644</td>
       <td>400</td>
       <td>1413</td>
@@ -466,6 +477,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <th>2020-10-13</th>
       <td>734</td>
       <td>2486</td>
+      <td>14360</td>
       <td>574</td>
       <td>393</td>
       <td>1416</td>
@@ -476,6 +488,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <th>2020-10-12</th>
       <td>638</td>
       <td>2330</td>
+      <td>16233</td>
       <td>521</td>
       <td>427</td>
       <td>1402</td>
@@ -486,6 +499,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <th>2020-10-11</th>
       <td>517</td>
       <td>2096</td>
+      <td>17217</td>
       <td>473</td>
       <td>101</td>
       <td>1393</td>
@@ -496,6 +510,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <th>2020-10-10</th>
       <td>430</td>
       <td>1829</td>
+      <td>18286</td>
       <td>435</td>
       <td>97</td>
       <td>1354</td>
@@ -506,6 +521,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <th>2020-10-09</th>
       <td>387</td>
       <td>1619</td>
+      <td>20208</td>
       <td>424</td>
       <td>94</td>
       <td>1327</td>
