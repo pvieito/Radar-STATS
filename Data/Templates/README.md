@@ -37,7 +37,7 @@
 
 ### Multi-Backend Summary Table
 
-_**NOTE:** This table includes data extracted from different Exposure Notification backends (eg. `CH` backend data extracted from the SwissCovid server). You can find the exact backend definitions in the [`exposure_notification_io` module]({github_project_base_url}/blob/master/Modules/ExposureNotification/exposure_notification_io.py)._ 
+_**NOTE:** This table includes data extracted from different Exposure Notification backends (eg. the `CH` backend data is extracted from the SwissCovid server). You can find the exact backend definitions in the [`exposure_notification_io` module]({github_project_base_url}/blob/master/Modules/ExposureNotification/exposure_notification_io.py)._ 
 
 {multi_backend_summary_table_html}
 
