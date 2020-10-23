@@ -35,13 +35,13 @@
 
 - [Daily Generation to Upload Period Table File]({github_project_base_url}/blob/master/Data/Resources/Current/RadarCOVID-Report-Generation-Upload-Period-Table.csv)
 
-### Multi-Region Summary Table
+### Multi-Backend Summary Table
 
-_**NOTE:** This table includes data extracted from different Exposure Notification backends for each region (eg. Switzerland data is from the SwissCovid server). You can find the exact region to backend mapping in the [`exposure_notification_io` module]({github_project_base_url}/blob/master/Modules/ExposureNotification/exposure_notification_io.py)._ 
+_**NOTE:** This table includes data extracted from different Exposure Notification backends (eg. `CH` backend data extracted from the SwissCovid server). You can find the exact backend definitions in the [`exposure_notification_io` module]({github_project_base_url}/blob/master/Modules/ExposureNotification/exposure_notification_io.py)._ 
 
-{multi_region_summary_table_html}
+{multi_backend_summary_table_html}
 
-- [Multi-Region Summary Table File]({github_project_base_url}/blob/master/Data/Resources/Current/RadarCOVID-Report-Multi-Region-Summary-Table.csv)
+- [Multi-Backend Summary Table File]({github_project_base_url}/blob/master/Data/Resources/Current/RadarCOVID-Report-Multi-Backend-Summary-Table.csv)
 
 ## Documentation
 
