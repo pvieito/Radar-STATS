@@ -1,8 +1,8 @@
 {
-    "applicable_regions": [
+    "source_regions": [
         "ES"
     ],
-    "extraction_datetime": 1603459909492,
+    "extraction_datetime": 1603460545858,
     "extraction_date": "2020-10-23",
     "extraction_date_with_hour": "2020-10-23@13",
     "last_hour": {
