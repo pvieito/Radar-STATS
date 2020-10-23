@@ -342,13 +342,13 @@
 
 ### Multi-Backend Summary Table
 
-_**NOTE:** This table includes data extracted from different Exposure Notification backends (eg. `CH` backend data extracted from the SwissCovid server). You can find the exact backend definitions in the [`exposure_notification_io` module](https://github.com/pvieito/Radar-STATS/blob/master/Modules/ExposureNotification/exposure_notification_io.py)._ 
+_**NOTE:** This table includes data extracted from different Exposure Notification backends (eg. the `CH` backend data is extracted from the SwissCovid server). You can find the exact backend definitions in the [`exposure_notification_io` module](https://github.com/pvieito/Radar-STATS/blob/master/Modules/ExposureNotification/exposure_notification_io.py)._ 
 
 <table border="1" class="dataframe">
   <thead>
     <tr>
       <th></th>
-      <th colspan="11" halign="left">Shared TEKs by Generation Date</th>
+      <th colspan="10" halign="left">Shared TEKs by Generation Date</th>
     </tr>
     <tr>
       <th>Backend Identifier</th>
@@ -360,13 +360,11 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <th>ES</th>
       <th>ES@PRE</th>
       <th>IT</th>
-      <th>IT-IT</th>
       <th>MT</th>
       <th>PT</th>
     </tr>
     <tr>
       <th>Sample Date (UTC)</th>
-      <th></th>
       <th></th>
       <th></th>
       <th></th>
@@ -392,7 +390,6 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>0</td>
       <td>0</td>
       <td>0</td>
-      <td>0</td>
     </tr>
     <tr>
       <th>2020-10-22</th>
@@ -404,7 +401,6 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>290</td>
       <td>66</td>
       <td>1039</td>
-      <td>0</td>
       <td>107</td>
       <td>90</td>
     </tr>
@@ -418,7 +414,6 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>390</td>
       <td>178</td>
       <td>1054</td>
-      <td>0</td>
       <td>111</td>
       <td>126</td>
     </tr>
@@ -432,7 +427,6 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>500</td>
       <td>176</td>
       <td>2000</td>
-      <td>0</td>
       <td>117</td>
       <td>158</td>
     </tr>
@@ -446,7 +440,6 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>578</td>
       <td>218</td>
       <td>2418</td>
-      <td>76</td>
       <td>119</td>
       <td>202</td>
     </tr>
@@ -460,7 +453,6 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>629</td>
       <td>224</td>
       <td>2278</td>
-      <td>61</td>
       <td>122</td>
       <td>239</td>
     </tr>
@@ -474,7 +466,6 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>701</td>
       <td>225</td>
       <td>2243</td>
-      <td>57</td>
       <td>125</td>
       <td>239</td>
     </tr>
@@ -488,7 +479,6 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>686</td>
       <td>233</td>
       <td>2175</td>
-      <td>56</td>
       <td>129</td>
       <td>262</td>
     </tr>
@@ -502,7 +492,6 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>713</td>
       <td>227</td>
       <td>2177</td>
-      <td>54</td>
       <td>130</td>
       <td>270</td>
     </tr>
@@ -516,7 +505,6 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>660</td>
       <td>559</td>
       <td>2155</td>
-      <td>54</td>
       <td>133</td>
       <td>257</td>
     </tr>
@@ -530,7 +518,6 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>582</td>
       <td>552</td>
       <td>2115</td>
-      <td>51</td>
       <td>130</td>
       <td>233</td>
     </tr>
@@ -544,7 +531,6 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>527</td>
       <td>586</td>
       <td>2089</td>
-      <td>52</td>
       <td>130</td>
       <td>209</td>
     </tr>
@@ -558,7 +544,6 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>477</td>
       <td>260</td>
       <td>2057</td>
-      <td>50</td>
       <td>133</td>
       <td>186</td>
     </tr>
@@ -572,7 +557,6 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>438</td>
       <td>257</td>
       <td>2013</td>
-      <td>51</td>
       <td>131</td>
       <td>158</td>
     </tr>
