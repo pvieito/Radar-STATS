@@ -73,7 +73,7 @@ _backend_clients = [
 _default_backend_identifiers = [
     "ES", "ES@PRE", "CH", "PT", "EE", "MT",  # DP3T
     "DE", "DE-ES", "DE-IE", "DE-IT", "BE", "BE@TST",  # Corona-Warn-App
-    "IT", "IT-IT", "IT-ES", "IT-IE", "IT-DE",  # Immuni
+    "IT", "IT-ES", "IT-IE", "IT-DE",  # Immuni
 ]
 
 
