@@ -17,7 +17,7 @@
 
 ## Last Results
 
-- [Report 2020-10-23@11](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2020-10-23@12](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
@@ -29,13 +29,13 @@
   <thead>
     <tr style="text-align: right;">
       <th></th>
-      <th>COVID-19 Cases (7-day Rolling Average)</th>
+      <th>COVID-19 Cases in Applicable Countries (7-day Rolling Average)</th>
       <th>Shared TEKs by Generation Date</th>
       <th>Shared TEKs by Upload Date</th>
       <th>Shared TEKs Uploaded on Generation Date</th>
       <th>Shared Diagnoses (Estimation)</th>
       <th>TEKs Uploaded per Shared Diagnosis</th>
-      <th>Usage Ratio (Fraction of Cases Which Shared Diagnosis)</th>
+      <th>Usage Ratio (Fraction of Cases in Applicable Countries Which Shared Diagnosis)</th>
     </tr>
     <tr>
       <th>Sample Date (UTC)</th>
@@ -52,282 +52,282 @@
     <tr>
       <th>2020-10-23</th>
       <td>14987</td>
-      <td>45</td>
-      <td>250</td>
-      <td>45</td>
-      <td>50</td>
-      <td>5.00</td>
-      <td>0.33%</td>
+      <td>67</td>
+      <td>366</td>
+      <td>67</td>
+      <td>69</td>
+      <td>5.30</td>
+      <td>0.46%</td>
     </tr>
     <tr>
       <th>2020-10-22</th>
       <td>14987</td>
-      <td>230</td>
-      <td>726</td>
-      <td>180</td>
-      <td>132</td>
-      <td>5.50</td>
-      <td>0.88%</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.00</td>
+      <td>0.00%</td>
     </tr>
     <tr>
       <th>2020-10-21</th>
       <td>13891</td>
-      <td>330</td>
-      <td>841</td>
-      <td>157</td>
-      <td>153</td>
-      <td>5.50</td>
-      <td>1.10%</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.00</td>
+      <td>0.00%</td>
     </tr>
     <tr>
       <th>2020-10-20</th>
       <td>13177</td>
-      <td>454</td>
-      <td>772</td>
-      <td>149</td>
-      <td>135</td>
-      <td>5.72</td>
-      <td>1.02%</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.00</td>
+      <td>0.00%</td>
     </tr>
     <tr>
       <th>2020-10-19</th>
       <td>12212</td>
-      <td>542</td>
-      <td>791</td>
-      <td>142</td>
-      <td>123</td>
-      <td>6.43</td>
-      <td>1.01%</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.00</td>
+      <td>0.00%</td>
     </tr>
     <tr>
       <th>2020-10-18</th>
       <td>10778</td>
-      <td>602</td>
-      <td>726</td>
-      <td>146</td>
-      <td>132</td>
-      <td>5.50</td>
-      <td>1.22%</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.00</td>
+      <td>0.00%</td>
     </tr>
     <tr>
       <th>2020-10-17</th>
       <td>10778</td>
-      <td>689</td>
-      <td>767</td>
-      <td>174</td>
-      <td>138</td>
-      <td>5.56</td>
-      <td>1.28%</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.00</td>
+      <td>0.00%</td>
     </tr>
     <tr>
       <th>2020-10-16</th>
       <td>10778</td>
-      <td>681</td>
-      <td>769</td>
-      <td>149</td>
-      <td>141</td>
-      <td>5.45</td>
-      <td>1.31%</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.00</td>
+      <td>0.00%</td>
     </tr>
     <tr>
       <th>2020-10-15</th>
       <td>10436</td>
-      <td>708</td>
-      <td>671</td>
-      <td>151</td>
-      <td>175</td>
-      <td>3.83</td>
-      <td>1.68%</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.00</td>
+      <td>0.00%</td>
     </tr>
     <tr>
       <th>2020-10-14</th>
       <td>10308</td>
-      <td>656</td>
-      <td>463</td>
-      <td>1</td>
-      <td>133</td>
-      <td>3.48</td>
-      <td>1.29%</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.00</td>
+      <td>0.00%</td>
     </tr>
     <tr>
       <th>2020-10-13</th>
       <td>10097</td>
-      <td>580</td>
-      <td>334</td>
-      <td>1</td>
-      <td>112</td>
-      <td>2.98</td>
-      <td>1.11%</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.00</td>
+      <td>0.00%</td>
     </tr>
     <tr>
       <th>2020-10-12</th>
       <td>10794</td>
-      <td>525</td>
-      <td>326</td>
-      <td>2</td>
-      <td>136</td>
-      <td>2.40</td>
-      <td>1.26%</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.00</td>
+      <td>0.00%</td>
     </tr>
     <tr>
       <th>2020-10-11</th>
       <td>10169</td>
-      <td>476</td>
-      <td>422</td>
-      <td>1</td>
-      <td>147</td>
-      <td>2.87</td>
-      <td>1.45%</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.00</td>
+      <td>0.00%</td>
     </tr>
     <tr>
       <th>2020-10-10</th>
       <td>10169</td>
-      <td>437</td>
-      <td>429</td>
       <td>0</td>
-      <td>133</td>
-      <td>3.23</td>
-      <td>1.31%</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.00</td>
+      <td>0.00%</td>
     </tr>
     <tr>
       <th>2020-10-09</th>
       <td>10169</td>
-      <td>426</td>
-      <td>348</td>
-      <td>1</td>
-      <td>105</td>
-      <td>3.31</td>
-      <td>1.03%</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.00</td>
+      <td>0.00%</td>
     </tr>
     <tr>
       <th>2020-10-08</th>
       <td>9960</td>
-      <td>417</td>
-      <td>272</td>
-      <td>1</td>
-      <td>86</td>
-      <td>3.16</td>
-      <td>0.86%</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.00</td>
+      <td>0.00%</td>
     </tr>
     <tr>
       <th>2020-10-07</th>
       <td>9530</td>
-      <td>375</td>
-      <td>178</td>
       <td>0</td>
-      <td>54</td>
-      <td>3.30</td>
-      <td>0.57%</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.00</td>
+      <td>0.00%</td>
     </tr>
     <tr>
       <th>2020-10-06</th>
-      <td>11021</td>
-      <td>384</td>
-      <td>233</td>
-      <td>60</td>
-      <td>56</td>
-      <td>4.16</td>
-      <td>0.51%</td>
+      <td>9605</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.00</td>
+      <td>0.00%</td>
     </tr>
     <tr>
       <th>2020-10-05</th>
       <td>9307</td>
-      <td>350</td>
-      <td>273</td>
-      <td>52</td>
-      <td>69</td>
-      <td>3.96</td>
-      <td>0.74%</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.00</td>
+      <td>0.00%</td>
     </tr>
     <tr>
       <th>2020-10-04</th>
       <td>10493</td>
-      <td>353</td>
-      <td>331</td>
-      <td>76</td>
-      <td>78</td>
-      <td>4.24</td>
-      <td>0.74%</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.00</td>
+      <td>0.00%</td>
     </tr>
     <tr>
       <th>2020-10-03</th>
       <td>10493</td>
-      <td>312</td>
-      <td>324</td>
-      <td>69</td>
-      <td>76</td>
-      <td>4.26</td>
-      <td>0.72%</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.00</td>
+      <td>0.00%</td>
     </tr>
     <tr>
       <th>2020-10-02</th>
       <td>10493</td>
-      <td>312</td>
-      <td>299</td>
-      <td>72</td>
-      <td>72</td>
-      <td>4.15</td>
-      <td>0.69%</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.00</td>
+      <td>0.00%</td>
     </tr>
     <tr>
       <th>2020-10-01</th>
       <td>10628</td>
-      <td>317</td>
-      <td>367</td>
-      <td>75</td>
-      <td>74</td>
-      <td>4.96</td>
-      <td>0.70%</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.00</td>
+      <td>0.00%</td>
     </tr>
     <tr>
       <th>2020-09-30</th>
       <td>10805</td>
-      <td>294</td>
-      <td>271</td>
-      <td>55</td>
-      <td>51</td>
-      <td>5.31</td>
-      <td>0.47%</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.00</td>
+      <td>0.00%</td>
     </tr>
     <tr>
       <th>2020-09-29</th>
-      <td>9428</td>
-      <td>265</td>
-      <td>178</td>
-      <td>32</td>
-      <td>44</td>
-      <td>4.05</td>
-      <td>0.47%</td>
+      <td>10844</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.00</td>
+      <td>0.00%</td>
     </tr>
     <tr>
       <th>2020-09-28</th>
       <td>10971</td>
-      <td>269</td>
-      <td>211</td>
-      <td>44</td>
-      <td>54</td>
-      <td>3.91</td>
-      <td>0.49%</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.00</td>
+      <td>0.00%</td>
     </tr>
     <tr>
       <th>2020-09-27</th>
       <td>10920</td>
-      <td>315</td>
-      <td>449</td>
-      <td>98</td>
-      <td>108</td>
-      <td>4.16</td>
-      <td>0.99%</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.00</td>
+      <td>0.00%</td>
     </tr>
     <tr>
       <th>2020-09-26</th>
       <td>10920</td>
-      <td>339</td>
-      <td>448</td>
-      <td>79</td>
-      <td>110</td>
-      <td>4.07</td>
-      <td>1.01%</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.00</td>
+      <td>0.00%</td>
     </tr>
   </tbody>
 </table>
@@ -384,11 +384,11 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <th>2020-10-23</th>
       <td>0</td>
       <td>0</td>
-      <td>111</td>
+      <td>142</td>
       <td>0</td>
       <td>0</td>
-      <td>45</td>
-      <td>8</td>
+      <td>67</td>
+      <td>11</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -398,11 +398,11 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <th>2020-10-22</th>
       <td>0</td>
       <td>0</td>
-      <td>569</td>
+      <td>648</td>
       <td>0</td>
       <td>3</td>
-      <td>230</td>
-      <td>44</td>
+      <td>249</td>
+      <td>64</td>
       <td>458</td>
       <td>0</td>
       <td>105</td>
@@ -412,11 +412,11 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <th>2020-10-21</th>
       <td>493</td>
       <td>47</td>
-      <td>1058</td>
+      <td>1134</td>
       <td>1592</td>
       <td>10</td>
-      <td>330</td>
-      <td>160</td>
+      <td>349</td>
+      <td>178</td>
       <td>504</td>
       <td>0</td>
       <td>109</td>
@@ -426,39 +426,39 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <th>2020-10-20</th>
       <td>797</td>
       <td>48</td>
-      <td>1541</td>
+      <td>1620</td>
       <td>2821</td>
       <td>14</td>
-      <td>454</td>
-      <td>158</td>
+      <td>471</td>
+      <td>176</td>
       <td>1488</td>
       <td>0</td>
       <td>115</td>
-      <td>111</td>
+      <td>119</td>
     </tr>
     <tr>
       <th>2020-10-19</th>
       <td>988</td>
       <td>50</td>
-      <td>1983</td>
+      <td>2061</td>
       <td>3622</td>
       <td>15</td>
-      <td>542</td>
-      <td>200</td>
+      <td>556</td>
+      <td>218</td>
       <td>1928</td>
       <td>76</td>
       <td>117</td>
-      <td>152</td>
+      <td>160</td>
     </tr>
     <tr>
       <th>2020-10-18</th>
       <td>1004</td>
       <td>45</td>
-      <td>2300</td>
+      <td>2367</td>
       <td>3898</td>
       <td>15</td>
-      <td>602</td>
-      <td>207</td>
+      <td>611</td>
+      <td>224</td>
       <td>1816</td>
       <td>61</td>
       <td>120</td>
@@ -468,11 +468,11 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <th>2020-10-17</th>
       <td>1052</td>
       <td>55</td>
-      <td>2549</td>
+      <td>2600</td>
       <td>4284</td>
       <td>19</td>
-      <td>689</td>
-      <td>208</td>
+      <td>694</td>
+      <td>225</td>
       <td>1804</td>
       <td>57</td>
       <td>122</td>
@@ -482,39 +482,39 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <th>2020-10-16</th>
       <td>988</td>
       <td>56</td>
-      <td>2660</td>
+      <td>2691</td>
       <td>5827</td>
       <td>15</td>
-      <td>681</td>
-      <td>216</td>
+      <td>684</td>
+      <td>233</td>
       <td>1765</td>
       <td>56</td>
       <td>127</td>
-      <td>240</td>
+      <td>243</td>
     </tr>
     <tr>
       <th>2020-10-15</th>
       <td>922</td>
       <td>54</td>
-      <td>2748</td>
+      <td>2771</td>
       <td>9795</td>
       <td>14</td>
-      <td>708</td>
-      <td>210</td>
+      <td>711</td>
+      <td>227</td>
       <td>1797</td>
       <td>54</td>
       <td>128</td>
-      <td>253</td>
+      <td>254</td>
     </tr>
     <tr>
       <th>2020-10-14</th>
       <td>837</td>
       <td>50</td>
-      <td>2699</td>
+      <td>2717</td>
       <td>13038</td>
       <td>11</td>
-      <td>656</td>
-      <td>542</td>
+      <td>659</td>
+      <td>559</td>
       <td>1789</td>
       <td>54</td>
       <td>131</td>
@@ -524,39 +524,39 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <th>2020-10-13</th>
       <td>749</td>
       <td>48</td>
-      <td>2591</td>
+      <td>2602</td>
       <td>15525</td>
       <td>11</td>
-      <td>580</td>
-      <td>535</td>
+      <td>581</td>
+      <td>552</td>
       <td>1773</td>
       <td>51</td>
       <td>128</td>
-      <td>226</td>
+      <td>227</td>
     </tr>
     <tr>
       <th>2020-10-12</th>
       <td>638</td>
       <td>43</td>
-      <td>2387</td>
+      <td>2394</td>
       <td>17382</td>
       <td>11</td>
-      <td>525</td>
-      <td>569</td>
+      <td>526</td>
+      <td>586</td>
       <td>1746</td>
       <td>52</td>
       <td>129</td>
-      <td>203</td>
+      <td>204</td>
     </tr>
     <tr>
       <th>2020-10-11</th>
       <td>517</td>
       <td>53</td>
-      <td>2126</td>
+      <td>2129</td>
       <td>18353</td>
       <td>13</td>
       <td>476</td>
-      <td>243</td>
+      <td>260</td>
       <td>1726</td>
       <td>50</td>
       <td>132</td>
@@ -566,11 +566,11 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <th>2020-10-10</th>
       <td>430</td>
       <td>55</td>
-      <td>1840</td>
+      <td>1841</td>
       <td>19414</td>
       <td>12</td>
       <td>437</td>
-      <td>240</td>
+      <td>257</td>
       <td>1683</td>
       <td>51</td>
       <td>130</td>
@@ -589,17 +589,18 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
 
 ### Metrics
 
-- **COVID-19 Cases** (`covid_cases`): Confirmed new COVID-19 cases in Spain estimated with a 7-day rolling average.
+- **Applicable COVID-19 Cases** (`covid_cases`): Confirmed new COVID-19 cases in applicable countries estimated with a 7-day rolling average (see the notes below for more information).
 - **Shared TEKs by Generation Date** (`shared_teks_by_generation_date`): TEKs uploaded to the Radar COVID server by the date they were generated on-device.
 - **Shared TEKs by Upload Date** (`shared_teks_by_upload_date`): TEKs uploaded to the Radar COVID server by the date they were uploaded using the one-time code sent by the Health Authorities.
 - **Shared TEKs Uploaded on Generation Date** (`shared_teks_uploaded_on_generation_date`): TEKs uploaded to the Radar COVID server on the same date they were generated on-device. This metric measures the number of diagnoses shared by devices which already support the new Exposure Notification API version with early TEK release (ie. the current date TEK is released along previous days TEKs), see the notes below for more information.
-- **Shared Diagnoses** (`shared_diagnoses`): Estimation of the number of diagnoses shared via the Radar COVID app. The estimation is inferred from the number of TEKs uploaded each day which were generated on-device the previous day: typically each device sharing a positive diagnosis should upload at least the TEK generated on-device the previous day. This estimation represents the maximum number of diagnoses that were shared via the app, the real number can be lower, see the notes below for more information.
+- **Shared Diagnoses** (`shared_diagnoses`): Estimation of the number of diagnoses shared via Exposure Notification apps published on the Radar COVID server. The estimation is inferred from the number of TEKs uploaded each day which were generated on-device the previous day: typically each device sharing a positive diagnosis should upload at least the TEK generated on-device the previous day. This estimation represents the maximum number of diagnoses that were shared via the app, the real number can be lower, see the notes below for more information.
 - **TEKs Uploaded per Shared Diagnosis** (`teks_per_shared_diagnosis`): Estimation of the average number of TEKs uploaded with each shared diagnosis. This number should ideally be around 14 TEKs uploaded per shared diagnosis.
-- **Usage Ratio** (`shared_diagnoses_per_covid_case`): Estimation of the fraction of COVID-19 cases which shared their diagnosis via Radar COVID. Ideally it should be 100% (ie. all confirmed cases sharing their TEKs with Radar COVID).
+- **Usage Ratio** (`shared_diagnoses_per_covid_case`): Estimation of the fraction of applicable COVID-19 cases which shared their diagnosis via an Exposure Notification app. Ideally it should be 100% (ie. all confirmed cases sharing their TEKs with an Exposure Notification app).
 
 #### Important Notes
 
-- TEKs on the Radar COVID server may be padded with artificial random TEKs to increase anonymization. Currently there is no known technique to detect such alterations, so metrics dependent on the number of uploaded TEKs (eg. shared diagnoses or usage ratio) may be lower than the estimated. For example, the German [Corona-Warn-App](https://www.coronawarn.app/en/) Exposure Notification server [adds 4 artificial TEKs for each real TEK](https://github.com/sftcd/tek_transparency/issues/9).
+- As Radar COVID is [integrated](https://twitter.com/eu_commission/status/1318152800887558144?s=21) on the [European Federation Gateway Service (EFGS)](https://github.com/eu-federation-gateway-service/efgs-federation-gateway) project, the server may publish TEKs from multiple countries. Those EU-wide TEKs are published merged with TEKs shared from the Radar COVID app and they cannot be distinguished. To compute a valid usage ratio, we take in account COVID-19 cases from all applicable countries [integrated through the EFGS into Radar COVID](https://ec.europa.eu/info/live-work-travel-eu/health/coronavirus-response/travel-during-coronavirus-pandemic/mobile-contact-tracing-apps-eu-member-states_en), currently the following countries are applicable: ES. 
+- TEKs on the Radar COVID server may also be padded with artificial random TEKs to increase anonymization. Currently there is no known technique to detect such alterations, so metrics dependent on the number of uploaded TEKs (eg. shared diagnoses or usage ratio) may be lower than the estimated.
 - Some devices use the [Exposure Notification API version 1](https://developer.apple.com/documentation/bundleresources/information_property_list/enapiversion), which shares the last TEK (ie. the TEK generated the day the diagnosis is shared) a day after it was generated, so two uploads (one with the previous TEKs and another with the last TEK) will take place on different days. This will lead to a duplication on the shared diagnoses metric. This duplication effect will disappear once all devices are using the [new Exposure Notification API version](https://developer.apple.com/documentation/exposurenotification/enmanager/3583725-getdiagnosiskeys) which shares all 14 TEKs at once.
 - Unfortunately neither the [open-source Radar COVID project](https://github.com/RadarCOVID) nor [Spain's Secretariat of State for Digitization and Artificial Intelligence](https://twitter.com/SEDIAgob?s=21) publish the real number of shared diagnoses, [so we cannot more precisely adjust these estimations](https://twitter.com/pvieito/status/1309205729891549184?s=21). Other countries with similar apps built on the same [DP3T technology](https://github.com/DP-3T) do indeed publish [daily statistics of the shared diagnoses and app usage](https://www.experimental.bfs.admin.ch/expstat/en/home/innovative-methods/swisscovid-app-monitoring.html) for transparency and public research.
 
