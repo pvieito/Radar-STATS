@@ -2,12 +2,12 @@
     "source_regions": [
         "ES"
     ],
-    "extraction_datetime": 1603479504809,
+    "extraction_datetime": 1603480919212,
     "extraction_date": "2020-10-23",
-    "extraction_date_with_hour": "2020-10-23@18",
+    "extraction_date_with_hour": "2020-10-23@19",
     "last_hour": {
-        "shared_teks_by_upload_date": 56,
-        "shared_diagnoses": 11
+        "shared_teks_by_upload_date": 0,
+        "shared_diagnoses": 0
     },
     "today": {
         "covid_cases": 14987,
