@@ -62,272 +62,272 @@
     <tr>
       <th>2020-10-22</th>
       <td>14987</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0.00</td>
-      <td>0.00%</td>
+      <td>249</td>
+      <td>726</td>
+      <td>180</td>
+      <td>132</td>
+      <td>5.50</td>
+      <td>0.88%</td>
     </tr>
     <tr>
       <th>2020-10-21</th>
       <td>13891</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0.00</td>
-      <td>0.00%</td>
+      <td>349</td>
+      <td>841</td>
+      <td>157</td>
+      <td>153</td>
+      <td>5.50</td>
+      <td>1.10%</td>
     </tr>
     <tr>
       <th>2020-10-20</th>
       <td>13177</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0.00</td>
-      <td>0.00%</td>
+      <td>471</td>
+      <td>772</td>
+      <td>149</td>
+      <td>135</td>
+      <td>5.72</td>
+      <td>1.02%</td>
     </tr>
     <tr>
       <th>2020-10-19</th>
       <td>12212</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0.00</td>
-      <td>0.00%</td>
+      <td>556</td>
+      <td>791</td>
+      <td>142</td>
+      <td>123</td>
+      <td>6.43</td>
+      <td>1.01%</td>
     </tr>
     <tr>
       <th>2020-10-18</th>
       <td>10778</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0.00</td>
-      <td>0.00%</td>
+      <td>611</td>
+      <td>726</td>
+      <td>146</td>
+      <td>132</td>
+      <td>5.50</td>
+      <td>1.22%</td>
     </tr>
     <tr>
       <th>2020-10-17</th>
       <td>10778</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0.00</td>
-      <td>0.00%</td>
+      <td>694</td>
+      <td>767</td>
+      <td>174</td>
+      <td>138</td>
+      <td>5.56</td>
+      <td>1.28%</td>
     </tr>
     <tr>
       <th>2020-10-16</th>
       <td>10778</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0.00</td>
-      <td>0.00%</td>
+      <td>684</td>
+      <td>769</td>
+      <td>149</td>
+      <td>141</td>
+      <td>5.45</td>
+      <td>1.31%</td>
     </tr>
     <tr>
       <th>2020-10-15</th>
       <td>10436</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0.00</td>
-      <td>0.00%</td>
+      <td>711</td>
+      <td>671</td>
+      <td>151</td>
+      <td>175</td>
+      <td>3.83</td>
+      <td>1.68%</td>
     </tr>
     <tr>
       <th>2020-10-14</th>
       <td>10308</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0.00</td>
-      <td>0.00%</td>
+      <td>659</td>
+      <td>463</td>
+      <td>1</td>
+      <td>133</td>
+      <td>3.48</td>
+      <td>1.29%</td>
     </tr>
     <tr>
       <th>2020-10-13</th>
       <td>10097</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0.00</td>
-      <td>0.00%</td>
+      <td>581</td>
+      <td>334</td>
+      <td>1</td>
+      <td>112</td>
+      <td>2.98</td>
+      <td>1.11%</td>
     </tr>
     <tr>
       <th>2020-10-12</th>
       <td>10794</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0.00</td>
-      <td>0.00%</td>
+      <td>526</td>
+      <td>326</td>
+      <td>2</td>
+      <td>136</td>
+      <td>2.40</td>
+      <td>1.26%</td>
     </tr>
     <tr>
       <th>2020-10-11</th>
       <td>10169</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0.00</td>
-      <td>0.00%</td>
+      <td>476</td>
+      <td>422</td>
+      <td>1</td>
+      <td>147</td>
+      <td>2.87</td>
+      <td>1.45%</td>
     </tr>
     <tr>
       <th>2020-10-10</th>
       <td>10169</td>
+      <td>437</td>
+      <td>429</td>
       <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0.00</td>
-      <td>0.00%</td>
+      <td>133</td>
+      <td>3.23</td>
+      <td>1.31%</td>
     </tr>
     <tr>
       <th>2020-10-09</th>
       <td>10169</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0.00</td>
-      <td>0.00%</td>
+      <td>426</td>
+      <td>348</td>
+      <td>1</td>
+      <td>105</td>
+      <td>3.31</td>
+      <td>1.03%</td>
     </tr>
     <tr>
       <th>2020-10-08</th>
       <td>9960</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0.00</td>
-      <td>0.00%</td>
+      <td>417</td>
+      <td>272</td>
+      <td>1</td>
+      <td>86</td>
+      <td>3.16</td>
+      <td>0.86%</td>
     </tr>
     <tr>
       <th>2020-10-07</th>
       <td>9530</td>
+      <td>375</td>
+      <td>178</td>
       <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0.00</td>
-      <td>0.00%</td>
+      <td>54</td>
+      <td>3.30</td>
+      <td>0.57%</td>
     </tr>
     <tr>
       <th>2020-10-06</th>
       <td>9605</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0.00</td>
-      <td>0.00%</td>
+      <td>384</td>
+      <td>233</td>
+      <td>60</td>
+      <td>56</td>
+      <td>4.16</td>
+      <td>0.58%</td>
     </tr>
     <tr>
       <th>2020-10-05</th>
       <td>9307</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0.00</td>
-      <td>0.00%</td>
+      <td>350</td>
+      <td>273</td>
+      <td>52</td>
+      <td>69</td>
+      <td>3.96</td>
+      <td>0.74%</td>
     </tr>
     <tr>
       <th>2020-10-04</th>
       <td>10493</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0.00</td>
-      <td>0.00%</td>
+      <td>353</td>
+      <td>331</td>
+      <td>76</td>
+      <td>78</td>
+      <td>4.24</td>
+      <td>0.74%</td>
     </tr>
     <tr>
       <th>2020-10-03</th>
       <td>10493</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0.00</td>
-      <td>0.00%</td>
+      <td>312</td>
+      <td>324</td>
+      <td>69</td>
+      <td>76</td>
+      <td>4.26</td>
+      <td>0.72%</td>
     </tr>
     <tr>
       <th>2020-10-02</th>
       <td>10493</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0.00</td>
-      <td>0.00%</td>
+      <td>312</td>
+      <td>299</td>
+      <td>72</td>
+      <td>72</td>
+      <td>4.15</td>
+      <td>0.69%</td>
     </tr>
     <tr>
       <th>2020-10-01</th>
       <td>10628</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0.00</td>
-      <td>0.00%</td>
+      <td>317</td>
+      <td>367</td>
+      <td>75</td>
+      <td>74</td>
+      <td>4.96</td>
+      <td>0.70%</td>
     </tr>
     <tr>
       <th>2020-09-30</th>
       <td>10805</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0.00</td>
-      <td>0.00%</td>
+      <td>294</td>
+      <td>271</td>
+      <td>55</td>
+      <td>51</td>
+      <td>5.31</td>
+      <td>0.47%</td>
     </tr>
     <tr>
       <th>2020-09-29</th>
       <td>10844</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0.00</td>
-      <td>0.00%</td>
+      <td>265</td>
+      <td>178</td>
+      <td>32</td>
+      <td>44</td>
+      <td>4.05</td>
+      <td>0.41%</td>
     </tr>
     <tr>
       <th>2020-09-28</th>
       <td>10971</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0.00</td>
-      <td>0.00%</td>
+      <td>269</td>
+      <td>211</td>
+      <td>44</td>
+      <td>54</td>
+      <td>3.91</td>
+      <td>0.49%</td>
     </tr>
     <tr>
       <th>2020-09-27</th>
       <td>10920</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0.00</td>
-      <td>0.00%</td>
+      <td>315</td>
+      <td>449</td>
+      <td>98</td>
+      <td>108</td>
+      <td>4.16</td>
+      <td>0.99%</td>
     </tr>
     <tr>
       <th>2020-09-26</th>
       <td>10920</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0.00</td>
-      <td>0.00%</td>
+      <td>339</td>
+      <td>448</td>
+      <td>79</td>
+      <td>110</td>
+      <td>4.07</td>
+      <td>1.01%</td>
     </tr>
   </tbody>
 </table>
@@ -406,7 +406,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>458</td>
       <td>0</td>
       <td>105</td>
-      <td>40</td>
+      <td>50</td>
     </tr>
     <tr>
       <th>2020-10-21</th>
@@ -420,7 +420,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>504</td>
       <td>0</td>
       <td>109</td>
-      <td>80</td>
+      <td>88</td>
     </tr>
     <tr>
       <th>2020-10-20</th>
@@ -462,7 +462,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>1816</td>
       <td>61</td>
       <td>120</td>
-      <td>198</td>
+      <td>205</td>
     </tr>
     <tr>
       <th>2020-10-17</th>
@@ -476,7 +476,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>1804</td>
       <td>57</td>
       <td>122</td>
-      <td>209</td>
+      <td>215</td>
     </tr>
     <tr>
       <th>2020-10-16</th>
@@ -518,7 +518,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>1789</td>
       <td>54</td>
       <td>131</td>
-      <td>241</td>
+      <td>243</td>
     </tr>
     <tr>
       <th>2020-10-13</th>
