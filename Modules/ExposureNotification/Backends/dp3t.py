@@ -3,14 +3,14 @@ from typing import *
 
 import pytz
 
-from .base import BaseBackendKeysDownloader
+from .base import BaseBackendClient
 
 _dp3t_server_exposed_endpoint_path = "/v1/gaen/exposed/"
 
 _unix_epoch_datetime = datetime.datetime(year=1970, month=1, day=1, tzinfo=pytz.utc)
 
 
-class DP3TBackendKeysDownloader(BaseBackendKeysDownloader):
+class DP3TBackendClient(BaseBackendClient):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
 
