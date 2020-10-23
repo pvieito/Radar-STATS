@@ -1,12 +1,15 @@
 from typing import *
 
-from .base import BaseBackendKeysDownloader
+from Modules.ExposureNotification.ProtocolBuffers.CoronaWarnApp import app_config_pb2
+from .base import BaseBackendClient
 
 _corona_warn_app_server_diagnosis_keys_endpoint_path = \
     "/version/v1/diagnosis-keys/country/{country}/date"
+_corona_warn_app_server_app_config = \
+    "/version/v1/configuration/country/{country}/app_config"
 
 
-class CoronaWarnAppBackendKeysDownloader(BaseBackendKeysDownloader):
+class CoronaWarnAppBackendClient(BaseBackendClient):
     def __init__(self, target_country: str, **kwargs):
         super().__init__(**kwargs)
         self.target_country = target_country
@@ -36,3 +39,16 @@ class CoronaWarnAppBackendKeysDownloader(BaseBackendKeysDownloader):
                 ],
             ))
         return exposure_keys_export_endpoints
+
+    def download_app_config(self) -> app_config_pb2.ApplicationConfiguration:
+        app_config_endpoint = \
+            self.server_endpoint_url + \
+            _corona_warn_app_server_app_config.format(
+                country=self.target_country)
+        app_config_response = self.send_get_request(url=app_config_endpoint)
+        app_config_response.raise_for_status()
+        app_config_bytes = app_config_response.content
+        app_config = self.load_object_from_signed_and_compressed_protobuf(
+            file_bytes=app_config_bytes,
+            protobuf_class=app_config_pb2.ApplicationConfiguration)
+        return app_config

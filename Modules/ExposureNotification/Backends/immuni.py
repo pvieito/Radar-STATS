@@ -1,12 +1,12 @@
 from typing import *
 
-from .base import BaseBackendKeysDownloader
+from .base import BaseBackendClient
 
 _immuni_server_keys_endpoint_path = "/v1/keys/"
 _immuni_server_keys_eu_country_endpoint_path = "/v1/keys/eu/{eu_country}/"
 
 
-class ImmuniBackendKeysDownloader(BaseBackendKeysDownloader):
+class ImmuniBackendClient(BaseBackendClient):
     def __init__(
             self, *, eu_country: str = None, **kwargs):
         super().__init__(**kwargs)

@@ -10,15 +10,16 @@ from typing import *
 import pandas as pd
 import requests
 
-from Modules.ExposureNotification import exposure_notification_exceptions, TemporaryExposureKeyExport_pb2
+from Modules.ExposureNotification import exposure_notification_exceptions
+from Modules.ExposureNotification.ProtocolBuffers.ExposureNotification import TemporaryExposureKeyExport_pb2
 
 maximum_key_rolling_period = 24 * 60  # 24h in 10 min intervals
 maximum_key_rolling_period_in_seconds = 24 * 60 * 60
 
-_exposure_keys_export_file_name = "export.bin"
+_protobuf_export_file_name = "export.bin"
 
 
-class BaseBackendKeysDownloader:
+class BaseBackendClient:
     def __init__(
             self, *, backend_identifier: str, server_endpoint_url: str = None,
             use_proxy_if_available=None, proxy_url=None):
@@ -93,6 +94,71 @@ class BaseBackendKeysDownloader:
 
     def _parse_exposure_keys_export_file(self, *, file_bytes: bytes = None) -> pd.DataFrame:
         exposure_keys = []
+
+        g = self.load_object_from_signed_and_compressed_protobuf(
+            file_bytes=file_bytes,
+            protobuf_class=TemporaryExposureKeyExport_pb2.TemporaryExposureKeyExport,
+            remove_prefix=16)
+        start_timestamp = str(g.start_timestamp)
+        end_timestamp = str(g.end_timestamp)
+        region = str(g.region).upper()
+        verification_key_version = str(g.signature_infos[0].verification_key_version).upper()
+        verification_key_id = str(g.signature_infos[0].verification_key_id).upper()
+        signature_algorithm = str(g.signature_infos[0].signature_algorithm).upper()
+
+        logging_details = []
+        logging_details.append(f"Exposure Key File")
+        logging_details.append(f"Timestamp Range: {start_timestamp} -> {end_timestamp}")
+        logging_details.append(f"Region: {region}")
+        logging_details.append("")
+        logging_details.append("Signature Details:")
+        logging_details.append(f"Verification Key Version: {verification_key_version}")
+        logging_details.append(f"Verification Key ID: {verification_key_id}")
+        logging_details.append(f"Signature Algorithm: {signature_algorithm}")
+        logging_details.append("")
+        logging_details.append(f"Exposure Keys ({len(g.keys)}):")
+
+        for key in g.keys:
+            key_rolling_start_timestamp = \
+                key.rolling_start_interval_number * 10 * 60
+            key_rolling_period_in_seconds = key.rolling_period * 10 * 60
+            if key_rolling_period_in_seconds > maximum_key_rolling_period_in_seconds:
+                raise Exception(
+                    f"Invalid key 'key_rolling_period': "
+                    f"{key_rolling_period_in_seconds}s "
+                    f"(expected: <={maximum_key_rolling_period_in_seconds}s)")
+
+            generation_datetime = \
+                datetime.datetime.utcfromtimestamp(key_rolling_start_timestamp)
+            generation_date_string = generation_datetime.strftime("%Y-%m-%d")
+
+            key_uuid = uuid.UUID(bytes=key.key_data)
+            exposure_keys.append(dict(
+                generation_datetime=generation_datetime,
+                generation_date_string=generation_date_string,
+                region=str(g.region).upper(),
+                verification_key_version=str(g.signature_infos[0].verification_key_version).upper(),
+                verification_key_id=str(g.signature_infos[0].verification_key_id).upper(),
+                signature_algorithm=str(g.signature_infos[0].signature_algorithm).upper(),
+                key_data=key_uuid,
+                rolling_start_interval_number=key.rolling_start_interval_number,
+                rolling_period=key.rolling_period,
+                transmission_risk_level=key.transmission_risk_level,
+            ))
+            logging_details.append(
+                f"{key_uuid} (rolling start interval number: {key_rolling_start_timestamp}, "
+                f"rolling period: {key_rolling_period_in_seconds}s, "
+                f"report type: {key.report_type})")
+
+        logging_details = "\n".join(logging_details)
+        logging.info(logging_details)
+
+        exposure_keys_df = pd.DataFrame.from_records(exposure_keys)
+        exposure_keys_df["backend_identifier"] = self.backend_identifier
+        return exposure_keys_df
+
+    @staticmethod
+    def load_object_from_signed_and_compressed_protobuf(file_bytes: bytes, protobuf_class, remove_prefix=None):
         with io.BytesIO(file_bytes) as f:
             with zipfile.ZipFile(f, "r") as z:
                 temporary_directory = tempfile.gettempdir()
@@ -101,70 +167,14 @@ class BaseBackendKeysDownloader:
 
                 z.extractall(temporary_directory)
 
-                date_exposed_tokens_file = \
-                    os.path.join(temporary_directory, _exposure_keys_export_file_name)
-                with open(date_exposed_tokens_file, "rb") as ekf:
-                    g = TemporaryExposureKeyExport_pb2.TemporaryExposureKeyExport()
-                    ekf.read(16)
-                    g.ParseFromString(ekf.read())
-
-                start_timestamp = str(g.start_timestamp)
-                end_timestamp = str(g.end_timestamp)
-                region = str(g.region).upper()
-                verification_key_version = str(g.signature_infos[0].verification_key_version).upper()
-                verification_key_id = str(g.signature_infos[0].verification_key_id).upper()
-                signature_algorithm = str(g.signature_infos[0].signature_algorithm).upper()
-
-                logging_details = []
-                logging_details.append(f"Exposure Key File")
-                logging_details.append(f"Timestamp Range: {start_timestamp} -> {end_timestamp}")
-                logging_details.append(f"Region: {region}")
-                logging_details.append("")
-                logging_details.append("Signature Details:")
-                logging_details.append(f"Verification Key Version: {verification_key_version}")
-                logging_details.append(f"Verification Key ID: {verification_key_id}")
-                logging_details.append(f"Signature Algorithm: {signature_algorithm}")
-                logging_details.append("")
-                logging_details.append(f"Exposure Keys ({len(g.keys)}):")
-
-                for key in g.keys:
-                    key_rolling_start_timestamp = \
-                        key.rolling_start_interval_number * 10 * 60
-                    key_rolling_period_in_seconds = key.rolling_period * 10 * 60
-                    if key_rolling_period_in_seconds > maximum_key_rolling_period_in_seconds:
-                        raise Exception(
-                            f"Invalid key 'key_rolling_period': "
-                            f"{key_rolling_period_in_seconds}s "
-                            f"(expected: <={maximum_key_rolling_period_in_seconds}s)")
-
-                    generation_datetime = \
-                        datetime.datetime.utcfromtimestamp(key_rolling_start_timestamp)
-                    generation_date_string = generation_datetime.strftime("%Y-%m-%d")
-
-                    key_uuid = uuid.UUID(bytes=key.key_data)
-                    exposure_keys.append(dict(
-                        generation_datetime=generation_datetime,
-                        generation_date_string=generation_date_string,
-                        region=str(g.region).upper(),
-                        verification_key_version=str(g.signature_infos[0].verification_key_version).upper(),
-                        verification_key_id=str(g.signature_infos[0].verification_key_id).upper(),
-                        signature_algorithm=str(g.signature_infos[0].signature_algorithm).upper(),
-                        key_data=key_uuid,
-                        rolling_start_interval_number=key.rolling_start_interval_number,
-                        rolling_period=key.rolling_period,
-                        transmission_risk_level=key.transmission_risk_level,
-                    ))
-                    logging_details.append(
-                        f"{key_uuid} (rolling start interval number: {key_rolling_start_timestamp}, "
-                        f"rolling period: {key_rolling_period_in_seconds}s, "
-                        f"report type: {key.report_type})")
-
-                logging_details = "\n".join(logging_details)
-                logging.info(logging_details)
-
-        exposure_keys_df = pd.DataFrame.from_records(exposure_keys)
-        exposure_keys_df["backend_identifier"] = self.backend_identifier
-        return exposure_keys_df
+                protobuf_file_path = \
+                    os.path.join(temporary_directory, _protobuf_export_file_name)
+                with open(protobuf_file_path, "rb") as p:
+                    g = protobuf_class()
+                    if remove_prefix:
+                        p.read(remove_prefix)
+                    g.ParseFromString(p.read())
+        return g
 
     @staticmethod
     def send_get_request(url, **kwargs):
