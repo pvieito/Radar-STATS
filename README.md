@@ -17,7 +17,7 @@
 
 ## Last Results
 
-- [Report 2020-10-23@10](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2020-10-23@11](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
@@ -403,9 +403,9 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>3</td>
       <td>230</td>
       <td>44</td>
-      <td>47</td>
+      <td>458</td>
       <td>0</td>
-      <td>104</td>
+      <td>105</td>
       <td>40</td>
     </tr>
     <tr>
@@ -417,9 +417,9 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>10</td>
       <td>330</td>
       <td>160</td>
-      <td>124</td>
+      <td>504</td>
       <td>0</td>
-      <td>108</td>
+      <td>109</td>
       <td>80</td>
     </tr>
     <tr>
@@ -431,9 +431,9 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>14</td>
       <td>454</td>
       <td>158</td>
-      <td>1144</td>
+      <td>1488</td>
       <td>0</td>
-      <td>114</td>
+      <td>115</td>
       <td>111</td>
     </tr>
     <tr>
@@ -445,9 +445,9 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>15</td>
       <td>542</td>
       <td>200</td>
-      <td>1592</td>
+      <td>1928</td>
       <td>76</td>
-      <td>116</td>
+      <td>117</td>
       <td>152</td>
     </tr>
     <tr>
@@ -459,9 +459,9 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>15</td>
       <td>602</td>
       <td>207</td>
-      <td>1488</td>
+      <td>1816</td>
       <td>61</td>
-      <td>119</td>
+      <td>120</td>
       <td>198</td>
     </tr>
     <tr>
@@ -473,9 +473,9 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>19</td>
       <td>689</td>
       <td>208</td>
-      <td>1482</td>
+      <td>1804</td>
       <td>57</td>
-      <td>121</td>
+      <td>122</td>
       <td>209</td>
     </tr>
     <tr>
@@ -487,9 +487,9 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>15</td>
       <td>681</td>
       <td>216</td>
-      <td>1455</td>
+      <td>1765</td>
       <td>56</td>
-      <td>126</td>
+      <td>127</td>
       <td>240</td>
     </tr>
     <tr>
@@ -501,9 +501,9 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>14</td>
       <td>708</td>
       <td>210</td>
-      <td>1492</td>
+      <td>1797</td>
       <td>54</td>
-      <td>127</td>
+      <td>128</td>
       <td>253</td>
     </tr>
     <tr>
@@ -515,9 +515,9 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>11</td>
       <td>656</td>
       <td>542</td>
-      <td>1491</td>
+      <td>1789</td>
       <td>54</td>
-      <td>130</td>
+      <td>131</td>
       <td>241</td>
     </tr>
     <tr>
@@ -529,9 +529,9 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>11</td>
       <td>580</td>
       <td>535</td>
-      <td>1490</td>
+      <td>1773</td>
       <td>51</td>
-      <td>127</td>
+      <td>128</td>
       <td>226</td>
     </tr>
     <tr>
@@ -543,7 +543,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>11</td>
       <td>525</td>
       <td>569</td>
-      <td>1467</td>
+      <td>1746</td>
       <td>52</td>
       <td>129</td>
       <td>203</td>
@@ -557,7 +557,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>13</td>
       <td>476</td>
       <td>243</td>
-      <td>1452</td>
+      <td>1726</td>
       <td>50</td>
       <td>132</td>
       <td>183</td>
@@ -571,7 +571,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>12</td>
       <td>437</td>
       <td>240</td>
-      <td>1409</td>
+      <td>1683</td>
       <td>51</td>
       <td>130</td>
       <td>157</td>
