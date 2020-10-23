@@ -40,7 +40,7 @@ class CoronaWarnAppBackendClient(BaseBackendClient):
             ))
         return exposure_keys_export_endpoints
 
-    def download_app_config(self) -> app_config_pb2.ApplicationConfiguration:
+    def _download_app_config(self) -> app_config_pb2.ApplicationConfiguration:
         app_config_endpoint = \
             self.server_endpoint_url + \
             _corona_warn_app_server_app_config.format(
@@ -52,3 +52,7 @@ class CoronaWarnAppBackendClient(BaseBackendClient):
             file_bytes=app_config_bytes,
             protobuf_class=app_config_pb2.ApplicationConfiguration)
         return app_config
+
+    def get_supported_countries(self, **kwargs) -> List[str]:
+        app_config = self._download_app_config()
+        return app_config.supportedCountries

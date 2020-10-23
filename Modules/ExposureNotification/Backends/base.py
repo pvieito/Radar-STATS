@@ -31,6 +31,9 @@ class BaseBackendClient:
     def generate_exposure_keys_export_endpoints_with_parameters(self, **kwargs) -> List[dict]:
         raise NotImplemented()
 
+    def get_supported_countries(self, **kwargs) -> List[str]:
+        raise NotImplemented()
+
     def download_exposure_keys_with_parameters(
             self, **kwargs) -> pd.DataFrame:
         endpoints_with_parameters = \
