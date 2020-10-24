@@ -400,7 +400,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>0</td>
       <td>213</td>
       <td>50</td>
-      <td>24</td>
+      <td>394</td>
       <td>104</td>
       <td>42</td>
     </tr>
@@ -413,7 +413,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>4</td>
       <td>358</td>
       <td>116</td>
-      <td>1839</td>
+      <td>2182</td>
       <td>107</td>
       <td>108</td>
     </tr>
@@ -426,7 +426,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>11</td>
       <td>448</td>
       <td>228</td>
-      <td>1766</td>
+      <td>2081</td>
       <td>111</td>
       <td>144</td>
     </tr>
@@ -439,7 +439,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>15</td>
       <td>543</td>
       <td>226</td>
-      <td>2661</td>
+      <td>2962</td>
       <td>117</td>
       <td>176</td>
     </tr>
@@ -452,7 +452,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>16</td>
       <td>614</td>
       <td>268</td>
-      <td>3042</td>
+      <td>3332</td>
       <td>119</td>
       <td>220</td>
     </tr>
@@ -465,7 +465,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>16</td>
       <td>650</td>
       <td>274</td>
-      <td>2878</td>
+      <td>3152</td>
       <td>122</td>
       <td>256</td>
     </tr>
@@ -478,7 +478,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>20</td>
       <td>711</td>
       <td>275</td>
-      <td>2825</td>
+      <td>3079</td>
       <td>125</td>
       <td>250</td>
     </tr>
@@ -491,7 +491,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>16</td>
       <td>696</td>
       <td>283</td>
-      <td>2745</td>
+      <td>2993</td>
       <td>129</td>
       <td>272</td>
     </tr>
@@ -504,7 +504,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>14</td>
       <td>720</td>
       <td>277</td>
-      <td>2736</td>
+      <td>2978</td>
       <td>130</td>
       <td>277</td>
     </tr>
@@ -517,7 +517,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>11</td>
       <td>665</td>
       <td>609</td>
-      <td>2706</td>
+      <td>2941</td>
       <td>133</td>
       <td>262</td>
     </tr>
@@ -530,7 +530,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>11</td>
       <td>585</td>
       <td>602</td>
-      <td>2661</td>
+      <td>2894</td>
       <td>130</td>
       <td>238</td>
     </tr>
@@ -543,7 +543,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>11</td>
       <td>530</td>
       <td>636</td>
-      <td>2630</td>
+      <td>2860</td>
       <td>130</td>
       <td>210</td>
     </tr>
@@ -556,7 +556,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
       <td>13</td>
       <td>478</td>
       <td>310</td>
-      <td>2588</td>
+      <td>2821</td>
       <td>133</td>
       <td>186</td>
     </tr>
