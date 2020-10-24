@@ -1,5 +1,4 @@
 sample_date,covid_cases,shared_teks_by_generation_date,shared_teks_by_upload_date,shared_teks_uploaded_on_generation_date,shared_diagnoses,teks_per_shared_diagnosis,shared_diagnoses_per_covid_case
-2020-10-23,14987,167,769,167,145,5.303448275862069,0.009675051711483286
 2020-10-22,14987,325,726,180,132,5.5,0.008807633282177887
 2020-10-21,13891,418,841,157,153,5.496732026143791,0.011014325822474984
 2020-10-20,13177,522,772,149,135,5.718518518518518,0.010245124079836078
@@ -83,3 +82,4 @@ sample_date,covid_cases,shared_teks_by_generation_date,shared_teks_by_upload_dat
 2020-08-03,2610,0,0,0,0,0.0,0.0
 2020-08-02,2300,0,0,0,0,0.0,0.0
 2020-08-01,2300,0,0,0,0,0.0,0.0
+2020-07-31,2300,0,0,0,0,0.0,0.0
