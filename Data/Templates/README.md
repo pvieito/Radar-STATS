@@ -68,7 +68,7 @@ _**NOTE:** This table includes data extracted from different Exposure Notificati
 
 ### Data Sources
 
-- **COVID-19 Cases**: [Narrativa API](https://covid19tracking.narrativa.com)
+- **COVID-19 Cases**: [EU – European Centre for Disease Prevention and Control](https://www.ecdc.europa.eu/en/publications-data/download-todays-data-geographic-distribution-covid-19-cases-worldwide)
 - **TEKs**: [Radar COVID API](https://radarcovid.gob.es/)
 
 ## Contributions
