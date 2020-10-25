@@ -35,13 +35,21 @@
 
 - [Daily Generation to Upload Period Table File]({github_project_base_url}/blob/master/Data/Resources/Current/RadarCOVID-Report-Generation-Upload-Period-Table.csv)
 
-### Multi-Backend Summary Table
+### Multi-Backend
 
-_**NOTE:** This table includes data extracted from different Exposure Notification backends (eg. the `CH` backend data is extracted from the SwissCovid server). You can find the exact backend definitions in the [`exposure_notification_io` module]({github_project_base_url}/blob/master/Modules/ExposureNotification/exposure_notification_io.py)._ 
+_**NOTE:** These tables includes data extracted from different Exposure Notification backends (eg. the `CH` backend data is extracted from the SwissCovid server). You can find the exact backend definitions in the [`exposure_notification_io` module]({github_project_base_url}/blob/master/Modules/ExposureNotification/exposure_notification_io.py)._ 
+
+#### Multi-Backend Summary Table
 
 {multi_backend_summary_table_html}
 
 - [Multi-Backend Summary Table File]({github_project_base_url}/blob/master/Data/Resources/Current/RadarCOVID-Report-Multi-Backend-Summary-Table.csv)
+
+#### Multi-Backend Cross-Sharing Summary Table
+
+{multi_backend_cross_sharing_summary_table_html}
+
+- [Multi-Backend Cross-Sharing Summary Table File]({github_project_base_url}/blob/master/Data/Resources/Current/RadarCOVID-Report-Multi-Backend-Cross-Sharing-Summary-Table.csv)
 
 ## Documentation
 
