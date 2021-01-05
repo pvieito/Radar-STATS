@@ -1,0 +1,56 @@
+name: Report Update
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+  schedule:
+    - cron: '0 */1 * * *'
+
+jobs:
+  report-update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v1
+        with:
+          python-version: 3.8
+      - name: Install Dependencies
+        run: |
+          python3 -m pip install -r requirements.txt
+          python3 -m pip install papermill ipykernel nbformat nbconvert
+          python3 -m ipykernel install --user
+      # - name: Configure VPN
+      #   run: |
+      #     sudo apt-get install openvpn
+      #     cd /etc/openvpn
+      #     printenv OPENVPN_CONFIGURATION | sudo tee vpn.conf > /dev/null
+      #     printenv OPENVPN_CREDENTIALS | sudo tee vpn.credentials > /dev/null
+      #     sudo openvpn --config vpn.conf --daemon && sleep 15
+      #   env:
+      #     OPENVPN_CONFIGURATION: ${{ secrets.OPENVPN_CONFIGURATION }}
+      #     OPENVPN_CREDENTIALS: ${{ secrets.OPENVPN_CREDENTIALS }}
+      - name: Report Update
+        run: |
+          python3 -m papermill.cli Notebooks/RadarCOVID-Report/Source/RadarCOVID-Report.ipynb RadarCOVID-Report.ipynb
+          cp RadarCOVID-Report.ipynb Notebooks/RadarCOVID-Report/Daily/RadarCOVID-Report-`date --utc +%F`.ipynb
+          cp RadarCOVID-Report.ipynb Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb
+          rm RadarCOVID-Report.ipynb
+        env:
+          RADARCOVID_REPORT__INVALID_SHARED_DIAGNOSES_DATES: "2020-10-30,2020-12-02,2020-12-05,2020-12-19,2020-12-20"
+          RADARCOVID_REPORT__ENABLE_MULTI_BACKEND_DOWNLOAD: "TRUE"
+          RADARCOVID_REPORT__ENABLE_PUBLISH_ON_TWITTER: "TRUE"
+          RADARCOVID_REPORT__TWITTER_API_AUTH_KEYS: ${{ secrets.RADARCOVID_REPORT__TWITTER_API_AUTH_KEYS }}
+      - name: Clean Data
+        run: |
+          find Data/TEKs/Hourly/*.json | sort | head -n -25 | xargs -r rm
+      - name: Commit Report Update
+        uses: EndBug/add-and-commit@v4
+        if: ${{ github.ref == 'refs/heads/master' }}
+        with:
+          author_name: GitHub Action - Report Update
+          author_email: report-update@action.github.com
+          message: "Report Update"

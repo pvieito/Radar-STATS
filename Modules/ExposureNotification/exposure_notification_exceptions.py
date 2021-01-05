@@ -1,0 +1,2 @@
+class NoKeysFoundException(Exception):
+    pass
