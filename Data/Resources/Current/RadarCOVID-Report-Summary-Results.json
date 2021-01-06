@@ -2,6 +2,7 @@
     "backend_identifier": "ES",
     "source_regions": [
         "ES",
+        "BE",
         "DE",
         "DK",
         "HR",
@@ -11,17 +12,18 @@
         "NL",
         "PL"
     ],
-    "extraction_datetime": 1609943560679,
+    "extraction_datetime": 1609945580930,
     "extraction_date": "2021-01-06",
-    "extraction_date_with_hour": "2021-01-06@14",
+    "extraction_date_with_hour": "2021-01-06@15",
     "last_hour": {
-        "shared_teks_by_upload_date": 263,
+        "shared_teks_by_upload_date": 0,
         "shared_diagnoses": 0
     },
     "today": {
         "sample_date": 1609891200000,
         "source_regions": [
             "ES",
+            "BE",
             "DE",
             "DK",
             "HR",
@@ -75,6 +77,7 @@
             "sample_date": 1609891200000,
             "source_regions": [
                 "ES",
+                "BE",
                 "DE",
                 "DK",
                 "HR",
