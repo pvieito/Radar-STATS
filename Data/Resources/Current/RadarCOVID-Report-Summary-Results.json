@@ -5,6 +5,7 @@
         "BE",
         "DE",
         "DK",
+        "FI",
         "HR",
         "IE",
         "IT",
@@ -12,7 +13,7 @@
         "NL",
         "PL"
     ],
-    "extraction_datetime": 1610042991053,
+    "extraction_datetime": 1610045539068,
     "extraction_date": "2021-01-07",
     "extraction_date_with_hour": "2021-01-07@18",
     "last_hour": {
@@ -26,6 +27,7 @@
             "BE",
             "DE",
             "DK",
+            "FI",
             "HR",
             "IE",
             "IT",
@@ -80,6 +82,7 @@
                 "BE",
                 "DE",
                 "DK",
+                "FI",
                 "HR",
                 "IE",
                 "IT",
