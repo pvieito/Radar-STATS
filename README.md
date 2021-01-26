@@ -18,7 +18,7 @@
 
 ## Last Results
 
-- [Report 2021-01-26@12](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2021-01-26@13](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
@@ -101,9 +101,9 @@
       <td>6.86</td>
       <td>3.07%</td>
       <td>35342</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>14654</td>
+      <td>731</td>
+      <td>2.07%</td>
     </tr>
     <tr>
       <th>2021-01-23</th>
@@ -116,9 +116,9 @@
       <td>7.15</td>
       <td>4.40%</td>
       <td>35342</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>14654</td>
+      <td>731</td>
+      <td>2.07%</td>
     </tr>
     <tr>
       <th>2021-01-22</th>
@@ -131,9 +131,9 @@
       <td>7.57</td>
       <td>4.80%</td>
       <td>35342</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>14654</td>
+      <td>731</td>
+      <td>2.07%</td>
     </tr>
     <tr>
       <th>2021-01-21</th>
@@ -146,9 +146,9 @@
       <td>7.29</td>
       <td>5.01%</td>
       <td>34958</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>14654</td>
+      <td>731</td>
+      <td>2.09%</td>
     </tr>
     <tr>
       <th>2021-01-20</th>
@@ -161,9 +161,9 @@
       <td>7.57</td>
       <td>5.28%</td>
       <td>33747</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>14654</td>
+      <td>731</td>
+      <td>2.17%</td>
     </tr>
     <tr>
       <th>2021-01-19</th>
@@ -176,9 +176,9 @@
       <td>8.08</td>
       <td>4.40%</td>
       <td>33360</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>14654</td>
+      <td>731</td>
+      <td>2.19%</td>
     </tr>
     <tr>
       <th>2021-01-18</th>
@@ -191,9 +191,9 @@
       <td>8.21</td>
       <td>2.46%</td>
       <td>32096</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>14654</td>
+      <td>731</td>
+      <td>2.28%</td>
     </tr>
     <tr>
       <th>2021-01-17</th>
