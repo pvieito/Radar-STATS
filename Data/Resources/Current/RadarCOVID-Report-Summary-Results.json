@@ -13,11 +13,11 @@
         "NL",
         "PL"
     ],
-    "extraction_datetime": 1611757607825,
+    "extraction_datetime": 1611761061136,
     "extraction_date": "2021-01-27",
-    "extraction_date_with_hour": "2021-01-27@14",
+    "extraction_date_with_hour": "2021-01-27@15",
     "last_hour": {
-        "shared_teks_by_upload_date": 350,
+        "shared_teks_by_upload_date": 0,
         "shared_diagnoses": 0
     },
     "today": {
