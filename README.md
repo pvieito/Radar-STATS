@@ -829,7 +829,7 @@ The **Radar STATS** project has been referenced and featured on multiple news ar
 
 - [Radar COVID – Website](https://radarcovid.gob.es/)
 - [Radar COVID – Project](https://github.com/RadarCOVID)
-- [Radar COVID – Statistics](https://radarcovid.gob.es/estadisticas/)
+- [Radar COVID – Statistics](https://radarcovid.gob.es/estadisticas/codigos-introducidos-a-casos-confirmados)
 - [DP3T Project](https://github.com/DP-3T)
 - [SwissCovid App Monitoring - Swiss Federal Statistical Office](https://www.experimental.bfs.admin.ch/expstat/en/home/innovative-methods/swisscovid-app-monitoring.html)
 - [Diagnosis Key Analysis for Corona-Warn-App](https://github.com/micb25/dka/blob/master/README.en.md)
