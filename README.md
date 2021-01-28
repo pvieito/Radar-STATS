@@ -18,7 +18,7 @@
 
 ## Last Results
 
-- [Report 2021-01-13@17](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2021-01-28@21](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
@@ -61,55 +61,280 @@
   </thead>
   <tbody>
     <tr>
-      <th>2021-01-13</th>
+      <th>2021-01-28</th>
       <th>ES,BE,DE,DK,FI,HR,IE,IT,LV,NL,PL</th>
-      <td>89737</td>
-      <td>398</td>
-      <td>15694</td>
-      <td>398</td>
-      <td>2396</td>
-      <td>6.55</td>
-      <td>2.67%</td>
-      <td>22097</td>
+      <td>77319</td>
+      <td>1203</td>
+      <td>25585</td>
+      <td>1203</td>
+      <td>3291</td>
+      <td>7.77</td>
+      <td>4.26%</td>
+      <td>36826</td>
       <td></td>
       <td></td>
       <td></td>
     </tr>
     <tr>
+      <th>2021-01-27</th>
+      <th>ES,BE,DE,DK,FI,HR,IE,IT,LV,NL,PL</th>
+      <td>77319</td>
+      <td>4726</td>
+      <td>27750</td>
+      <td>1435</td>
+      <td>3533</td>
+      <td>7.85</td>
+      <td>4.57%</td>
+      <td>36826</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>2021-01-26</th>
+      <th>ES,BE,DE,DK,FI,HR,IE,IT,LV,NL,PL</th>
+      <td>79518</td>
+      <td>7777</td>
+      <td>26988</td>
+      <td>1532</td>
+      <td>3241</td>
+      <td>8.33</td>
+      <td>4.08%</td>
+      <td>37011</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>2021-01-25</th>
+      <th>ES,BE,DE,DK,FI,HR,IE,IT,LV,NL,PL</th>
+      <td>79831</td>
+      <td>9400</td>
+      <td>14799</td>
+      <td>824</td>
+      <td>2017</td>
+      <td>7.34</td>
+      <td>2.53%</td>
+      <td>36704</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>2021-01-24</th>
+      <th>ES,BE,DE,DK,FI,HR,IE,IT,LV,NL,PL</th>
+      <td>79147</td>
+      <td>10303</td>
+      <td>16650</td>
+      <td>717</td>
+      <td>2427</td>
+      <td>6.86</td>
+      <td>3.07%</td>
+      <td>35342</td>
+      <td>14654</td>
+      <td>731</td>
+      <td>2.07%</td>
+    </tr>
+    <tr>
+      <th>2021-01-23</th>
+      <th>ES,BE,DE,DK,FI,HR,IE,IT,LV,NL,PL</th>
+      <td>80008</td>
+      <td>12548</td>
+      <td>25192</td>
+      <td>1502</td>
+      <td>3521</td>
+      <td>7.15</td>
+      <td>4.40%</td>
+      <td>35342</td>
+      <td>14654</td>
+      <td>731</td>
+      <td>2.07%</td>
+    </tr>
+    <tr>
+      <th>2021-01-22</th>
+      <th>ES,BE,DE,DK,FI,HR,IE,IT,LV,NL,PL</th>
+      <td>81009</td>
+      <td>14941</td>
+      <td>29420</td>
+      <td>1622</td>
+      <td>3887</td>
+      <td>7.57</td>
+      <td>4.80%</td>
+      <td>35342</td>
+      <td>14654</td>
+      <td>731</td>
+      <td>2.07%</td>
+    </tr>
+    <tr>
+      <th>2021-01-21</th>
+      <th>ES,BE,DE,DK,FI,HR,IE,IT,LV,NL,PL</th>
+      <td>80456</td>
+      <td>17120</td>
+      <td>29346</td>
+      <td>1595</td>
+      <td>4027</td>
+      <td>7.29</td>
+      <td>5.01%</td>
+      <td>34958</td>
+      <td>14654</td>
+      <td>731</td>
+      <td>2.09%</td>
+    </tr>
+    <tr>
+      <th>2021-01-20</th>
+      <th>ES,BE,DE,DK,FI,HR,IE,IT,LV,NL,PL</th>
+      <td>82125</td>
+      <td>19292</td>
+      <td>32857</td>
+      <td>1753</td>
+      <td>4339</td>
+      <td>7.57</td>
+      <td>5.28%</td>
+      <td>33747</td>
+      <td>14654</td>
+      <td>731</td>
+      <td>2.17%</td>
+    </tr>
+    <tr>
+      <th>2021-01-19</th>
+      <th>ES,BE,DE,DK,FI,HR,IE,IT,LV,NL,PL</th>
+      <td>82207</td>
+      <td>21449</td>
+      <td>29236</td>
+      <td>1796</td>
+      <td>3620</td>
+      <td>8.08</td>
+      <td>4.40%</td>
+      <td>33360</td>
+      <td>14654</td>
+      <td>731</td>
+      <td>2.19%</td>
+    </tr>
+    <tr>
+      <th>2021-01-18</th>
+      <th>ES,BE,DE,DK,FI,HR,IE,IT,LV,NL,PL</th>
+      <td>84112</td>
+      <td>21039</td>
+      <td>16986</td>
+      <td>881</td>
+      <td>2070</td>
+      <td>8.21</td>
+      <td>2.46%</td>
+      <td>32096</td>
+      <td>14654</td>
+      <td>731</td>
+      <td>2.28%</td>
+    </tr>
+    <tr>
+      <th>2021-01-17</th>
+      <th>ES,BE,DE,DK,FI,HR,IE,IT,LV,NL,PL</th>
+      <td>82532</td>
+      <td>18853</td>
+      <td>16559</td>
+      <td>701</td>
+      <td>2569</td>
+      <td>6.45</td>
+      <td>3.11%</td>
+      <td>28829</td>
+      <td>19146</td>
+      <td>679</td>
+      <td>2.36%</td>
+    </tr>
+    <tr>
+      <th>2021-01-16</th>
+      <th>ES,BE,DE,DK,FI,HR,IE,IT,LV,NL,PL</th>
+      <td>83137</td>
+      <td>17506</td>
+      <td>28691</td>
+      <td>1449</td>
+      <td>3952</td>
+      <td>7.26</td>
+      <td>4.75%</td>
+      <td>28829</td>
+      <td>19146</td>
+      <td>679</td>
+      <td>2.36%</td>
+    </tr>
+    <tr>
+      <th>2021-01-15</th>
+      <th>ES,BE,DE,DK,FI,HR,IE,IT,LV,NL,PL</th>
+      <td>86057</td>
+      <td>16168</td>
+      <td>31917</td>
+      <td>1695</td>
+      <td>4220</td>
+      <td>7.56</td>
+      <td>4.90%</td>
+      <td>28829</td>
+      <td>19146</td>
+      <td>679</td>
+      <td>2.36%</td>
+    </tr>
+    <tr>
+      <th>2021-01-14</th>
+      <th>ES,BE,DE,DK,FI,HR,IE,IT,LV,NL,PL</th>
+      <td>86729</td>
+      <td>15523</td>
+      <td>32816</td>
+      <td>1728</td>
+      <td>4408</td>
+      <td>7.44</td>
+      <td>5.08%</td>
+      <td>26723</td>
+      <td>19146</td>
+      <td>679</td>
+      <td>2.54%</td>
+    </tr>
+    <tr>
+      <th>2021-01-13</th>
+      <th>ES,BE,DE,DK,FI,HR,IE,IT,LV,NL,PL</th>
+      <td>92754</td>
+      <td>14518</td>
+      <td>36514</td>
+      <td>1900</td>
+      <td>4873</td>
+      <td>7.49</td>
+      <td>5.25%</td>
+      <td>27649</td>
+      <td>19146</td>
+      <td>679</td>
+      <td>2.46%</td>
+    </tr>
+    <tr>
       <th>2021-01-12</th>
       <th>ES,BE,DE,DK,FI,HR,IE,IT,LV,NL,PL</th>
       <td>89737</td>
-      <td>4123</td>
+      <td>14531</td>
       <td>31624</td>
       <td>1727</td>
       <td>3909</td>
       <td>8.09</td>
       <td>4.36%</td>
       <td>22097</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>19146</td>
+      <td>679</td>
+      <td>3.07%</td>
     </tr>
     <tr>
       <th>2021-01-11</th>
       <th>ES,BE,DE,DK,FI,HR,IE,IT,LV,NL,PL</th>
       <td>89386</td>
-      <td>6479</td>
+      <td>15602</td>
       <td>19085</td>
       <td>890</td>
       <td>2407</td>
       <td>7.93</td>
       <td>2.69%</td>
       <td>21848</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>19146</td>
+      <td>679</td>
+      <td>3.11%</td>
     </tr>
     <tr>
       <th>2021-01-10</th>
       <th>ES,BE,DE,DK,FI,HR,IE,IT,LV,NL,PL</th>
       <td>85245</td>
-      <td>7605</td>
+      <td>16687</td>
       <td>21062</td>
       <td>596</td>
       <td>3146</td>
@@ -124,7 +349,7 @@
       <th>2021-01-09</th>
       <th>ES,BE,DE,DK,FI,HR,IE,IT,LV,NL,PL</th>
       <td>85206</td>
-      <td>11350</td>
+      <td>17696</td>
       <td>37590</td>
       <td>1666</td>
       <td>5036</td>
@@ -139,7 +364,7 @@
       <th>2021-01-08</th>
       <th>ES,BE,DE,DK,FI,HR,IE,IT,LV,NL,PL</th>
       <td>81295</td>
-      <td>15664</td>
+      <td>17905</td>
       <td>43317</td>
       <td>2105</td>
       <td>5566</td>
@@ -154,7 +379,7 @@
       <th>2021-01-07</th>
       <th>ES,BE,DE,DK,FI,HR,IE,IT,LV,NL,PL</th>
       <td>75292</td>
-      <td>18750</td>
+      <td>17138</td>
       <td>42085</td>
       <td>1721</td>
       <td>5709</td>
@@ -169,7 +394,7 @@
       <th>2021-01-06</th>
       <th>ES,BE,DE,DK,HR,IE,IT,LV,NL,PL</th>
       <td>68390</td>
-      <td>22389</td>
+      <td>16245</td>
       <td>51583</td>
       <td>1984</td>
       <td>6612</td>
@@ -184,7 +409,7 @@
       <th>2021-01-05</th>
       <th>ES,DE,DK,HR,IE,IT,LV,NL,PL</th>
       <td>71086</td>
-      <td>26430</td>
+      <td>16759</td>
       <td>45665</td>
       <td>2169</td>
       <td>5337</td>
@@ -199,7 +424,7 @@
       <th>2021-01-04</th>
       <th>ES,DE,DK,HR,IE,IT,LV,NL,PL</th>
       <td>69031</td>
-      <td>27546</td>
+      <td>18815</td>
       <td>26803</td>
       <td>964</td>
       <td>3386</td>
@@ -214,7 +439,7 @@
       <th>2021-01-03</th>
       <th>ES,DE,DK,HR,IE,IT,LV,NL,PL</th>
       <td>67305</td>
-      <td>26908</td>
+      <td>20483</td>
       <td>25096</td>
       <td>676</td>
       <td>3462</td>
@@ -229,7 +454,7 @@
       <th>2021-01-02</th>
       <th>ES,DE,DK,HR,IE,IT,LV,NL,PL</th>
       <td>66319</td>
-      <td>25171</td>
+      <td>22265</td>
       <td>24060</td>
       <td>629</td>
       <td>3208</td>
@@ -244,7 +469,7 @@
       <th>2021-01-01</th>
       <th>ES,DE,DK,HR,IE,IT,LV,NL,PL</th>
       <td>66118</td>
-      <td>23367</td>
+      <td>23136</td>
       <td>23632</td>
       <td>601</td>
       <td>3591</td>
@@ -254,231 +479,6 @@
       <td>34009</td>
       <td>297</td>
       <td>2.84%</td>
-    </tr>
-    <tr>
-      <th>2020-12-31</th>
-      <th>ES,DE,DK,HR,IE,IT,LV,NL,PL</th>
-      <td>65917</td>
-      <td>21879</td>
-      <td>48686</td>
-      <td>2069</td>
-      <td>6483</td>
-      <td>7.51</td>
-      <td>9.84%</td>
-      <td>10473</td>
-      <td>34009</td>
-      <td>297</td>
-      <td>2.84%</td>
-    </tr>
-    <tr>
-      <th>2020-12-30</th>
-      <th>ES,DE,DK,HR,IE,IT,LV,NL,PL</th>
-      <td>65474</td>
-      <td>22105</td>
-      <td>55776</td>
-      <td>2402</td>
-      <td>7061</td>
-      <td>7.90</td>
-      <td>10.78%</td>
-      <td>9704</td>
-      <td>34009</td>
-      <td>297</td>
-      <td>3.06%</td>
-    </tr>
-    <tr>
-      <th>2020-12-29</th>
-      <th>ES,DE,DK,HR,IE,IT,LV,NL,PL</th>
-      <td>62477</td>
-      <td>21388</td>
-      <td>48380</td>
-      <td>1983</td>
-      <td>5726</td>
-      <td>8.45</td>
-      <td>9.16%</td>
-      <td>9086</td>
-      <td>34009</td>
-      <td>297</td>
-      <td>3.27%</td>
-    </tr>
-    <tr>
-      <th>2020-12-28</th>
-      <th>ES,DE,DK,HR,IE,IT,LV,NL,PL</th>
-      <td>64899</td>
-      <td>21271</td>
-      <td>27432</td>
-      <td>782</td>
-      <td>3411</td>
-      <td>8.04</td>
-      <td>5.26%</td>
-      <td>8595</td>
-      <td>34009</td>
-      <td>297</td>
-      <td>3.46%</td>
-    </tr>
-    <tr>
-      <th>2020-12-27</th>
-      <th>ES,DE,DK,HR,IE,IT,LV,NL,PL</th>
-      <td>66512</td>
-      <td>22987</td>
-      <td>21406</td>
-      <td>495</td>
-      <td>3049</td>
-      <td>7.02</td>
-      <td>4.58%</td>
-      <td>8245</td>
-      <td>43800</td>
-      <td>210</td>
-      <td>2.55%</td>
-    </tr>
-    <tr>
-      <th>2020-12-26</th>
-      <th>ES,DE,DK,HR,IE,IT,LV,NL,PL</th>
-      <td>68097</td>
-      <td>24320</td>
-      <td>22521</td>
-      <td>504</td>
-      <td>3295</td>
-      <td>6.83</td>
-      <td>4.84%</td>
-      <td>8245</td>
-      <td>43800</td>
-      <td>210</td>
-      <td>2.55%</td>
-    </tr>
-    <tr>
-      <th>2020-12-25</th>
-      <th>ES,DE,DK,HR,IE,IT,LV,NL,PL</th>
-      <td>71870</td>
-      <td>24703</td>
-      <td>27685</td>
-      <td>725</td>
-      <td>4167</td>
-      <td>6.64</td>
-      <td>5.80%</td>
-      <td>8245</td>
-      <td>43800</td>
-      <td>210</td>
-      <td>2.55%</td>
-    </tr>
-    <tr>
-      <th>2020-12-24</th>
-      <th>ES,DE,DK,HR,IE,IT,LV,NL,PL</th>
-      <td>78183</td>
-      <td>23578</td>
-      <td>58594</td>
-      <td>2425</td>
-      <td>7553</td>
-      <td>7.76</td>
-      <td>9.66%</td>
-      <td>9933</td>
-      <td>43800</td>
-      <td>210</td>
-      <td>2.11%</td>
-    </tr>
-    <tr>
-      <th>2020-12-23</th>
-      <th>ES,DE,DK,HR,IE,IT,LV,NL,PL</th>
-      <td>78994</td>
-      <td>21566</td>
-      <td>63511</td>
-      <td>2507</td>
-      <td>7917</td>
-      <td>8.02</td>
-      <td>10.02%</td>
-      <td>9857</td>
-      <td>43800</td>
-      <td>210</td>
-      <td>2.13%</td>
-    </tr>
-    <tr>
-      <th>2020-12-22</th>
-      <th>ES,DE,DK,HR,IE,IT,LV,NL,PL</th>
-      <td>79359</td>
-      <td>20224</td>
-      <td>47923</td>
-      <td>1886</td>
-      <td>5820</td>
-      <td>8.23</td>
-      <td>7.33%</td>
-      <td>9670</td>
-      <td>43800</td>
-      <td>210</td>
-      <td>2.17%</td>
-    </tr>
-    <tr>
-      <th>2020-12-21</th>
-      <th>ES,DE,DK,HR,IE,IT,LV,NL,PL</th>
-      <td>78722</td>
-      <td>20401</td>
-      <td>37240</td>
-      <td>978</td>
-      <td>4586</td>
-      <td>8.12</td>
-      <td>5.83%</td>
-      <td>9624</td>
-      <td>43800</td>
-      <td>210</td>
-      <td>2.18%</td>
-    </tr>
-    <tr>
-      <th>2020-12-20</th>
-      <th>ES,DE,DK,HR,IE,IT,LV,NL,PL</th>
-      <td>76637</td>
-      <td>22879</td>
-      <td>91025</td>
-      <td>665</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td>9523</td>
-      <td>15423</td>
-      <td>237</td>
-      <td>2.49%</td>
-    </tr>
-    <tr>
-      <th>2020-12-19</th>
-      <th>ES,DE,DK,HR,IE,IT,LV,NL,PL</th>
-      <td>77951</td>
-      <td>25773</td>
-      <td>1157</td>
-      <td>149</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td>9523</td>
-      <td>15423</td>
-      <td>237</td>
-      <td>2.49%</td>
-    </tr>
-    <tr>
-      <th>2020-12-18</th>
-      <th>ES,DE,DK,HR,IE,IT,LV,NL,PL</th>
-      <td>78240</td>
-      <td>27379</td>
-      <td>73609</td>
-      <td>355</td>
-      <td>7851</td>
-      <td>9.38</td>
-      <td>10.03%</td>
-      <td>9523</td>
-      <td>15423</td>
-      <td>237</td>
-      <td>2.49%</td>
-    </tr>
-    <tr>
-      <th>2020-12-17</th>
-      <th>ES,DE,DK,HR,IE,IT,LV,NL,PL</th>
-      <td>77479</td>
-      <td>26615</td>
-      <td>50571</td>
-      <td>295</td>
-      <td>4690</td>
-      <td>10.78</td>
-      <td>6.05%</td>
-      <td>9338</td>
-      <td>15423</td>
-      <td>237</td>
-      <td>2.54%</td>
     </tr>
   </tbody>
 </table>
@@ -526,144 +526,144 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
   </thead>
   <tbody>
     <tr>
-      <th>2021-01-13</th>
-      <td>138</td>
-      <td>0</td>
-      <td>0</td>
-      <td>398</td>
-      <td>16</td>
-      <td>0</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <th>2021-01-12</th>
-      <td>517</td>
-      <td>2853</td>
-      <td>37</td>
-      <td>4123</td>
-      <td>662</td>
-      <td>105</td>
-      <td>38</td>
-    </tr>
-    <tr>
-      <th>2021-01-11</th>
-      <td>738</td>
-      <td>5213</td>
-      <td>53</td>
-      <td>6479</td>
-      <td>2088</td>
-      <td>105</td>
-      <td>60</td>
-    </tr>
-    <tr>
-      <th>2021-01-10</th>
-      <td>914</td>
-      <td>5962</td>
-      <td>67</td>
-      <td>7605</td>
-      <td>3276</td>
-      <td>107</td>
-      <td>80</td>
-    </tr>
-    <tr>
-      <th>2021-01-09</th>
-      <td>1134</td>
-      <td>9326</td>
-      <td>85</td>
-      <td>11350</td>
-      <td>4489</td>
-      <td>107</td>
-      <td>93</td>
-    </tr>
-    <tr>
-      <th>2021-01-08</th>
-      <td>1247</td>
-      <td>13033</td>
-      <td>94</td>
-      <td>15664</td>
-      <td>5636</td>
-      <td>108</td>
-      <td>103</td>
-    </tr>
-    <tr>
-      <th>2021-01-07</th>
-      <td>1391</td>
-      <td>15592</td>
-      <td>116</td>
-      <td>18750</td>
-      <td>6649</td>
-      <td>108</td>
-      <td>108</td>
-    </tr>
-    <tr>
-      <th>2021-01-06</th>
-      <td>1536</td>
-      <td>18905</td>
-      <td>134</td>
-      <td>22389</td>
-      <td>7636</td>
-      <td>108</td>
-      <td>107</td>
-    </tr>
-    <tr>
-      <th>2021-01-05</th>
-      <td>1618</td>
-      <td>22516</td>
-      <td>152</td>
-      <td>26430</td>
-      <td>8821</td>
-      <td>110</td>
-      <td>95</td>
-    </tr>
-    <tr>
-      <th>2021-01-04</th>
-      <td>1574</td>
-      <td>22961</td>
-      <td>170</td>
-      <td>27546</td>
-      <td>9751</td>
-      <td>110</td>
-      <td>74</td>
-    </tr>
-    <tr>
-      <th>2021-01-03</th>
-      <td>1333</td>
-      <td>22931</td>
-      <td>163</td>
-      <td>26908</td>
-      <td>10994</td>
-      <td>109</td>
-      <td>59</td>
-    </tr>
-    <tr>
-      <th>2021-01-02</th>
-      <td>856</td>
-      <td>23795</td>
-      <td>166</td>
-      <td>25171</td>
-      <td>11808</td>
-      <td>113</td>
-      <td>49</td>
-    </tr>
-    <tr>
-      <th>2021-01-01</th>
-      <td>458</td>
-      <td>24302</td>
+      <th>2021-01-28</th>
       <td>167</td>
-      <td>23367</td>
-      <td>12690</td>
-      <td>110</td>
-      <td>32</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1203</td>
+      <td>25</td>
+      <td>3</td>
+      <td>3</td>
     </tr>
     <tr>
-      <th>2020-12-31</th>
+      <th>2021-01-27</th>
+      <td>395</td>
+      <td>2032</td>
+      <td>46</td>
+      <td>4726</td>
+      <td>589</td>
+      <td>104</td>
+      <td>28</td>
+    </tr>
+    <tr>
+      <th>2021-01-26</th>
+      <td>573</td>
+      <td>5203</td>
+      <td>77</td>
+      <td>7777</td>
+      <td>1206</td>
+      <td>107</td>
+      <td>48</td>
+    </tr>
+    <tr>
+      <th>2021-01-25</th>
+      <td>697</td>
+      <td>6381</td>
       <td>88</td>
-      <td>26920</td>
-      <td>172</td>
-      <td>21879</td>
-      <td>13586</td>
+      <td>9400</td>
+      <td>1596</td>
+      <td>107</td>
+      <td>68</td>
+    </tr>
+    <tr>
+      <th>2021-01-24</th>
+      <td>734</td>
+      <td>7030</td>
+      <td>98</td>
+      <td>10303</td>
+      <td>2073</td>
+      <td>108</td>
+      <td>77</td>
+    </tr>
+    <tr>
+      <th>2021-01-23</th>
+      <td>794</td>
+      <td>9226</td>
+      <td>96</td>
+      <td>12548</td>
+      <td>2600</td>
+      <td>108</td>
+      <td>84</td>
+    </tr>
+    <tr>
+      <th>2021-01-22</th>
+      <td>934</td>
+      <td>11529</td>
+      <td>95</td>
+      <td>14941</td>
+      <td>3122</td>
+      <td>109</td>
+      <td>105</td>
+    </tr>
+    <tr>
+      <th>2021-01-21</th>
+      <td>1049</td>
+      <td>13320</td>
+      <td>96</td>
+      <td>17120</td>
+      <td>3617</td>
       <td>110</td>
-      <td>36</td>
+      <td>126</td>
+    </tr>
+    <tr>
+      <th>2021-01-20</th>
+      <td>1169</td>
+      <td>15306</td>
+      <td>110</td>
+      <td>19292</td>
+      <td>4852</td>
+      <td>109</td>
+      <td>145</td>
+    </tr>
+    <tr>
+      <th>2021-01-19</th>
+      <td>1183</td>
+      <td>17233</td>
+      <td>134</td>
+      <td>21449</td>
+      <td>6175</td>
+      <td>110</td>
+      <td>163</td>
+    </tr>
+    <tr>
+      <th>2021-01-18</th>
+      <td>991</td>
+      <td>17309</td>
+      <td>130</td>
+      <td>21039</td>
+      <td>7422</td>
+      <td>109</td>
+      <td>174</td>
+    </tr>
+    <tr>
+      <th>2021-01-17</th>
+      <td>754</td>
+      <td>16610</td>
+      <td>117</td>
+      <td>18853</td>
+      <td>8713</td>
+      <td>108</td>
+      <td>171</td>
+    </tr>
+    <tr>
+      <th>2021-01-16</th>
+      <td>515</td>
+      <td>18144</td>
+      <td>100</td>
+      <td>17506</td>
+      <td>9573</td>
+      <td>109</td>
+      <td>162</td>
+    </tr>
+    <tr>
+      <th>2021-01-15</th>
+      <td>323</td>
+      <td>19926</td>
+      <td>85</td>
+      <td>16168</td>
+      <td>10308</td>
+      <td>108</td>
+      <td>140</td>
     </tr>
   </tbody>
 </table>
@@ -715,7 +715,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td></td>
       <td>-</td>
       <td></td>
-      <td>81.1%</td>
+      <td>73.9%</td>
       <td></td>
       <td></td>
       <td></td>
@@ -733,7 +733,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
     <tr style="text-align: center;">
       <th>ES</th>
       <td></td>
-      <td>90.0%</td>
+      <td>89.2%</td>
       <td></td>
       <td>-</td>
       <td></td>
