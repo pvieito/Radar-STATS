@@ -18,7 +18,7 @@
 
 ## Last Results
 
-- [Report 2021-02-12@19](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2021-02-12@20](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
@@ -62,14 +62,14 @@
   <tbody>
     <tr>
       <th>2021-02-12</th>
-      <th>ES,AT,BE,DE,DK,FI,HR,IE,IT,LV,NL,PL</th>
+      <th>ES,AT,BE,DE,DK,FI,HR,IE,IT,LV,NL,PL,SI</th>
       <td>53460</td>
-      <td>682</td>
-      <td>19676</td>
-      <td>682</td>
-      <td>2450</td>
-      <td>8.03</td>
-      <td>4.58%</td>
+      <td>713</td>
+      <td>20070</td>
+      <td>713</td>
+      <td>2532</td>
+      <td>7.93</td>
+      <td>4.74%</td>
       <td>18290</td>
       <td></td>
       <td></td>
@@ -79,7 +79,7 @@
       <th>2021-02-11</th>
       <th>ES,AT,BE,DE,DK,FI,HR,IE,IT,LV,NL,PL</th>
       <td>53460</td>
-      <td>3304</td>
+      <td>3386</td>
       <td>20760</td>
       <td>854</td>
       <td>2587</td>
@@ -94,7 +94,7 @@
       <th>2021-02-10</th>
       <th>ES,AT,BE,DE,DK,FI,HR,IE,IT,LV,NL,PL</th>
       <td>55451</td>
-      <td>5393</td>
+      <td>5467</td>
       <td>24123</td>
       <td>853</td>
       <td>2519</td>
@@ -109,7 +109,7 @@
       <th>2021-02-09</th>
       <th>ES,AT,BE,DE,DK,FI,HR,IE,IT,LV,NL,PL</th>
       <td>58082</td>
-      <td>7375</td>
+      <td>7444</td>
       <td>15603</td>
       <td>869</td>
       <td>1843</td>
@@ -124,7 +124,7 @@
       <th>2021-02-08</th>
       <th>ES,AT,BE,DE,DK,FI,HR,IE,IT,LV,NL,PL</th>
       <td>60392</td>
-      <td>8072</td>
+      <td>8124</td>
       <td>8654</td>
       <td>380</td>
       <td>1054</td>
@@ -139,7 +139,7 @@
       <th>2021-02-07</th>
       <th>ES,AT,BE,DE,DK,FI,HR,IE,IT,LV,NL,PL</th>
       <td>65584</td>
-      <td>8537</td>
+      <td>8572</td>
       <td>12827</td>
       <td>485</td>
       <td>1854</td>
@@ -154,7 +154,7 @@
       <th>2021-02-06</th>
       <th>ES,AT,BE,DE,DK,FI,HR,IE,IT,LV,NL,PL</th>
       <td>64752</td>
-      <td>10056</td>
+      <td>10076</td>
       <td>20036</td>
       <td>851</td>
       <td>2708</td>
@@ -169,7 +169,7 @@
       <th>2021-02-05</th>
       <th>ES,AT,BE,DE,DK,FI,HR,IE,IT,LV,NL,PL</th>
       <td>66067</td>
-      <td>11931</td>
+      <td>11945</td>
       <td>22495</td>
       <td>1002</td>
       <td>2820</td>
@@ -184,7 +184,7 @@
       <th>2021-02-04</th>
       <th>ES,AT,BE,DE,DK,FI,HR,IE,IT,LV,NL,PL</th>
       <td>67571</td>
-      <td>13612</td>
+      <td>13618</td>
       <td>24588</td>
       <td>1134</td>
       <td>3026</td>
@@ -199,7 +199,7 @@
       <th>2021-02-03</th>
       <th>ES,AT,BE,DE,DK,FI,HR,IE,IT,LV,NL,PL</th>
       <td>69063</td>
-      <td>15348</td>
+      <td>15354</td>
       <td>22807</td>
       <td>1194</td>
       <td>3095</td>
@@ -214,7 +214,7 @@
       <th>2021-02-02</th>
       <th>ES,BE,DE,DK,FI,HR,IE,IT,LV,NL,PL</th>
       <td>69875</td>
-      <td>15913</td>
+      <td>15918</td>
       <td>20350</td>
       <td>1163</td>
       <td>2642</td>
@@ -527,80 +527,80 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
   <tbody>
     <tr>
       <th>2021-02-12</th>
-      <td>84</td>
+      <td>96</td>
       <td>0</td>
       <td>0</td>
-      <td>682</td>
-      <td>22</td>
+      <td>713</td>
+      <td>23</td>
       <td>2</td>
       <td>0</td>
     </tr>
     <tr>
       <th>2021-02-11</th>
-      <td>212</td>
+      <td>219</td>
       <td>1280</td>
-      <td>41</td>
-      <td>3304</td>
-      <td>645</td>
+      <td>45</td>
+      <td>3386</td>
+      <td>647</td>
       <td>103</td>
       <td>5</td>
     </tr>
     <tr>
       <th>2021-02-10</th>
-      <td>362</td>
+      <td>368</td>
       <td>3413</td>
-      <td>73</td>
-      <td>5393</td>
+      <td>76</td>
+      <td>5467</td>
       <td>1342</td>
       <td>106</td>
       <td>4</td>
     </tr>
     <tr>
       <th>2021-02-09</th>
-      <td>489</td>
+      <td>496</td>
       <td>5038</td>
-      <td>102</td>
-      <td>7375</td>
+      <td>105</td>
+      <td>7444</td>
       <td>2075</td>
       <td>108</td>
       <td>6</td>
     </tr>
     <tr>
       <th>2021-02-08</th>
-      <td>579</td>
+      <td>585</td>
       <td>5435</td>
-      <td>114</td>
-      <td>8072</td>
+      <td>116</td>
+      <td>8124</td>
       <td>2743</td>
       <td>108</td>
       <td>6</td>
     </tr>
     <tr>
       <th>2021-02-07</th>
-      <td>585</td>
+      <td>590</td>
       <td>5675</td>
-      <td>127</td>
-      <td>8537</td>
+      <td>128</td>
+      <td>8572</td>
       <td>27591</td>
       <td>109</td>
       <td>7</td>
     </tr>
     <tr>
       <th>2021-02-06</th>
-      <td>625</td>
+      <td>626</td>
       <td>6917</td>
-      <td>125</td>
-      <td>10056</td>
+      <td>126</td>
+      <td>10076</td>
       <td>28220</td>
       <td>107</td>
       <td>10</td>
     </tr>
     <tr>
       <th>2021-02-05</th>
-      <td>626</td>
+      <td>627</td>
       <td>8454</td>
       <td>112</td>
-      <td>11931</td>
+      <td>11945</td>
       <td>28942</td>
       <td>105</td>
       <td>19</td>
@@ -610,7 +610,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td>671</td>
       <td>9719</td>
       <td>111</td>
-      <td>13612</td>
+      <td>13618</td>
       <td>29716</td>
       <td>105</td>
       <td>19</td>
@@ -620,24 +620,24 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td>716</td>
       <td>11021</td>
       <td>126</td>
-      <td>15348</td>
+      <td>15354</td>
       <td>30354</td>
       <td>103</td>
       <td>34</td>
     </tr>
     <tr>
       <th>2021-02-02</th>
-      <td>582</td>
+      <td>571</td>
       <td>12339</td>
       <td>119</td>
-      <td>15913</td>
+      <td>15918</td>
       <td>31098</td>
       <td>103</td>
       <td>42</td>
     </tr>
     <tr>
       <th>2021-02-01</th>
-      <td>468</td>
+      <td>459</td>
       <td>12591</td>
       <td>128</td>
       <td>14485</td>
@@ -647,7 +647,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
     </tr>
     <tr>
       <th>2021-01-31</th>
-      <td>339</td>
+      <td>330</td>
       <td>12335</td>
       <td>125</td>
       <td>13512</td>
@@ -657,7 +657,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
     </tr>
     <tr>
       <th>2021-01-30</th>
-      <td>224</td>
+      <td>218</td>
       <td>13663</td>
       <td>112</td>
       <td>12709</td>
@@ -715,7 +715,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td></td>
       <td>-</td>
       <td></td>
-      <td>67.2%</td>
+      <td>67.1%</td>
       <td></td>
       <td></td>
       <td></td>
@@ -780,7 +780,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
 ### Definitions
 
 - **TEK** (Temporary Exposure Key): A random identifier generated on-device each day used by [Exposure Notification](https://developer.apple.com/documentation/exposurenotification) apps like Radar COVID to detect exposures and share positive diagnoses. When a user has a confirmed case of COVID-19, he can share the TEKs generated on-device from the last 14 days through an Exposure Notification app which will be published on a server like the Radar COVID server. Other devices then download the infected TEKs from the server and check if they have detected them nearby via Bluetooth on the previous 14 days.
-- **Source Countries**: Countries with an Exposure Notification app that can share TEKs with the Radar COVID server directly or through the EFGS (see the notes below for more information). Currently the following countries are considered source countries: ES, AT, BE, DE, DK, FI, HR, IE, IT, LV, NL, PL.
+- **Source Countries**: Countries with an Exposure Notification app that can share TEKs with the Radar COVID server directly or through the EFGS (see the notes below for more information). Currently the following countries are considered source countries: ES, AT, BE, DE, DK, FI, HR, IE, IT, LV, NL, PL, SI.
 
 ### Metrics
 
@@ -794,7 +794,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
 
 #### Important Notes
 
-- As Radar COVID is [integrated](https://twitter.com/eu_commission/status/1318152800887558144?s=21) with the [EU Federation Gateway Service (EFGS)](https://github.com/eu-federation-gateway-service/efgs-federation-gateway) project, the server may publish TEKs from multiple source countries. Those EU-wide TEKs are published merged with TEKs shared directly from the Radar COVID app and they cannot be distinguished. To compute a valid usage ratio, we take in account COVID-19 cases from all applicable source countries [integrated with the EFGS](https://ec.europa.eu/info/live-work-travel-eu/health/coronavirus-response/travel-during-coronavirus-pandemic/mobile-contact-tracing-apps-eu-member-states_en), currently the following countries are considered source countries: ES, AT, BE, DE, DK, FI, HR, IE, IT, LV, NL, PL.
+- As Radar COVID is [integrated](https://twitter.com/eu_commission/status/1318152800887558144?s=21) with the [EU Federation Gateway Service (EFGS)](https://github.com/eu-federation-gateway-service/efgs-federation-gateway) project, the server may publish TEKs from multiple source countries. Those EU-wide TEKs are published merged with TEKs shared directly from the Radar COVID app and they cannot be distinguished. To compute a valid usage ratio, we take in account COVID-19 cases from all applicable source countries [integrated with the EFGS](https://ec.europa.eu/info/live-work-travel-eu/health/coronavirus-response/travel-during-coronavirus-pandemic/mobile-contact-tracing-apps-eu-member-states_en), currently the following countries are considered source countries: ES, AT, BE, DE, DK, FI, HR, IE, IT, LV, NL, PL, SI.
 - TEKs on the Radar COVID server may also be padded with artificial random TEKs to increase anonymization. Currently there is no known technique to detect such alterations, so metrics dependent on the number of uploaded TEKs (eg. shared diagnoses or usage ratio) may be lower than the estimated.
 - Some devices use the [Exposure Notification API version 1](https://developer.apple.com/documentation/bundleresources/information_property_list/enapiversion), which shares the last TEK (ie. the TEK generated the day the diagnosis is shared) a day after it was generated, so two uploads (one with the previous TEKs and another with the last TEK) will take place on different days. This will lead to a duplication on the shared diagnoses metric. This duplication effect will disappear once all devices are using the [new Exposure Notification API version](https://developer.apple.com/documentation/exposurenotification/enmanager/3583725-getdiagnosiskeys) which shares all 14 TEKs at once.
 
