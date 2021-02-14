@@ -18,7 +18,7 @@
 
 ## Last Results
 
-- [Report 2021-02-14@08](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2021-02-14@09](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
@@ -63,13 +63,13 @@
     <tr>
       <th>2021-02-14</th>
       <th>ES,AT,BE,DE,DK,FI,HR,IE,IT,LV,NL,PL,SI</th>
-      <td>51997</td>
+      <td>51745</td>
       <td>3</td>
       <td>5629</td>
       <td>3</td>
       <td>818</td>
       <td>6.88</td>
-      <td>1.57%</td>
+      <td>1.58%</td>
       <td>16292</td>
       <td></td>
       <td></td>
@@ -78,13 +78,13 @@
     <tr>
       <th>2021-02-13</th>
       <th>ES,AT,BE,DE,DK,FI,HR,IE,IT,LV,NL,PL,SI</th>
-      <td>51997</td>
+      <td>51745</td>
       <td>1577</td>
       <td>19010</td>
       <td>759</td>
       <td>2474</td>
       <td>7.68</td>
-      <td>4.76%</td>
+      <td>4.78%</td>
       <td>16292</td>
       <td></td>
       <td></td>
@@ -627,7 +627,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
     </tr>
     <tr>
       <th>2021-02-04</th>
-      <td>673</td>
+      <td>661</td>
       <td>11201</td>
       <td>114</td>
       <td>15053</td>
@@ -637,7 +637,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
     </tr>
     <tr>
       <th>2021-02-03</th>
-      <td>537</td>
+      <td>525</td>
       <td>12430</td>
       <td>128</td>
       <td>14199</td>
@@ -647,7 +647,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
     </tr>
     <tr>
       <th>2021-02-02</th>
-      <td>402</td>
+      <td>391</td>
       <td>13698</td>
       <td>121</td>
       <td>13236</td>
@@ -657,7 +657,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
     </tr>
     <tr>
       <th>2021-02-01</th>
-      <td>291</td>
+      <td>280</td>
       <td>13904</td>
       <td>129</td>
       <td>12482</td>
