@@ -15,11 +15,11 @@
         "PL",
         "SI"
     ],
-    "extraction_datetime": 1613420572413,
+    "extraction_datetime": 1613424008195,
     "extraction_date": "2021-02-15",
-    "extraction_date_with_hour": "2021-02-15@20",
+    "extraction_date_with_hour": "2021-02-15@21",
     "last_hour": {
-        "shared_teks_by_upload_date": 121,
+        "shared_teks_by_upload_date": 0,
         "shared_diagnoses": 0
     },
     "today": {
@@ -66,16 +66,16 @@
         "shared_diagnoses_per_covid_case_es": 0.0
     },
     "last_14_days": {
-        "covid_cases": 856732,
+        "covid_cases": 856874,
         "covid_cases_es": 342866,
-        "covid_cases_for_ratio": 856732,
+        "covid_cases_for_ratio": 856874,
         "covid_cases_for_ratio_es": 209982,
         "shared_teks_by_generation_date": 134273,
         "shared_teks_by_upload_date": 258302,
         "shared_diagnoses": 32702,
         "shared_diagnoses_es": 2723,
-        "teks_per_shared_diagnosis": 0.3014968508,
-        "shared_diagnoses_per_covid_case": 0.0381706298,
+        "teks_per_shared_diagnosis": 0.3014468872,
+        "shared_diagnoses_per_covid_case": 0.0381643042,
         "shared_diagnoses_per_covid_case_es": 0.0129677782
     },
     "daily_results": [
@@ -418,13 +418,13 @@
                 "NL",
                 "PL"
             ],
-            "covid_cases": 67571,
+            "covid_cases": 67713,
             "shared_teks_by_generation_date": 12280,
             "shared_teks_by_upload_date": 24588,
             "shared_teks_uploaded_on_generation_date": 1134,
             "shared_diagnoses": 3026,
             "teks_per_shared_diagnosis": 8.1255783212,
-            "shared_diagnoses_per_covid_case": 0.044782525,
+            "shared_diagnoses_per_covid_case": 0.0446886122,
             "covid_cases_es": 29775,
             "app_downloads_es": 9538,
             "shared_diagnoses_es": 389,
@@ -615,13 +615,13 @@
                 "NL",
                 "PL"
             ],
-            "covid_cases": 76804,
+            "covid_cases": 76661,
             "shared_teks_by_generation_date": 12208,
             "shared_teks_by_upload_date": 26004,
             "shared_teks_uploaded_on_generation_date": 1370,
             "shared_diagnoses": 3344,
             "teks_per_shared_diagnosis": 7.7763157895,
-            "shared_diagnoses_per_covid_case": 0.043539399,
+            "shared_diagnoses_per_covid_case": 0.0436206154,
             "covid_cases_es": 35475,
             "app_downloads_es": 15753,
             "shared_diagnoses_es": 606,
