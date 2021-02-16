@@ -27,6 +27,8 @@ class EFGSSourceRegionsProvider:
         dict(region="AT", addition_date=datetime.date(2021, 2, 3)),
         # NOTE: https://twitter.com/dsmeu/status/1360234939808120832?s=21
         dict(region="SI", addition_date=datetime.date(2021, 2, 12)),
+        # NOTE: https://twitter.com/dsmeu/status/1361381259805605890?s=21
+        dict(region="NO", addition_date=datetime.date(2021, 2, 15)),
     ]
 
     def __init__(self, native_region, native_periods: List[datetime.date] = None):
