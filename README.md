@@ -18,7 +18,7 @@
 
 ## Last Results
 
-- [Report 2021-02-17@01](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2021-02-17@02](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
@@ -65,11 +65,11 @@
       <th>ES,AT,BE,DE,DK,FI,HR,IE,IT,LV,NL,NO,PL,SI</th>
       <td>49204</td>
       <td></td>
-      <td>30</td>
+      <td>39</td>
       <td></td>
-      <td>18</td>
-      <td>1.67</td>
-      <td>0.04%</td>
+      <td>23</td>
+      <td>1.70</td>
+      <td>0.05%</td>
       <td>13886</td>
       <td></td>
       <td></td>
@@ -79,7 +79,7 @@
       <th>2021-02-16</th>
       <th>ES,AT,BE,DE,DK,FI,HR,IE,IT,LV,NL,NO,PL,SI</th>
       <td>49204</td>
-      <td>862</td>
+      <td>867</td>
       <td>17042</td>
       <td>844</td>
       <td>2041</td>
@@ -94,7 +94,7 @@
       <th>2021-02-15</th>
       <th>ES,AT,BE,DE,DK,FI,HR,IE,IT,LV,NL,NO,PL,SI</th>
       <td>49204</td>
-      <td>2371</td>
+      <td>2373</td>
       <td>12286</td>
       <td>328</td>
       <td>1426</td>
@@ -109,7 +109,7 @@
       <th>2021-02-14</th>
       <th>ES,AT,BE,DE,DK,FI,HR,IE,IT,LV,NL,PL,SI</th>
       <td>51263</td>
-      <td>3369</td>
+      <td>3371</td>
       <td>13052</td>
       <td>284</td>
       <td>1776</td>
@@ -214,7 +214,7 @@
       <th>2021-02-07</th>
       <th>ES,AT,BE,DE,DK,FI,HR,IE,IT,LV,NL,PL</th>
       <td>65584</td>
-      <td>12510</td>
+      <td>12507</td>
       <td>12827</td>
       <td>485</td>
       <td>1854</td>
@@ -527,39 +527,39 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
   <tbody>
     <tr>
       <th>2021-02-16</th>
-      <td>103</td>
+      <td>104</td>
       <td>1552</td>
-      <td>0</td>
-      <td>862</td>
+      <td>18</td>
+      <td>867</td>
       <td>8</td>
-      <td>1</td>
+      <td>101</td>
       <td>0</td>
     </tr>
     <tr>
       <th>2021-02-15</th>
-      <td>185</td>
+      <td>186</td>
       <td>2645</td>
-      <td>65</td>
-      <td>2371</td>
+      <td>66</td>
+      <td>2373</td>
       <td>412</td>
       <td>103</td>
       <td>4</td>
     </tr>
     <tr>
       <th>2021-02-14</th>
-      <td>243</td>
+      <td>244</td>
       <td>3036</td>
-      <td>97</td>
-      <td>3369</td>
+      <td>98</td>
+      <td>3371</td>
       <td>903</td>
       <td>105</td>
       <td>4</td>
     </tr>
     <tr>
       <th>2021-02-13</th>
-      <td>337</td>
+      <td>338</td>
       <td>4557</td>
-      <td>131</td>
+      <td>132</td>
       <td>5344</td>
       <td>1224</td>
       <td>105</td>
@@ -567,9 +567,9 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
     </tr>
     <tr>
       <th>2021-02-12</th>
-      <td>423</td>
+      <td>424</td>
       <td>6092</td>
-      <td>147</td>
+      <td>148</td>
       <td>7391</td>
       <td>1620</td>
       <td>106</td>
@@ -577,9 +577,9 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
     </tr>
     <tr>
       <th>2021-02-11</th>
-      <td>498</td>
+      <td>499</td>
       <td>7247</td>
-      <td>152</td>
+      <td>153</td>
       <td>8989</td>
       <td>2363</td>
       <td>107</td>
@@ -587,9 +587,9 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
     </tr>
     <tr>
       <th>2021-02-10</th>
-      <td>582</td>
+      <td>583</td>
       <td>8406</td>
-      <td>164</td>
+      <td>165</td>
       <td>10574</td>
       <td>3019</td>
       <td>110</td>
@@ -597,9 +597,9 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
     </tr>
     <tr>
       <th>2021-02-09</th>
-      <td>628</td>
+      <td>629</td>
       <td>9550</td>
-      <td>164</td>
+      <td>165</td>
       <td>12084</td>
       <td>3774</td>
       <td>111</td>
@@ -620,7 +620,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td>638</td>
       <td>9278</td>
       <td>154</td>
-      <td>12510</td>
+      <td>12507</td>
       <td>29299</td>
       <td>110</td>
       <td>10</td>
