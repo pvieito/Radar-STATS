@@ -16,11 +16,11 @@
         "PL",
         "SI"
     ],
-    "extraction_datetime": 1613536011298,
+    "extraction_datetime": 1613539343766,
     "extraction_date": "2021-02-17",
-    "extraction_date_with_hour": "2021-02-17@04",
+    "extraction_date_with_hour": "2021-02-17@05",
     "last_hour": {
-        "shared_teks_by_upload_date": 113,
+        "shared_teks_by_upload_date": 0,
         "shared_diagnoses": 0
     },
     "today": {
