@@ -18,7 +18,7 @@
 
 ## Last Results
 
-- [Report 2021-02-18@01](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2021-02-18@02](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
@@ -65,11 +65,11 @@
       <th>ES,AT,BE,DE,DK,FI,HR,IE,IT,LV,NL,NO,PL,SI</th>
       <td>48671</td>
       <td></td>
-      <td>20</td>
+      <td>22</td>
       <td></td>
-      <td>12</td>
-      <td>1.67</td>
-      <td>0.02%</td>
+      <td>14</td>
+      <td>1.57</td>
+      <td>0.03%</td>
       <td>12979</td>
       <td></td>
       <td></td>
@@ -79,7 +79,7 @@
       <th>2021-02-17</th>
       <th>ES,AT,BE,DE,DK,FI,HR,IE,IT,LV,NL,NO,PL,SI</th>
       <td>48671</td>
-      <td>878</td>
+      <td>880</td>
       <td>19297</td>
       <td>866</td>
       <td>2576</td>
@@ -529,10 +529,10 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <th>2021-02-17</th>
       <td>134</td>
       <td>1376</td>
-      <td>0</td>
-      <td>878</td>
       <td>10</td>
-      <td>2</td>
+      <td>880</td>
+      <td>10</td>
+      <td>102</td>
       <td>1</td>
     </tr>
     <tr>
@@ -627,7 +627,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
     </tr>
     <tr>
       <th>2021-02-07</th>
-      <td>551</td>
+      <td>547</td>
       <td>10089</td>
       <td>155</td>
       <td>12900</td>
