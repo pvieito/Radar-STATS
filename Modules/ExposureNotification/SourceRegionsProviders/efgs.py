@@ -31,7 +31,7 @@ class EFGSSourceRegionsProvider:
         dict(region="NO", addition_date=datetime.date(2021, 2, 15)),
     ]
 
-    def __init__(self, native_region, native_periods: List[datetime.date] = None):
+    def __init__(self, native_region, native_periods: List[Tuple[datetime.date, datetime.date]] = None):
         self.native_region = native_region
         self.native_periods = native_periods
 
@@ -43,8 +43,9 @@ class EFGSSourceRegionsProvider:
 
         source_regions = {self.native_region}
         if self.native_periods:
-            if self.native_periods[0] <= date <= self.native_periods[1]:
-                return source_regions
+            for native_period in self.native_periods:
+                if native_period[0] <= date <= native_period[1]:
+                    return source_regions
 
         if native_region_addition_date and date >= native_region_addition_date:
             for source_regions_addition in self._efgs_source_regions_additions:

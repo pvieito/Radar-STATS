@@ -19,17 +19,27 @@ _backend_clients = [
         source_regions_provider=EFGSSourceRegionsProvider(
             native_region="ES",
             native_periods=[
-                datetime.date(2020, 12, 3), datetime.date(2020, 12, 4),
-                datetime.date(2021, 2, 20), datetime.date.max,
+                (datetime.date(2020, 12, 3), datetime.date(2020, 12, 4)),
+                (datetime.date(2021, 2, 20), datetime.date.max),
             ])),
+    DP3TBackendClient(
+        backend_identifier="ES@PRE",
+        server_endpoint_url="https://radarcovidpre.covid19.gob.es/dp3t"),
     DP3TBackendClient(
         backend_identifier="IT@ES",
         server_endpoint_url="https://radarcovid.covid19.gob.es/dp3t",
         version=2,
         origin_country="IT"),
     DP3TBackendClient(
-        backend_identifier="ES@PRE",
-        server_endpoint_url="https://radarcovidpre.covid19.gob.es/dp3t"),
+        backend_identifier="DE@ES",
+        server_endpoint_url="https://radarcovid.covid19.gob.es/dp3t",
+        version=2,
+        origin_country="DE"),
+    DP3TBackendClient(
+        backend_identifier="PT@ES",
+        server_endpoint_url="https://radarcovid.covid19.gob.es/dp3t",
+        version=2,
+        origin_country="PT"),
     DP3TBackendClient(
         backend_identifier="CH",
         server_endpoint_url="https://www.pt.bfs.admin.ch"),
@@ -68,7 +78,8 @@ _backend_clients = [
         source_regions_provider=EFGSSourceRegionsProvider(native_region="DK")),
 ]
 _default_backend_identifiers = [
-    "ES", "IT@ES", "ES@PRE", "CH", "PT", "EE", "MT",  # DP3T
+    "ES", "ES@PRE", "IT@ES", "DE@ES", "PT@ES",  # DP3T v2
+    "CH", "PT", "EE", "MT",  # DP3T v1
     "DE",  # Corona-Warn-App
 ]
 
