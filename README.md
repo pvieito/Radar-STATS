@@ -18,7 +18,7 @@
 
 ## Last Results
 
-- [Report 2021-02-20@01](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2021-02-20@02](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
@@ -65,11 +65,11 @@
       <th>ES,AT,BE,DE,DK,FI,HR,IE,IT,LV,NL,NO,PL,SI</th>
       <td>47476</td>
       <td></td>
-      <td>40</td>
+      <td>53</td>
       <td></td>
-      <td>29</td>
-      <td>1.38</td>
-      <td>0.06%</td>
+      <td>40</td>
+      <td>1.32</td>
+      <td>0.08%</td>
       <td>11462</td>
       <td></td>
       <td></td>
@@ -79,7 +79,7 @@
       <th>2021-02-19</th>
       <th>ES,AT,BE,DE,DK,FI,HR,IE,IT,LV,NL,NO,PL,SI</th>
       <td>47476</td>
-      <td>851</td>
+      <td>862</td>
       <td>18484</td>
       <td>822</td>
       <td>2453</td>
@@ -94,7 +94,7 @@
       <th>2021-02-18</th>
       <th>ES,AT,BE,DE,DK,FI,HR,IE,IT,LV,NL,NO,PL,SI</th>
       <td>47476</td>
-      <td>3192</td>
+      <td>3193</td>
       <td>17949</td>
       <td>736</td>
       <td>2398</td>
@@ -109,7 +109,7 @@
       <th>2021-02-17</th>
       <th>ES,AT,BE,DE,DK,FI,HR,IE,IT,LV,NL,NO,PL,SI</th>
       <td>47792</td>
-      <td>5207</td>
+      <td>5208</td>
       <td>19297</td>
       <td>866</td>
       <td>2576</td>
@@ -529,28 +529,28 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <th>2021-02-19</th>
       <td>109</td>
       <td>1458</td>
-      <td>0</td>
-      <td>851</td>
-      <td>10</td>
-      <td>0</td>
+      <td>13</td>
+      <td>862</td>
+      <td>11</td>
+      <td>100</td>
       <td>2</td>
     </tr>
     <tr>
       <th>2021-02-18</th>
-      <td>210</td>
+      <td>211</td>
       <td>3463</td>
       <td>86</td>
-      <td>3192</td>
-      <td>372</td>
+      <td>3193</td>
+      <td>373</td>
       <td>103</td>
       <td>4</td>
     </tr>
     <tr>
       <th>2021-02-17</th>
-      <td>339</td>
+      <td>340</td>
       <td>5108</td>
       <td>134</td>
-      <td>5207</td>
+      <td>5208</td>
       <td>935</td>
       <td>107</td>
       <td>7</td>
