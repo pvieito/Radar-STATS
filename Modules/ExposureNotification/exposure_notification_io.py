@@ -14,9 +14,19 @@ _backend_clients = [
     DP3TBackendClient(
         backend_identifier="ES",
         server_endpoint_url="https://radarcovid.covid19.gob.es/dp3t",
+        version=2,
+        origin_country="ES",
         source_regions_provider=EFGSSourceRegionsProvider(
             native_region="ES",
-            native_periods=[datetime.date(2020, 12, 3), datetime.date(2020, 12, 4)])),
+            native_periods=[
+                datetime.date(2020, 12, 3), datetime.date(2020, 12, 4),
+                datetime.date(2021, 2, 20), datetime.date.max,
+            ])),
+    DP3TBackendClient(
+        backend_identifier="IT@ES",
+        server_endpoint_url="https://radarcovid.covid19.gob.es/dp3t",
+        version=2,
+        origin_country="IT"),
     DP3TBackendClient(
         backend_identifier="ES@PRE",
         server_endpoint_url="https://radarcovidpre.covid19.gob.es/dp3t"),
@@ -58,7 +68,7 @@ _backend_clients = [
         source_regions_provider=EFGSSourceRegionsProvider(native_region="DK")),
 ]
 _default_backend_identifiers = [
-    "ES", "ES@PRE", "CH", "PT", "EE", "MT",  # DP3T
+    "ES", "IT@ES", "ES@PRE", "CH", "PT", "EE", "MT",  # DP3T
     "DE",  # Corona-Warn-App
 ]
 
