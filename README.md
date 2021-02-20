@@ -18,7 +18,7 @@
 
 ## Last Results
 
-- [Report 2021-02-20@20](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2021-02-20@21](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
@@ -62,7 +62,7 @@
   <tbody>
     <tr>
       <th>2021-02-20</th>
-      <th>ES,AT,BE,DE,DK,FI,HR,IE,IT,LV,NL,NO,PL,SI</th>
+      <th>ES</th>
       <td>47784</td>
       <td>98</td>
       <td>489</td>
@@ -501,12 +501,13 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
   <thead>
     <tr>
       <th></th>
-      <th colspan="8" halign="left">Shared TEKs by Generation Date (Source Countries)</th>
+      <th colspan="9" halign="left">Shared TEKs by Generation Date (Source Countries)</th>
     </tr>
     <tr>
       <th>Backend</th>
       <th>CH</th>
       <th>DE</th>
+      <th>DE@ES</th>
       <th>EE</th>
       <th>ES</th>
       <th>ES@PRE</th>
@@ -524,6 +525,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <th></th>
       <th></th>
       <th></th>
+      <th></th>
     </tr>
   </thead>
   <tbody>
@@ -531,6 +533,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <th>2021-02-20</th>
       <td>78</td>
       <td>0</td>
+      <td>578</td>
       <td>0</td>
       <td>98</td>
       <td>0</td>
@@ -542,6 +545,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <th>2021-02-19</th>
       <td>198</td>
       <td>1458</td>
+      <td>2103</td>
       <td>84</td>
       <td>278</td>
       <td>268</td>
@@ -553,6 +557,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <th>2021-02-18</th>
       <td>298</td>
       <td>3463</td>
+      <td>2865</td>
       <td>132</td>
       <td>351</td>
       <td>826</td>
@@ -564,6 +569,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <th>2021-02-17</th>
       <td>421</td>
       <td>5108</td>
+      <td>3673</td>
       <td>176</td>
       <td>475</td>
       <td>1371</td>
@@ -575,6 +581,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <th>2021-02-16</th>
       <td>475</td>
       <td>6747</td>
+      <td>4708</td>
       <td>215</td>
       <td>536</td>
       <td>1932</td>
@@ -586,6 +593,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <th>2021-02-15</th>
       <td>492</td>
       <td>7097</td>
+      <td>4661</td>
       <td>222</td>
       <td>542</td>
       <td>2500</td>
@@ -597,6 +605,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <th>2021-02-14</th>
       <td>474</td>
       <td>7038</td>
+      <td>4482</td>
       <td>212</td>
       <td>515</td>
       <td>2963</td>
@@ -608,6 +617,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <th>2021-02-13</th>
       <td>483</td>
       <td>8117</td>
+      <td>5471</td>
       <td>205</td>
       <td>567</td>
       <td>3279</td>
@@ -619,6 +629,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <th>2021-02-12</th>
       <td>517</td>
       <td>9226</td>
+      <td>6438</td>
       <td>195</td>
       <td>690</td>
       <td>3675</td>
@@ -630,6 +641,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <th>2021-02-11</th>
       <td>554</td>
       <td>10091</td>
+      <td>7088</td>
       <td>177</td>
       <td>705</td>
       <td>4418</td>
@@ -641,6 +653,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <th>2021-02-10</th>
       <td>471</td>
       <td>11056</td>
+      <td>7161</td>
       <td>180</td>
       <td>584</td>
       <td>5077</td>
@@ -652,6 +665,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <th>2021-02-09</th>
       <td>357</td>
       <td>12077</td>
+      <td>6567</td>
       <td>175</td>
       <td>450</td>
       <td>5824</td>
@@ -663,6 +677,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <th>2021-02-08</th>
       <td>273</td>
       <td>11915</td>
+      <td>6369</td>
       <td>156</td>
       <td>346</td>
       <td>6480</td>
@@ -674,6 +689,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <th>2021-02-07</th>
       <td>175</td>
       <td>11699</td>
+      <td>6261</td>
       <td>155</td>
       <td>245</td>
       <td>31355</td>
@@ -692,12 +708,13 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
   <thead>
     <tr style="text-align: center;">
       <th></th>
-      <th colspan="8" halign="left">Fraction of TEKs in Backend (A) Available in Backend (B)</th>
+      <th colspan="9" halign="left">Fraction of TEKs in Backend (A) Available in Backend (B)</th>
     </tr>
     <tr style="text-align: center;">
       <th>Backend (A)</th>
       <th>CH</th>
       <th>DE</th>
+      <th>DE@ES</th>
       <th>EE</th>
       <th>ES</th>
       <th>ES@PRE</th>
@@ -707,6 +724,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
     </tr>
     <tr style="text-align: center;">
       <th>Backend (B)</th>
+      <th></th>
       <th></th>
       <th></th>
       <th></th>
@@ -728,11 +746,13 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td></td>
       <td></td>
       <td></td>
+      <td></td>
     </tr>
     <tr style="text-align: center;">
       <th>DE</th>
       <td></td>
       <td>-</td>
+      <td>91.1%</td>
       <td></td>
       <td>81.0%</td>
       <td></td>
@@ -741,7 +761,20 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td></td>
     </tr>
     <tr style="text-align: center;">
+      <th>DE@ES</th>
+      <td></td>
+      <td>59.3%</td>
+      <td>-</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr style="text-align: center;">
       <th>EE</th>
+      <td></td>
       <td></td>
       <td></td>
       <td>-</td>
@@ -756,6 +789,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td></td>
       <td>4.9%</td>
       <td></td>
+      <td></td>
       <td>-</td>
       <td></td>
       <td></td>
@@ -768,6 +802,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td></td>
       <td></td>
       <td></td>
+      <td></td>
       <td>-</td>
       <td></td>
       <td></td>
@@ -775,6 +810,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
     </tr>
     <tr style="text-align: center;">
       <th>IT@ES</th>
+      <td></td>
       <td></td>
       <td></td>
       <td></td>
@@ -792,11 +828,13 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td></td>
       <td></td>
       <td></td>
+      <td></td>
       <td>-</td>
       <td></td>
     </tr>
     <tr style="text-align: center;">
       <th>PT</th>
+      <td></td>
       <td></td>
       <td></td>
       <td></td>
@@ -816,7 +854,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
 ### Definitions
 
 - **TEK** (Temporary Exposure Key): A random identifier generated on-device each day used by [Exposure Notification](https://developer.apple.com/documentation/exposurenotification) apps like Radar COVID to detect exposures and share positive diagnoses. When a user has a confirmed case of COVID-19, he can share the TEKs generated on-device from the last 14 days through an Exposure Notification app which will be published on a server like the Radar COVID server. Other devices then download the infected TEKs from the server and check if they have detected them nearby via Bluetooth on the previous 14 days.
-- **Source Countries**: Countries with an Exposure Notification app that can share TEKs with the Radar COVID server directly or through the EFGS (see the notes below for more information). Currently the following countries are considered source countries: ES, AT, BE, DE, DK, FI, HR, IE, IT, LV, NL, NO, PL, SI.
+- **Source Countries**: Countries with an Exposure Notification app that can share TEKs with the Radar COVID server directly or through the EFGS (see the notes below for more information). Currently the following countries are considered source countries: ES.
 
 ### Metrics
 
@@ -830,7 +868,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
 
 #### Important Notes
 
-- As Radar COVID is [integrated](https://twitter.com/eu_commission/status/1318152800887558144?s=21) with the [EU Federation Gateway Service (EFGS)](https://github.com/eu-federation-gateway-service/efgs-federation-gateway) project, the server may publish TEKs from multiple source countries. Those EU-wide TEKs are published merged with TEKs shared directly from the Radar COVID app and they cannot be distinguished. To compute a valid usage ratio, we take in account COVID-19 cases from all applicable source countries [integrated with the EFGS](https://ec.europa.eu/info/live-work-travel-eu/health/coronavirus-response/travel-during-coronavirus-pandemic/mobile-contact-tracing-apps-eu-member-states_en), currently the following countries are considered source countries: ES, AT, BE, DE, DK, FI, HR, IE, IT, LV, NL, NO, PL, SI.
+- As Radar COVID is [integrated](https://twitter.com/eu_commission/status/1318152800887558144?s=21) with the [EU Federation Gateway Service (EFGS)](https://github.com/eu-federation-gateway-service/efgs-federation-gateway) project, the server may publish TEKs from multiple source countries. Those EU-wide TEKs are published merged with TEKs shared directly from the Radar COVID app and they cannot be distinguished. To compute a valid usage ratio, we take in account COVID-19 cases from all applicable source countries [integrated with the EFGS](https://ec.europa.eu/info/live-work-travel-eu/health/coronavirus-response/travel-during-coronavirus-pandemic/mobile-contact-tracing-apps-eu-member-states_en), currently the following countries are considered source countries: ES.
 - TEKs on the Radar COVID server may also be padded with artificial random TEKs to increase anonymization. Currently there is no known technique to detect such alterations, so metrics dependent on the number of uploaded TEKs (eg. shared diagnoses or usage ratio) may be lower than the estimated.
 - Some devices use the [Exposure Notification API version 1](https://developer.apple.com/documentation/bundleresources/information_property_list/enapiversion), which shares the last TEK (ie. the TEK generated the day the diagnosis is shared) a day after it was generated, so two uploads (one with the previous TEKs and another with the last TEK) will take place on different days. This will lead to a duplication on the shared diagnoses metric. This duplication effect will disappear once all devices are using the [new Exposure Notification API version](https://developer.apple.com/documentation/exposurenotification/enmanager/3583725-getdiagnosiskeys) which shares all 14 TEKs at once.
 
