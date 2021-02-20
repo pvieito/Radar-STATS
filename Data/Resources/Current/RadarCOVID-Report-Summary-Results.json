@@ -1,45 +1,19 @@
 {
     "backend_identifier": "ES",
     "source_regions": [
-        "ES",
-        "AT",
-        "BE",
-        "DE",
-        "DK",
-        "FI",
-        "HR",
-        "IE",
-        "IT",
-        "LV",
-        "NL",
-        "NO",
-        "PL",
-        "SI"
+        "ES"
     ],
-    "extraction_datetime": 1613852570556,
+    "extraction_datetime": 1613855985991,
     "extraction_date": "2021-02-20",
-    "extraction_date_with_hour": "2021-02-20@20",
+    "extraction_date_with_hour": "2021-02-20@21",
     "last_hour": {
-        "shared_teks_by_upload_date": 89,
+        "shared_teks_by_upload_date": 0,
         "shared_diagnoses": 0
     },
     "today": {
         "sample_date": 1613779200000,
         "source_regions": [
-            "ES",
-            "AT",
-            "BE",
-            "DE",
-            "DK",
-            "FI",
-            "HR",
-            "IE",
-            "IT",
-            "LV",
-            "NL",
-            "NO",
-            "PL",
-            "SI"
+            "ES"
         ],
         "covid_cases": 47784,
         "shared_teks_by_generation_date": 98,
@@ -84,20 +58,7 @@
         {
             "sample_date": 1613779200000,
             "source_regions": [
-                "ES",
-                "AT",
-                "BE",
-                "DE",
-                "DK",
-                "FI",
-                "HR",
-                "IE",
-                "IT",
-                "LV",
-                "NL",
-                "NO",
-                "PL",
-                "SI"
+                "ES"
             ],
             "covid_cases": 47784,
             "shared_teks_by_generation_date": 98,
