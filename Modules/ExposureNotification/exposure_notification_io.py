@@ -70,7 +70,7 @@ _backend_clients = [
         target_country="BE",
         source_regions_provider=EFGSSourceRegionsProvider(native_region="BE")),
     CoronaWarnAppBackendClient(
-        backend_identifier="BE@TST",
+        backend_identifier="BE-TST",
         server_endpoint_url="https://c19distcdn-tst.ixor.be",
         target_country="BE"),
     ImmuniBackendClient(
