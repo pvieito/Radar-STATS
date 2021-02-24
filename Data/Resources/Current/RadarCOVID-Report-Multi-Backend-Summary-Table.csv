@@ -1,7 +1,7 @@
 ,shared_teks_by_generation_date,shared_teks_by_generation_date,shared_teks_by_generation_date,shared_teks_by_generation_date,shared_teks_by_generation_date,shared_teks_by_generation_date,shared_teks_by_generation_date,shared_teks_by_generation_date,shared_teks_by_generation_date,shared_teks_by_generation_date
 region,CH,DE,DE@ES,EE,ES,ES@PRE,EU@ES,IT@ES,MT,PT
 sample_date,,,,,,,,,,
-2021-02-24,32,0,6,0,46,0,0,0,0,0
+2021-02-24,32,0,6,0,46,0,0,0,1,0
 2021-02-23,153,1724,1752,106,192,90,90,0,104,3
 2021-02-22,236,2889,2160,165,224,687,687,74,106,3
 2021-02-21,321,3326,2011,207,271,1269,1269,173,107,5
