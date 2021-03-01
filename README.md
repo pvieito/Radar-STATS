@@ -18,7 +18,7 @@
 
 ## Last Results
 
-- [Report 2021-03-01@01](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2021-03-01@02](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
@@ -65,11 +65,11 @@
       <th>ES</th>
       <td>4170</td>
       <td></td>
-      <td>8</td>
+      <td>10</td>
       <td></td>
-      <td>5</td>
-      <td>1.60</td>
-      <td>0.12%</td>
+      <td>7</td>
+      <td>1.43</td>
+      <td>0.17%</td>
       <td>4170</td>
       <td></td>
       <td></td>
@@ -79,7 +79,7 @@
       <th>2021-02-28</th>
       <th>ES</th>
       <td>4170</td>
-      <td>73</td>
+      <td>75</td>
       <td>279</td>
       <td>68</td>
       <td>68</td>
@@ -214,7 +214,7 @@
       <th>2021-02-19</th>
       <th>ES,AT,BE,DE,DK,FI,HR,IE,IT,LV,NL,NO,PL,SI</th>
       <td>47784</td>
-      <td>527</td>
+      <td>526</td>
       <td>18484</td>
       <td>822</td>
       <td>2453</td>
@@ -229,7 +229,7 @@
       <th>2021-02-18</th>
       <th>ES,AT,BE,DE,DK,FI,HR,IE,IT,LV,NL,NO,PL,SI</th>
       <td>47476</td>
-      <td>365</td>
+      <td>364</td>
       <td>17949</td>
       <td>736</td>
       <td>2398</td>
@@ -536,12 +536,12 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td>70</td>
       <td>418</td>
       <td>209</td>
+      <td>17</td>
+      <td>75</td>
+      <td>290</td>
       <td>0</td>
-      <td>73</td>
-      <td>288</td>
       <td>0</td>
-      <td>0</td>
-      <td>0</td>
+      <td>100</td>
       <td>0</td>
     </tr>
     <tr>
@@ -654,8 +654,8 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td>11154</td>
       <td>7488</td>
       <td>336</td>
-      <td>527</td>
-      <td>13423</td>
+      <td>526</td>
+      <td>13422</td>
       <td>4677</td>
       <td>593</td>
       <td>108</td>
@@ -667,8 +667,8 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td>11931</td>
       <td>7461</td>
       <td>335</td>
-      <td>365</td>
-      <td>13543</td>
+      <td>364</td>
+      <td>13542</td>
       <td>5200</td>
       <td>632</td>
       <td>109</td>
