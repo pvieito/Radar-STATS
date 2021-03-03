@@ -63,14 +63,14 @@
     <tr>
       <th>2021-03-03</th>
       <th>ES</th>
-      <td>-74347</td>
+      <td>7989</td>
       <td>55</td>
       <td>275</td>
       <td>55</td>
-      <td>55</td>
-      <td>5.00</td>
-      <td>-0.07%</td>
-      <td>-74347</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>7989</td>
       <td></td>
       <td></td>
       <td></td>
@@ -78,14 +78,14 @@
     <tr>
       <th>2021-03-02</th>
       <th>ES</th>
-      <td>-4464</td>
+      <td>6157</td>
       <td>135</td>
       <td>385</td>
       <td>88</td>
       <td>88</td>
       <td>4.38</td>
-      <td>-1.97%</td>
-      <td>-4464</td>
+      <td>1.43%</td>
+      <td>6157</td>
       <td></td>
       <td></td>
       <td></td>
