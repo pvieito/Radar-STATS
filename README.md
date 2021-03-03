@@ -67,9 +67,9 @@
       <td>112</td>
       <td>521</td>
       <td>112</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>112</td>
+      <td>4.65</td>
+      <td>1.40%</td>
       <td>7989</td>
       <td></td>
       <td></td>
