@@ -18,7 +18,7 @@
 
 ## Last Results
 
-- [Report 2021-03-05@01](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2021-03-05@02](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
@@ -65,11 +65,11 @@
       <th>ES</th>
       <td>6137</td>
       <td></td>
-      <td>23</td>
+      <td>28</td>
       <td></td>
-      <td>16</td>
-      <td>1.44</td>
-      <td>0.26%</td>
+      <td>21</td>
+      <td>1.33</td>
+      <td>0.34%</td>
       <td>6137</td>
       <td></td>
       <td></td>
@@ -79,7 +79,7 @@
       <th>2021-03-04</th>
       <th>ES</th>
       <td>6137</td>
-      <td>120</td>
+      <td>125</td>
       <td>470</td>
       <td>104</td>
       <td>104</td>
@@ -214,7 +214,7 @@
       <th>2021-02-23</th>
       <th>ES</th>
       <td>9298</td>
-      <td>473</td>
+      <td>472</td>
       <td>519</td>
       <td>131</td>
       <td>131</td>
@@ -533,15 +533,15 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
   <tbody>
     <tr>
       <th>2021-03-04</th>
-      <td>134</td>
+      <td>135</td>
       <td>1309</td>
       <td>636</td>
-      <td>0</td>
-      <td>120</td>
-      <td>769</td>
+      <td>20</td>
+      <td>125</td>
+      <td>775</td>
       <td>8</td>
       <td>0</td>
-      <td>1</td>
+      <td>101</td>
       <td>0</td>
     </tr>
     <tr>
@@ -654,8 +654,8 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td>12338</td>
       <td>8317</td>
       <td>421</td>
-      <td>473</td>
-      <td>14600</td>
+      <td>472</td>
+      <td>14599</td>
       <td>4686</td>
       <td>741</td>
       <td>115</td>
@@ -760,7 +760,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td>-</td>
       <td>100.0%</td>
       <td></td>
-      <td>86.6%</td>
+      <td>86.5%</td>
       <td>82.4%</td>
       <td></td>
       <td>0.2%</td>
