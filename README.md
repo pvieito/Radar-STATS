@@ -18,7 +18,7 @@
 
 ## Last Results
 
-- [Report 2021-03-09@01](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2021-03-09@02](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
@@ -65,11 +65,11 @@
       <th>ES</th>
       <td>2218</td>
       <td></td>
-      <td>10</td>
+      <td>14</td>
       <td></td>
-      <td>10</td>
-      <td>1.00</td>
-      <td>0.45%</td>
+      <td>13</td>
+      <td>1.08</td>
+      <td>0.59%</td>
       <td>2218</td>
       <td></td>
       <td></td>
@@ -79,7 +79,7 @@
       <th>2021-03-08</th>
       <th>ES</th>
       <td>2218</td>
-      <td>88</td>
+      <td>91</td>
       <td>354</td>
       <td>78</td>
       <td>78</td>
@@ -94,7 +94,7 @@
       <th>2021-03-07</th>
       <th>ES</th>
       <td>4972</td>
-      <td>114</td>
+      <td>115</td>
       <td>235</td>
       <td>49</td>
       <td>49</td>
@@ -536,12 +536,12 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td>115</td>
       <td>853</td>
       <td>301</td>
+      <td>13</td>
+      <td>91</td>
+      <td>396</td>
+      <td>44</td>
       <td>0</td>
-      <td>88</td>
-      <td>393</td>
-      <td>41</td>
-      <td>0</td>
-      <td>1</td>
+      <td>101</td>
       <td>0</td>
     </tr>
     <tr>
@@ -550,8 +550,8 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td>2007</td>
       <td>841</td>
       <td>134</td>
-      <td>114</td>
-      <td>1762</td>
+      <td>115</td>
+      <td>1763</td>
       <td>5349</td>
       <td>43</td>
       <td>106</td>
@@ -663,7 +663,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
     </tr>
     <tr>
       <th>2021-02-26</th>
-      <td>408</td>
+      <td>405</td>
       <td>11841</td>
       <td>7323</td>
       <td>422</td>
@@ -760,7 +760,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td>-</td>
       <td>100.0%</td>
       <td></td>
-      <td>87.0%</td>
+      <td>86.8%</td>
       <td>81.8%</td>
       <td></td>
       <td>0.1%</td>
