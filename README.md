@@ -18,7 +18,7 @@
 
 ## Last Results
 
-- [Report 2021-03-16@01](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2021-03-16@02](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
@@ -65,11 +65,11 @@
       <th>ES</th>
       <td>1783</td>
       <td></td>
-      <td>14</td>
+      <td>16</td>
       <td></td>
-      <td>6</td>
-      <td>2.33</td>
-      <td>0.34%</td>
+      <td>8</td>
+      <td>2.00</td>
+      <td>0.45%</td>
       <td>1783</td>
       <td></td>
       <td></td>
@@ -79,7 +79,7 @@
       <th>2021-03-15</th>
       <th>ES</th>
       <td>1783</td>
-      <td>75</td>
+      <td>77</td>
       <td>305</td>
       <td>69</td>
       <td>69</td>
@@ -214,7 +214,7 @@
       <th>2021-03-06</th>
       <th>ES</th>
       <td>4972</td>
-      <td>340</td>
+      <td>338</td>
       <td>380</td>
       <td>85</td>
       <td>85</td>
@@ -229,7 +229,7 @@
       <th>2021-03-05</th>
       <th>ES</th>
       <td>4972</td>
-      <td>242</td>
+      <td>241</td>
       <td>419</td>
       <td>89</td>
       <td>89</td>
@@ -536,12 +536,12 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td>135</td>
       <td>1172</td>
       <td>339</td>
+      <td>11</td>
+      <td>77</td>
+      <td>439</td>
+      <td>160</td>
       <td>0</td>
-      <td>75</td>
-      <td>434</td>
-      <td>141</td>
-      <td>0</td>
-      <td>0</td>
+      <td>100</td>
       <td>0</td>
     </tr>
     <tr>
@@ -654,8 +654,8 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td>12916</td>
       <td>8900</td>
       <td>422</td>
-      <td>340</td>
-      <td>14913</td>
+      <td>338</td>
+      <td>14911</td>
       <td>30347</td>
       <td>551</td>
       <td>120</td>
@@ -663,12 +663,12 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
     </tr>
     <tr>
       <th>2021-03-05</th>
-      <td>387</td>
+      <td>386</td>
       <td>13977</td>
       <td>9261</td>
       <td>442</td>
-      <td>242</td>
-      <td>15179</td>
+      <td>241</td>
+      <td>15178</td>
       <td>35820</td>
       <td>578</td>
       <td>121</td>
@@ -760,7 +760,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td>-</td>
       <td>100.0%</td>
       <td></td>
-      <td>88.6%</td>
+      <td>88.5%</td>
       <td>84.7%</td>
       <td></td>
       <td>0.2%</td>
