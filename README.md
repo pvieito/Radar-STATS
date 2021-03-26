@@ -18,7 +18,7 @@
 
 ## Last Results
 
-- [Report 2021-03-26@05](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2021-03-26@06](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
@@ -63,14 +63,14 @@
     <tr>
       <th>2021-03-26</th>
       <th>ES</th>
-      <td>2758</td>
+      <td>13419</td>
       <td></td>
       <td>29</td>
       <td></td>
       <td>22</td>
       <td>1.32</td>
-      <td>0.80%</td>
-      <td>2758</td>
+      <td>0.16%</td>
+      <td>13419</td>
       <td></td>
       <td></td>
       <td></td>
@@ -78,14 +78,14 @@
     <tr>
       <th>2021-03-25</th>
       <th>ES</th>
-      <td>2758</td>
+      <td>5058</td>
       <td>171</td>
       <td>570</td>
       <td>149</td>
       <td>149</td>
       <td>3.83</td>
-      <td>5.40%</td>
-      <td>2758</td>
+      <td>2.95%</td>
+      <td>5058</td>
       <td></td>
       <td></td>
       <td></td>
@@ -532,172 +532,185 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
   </thead>
   <tbody>
     <tr>
+      <th>2021-03-26</th>
+      <td>2</td>
+      <td>0</td>
+      <td>14</td>
+      <td>0</td>
+      <td>0</td>
+      <td>14</td>
+      <td>8</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
       <th>2021-03-25</th>
       <td>190</td>
       <td>3640</td>
-      <td>2012</td>
-      <td>29</td>
+      <td>3617</td>
+      <td>32</td>
       <td>171</td>
-      <td>2424</td>
-      <td>147</td>
+      <td>4175</td>
+      <td>316</td>
       <td>0</td>
-      <td>742</td>
+      <td>745</td>
       <td>1</td>
     </tr>
     <tr>
       <th>2021-03-24</th>
       <td>358</td>
       <td>8816</td>
-      <td>5909</td>
+      <td>6767</td>
       <td>83</td>
       <td>250</td>
-      <td>7645</td>
-      <td>655</td>
-      <td>47</td>
-      <td>1949</td>
+      <td>8931</td>
+      <td>1010</td>
+      <td>67</td>
+      <td>1951</td>
       <td>2</td>
     </tr>
     <tr>
       <th>2021-03-23</th>
       <td>529</td>
       <td>12309</td>
-      <td>8342</td>
+      <td>9055</td>
       <td>122</td>
       <td>349</td>
-      <td>11630</td>
-      <td>1365</td>
-      <td>115</td>
-      <td>3059</td>
+      <td>12725</td>
+      <td>1688</td>
+      <td>135</td>
+      <td>3061</td>
       <td>1</td>
     </tr>
     <tr>
       <th>2021-03-22</th>
       <td>640</td>
       <td>13315</td>
-      <td>8390</td>
+      <td>9055</td>
       <td>161</td>
       <td>358</td>
-      <td>12972</td>
-      <td>2089</td>
-      <td>187</td>
-      <td>3988</td>
+      <td>13986</td>
+      <td>2434</td>
+      <td>207</td>
+      <td>3990</td>
       <td>1</td>
     </tr>
     <tr>
       <th>2021-03-21</th>
       <td>656</td>
       <td>13381</td>
-      <td>7910</td>
+      <td>8549</td>
       <td>173</td>
       <td>354</td>
-      <td>13372</td>
-      <td>2747</td>
-      <td>233</td>
-      <td>4542</td>
+      <td>14321</td>
+      <td>3082</td>
+      <td>252</td>
+      <td>4544</td>
       <td>1</td>
     </tr>
     <tr>
       <th>2021-03-20</th>
       <td>665</td>
       <td>15667</td>
-      <td>9996</td>
+      <td>10629</td>
       <td>198</td>
       <td>371</td>
-      <td>16095</td>
-      <td>3229</td>
-      <td>269</td>
-      <td>4893</td>
+      <td>16966</td>
+      <td>3559</td>
+      <td>285</td>
+      <td>4894</td>
       <td>1</td>
     </tr>
     <tr>
       <th>2021-03-19</th>
       <td>664</td>
       <td>18107</td>
-      <td>12230</td>
+      <td>12844</td>
       <td>221</td>
       <td>393</td>
-      <td>18874</td>
-      <td>3696</td>
-      <td>307</td>
-      <td>5174</td>
+      <td>19694</td>
+      <td>4052</td>
+      <td>323</td>
+      <td>5175</td>
       <td>1</td>
     </tr>
     <tr>
       <th>2021-03-18</th>
       <td>703</td>
       <td>19677</td>
-      <td>13567</td>
+      <td>14164</td>
       <td>255</td>
       <td>412</td>
-      <td>20806</td>
-      <td>4374</td>
-      <td>374</td>
-      <td>5430</td>
+      <td>21581</td>
+      <td>4711</td>
+      <td>386</td>
+      <td>5431</td>
       <td>1</td>
     </tr>
     <tr>
       <th>2021-03-17</th>
       <td>727</td>
       <td>21152</td>
-      <td>15050</td>
+      <td>15633</td>
       <td>295</td>
       <td>396</td>
-      <td>22620</td>
-      <td>5085</td>
-      <td>423</td>
-      <td>5477</td>
+      <td>23356</td>
+      <td>5430</td>
+      <td>430</td>
+      <td>5478</td>
       <td>2</td>
     </tr>
     <tr>
       <th>2021-03-16</th>
-      <td>759</td>
+      <td>758</td>
       <td>22589</td>
-      <td>16545</td>
+      <td>17122</td>
       <td>329</td>
       <td>366</td>
-      <td>24410</td>
-      <td>13172</td>
-      <td>505</td>
-      <td>5443</td>
+      <td>25123</td>
+      <td>13489</td>
+      <td>512</td>
+      <td>5444</td>
       <td>1</td>
     </tr>
     <tr>
       <th>2021-03-15</th>
-      <td>640</td>
+      <td>627</td>
       <td>22249</td>
-      <td>14968</td>
+      <td>15535</td>
       <td>355</td>
       <td>263</td>
-      <td>22620</td>
-      <td>13848</td>
-      <td>530</td>
-      <td>5086</td>
+      <td>23326</td>
+      <td>14206</td>
+      <td>537</td>
+      <td>5087</td>
       <td>1</td>
     </tr>
     <tr>
       <th>2021-03-14</th>
-      <td>468</td>
+      <td>455</td>
       <td>21455</td>
-      <td>13974</td>
+      <td>14528</td>
       <td>356</td>
       <td>204</td>
-      <td>20547</td>
-      <td>14457</td>
-      <td>487</td>
-      <td>4122</td>
+      <td>21238</td>
+      <td>14761</td>
+      <td>493</td>
+      <td>4123</td>
       <td>1</td>
     </tr>
     <tr>
       <th>2021-03-13</th>
-      <td>335</td>
+      <td>322</td>
       <td>22790</td>
-      <td>13869</td>
+      <td>14412</td>
       <td>377</td>
       <td>154</td>
-      <td>19488</td>
-      <td>15174</td>
-      <td>422</td>
-      <td>3266</td>
+      <td>20158</td>
+      <td>15501</td>
+      <td>425</td>
+      <td>3267</td>
       <td>1</td>
     </tr>
   </tbody>
@@ -756,25 +769,25 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
     </tr>
     <tr style="text-align: center;">
       <th>DE</th>
-      <td>22.8%</td>
+      <td>22.9%</td>
       <td>-</td>
-      <td>100.0%</td>
+      <td>99.6%</td>
       <td></td>
       <td>83.8%</td>
-      <td>90.5%</td>
+      <td>90.3%</td>
       <td></td>
       <td>0.2%</td>
-      <td>89.5%</td>
+      <td>89.4%</td>
       <td></td>
     </tr>
     <tr style="text-align: center;">
       <th>DE@ES</th>
       <td></td>
-      <td>66.4%</td>
+      <td>70.3%</td>
       <td>-</td>
       <td></td>
       <td></td>
-      <td>66.9%</td>
+      <td>67.3%</td>
       <td></td>
       <td></td>
       <td></td>
@@ -800,7 +813,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td></td>
       <td></td>
       <td>-</td>
-      <td>1.9%</td>
+      <td>1.8%</td>
       <td></td>
       <td></td>
       <td>6.9%</td>
@@ -809,14 +822,14 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
     <tr style="text-align: center;">
       <th>EU@ES</th>
       <td></td>
-      <td>89.8%</td>
+      <td>94.7%</td>
       <td>100.0%</td>
       <td></td>
       <td>100.0%</td>
       <td>-</td>
       <td></td>
       <td>100.0%</td>
-      <td>91.5%</td>
+      <td>94.6%</td>
       <td></td>
     </tr>
     <tr style="text-align: center;">
@@ -852,7 +865,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td></td>
       <td></td>
       <td>91.3%</td>
-      <td>22.8%</td>
+      <td>22.3%</td>
       <td></td>
       <td></td>
       <td>-</td>
