@@ -3,11 +3,11 @@
     "source_regions": [
         "ES"
     ],
-    "extraction_datetime": 1616991069073,
+    "extraction_datetime": 1616994820869,
     "extraction_date": "2021-03-29",
-    "extraction_date_with_hour": "2021-03-29@04",
+    "extraction_date_with_hour": "2021-03-29@05",
     "last_hour": {
-        "shared_teks_by_upload_date": 5,
+        "shared_teks_by_upload_date": 0,
         "shared_diagnoses": 0
     },
     "today": {
@@ -15,43 +15,43 @@
         "source_regions": [
             "ES"
         ],
-        "covid_cases": 3793,
+        "covid_cases": 2529,
         "shared_teks_by_generation_date": 0,
         "shared_teks_by_upload_date": 13,
         "shared_teks_uploaded_on_generation_date": 0,
         "shared_diagnoses": 11,
         "teks_per_shared_diagnosis": 1.1818181818,
-        "shared_diagnoses_per_covid_case": 0.0029000791,
-        "covid_cases_es": 3793,
+        "shared_diagnoses_per_covid_case": 0.0043495453,
+        "covid_cases_es": 2529,
         "app_downloads_es": 0,
         "shared_diagnoses_es": 0,
         "shared_diagnoses_per_covid_case_es": 0.0,
         "sample_date_string": "2021-03-29"
     },
     "last_7_days": {
-        "covid_cases": 34883,
-        "covid_cases_es": 34883,
-        "covid_cases_for_ratio": 34883,
+        "covid_cases": 37232,
+        "covid_cases_es": 37232,
+        "covid_cases_for_ratio": 37232,
         "covid_cases_for_ratio_es": 0,
         "shared_teks_by_generation_date": 2299,
         "shared_teks_by_upload_date": 3516,
         "shared_diagnoses": 902,
         "shared_diagnoses_es": 0,
-        "teks_per_shared_diagnosis": 0.1007940831,
-        "shared_diagnoses_per_covid_case": 0.0258578677,
+        "teks_per_shared_diagnosis": 0.0944348947,
+        "shared_diagnoses_per_covid_case": 0.0242264719,
         "shared_diagnoses_per_covid_case_es": 0.0
     },
     "last_14_days": {
-        "covid_cases": 61872,
-        "covid_cases_es": 61872,
-        "covid_cases_for_ratio": 61872,
+        "covid_cases": 64221,
+        "covid_cases_es": 64221,
+        "covid_cases_for_ratio": 64221,
         "covid_cases_for_ratio_es": 26989,
         "shared_teks_by_generation_date": 4263,
         "shared_teks_by_upload_date": 5696,
         "shared_diagnoses": 1456,
         "shared_diagnoses_es": 594,
-        "teks_per_shared_diagnosis": 0.0920610292,
-        "shared_diagnoses_per_covid_case": 0.0235324541,
+        "teks_per_shared_diagnosis": 0.0886937295,
+        "shared_diagnoses_per_covid_case": 0.0226717117,
         "shared_diagnoses_per_covid_case_es": 0.0220089666
     },
     "daily_results": [
@@ -60,14 +60,14 @@
             "source_regions": [
                 "ES"
             ],
-            "covid_cases": 3793,
+            "covid_cases": 2529,
             "shared_teks_by_generation_date": 0,
             "shared_teks_by_upload_date": 13,
             "shared_teks_uploaded_on_generation_date": 0,
             "shared_diagnoses": 11,
             "teks_per_shared_diagnosis": 1.1818181818,
-            "shared_diagnoses_per_covid_case": 0.0029000791,
-            "covid_cases_es": 3793,
+            "shared_diagnoses_per_covid_case": 0.0043495453,
+            "covid_cases_es": 2529,
             "app_downloads_es": 0,
             "shared_diagnoses_es": 0,
             "shared_diagnoses_per_covid_case_es": 0.0,
@@ -78,14 +78,14 @@
             "source_regions": [
                 "ES"
             ],
-            "covid_cases": 3793,
+            "covid_cases": 6142,
             "shared_teks_by_generation_date": 96,
             "shared_teks_by_upload_date": 323,
             "shared_teks_uploaded_on_generation_date": 85,
             "shared_diagnoses": 85,
             "teks_per_shared_diagnosis": 3.8,
-            "shared_diagnoses_per_covid_case": 0.0224097021,
-            "covid_cases_es": 3793,
+            "shared_diagnoses_per_covid_case": 0.0138391403,
+            "covid_cases_es": 6142,
             "app_downloads_es": 0,
             "shared_diagnoses_es": 0,
             "shared_diagnoses_per_covid_case_es": 0.0,
