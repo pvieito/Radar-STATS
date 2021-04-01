@@ -18,7 +18,7 @@
 
 ## Last Results
 
-- [Report 2021-04-01@01](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2021-04-01@02](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
@@ -65,11 +65,11 @@
       <th>ES</th>
       <td>4994</td>
       <td></td>
-      <td>6</td>
+      <td>7</td>
       <td></td>
-      <td>3</td>
-      <td>2.00</td>
-      <td>0.06%</td>
+      <td>4</td>
+      <td>1.75</td>
+      <td>0.08%</td>
       <td>4994</td>
       <td></td>
       <td></td>
@@ -79,7 +79,7 @@
       <th>2021-03-31</th>
       <th>ES</th>
       <td>4994</td>
-      <td>193</td>
+      <td>194</td>
       <td>715</td>
       <td>190</td>
       <td>190</td>
@@ -533,15 +533,15 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
   <tbody>
     <tr>
       <th>2021-03-31</th>
-      <td>172</td>
+      <td>173</td>
       <td>4591</td>
       <td>2630</td>
+      <td>3</td>
+      <td>194</td>
+      <td>2911</td>
+      <td>114</td>
       <td>0</td>
-      <td>193</td>
-      <td>2907</td>
-      <td>107</td>
-      <td>0</td>
-      <td>203</td>
+      <td>410</td>
       <td>0</td>
     </tr>
     <tr>
@@ -663,7 +663,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
     </tr>
     <tr>
       <th>2021-03-21</th>
-      <td>686</td>
+      <td>685</td>
       <td>24930</td>
       <td>16767</td>
       <td>206</td>
@@ -764,7 +764,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td>91.3%</td>
       <td></td>
       <td></td>
-      <td>95.5%</td>
+      <td>95.2%</td>
       <td></td>
     </tr>
     <tr style="text-align: center;">
@@ -816,7 +816,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td>-</td>
       <td></td>
       <td>100.0%</td>
-      <td>88.2%</td>
+      <td>87.9%</td>
       <td></td>
     </tr>
     <tr style="text-align: center;">
