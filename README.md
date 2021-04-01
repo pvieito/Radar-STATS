@@ -18,7 +18,7 @@
 
 ## Last Results
 
-- [Report 2021-04-01@16](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2021-04-01@17](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
@@ -663,12 +663,12 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
     </tr>
     <tr>
       <th>2021-03-22</th>
-      <td>786</td>
+      <td>785</td>
       <td>25884</td>
       <td>18064</td>
       <td>214</td>
       <td>445</td>
-      <td>27318</td>
+      <td>27094</td>
       <td>5890</td>
       <td>388</td>
       <td>6497</td>
@@ -787,7 +787,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td>-</td>
       <td></td>
       <td></td>
-      <td>67.9%</td>
+      <td>68.0%</td>
       <td></td>
       <td></td>
       <td></td>
@@ -829,7 +829,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td>-</td>
       <td></td>
       <td>100.0%</td>
-      <td>79.8%</td>
+      <td>79.5%</td>
       <td></td>
     </tr>
     <tr style="text-align: center;">
@@ -865,7 +865,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td></td>
       <td></td>
       <td>91.3%</td>
-      <td>21.6%</td>
+      <td>21.5%</td>
       <td></td>
       <td></td>
       <td>-</td>
