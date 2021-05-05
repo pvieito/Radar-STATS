@@ -18,7 +18,7 @@
 
 ## Last Results
 
-- [Report 2021-05-05@10](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2021-05-05@11](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
@@ -116,9 +116,9 @@
       <td>3.29</td>
       <td>1.00%</td>
       <td>7923</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>3364</td>
+      <td>143</td>
+      <td>1.80%</td>
     </tr>
     <tr>
       <th>2021-05-01</th>
@@ -131,9 +131,9 @@
       <td>3.40</td>
       <td>1.50%</td>
       <td>7923</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>3364</td>
+      <td>143</td>
+      <td>1.80%</td>
     </tr>
     <tr>
       <th>2021-04-30</th>
@@ -146,9 +146,9 @@
       <td>3.79</td>
       <td>1.78%</td>
       <td>7923</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>3364</td>
+      <td>143</td>
+      <td>1.80%</td>
     </tr>
     <tr>
       <th>2021-04-29</th>
@@ -161,9 +161,9 @@
       <td>4.57</td>
       <td>1.71%</td>
       <td>8294</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>3364</td>
+      <td>143</td>
+      <td>1.72%</td>
     </tr>
     <tr>
       <th>2021-04-28</th>
@@ -176,9 +176,9 @@
       <td>3.33</td>
       <td>1.90%</td>
       <td>8390</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>3364</td>
+      <td>143</td>
+      <td>1.70%</td>
     </tr>
     <tr>
       <th>2021-04-27</th>
@@ -191,9 +191,9 @@
       <td>3.52</td>
       <td>1.78%</td>
       <td>9683</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>3364</td>
+      <td>143</td>
+      <td>1.48%</td>
     </tr>
     <tr>
       <th>2021-04-26</th>
@@ -206,9 +206,9 @@
       <td>3.51</td>
       <td>1.51%</td>
       <td>8588</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>3364</td>
+      <td>143</td>
+      <td>1.67%</td>
     </tr>
     <tr>
       <th>2021-04-25</th>
