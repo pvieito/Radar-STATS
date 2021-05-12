@@ -18,7 +18,7 @@
 
 ## Last Results
 
-- [Report 2021-05-12@16](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2021-05-12@17](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
@@ -116,9 +116,9 @@
       <td>2.93</td>
       <td>0.69%</td>
       <td>6190</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>3457</td>
+      <td>96</td>
+      <td>1.55%</td>
     </tr>
     <tr>
       <th>2021-05-08</th>
@@ -131,9 +131,9 @@
       <td>3.11</td>
       <td>1.29%</td>
       <td>6190</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>3457</td>
+      <td>96</td>
+      <td>1.55%</td>
     </tr>
     <tr>
       <th>2021-05-07</th>
@@ -146,9 +146,9 @@
       <td>3.71</td>
       <td>2.12%</td>
       <td>6190</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>3457</td>
+      <td>96</td>
+      <td>1.55%</td>
     </tr>
     <tr>
       <th>2021-05-06</th>
@@ -161,9 +161,9 @@
       <td>3.87</td>
       <td>1.72%</td>
       <td>6326</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>3457</td>
+      <td>96</td>
+      <td>1.52%</td>
     </tr>
     <tr>
       <th>2021-05-05</th>
@@ -176,9 +176,9 @@
       <td>3.66</td>
       <td>1.67%</td>
       <td>6638</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>3457</td>
+      <td>96</td>
+      <td>1.45%</td>
     </tr>
     <tr>
       <th>2021-05-04</th>
@@ -191,9 +191,9 @@
       <td>4.45</td>
       <td>1.33%</td>
       <td>6973</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>3457</td>
+      <td>96</td>
+      <td>1.38%</td>
     </tr>
     <tr>
       <th>2021-05-03</th>
@@ -206,9 +206,9 @@
       <td>4.17</td>
       <td>0.93%</td>
       <td>7423</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>3457</td>
+      <td>96</td>
+      <td>1.29%</td>
     </tr>
     <tr>
       <th>2021-05-02</th>
@@ -663,7 +663,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
     </tr>
     <tr>
       <th>2021-05-02</th>
-      <td>552</td>
+      <td>550</td>
       <td>16826</td>
       <td>10941</td>
       <td>33</td>
