@@ -3,9 +3,9 @@
     "source_regions": [
         "ES"
     ],
-    "extraction_datetime": 1621833327049,
+    "extraction_datetime": 1621836515887,
     "extraction_date": "2021-05-24",
-    "extraction_date_with_hour": "2021-05-24@05",
+    "extraction_date_with_hour": "2021-05-24@06",
     "last_hour": {
         "shared_teks_by_upload_date": 0,
         "shared_diagnoses": 0
@@ -46,7 +46,7 @@
         "covid_cases_es": 66232,
         "covid_cases_for_ratio": 66232,
         "covid_cases_for_ratio_es": 33470,
-        "shared_teks_by_generation_date": 2598,
+        "shared_teks_by_generation_date": 2594,
         "shared_teks_by_upload_date": 3802,
         "shared_diagnoses": 1049,
         "shared_diagnoses_es": 510,
@@ -241,7 +241,7 @@
                 "ES"
             ],
             "covid_cases": 5342,
-            "shared_teks_by_generation_date": 276,
+            "shared_teks_by_generation_date": 275,
             "shared_teks_by_upload_date": 261,
             "shared_teks_uploaded_on_generation_date": 88,
             "shared_diagnoses": 88,
@@ -259,7 +259,7 @@
                 "ES"
             ],
             "covid_cases": 5604,
-            "shared_teks_by_generation_date": 191,
+            "shared_teks_by_generation_date": 190,
             "shared_teks_by_upload_date": 313,
             "shared_teks_uploaded_on_generation_date": 93,
             "shared_diagnoses": 93,
@@ -277,7 +277,7 @@
                 "ES"
             ],
             "covid_cases": 5927,
-            "shared_teks_by_generation_date": 144,
+            "shared_teks_by_generation_date": 143,
             "shared_teks_by_upload_date": 340,
             "shared_teks_uploaded_on_generation_date": 90,
             "shared_diagnoses": 90,
@@ -295,7 +295,7 @@
                 "ES"
             ],
             "covid_cases": 5913,
-            "shared_teks_by_generation_date": 103,
+            "shared_teks_by_generation_date": 102,
             "shared_teks_by_upload_date": 394,
             "shared_teks_uploaded_on_generation_date": 111,
             "shared_diagnoses": 111,
