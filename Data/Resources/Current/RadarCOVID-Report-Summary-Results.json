@@ -3,65 +3,83 @@
     "source_regions": [
         "ES"
     ],
-    "extraction_datetime": 1622503328776,
-    "extraction_date": "2021-05-31",
-    "extraction_date_with_hour": "2021-05-31@23",
+    "extraction_datetime": 1622507490479,
+    "extraction_date": "2021-06-01",
+    "extraction_date_with_hour": "2021-06-01@00",
     "last_hour": {
-        "shared_teks_by_upload_date": 0,
+        "shared_teks_by_upload_date": 4,
         "shared_diagnoses": 0
     },
     "today": {
-        "sample_date": 1622419200000,
+        "sample_date": 1622505600000,
         "source_regions": [
             "ES"
         ],
         "covid_cases": 1827,
-        "shared_teks_by_generation_date": 48,
-        "shared_teks_by_upload_date": 128,
-        "shared_teks_uploaded_on_generation_date": 48,
-        "shared_diagnoses": 48,
-        "teks_per_shared_diagnosis": 2.6666666667,
-        "shared_diagnoses_per_covid_case": 0.026272578,
+        "shared_teks_by_generation_date": 0,
+        "shared_teks_by_upload_date": 4,
+        "shared_teks_uploaded_on_generation_date": 0,
+        "shared_diagnoses": 2,
+        "teks_per_shared_diagnosis": 2.0,
+        "shared_diagnoses_per_covid_case": 0.0010946907,
         "covid_cases_es": 1827,
         "app_downloads_es": 0,
         "shared_diagnoses_es": 0,
         "shared_diagnoses_per_covid_case_es": 0.0,
-        "sample_date_string": "2021-05-31"
+        "sample_date_string": "2021-06-01"
     },
     "last_7_days": {
-        "covid_cases": 32112,
-        "covid_cases_es": 32112,
-        "covid_cases_for_ratio": 32112,
+        "covid_cases": 29416,
+        "covid_cases_es": 29416,
+        "covid_cases_for_ratio": 29416,
         "covid_cases_for_ratio_es": 0,
-        "shared_teks_by_generation_date": 1268,
-        "shared_teks_by_upload_date": 1798,
-        "shared_diagnoses": 496,
+        "shared_teks_by_generation_date": 1071,
+        "shared_teks_by_upload_date": 1695,
+        "shared_diagnoses": 479,
         "shared_diagnoses_es": 0,
-        "teks_per_shared_diagnosis": 0.0559915296,
-        "shared_diagnoses_per_covid_case": 0.0154459392,
+        "teks_per_shared_diagnosis": 0.0576217025,
+        "shared_diagnoses_per_covid_case": 0.0162836552,
         "shared_diagnoses_per_covid_case_es": 0.0
     },
     "last_14_days": {
-        "covid_cases": 59950,
-        "covid_cases_es": 59950,
-        "covid_cases_for_ratio": 59950,
-        "covid_cases_for_ratio_es": 27838,
-        "shared_teks_by_generation_date": 2177,
-        "shared_teks_by_upload_date": 3660,
-        "shared_diagnoses": 995,
-        "shared_diagnoses_es": 504,
-        "teks_per_shared_diagnosis": 0.0610508757,
-        "shared_diagnoses_per_covid_case": 0.0165971643,
-        "shared_diagnoses_per_covid_case_es": 0.0181047489
+        "covid_cases": 56989,
+        "covid_cases_es": 56989,
+        "covid_cases_for_ratio": 56989,
+        "covid_cases_for_ratio_es": 23050,
+        "shared_teks_by_generation_date": 2158,
+        "shared_teks_by_upload_date": 3401,
+        "shared_diagnoses": 940,
+        "shared_diagnoses_es": 420,
+        "teks_per_shared_diagnosis": 0.0596781835,
+        "shared_diagnoses_per_covid_case": 0.0164944112,
+        "shared_diagnoses_per_covid_case_es": 0.0182212581
     },
     "daily_results": [
+        {
+            "sample_date": 1622505600000,
+            "source_regions": [
+                "ES"
+            ],
+            "covid_cases": 1827,
+            "shared_teks_by_generation_date": 0,
+            "shared_teks_by_upload_date": 4,
+            "shared_teks_uploaded_on_generation_date": 0,
+            "shared_diagnoses": 2,
+            "teks_per_shared_diagnosis": 2.0,
+            "shared_diagnoses_per_covid_case": 0.0010946907,
+            "covid_cases_es": 1827,
+            "app_downloads_es": 0,
+            "shared_diagnoses_es": 0,
+            "shared_diagnoses_per_covid_case_es": 0.0,
+            "sample_date_string": "2021-06-01"
+        },
         {
             "sample_date": 1622419200000,
             "source_regions": [
                 "ES"
             ],
             "covid_cases": 1827,
-            "shared_teks_by_generation_date": 48,
+            "shared_teks_by_generation_date": 50,
             "shared_teks_by_upload_date": 128,
             "shared_teks_uploaded_on_generation_date": 48,
             "shared_diagnoses": 48,
@@ -79,7 +97,7 @@
                 "ES"
             ],
             "covid_cases": 4601,
-            "shared_teks_by_generation_date": 55,
+            "shared_teks_by_generation_date": 56,
             "shared_teks_by_upload_date": 152,
             "shared_teks_uploaded_on_generation_date": 30,
             "shared_diagnoses": 30,
@@ -97,7 +115,7 @@
                 "ES"
             ],
             "covid_cases": 4601,
-            "shared_teks_by_generation_date": 112,
+            "shared_teks_by_generation_date": 113,
             "shared_teks_by_upload_date": 233,
             "shared_teks_uploaded_on_generation_date": 63,
             "shared_diagnoses": 63,
@@ -241,7 +259,7 @@
                 "ES"
             ],
             "covid_cases": 4522,
-            "shared_teks_by_generation_date": 158,
+            "shared_teks_by_generation_date": 157,
             "shared_teks_by_upload_date": 384,
             "shared_teks_uploaded_on_generation_date": 98,
             "shared_diagnoses": 98,
@@ -1548,24 +1566,6 @@
             "shared_diagnoses_es": 104,
             "shared_diagnoses_per_covid_case_es": 0.0203482684,
             "sample_date_string": "2021-03-10"
-        },
-        {
-            "sample_date": 1615248000000,
-            "source_regions": [
-                "ES"
-            ],
-            "covid_cases": 4971,
-            "shared_teks_by_generation_date": 96,
-            "shared_teks_by_upload_date": 366,
-            "shared_teks_uploaded_on_generation_date": 96,
-            "shared_diagnoses": 96,
-            "teks_per_shared_diagnosis": 3.8125,
-            "shared_diagnoses_per_covid_case": 0.0193120097,
-            "covid_cases_es": 4971,
-            "app_downloads_es": 3285,
-            "shared_diagnoses_es": 104,
-            "shared_diagnoses_per_covid_case_es": 0.0209213438,
-            "sample_date_string": "2021-03-09"
         }
     ]
 }
