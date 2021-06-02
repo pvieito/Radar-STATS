@@ -3,9 +3,9 @@
     "source_regions": [
         "ES"
     ],
-    "extraction_datetime": 1622610556145,
+    "extraction_datetime": 1622616734225,
     "extraction_date": "2021-06-02",
-    "extraction_date_with_hour": "2021-06-02@05",
+    "extraction_date_with_hour": "2021-06-02@06",
     "last_hour": {
         "shared_teks_by_upload_date": 0,
         "shared_diagnoses": 0
@@ -46,7 +46,7 @@
         "covid_cases_es": 59103,
         "covid_cases_for_ratio": 59103,
         "covid_cases_for_ratio_es": 18310,
-        "shared_teks_by_generation_date": 2192,
+        "shared_teks_by_generation_date": 2185,
         "shared_teks_by_upload_date": 3320,
         "shared_diagnoses": 900,
         "shared_diagnoses_es": 336,
@@ -241,7 +241,7 @@
                 "ES"
             ],
             "covid_cases": 4522,
-            "shared_teks_by_generation_date": 233,
+            "shared_teks_by_generation_date": 232,
             "shared_teks_by_upload_date": 203,
             "shared_teks_uploaded_on_generation_date": 47,
             "shared_diagnoses": 47,
@@ -259,7 +259,7 @@
                 "ES"
             ],
             "covid_cases": 4522,
-            "shared_teks_by_generation_date": 164,
+            "shared_teks_by_generation_date": 162,
             "shared_teks_by_upload_date": 199,
             "shared_teks_uploaded_on_generation_date": 51,
             "shared_diagnoses": 51,
@@ -277,7 +277,7 @@
                 "ES"
             ],
             "covid_cases": 4522,
-            "shared_teks_by_generation_date": 125,
+            "shared_teks_by_generation_date": 123,
             "shared_teks_by_upload_date": 384,
             "shared_teks_uploaded_on_generation_date": 98,
             "shared_diagnoses": 98,
@@ -295,7 +295,7 @@
                 "ES"
             ],
             "covid_cases": 4744,
-            "shared_teks_by_generation_date": 99,
+            "shared_teks_by_generation_date": 97,
             "shared_teks_by_upload_date": 350,
             "shared_teks_uploaded_on_generation_date": 100,
             "shared_diagnoses": 100,
