@@ -18,7 +18,7 @@
 
 ## Last Results
 
-- [Report 2021-06-03@21](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2021-06-03@22](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
@@ -64,12 +64,12 @@
       <th>2021-06-03</th>
       <th>ES</th>
       <td>4984</td>
-      <td>41</td>
-      <td>159</td>
-      <td>41</td>
-      <td>41</td>
-      <td>3.88</td>
-      <td>0.82%</td>
+      <td>50</td>
+      <td>168</td>
+      <td>50</td>
+      <td>50</td>
+      <td>3.36</td>
+      <td>1.00%</td>
       <td>4984</td>
       <td></td>
       <td></td>
@@ -531,19 +531,19 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
   <tbody>
     <tr>
       <th>2021-06-03</th>
-      <td>26</td>
+      <td>30</td>
       <td>0</td>
       <td>30</td>
       <td>2</td>
-      <td>41</td>
-      <td>72</td>
+      <td>50</td>
+      <td>81</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
     </tr>
     <tr>
       <th>2021-06-02</th>
-      <td>56</td>
+      <td>58</td>
       <td>582</td>
       <td>648</td>
       <td>3</td>
@@ -555,7 +555,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
     </tr>
     <tr>
       <th>2021-06-01</th>
-      <td>92</td>
+      <td>94</td>
       <td>1201</td>
       <td>1143</td>
       <td>11</td>
@@ -750,12 +750,12 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
     </tr>
     <tr style="text-align: center;">
       <th>DE</th>
-      <td>86.6%</td>
+      <td>86.3%</td>
       <td>-</td>
       <td>97.8%</td>
       <td></td>
-      <td>60.4%</td>
-      <td>61.4%</td>
+      <td>60.1%</td>
+      <td>61.3%</td>
       <td></td>
       <td>0.6%</td>
       <td>67.4%</td>
@@ -838,7 +838,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td>64.1%</td>
       <td>61.3%</td>
       <td></td>
-      <td>60.4%</td>
+      <td>60.1%</td>
       <td>62.1%</td>
       <td></td>
       <td>71.3%</td>
