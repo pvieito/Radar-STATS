@@ -18,7 +18,7 @@
 
 ## Last Results
 
-- [Report 2021-06-03@06](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2021-06-03@07](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
@@ -131,9 +131,9 @@
       <td>5.07</td>
       <td>0.65%</td>
       <td>4601</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>2588</td>
+      <td>75</td>
+      <td>1.63%</td>
     </tr>
     <tr>
       <th>2021-05-29</th>
@@ -146,9 +146,9 @@
       <td>3.70</td>
       <td>1.37%</td>
       <td>4601</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>2588</td>
+      <td>75</td>
+      <td>1.63%</td>
     </tr>
     <tr>
       <th>2021-05-28</th>
@@ -161,9 +161,9 @@
       <td>3.71</td>
       <td>2.11%</td>
       <td>4601</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>2588</td>
+      <td>75</td>
+      <td>1.63%</td>
     </tr>
     <tr>
       <th>2021-05-27</th>
@@ -176,9 +176,9 @@
       <td>3.12</td>
       <td>1.69%</td>
       <td>4502</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>2588</td>
+      <td>75</td>
+      <td>1.67%</td>
     </tr>
     <tr>
       <th>2021-05-26</th>
@@ -191,9 +191,9 @@
       <td>3.78</td>
       <td>1.62%</td>
       <td>4565</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>2588</td>
+      <td>75</td>
+      <td>1.64%</td>
     </tr>
     <tr>
       <th>2021-05-25</th>
@@ -206,9 +206,9 @@
       <td>3.35</td>
       <td>1.93%</td>
       <td>4719</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>2588</td>
+      <td>75</td>
+      <td>1.59%</td>
     </tr>
     <tr>
       <th>2021-05-24</th>
@@ -221,9 +221,9 @@
       <td>3.55</td>
       <td>1.44%</td>
       <td>4523</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>2588</td>
+      <td>75</td>
+      <td>1.66%</td>
     </tr>
     <tr>
       <th>2021-05-23</th>
