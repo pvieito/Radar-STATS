@@ -18,7 +18,7 @@
 
 ## Last Results
 
-- [Report 2021-06-05@01](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2021-06-05@02](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
@@ -65,11 +65,11 @@
       <th>ES</th>
       <td>5250</td>
       <td></td>
-      <td>8</td>
+      <td>10</td>
       <td></td>
-      <td>1</td>
-      <td>8.00</td>
-      <td>0.02%</td>
+      <td>3</td>
+      <td>3.33</td>
+      <td>0.06%</td>
       <td>5250</td>
       <td></td>
       <td></td>
@@ -79,7 +79,7 @@
       <th>2021-06-04</th>
       <th>ES</th>
       <td>5250</td>
-      <td>59</td>
+      <td>61</td>
       <td>178</td>
       <td>58</td>
       <td>58</td>
@@ -535,11 +535,11 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td>397</td>
       <td>130</td>
       <td>1</td>
-      <td>59</td>
-      <td>207</td>
+      <td>61</td>
+      <td>209</td>
       <td>0</td>
       <td>0</td>
-      <td>0</td>
+      <td>200</td>
     </tr>
     <tr>
       <th>2021-06-03</th>
@@ -742,11 +742,11 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td>-</td>
       <td>100.0%</td>
       <td></td>
-      <td>56.9%</td>
+      <td>56.8%</td>
       <td>59.9%</td>
       <td></td>
       <td>0.8%</td>
-      <td>68.6%</td>
+      <td>68.2%</td>
     </tr>
     <tr style="text-align: center;">
       <th>DE@ES</th>
@@ -758,7 +758,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td>42.4%</td>
       <td></td>
       <td></td>
-      <td>37.2%</td>
+      <td>37.0%</td>
     </tr>
     <tr style="text-align: center;">
       <th>EE</th>
@@ -794,7 +794,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td>-</td>
       <td></td>
       <td>100.0%</td>
-      <td>84.5%</td>
+      <td>84.0%</td>
     </tr>
     <tr style="text-align: center;">
       <th>EU@ES-PRE</th>
