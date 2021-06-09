@@ -18,7 +18,7 @@
 
 ## Last Results
 
-- [Report 2021-06-09@08](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2021-06-09@09](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
@@ -651,7 +651,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
     </tr>
     <tr>
       <th>2021-05-30</th>
-      <td>150</td>
+      <td>149</td>
       <td>2978</td>
       <td>2077</td>
       <td>14</td>
