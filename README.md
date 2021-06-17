@@ -18,7 +18,7 @@
 
 ## Last Results
 
-- [Report 2021-06-17@01](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2021-06-17@02](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
@@ -65,11 +65,11 @@
       <th>ES</th>
       <td>3432</td>
       <td></td>
+      <td>2</td>
       <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>2</td>
+      <td>1.00</td>
+      <td>0.06%</td>
       <td>3432</td>
       <td></td>
       <td></td>
@@ -79,7 +79,7 @@
       <th>2021-06-16</th>
       <th>ES</th>
       <td>3432</td>
-      <td>43</td>
+      <td>45</td>
       <td>165</td>
       <td>43</td>
       <td>43</td>
@@ -535,11 +535,11 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td>164</td>
       <td>82</td>
       <td>0</td>
-      <td>43</td>
-      <td>128</td>
-      <td>689</td>
+      <td>45</td>
+      <td>130</td>
+      <td>697</td>
       <td>0</td>
-      <td>164</td>
+      <td>364</td>
     </tr>
     <tr>
       <th>2021-06-15</th>
@@ -742,11 +742,11 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td>-</td>
       <td>100.0%</td>
       <td></td>
-      <td>87.0%</td>
+      <td>86.9%</td>
       <td>69.3%</td>
       <td></td>
       <td></td>
-      <td>63.8%</td>
+      <td>63.4%</td>
     </tr>
     <tr style="text-align: center;">
       <th>DE@ES</th>
@@ -758,7 +758,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td>35.6%</td>
       <td></td>
       <td></td>
-      <td>31.5%</td>
+      <td>31.3%</td>
     </tr>
     <tr style="text-align: center;">
       <th>EE</th>
@@ -794,7 +794,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td>-</td>
       <td></td>
       <td>100.0%</td>
-      <td>87.8%</td>
+      <td>87.3%</td>
     </tr>
     <tr style="text-align: center;">
       <th>EU@ES-PRE</th>
@@ -826,7 +826,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td>85.9%</td>
       <td>100.0%</td>
       <td></td>
-      <td>87.0%</td>
+      <td>86.9%</td>
       <td>99.1%</td>
       <td></td>
       <td>100.0%</td>
