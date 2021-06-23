@@ -18,7 +18,7 @@
 
 ## Last Results
 
-- [Report 2021-06-23@01](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2021-06-23@02](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
@@ -65,11 +65,11 @@
       <th>ES</th>
       <td>7209</td>
       <td></td>
-      <td>4</td>
+      <td>5</td>
       <td></td>
-      <td>4</td>
+      <td>5</td>
       <td>1.00</td>
-      <td>0.06%</td>
+      <td>0.07%</td>
       <td>7209</td>
       <td></td>
       <td></td>
@@ -79,7 +79,7 @@
       <th>2021-06-22</th>
       <th>ES</th>
       <td>7209</td>
-      <td>29</td>
+      <td>30</td>
       <td>117</td>
       <td>25</td>
       <td>25</td>
@@ -535,11 +535,11 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td>99</td>
       <td>35</td>
       <td>0</td>
-      <td>29</td>
-      <td>84</td>
+      <td>30</td>
+      <td>85</td>
       <td>0</td>
       <td>0</td>
-      <td>89</td>
+      <td>289</td>
     </tr>
     <tr>
       <th>2021-06-21</th>
@@ -746,7 +746,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td>66.6%</td>
       <td></td>
       <td></td>
-      <td>61.6%</td>
+      <td>61.1%</td>
     </tr>
     <tr style="text-align: center;">
       <th>DE@ES</th>
@@ -758,7 +758,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td>27.4%</td>
       <td></td>
       <td></td>
-      <td>21.6%</td>
+      <td>21.4%</td>
     </tr>
     <tr style="text-align: center;">
       <th>EE</th>
@@ -782,7 +782,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td>5.1%</td>
       <td></td>
       <td></td>
-      <td>3.6%</td>
+      <td>3.5%</td>
     </tr>
     <tr style="text-align: center;">
       <th>EU@ES</th>
@@ -794,7 +794,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td>-</td>
       <td></td>
       <td>100.0%</td>
-      <td>77.9%</td>
+      <td>77.3%</td>
     </tr>
     <tr style="text-align: center;">
       <th>EU@ES-PRE</th>
