@@ -3,11 +3,11 @@
     "source_regions": [
         "ES"
     ],
-    "extraction_datetime": 1627567941849,
+    "extraction_datetime": 1627571605240,
     "extraction_date": "2021-07-29",
-    "extraction_date_with_hour": "2021-07-29@14",
+    "extraction_date_with_hour": "2021-07-29@15",
     "last_hour": {
-        "shared_teks_by_upload_date": 82,
+        "shared_teks_by_upload_date": 0,
         "shared_diagnoses": 0
     },
     "today": {
