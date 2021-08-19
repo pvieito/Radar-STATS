@@ -18,7 +18,7 @@
 
 ## Last Results
 
-- [Report 2021-08-19@01](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2021-08-19@02](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
@@ -65,9 +65,9 @@
       <th>ES</th>
       <td>14336</td>
       <td></td>
-      <td>8</td>
+      <td>9</td>
       <td></td>
-      <td>8</td>
+      <td>9</td>
       <td>1.00</td>
       <td>0.06%</td>
       <td>14336</td>
@@ -79,7 +79,7 @@
       <th>2021-08-18</th>
       <th>ES</th>
       <td>14336</td>
-      <td>84</td>
+      <td>85</td>
       <td>215</td>
       <td>76</td>
       <td>76</td>
@@ -533,10 +533,10 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td>967</td>
       <td>424</td>
       <td>3</td>
-      <td>84</td>
-      <td>588</td>
+      <td>85</td>
+      <td>589</td>
       <td>0</td>
-      <td>978</td>
+      <td>1178</td>
     </tr>
     <tr>
       <th>2021-08-17</th>
@@ -724,10 +724,10 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td>-</td>
       <td>100.0%</td>
       <td></td>
-      <td>88.5%</td>
+      <td>88.4%</td>
       <td>70.1%</td>
       <td>0.2%</td>
-      <td>67.4%</td>
+      <td>67.1%</td>
     </tr>
     <tr style="text-align: center;">
       <th>DE@ES</th>
@@ -738,7 +738,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td></td>
       <td>47.8%</td>
       <td></td>
-      <td>41.7%</td>
+      <td>41.6%</td>
     </tr>
     <tr style="text-align: center;">
       <th>EE</th>
@@ -771,7 +771,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td>100.0%</td>
       <td>-</td>
       <td>100.0%</td>
-      <td>85.7%</td>
+      <td>85.4%</td>
     </tr>
     <tr style="text-align: center;">
       <th>IT@ES</th>
@@ -790,7 +790,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td>89.9%</td>
       <td>100.0%</td>
       <td></td>
-      <td>88.5%</td>
+      <td>88.4%</td>
       <td>98.3%</td>
       <td>100.0%</td>
       <td>-</td>
