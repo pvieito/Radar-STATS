@@ -18,7 +18,7 @@
 
 ## Last Results
 
-- [Report 2021-08-19@12](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2021-08-19@13](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
@@ -131,9 +131,9 @@
       <td>2.73</td>
       <td>0.33%</td>
       <td>15058</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>2944</td>
+      <td>94</td>
+      <td>0.62%</td>
     </tr>
     <tr>
       <th>2021-08-14</th>
@@ -146,9 +146,9 @@
       <td>2.69</td>
       <td>0.33%</td>
       <td>15058</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>2944</td>
+      <td>94</td>
+      <td>0.62%</td>
     </tr>
     <tr>
       <th>2021-08-13</th>
@@ -161,9 +161,9 @@
       <td>2.58</td>
       <td>0.62%</td>
       <td>15058</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>2944</td>
+      <td>94</td>
+      <td>0.62%</td>
     </tr>
     <tr>
       <th>2021-08-12</th>
@@ -176,9 +176,9 @@
       <td>3.04</td>
       <td>0.68%</td>
       <td>15902</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>2944</td>
+      <td>94</td>
+      <td>0.59%</td>
     </tr>
     <tr>
       <th>2021-08-11</th>
@@ -191,9 +191,9 @@
       <td>2.97</td>
       <td>0.57%</td>
       <td>16470</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>2944</td>
+      <td>94</td>
+      <td>0.57%</td>
     </tr>
     <tr>
       <th>2021-08-10</th>
@@ -206,9 +206,9 @@
       <td>2.48</td>
       <td>0.79%</td>
       <td>17163</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>2944</td>
+      <td>94</td>
+      <td>0.55%</td>
     </tr>
     <tr>
       <th>2021-08-09</th>
@@ -221,9 +221,9 @@
       <td>3.27</td>
       <td>0.47%</td>
       <td>17827</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>2944</td>
+      <td>94</td>
+      <td>0.53%</td>
     </tr>
     <tr>
       <th>2021-08-08</th>
