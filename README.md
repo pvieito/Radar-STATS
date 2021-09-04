@@ -18,7 +18,7 @@
 
 ## Last Results
 
-- [Report 2021-09-04@04](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2021-09-04@05](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
@@ -63,14 +63,14 @@
     <tr>
       <th>2021-09-04</th>
       <th>ES</th>
-      <td>9561</td>
+      <td>6311</td>
       <td></td>
       <td>1</td>
       <td></td>
       <td>1</td>
       <td>1.00</td>
-      <td>0.01%</td>
-      <td>9561</td>
+      <td>0.02%</td>
+      <td>6311</td>
       <td></td>
       <td></td>
       <td></td>
@@ -78,14 +78,14 @@
     <tr>
       <th>2021-09-03</th>
       <th>ES</th>
-      <td>9561</td>
+      <td>6564</td>
       <td>23</td>
       <td>80</td>
       <td>22</td>
       <td>22</td>
       <td>3.64</td>
-      <td>0.23%</td>
-      <td>9561</td>
+      <td>0.34%</td>
+      <td>6564</td>
       <td></td>
       <td></td>
       <td></td>
