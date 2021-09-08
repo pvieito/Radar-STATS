@@ -18,7 +18,7 @@
 
 ## Last Results
 
-- [Report 2021-09-08@06](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2021-09-08@07](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
@@ -116,9 +116,9 @@
       <td>3.77</td>
       <td>0.20%</td>
       <td>6564</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>2990</td>
+      <td>31</td>
+      <td>0.47%</td>
     </tr>
     <tr>
       <th>2021-09-04</th>
@@ -131,9 +131,9 @@
       <td>2.67</td>
       <td>0.41%</td>
       <td>6564</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>2990</td>
+      <td>31</td>
+      <td>0.47%</td>
     </tr>
     <tr>
       <th>2021-09-03</th>
@@ -146,9 +146,9 @@
       <td>3.64</td>
       <td>0.34%</td>
       <td>6564</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>2990</td>
+      <td>31</td>
+      <td>0.47%</td>
     </tr>
     <tr>
       <th>2021-09-02</th>
@@ -161,9 +161,9 @@
       <td>3.25</td>
       <td>0.40%</td>
       <td>7018</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>2990</td>
+      <td>31</td>
+      <td>0.44%</td>
     </tr>
     <tr>
       <th>2021-09-01</th>
@@ -176,9 +176,9 @@
       <td>3.85</td>
       <td>0.49%</td>
       <td>6668</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>2990</td>
+      <td>31</td>
+      <td>0.46%</td>
     </tr>
     <tr>
       <th>2021-08-31</th>
@@ -191,9 +191,9 @@
       <td>3.05</td>
       <td>0.55%</td>
       <td>7234</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>2990</td>
+      <td>31</td>
+      <td>0.43%</td>
     </tr>
     <tr>
       <th>2021-08-30</th>
@@ -206,9 +206,9 @@
       <td>2.66</td>
       <td>0.54%</td>
       <td>7564</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>2990</td>
+      <td>31</td>
+      <td>0.41%</td>
     </tr>
     <tr>
       <th>2021-08-29</th>
