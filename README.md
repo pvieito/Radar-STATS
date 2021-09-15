@@ -18,7 +18,7 @@
 
 ## Last Results
 
-- [Report 2021-09-15@06](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2021-09-15@07](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
@@ -116,9 +116,9 @@
       <td>2.22</td>
       <td>0.42%</td>
       <td>4244</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>2365</td>
+      <td>24</td>
+      <td>0.57%</td>
     </tr>
     <tr>
       <th>2021-09-11</th>
@@ -131,9 +131,9 @@
       <td>2.36</td>
       <td>0.52%</td>
       <td>4244</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>2365</td>
+      <td>24</td>
+      <td>0.57%</td>
     </tr>
     <tr>
       <th>2021-09-10</th>
@@ -146,9 +146,9 @@
       <td>2.59</td>
       <td>0.40%</td>
       <td>4244</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>2365</td>
+      <td>24</td>
+      <td>0.57%</td>
     </tr>
     <tr>
       <th>2021-09-09</th>
@@ -161,9 +161,9 @@
       <td>3.00</td>
       <td>0.64%</td>
       <td>4511</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>2365</td>
+      <td>24</td>
+      <td>0.53%</td>
     </tr>
     <tr>
       <th>2021-09-08</th>
@@ -176,9 +176,9 @@
       <td>3.69</td>
       <td>0.31%</td>
       <td>5196</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>2365</td>
+      <td>24</td>
+      <td>0.46%</td>
     </tr>
     <tr>
       <th>2021-09-07</th>
@@ -191,9 +191,9 @@
       <td>2.84</td>
       <td>0.60%</td>
       <td>5368</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>2365</td>
+      <td>24</td>
+      <td>0.45%</td>
     </tr>
     <tr>
       <th>2021-09-06</th>
@@ -206,9 +206,9 @@
       <td>3.67</td>
       <td>0.32%</td>
       <td>5688</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>2365</td>
+      <td>24</td>
+      <td>0.42%</td>
     </tr>
     <tr>
       <th>2021-09-05</th>
