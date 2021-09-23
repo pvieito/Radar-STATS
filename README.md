@@ -18,7 +18,7 @@
 
 ## Last Results
 
-- [Report 2021-09-23@08](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2021-09-23@09](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
@@ -131,9 +131,9 @@
       <td>2.43</td>
       <td>0.22%</td>
       <td>3155</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>2411</td>
+      <td>18</td>
+      <td>0.57%</td>
     </tr>
     <tr>
       <th>2021-09-18</th>
@@ -146,9 +146,9 @@
       <td>4.12</td>
       <td>0.51%</td>
       <td>3155</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>2411</td>
+      <td>18</td>
+      <td>0.57%</td>
     </tr>
     <tr>
       <th>2021-09-17</th>
@@ -161,9 +161,9 @@
       <td>4.18</td>
       <td>0.54%</td>
       <td>3155</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>2411</td>
+      <td>18</td>
+      <td>0.57%</td>
     </tr>
     <tr>
       <th>2021-09-16</th>
@@ -176,9 +176,9 @@
       <td>3.68</td>
       <td>0.66%</td>
       <td>3329</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>2411</td>
+      <td>18</td>
+      <td>0.54%</td>
     </tr>
     <tr>
       <th>2021-09-15</th>
@@ -191,9 +191,9 @@
       <td>3.36</td>
       <td>0.41%</td>
       <td>3427</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>2411</td>
+      <td>18</td>
+      <td>0.53%</td>
     </tr>
     <tr>
       <th>2021-09-14</th>
@@ -206,9 +206,9 @@
       <td>3.19</td>
       <td>0.70%</td>
       <td>3698</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>2411</td>
+      <td>18</td>
+      <td>0.49%</td>
     </tr>
     <tr>
       <th>2021-09-13</th>
@@ -221,9 +221,9 @@
       <td>3.53</td>
       <td>0.42%</td>
       <td>4022</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>2411</td>
+      <td>18</td>
+      <td>0.45%</td>
     </tr>
     <tr>
       <th>2021-09-12</th>
