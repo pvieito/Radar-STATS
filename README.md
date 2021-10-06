@@ -18,7 +18,7 @@
 
 ## Last Results
 
-- [Report 2021-10-06@06](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2021-10-06@07](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
@@ -116,9 +116,9 @@
       <td>2.20</td>
       <td>0.24%</td>
       <td>2075</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>2169</td>
+      <td>13</td>
+      <td>0.63%</td>
     </tr>
     <tr>
       <th>2021-10-02</th>
@@ -131,9 +131,9 @@
       <td>5.00</td>
       <td>0.43%</td>
       <td>2075</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>2169</td>
+      <td>13</td>
+      <td>0.63%</td>
     </tr>
     <tr>
       <th>2021-10-01</th>
@@ -146,9 +146,9 @@
       <td>2.21</td>
       <td>0.67%</td>
       <td>2075</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>2169</td>
+      <td>13</td>
+      <td>0.63%</td>
     </tr>
     <tr>
       <th>2021-09-30</th>
@@ -161,9 +161,9 @@
       <td>1.96</td>
       <td>1.06%</td>
       <td>2177</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>2169</td>
+      <td>13</td>
+      <td>0.60%</td>
     </tr>
     <tr>
       <th>2021-09-29</th>
@@ -176,9 +176,9 @@
       <td>3.30</td>
       <td>0.44%</td>
       <td>2267</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>2169</td>
+      <td>13</td>
+      <td>0.57%</td>
     </tr>
     <tr>
       <th>2021-09-28</th>
@@ -191,9 +191,9 @@
       <td>1.53</td>
       <td>0.75%</td>
       <td>2278</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>2169</td>
+      <td>13</td>
+      <td>0.57%</td>
     </tr>
     <tr>
       <th>2021-09-27</th>
@@ -206,9 +206,9 @@
       <td>2.17</td>
       <td>0.52%</td>
       <td>2301</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>2169</td>
+      <td>13</td>
+      <td>0.56%</td>
     </tr>
     <tr>
       <th>2021-09-26</th>
