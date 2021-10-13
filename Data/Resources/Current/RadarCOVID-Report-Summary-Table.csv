@@ -1,6 +1,6 @@
 sample_date,source_regions,covid_cases,shared_teks_by_generation_date,shared_teks_by_upload_date,shared_teks_uploaded_on_generation_date,shared_diagnoses,teks_per_shared_diagnosis,shared_diagnoses_per_covid_case,covid_cases_es,app_downloads_es,shared_diagnoses_es,shared_diagnoses_per_covid_case_es
-2021-10-13,ES,3829,0,0,0,0,0.0,0.0,3829,0,0,0.0
-2021-10-12,ES,3829,4,10,4,4,2.5,0.0010446591799425438,3829,0,0,0.0
+2021-10-13,ES,3829,0,1,0,1,1.0,0.00026116479498563595,3829,0,0,0.0
+2021-10-12,ES,3829,5,10,4,4,2.5,0.0010446591799425438,3829,0,0,0.0
 2021-10-11,ES,1721,8,10,4,4,2.5,0.002324230098779779,1721,0,0,0.0
 2021-10-10,ES,1784,4,2,2,2,1.0,0.0011210762331838565,1784,0,0,0.0
 2021-10-09,ES,1784,7,7,5,5,1.4,0.002802690582959641,1784,0,0,0.0
