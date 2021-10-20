@@ -18,7 +18,7 @@
 
 ## Last Results
 
-- [Report 2021-10-20@06](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2021-10-20@07](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
@@ -116,9 +116,9 @@
       <td>1.00</td>
       <td>0.72%</td>
       <td>1538</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>2217</td>
+      <td>10</td>
+      <td>0.65%</td>
     </tr>
     <tr>
       <th>2021-10-16</th>
@@ -131,9 +131,9 @@
       <td>3.29</td>
       <td>0.46%</td>
       <td>1538</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>2217</td>
+      <td>10</td>
+      <td>0.65%</td>
     </tr>
     <tr>
       <th>2021-10-15</th>
@@ -146,9 +146,9 @@
       <td>3.64</td>
       <td>0.91%</td>
       <td>1538</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>2217</td>
+      <td>10</td>
+      <td>0.65%</td>
     </tr>
     <tr>
       <th>2021-10-14</th>
@@ -161,9 +161,9 @@
       <td>2.27</td>
       <td>0.97%</td>
       <td>1547</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>2217</td>
+      <td>10</td>
+      <td>0.65%</td>
     </tr>
     <tr>
       <th>2021-10-13</th>
@@ -176,9 +176,9 @@
       <td>3.75</td>
       <td>0.52%</td>
       <td>1529</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>2217</td>
+      <td>10</td>
+      <td>0.65%</td>
     </tr>
     <tr>
       <th>2021-10-12</th>
@@ -191,9 +191,9 @@
       <td>2.50</td>
       <td>0.27%</td>
       <td>1464</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>2217</td>
+      <td>10</td>
+      <td>0.68%</td>
     </tr>
     <tr>
       <th>2021-10-11</th>
@@ -206,9 +206,9 @@
       <td>2.50</td>
       <td>0.23%</td>
       <td>1721</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>2217</td>
+      <td>10</td>
+      <td>0.58%</td>
     </tr>
     <tr>
       <th>2021-10-10</th>
