@@ -3,9 +3,9 @@
     "source_regions": [
         "ES"
     ],
-    "extraction_datetime": 1635480581481,
+    "extraction_datetime": 1635484066978,
     "extraction_date": "2021-10-29",
-    "extraction_date_with_hour": "2021-10-29@04",
+    "extraction_date_with_hour": "2021-10-29@05",
     "last_hour": {
         "shared_teks_by_upload_date": 0,
         "shared_diagnoses": 0
