@@ -3,11 +3,11 @@
     "source_regions": [
         "ES"
     ],
-    "extraction_datetime": 1637122092243,
+    "extraction_datetime": 1637125688291,
     "extraction_date": "2021-11-17",
-    "extraction_date_with_hour": "2021-11-17@04",
+    "extraction_date_with_hour": "2021-11-17@05",
     "last_hour": {
-        "shared_teks_by_upload_date": 4,
+        "shared_teks_by_upload_date": 0,
         "shared_diagnoses": 0
     },
     "today": {
@@ -15,43 +15,43 @@
         "source_regions": [
             "ES"
         ],
-        "covid_cases": 9798,
+        "covid_cases": 4091,
         "shared_teks_by_generation_date": 0,
         "shared_teks_by_upload_date": 11,
         "shared_teks_uploaded_on_generation_date": 0,
         "shared_diagnoses": 8,
         "teks_per_shared_diagnosis": 1.375,
-        "shared_diagnoses_per_covid_case": 0.0008164932,
-        "covid_cases_es": 9798,
+        "shared_diagnoses_per_covid_case": 0.0019555121,
+        "covid_cases_es": 4091,
         "app_downloads_es": 0,
         "shared_diagnoses_es": 0,
         "shared_diagnoses_per_covid_case_es": 0.0,
         "sample_date_string": "2021-11-17"
     },
     "last_7_days": {
-        "covid_cases": 28223,
-        "covid_cases_es": 28223,
-        "covid_cases_for_ratio": 28223,
+        "covid_cases": 22566,
+        "covid_cases_es": 22566,
+        "covid_cases_for_ratio": 22566,
         "covid_cases_for_ratio_es": 0,
         "shared_teks_by_generation_date": 624,
         "shared_teks_by_upload_date": 890,
         "shared_diagnoses": 262,
         "shared_diagnoses_es": 0,
-        "teks_per_shared_diagnosis": 0.031534564,
-        "shared_diagnoses_per_covid_case": 0.0092832087,
+        "teks_per_shared_diagnosis": 0.0394398653,
+        "shared_diagnoses_per_covid_case": 0.0116103873,
         "shared_diagnoses_per_covid_case_es": 0.0
     },
     "last_14_days": {
-        "covid_cases": 41526,
-        "covid_cases_es": 41526,
-        "covid_cases_for_ratio": 41526,
+        "covid_cases": 35869,
+        "covid_cases_es": 35869,
+        "covid_cases_for_ratio": 35869,
         "covid_cases_for_ratio_es": 8161,
         "shared_teks_by_generation_date": 1037,
         "shared_teks_by_upload_date": 1320,
         "shared_diagnoses": 387,
         "shared_diagnoses_es": 92,
-        "teks_per_shared_diagnosis": 0.031787314,
-        "shared_diagnoses_per_covid_case": 0.0093194625,
+        "teks_per_shared_diagnosis": 0.0368005799,
+        "shared_diagnoses_per_covid_case": 0.0107892609,
         "shared_diagnoses_per_covid_case_es": 0.0112731283
     },
     "daily_results": [
@@ -60,14 +60,14 @@
             "source_regions": [
                 "ES"
             ],
-            "covid_cases": 9798,
+            "covid_cases": 4091,
             "shared_teks_by_generation_date": 0,
             "shared_teks_by_upload_date": 11,
             "shared_teks_uploaded_on_generation_date": 0,
             "shared_diagnoses": 8,
             "teks_per_shared_diagnosis": 1.375,
-            "shared_diagnoses_per_covid_case": 0.0008164932,
-            "covid_cases_es": 9798,
+            "shared_diagnoses_per_covid_case": 0.0019555121,
+            "covid_cases_es": 4091,
             "app_downloads_es": 0,
             "shared_diagnoses_es": 0,
             "shared_diagnoses_per_covid_case_es": 0.0,
@@ -78,14 +78,14 @@
             "source_regions": [
                 "ES"
             ],
-            "covid_cases": 9798,
+            "covid_cases": 4141,
             "shared_teks_by_generation_date": 60,
             "shared_teks_by_upload_date": 204,
             "shared_teks_uploaded_on_generation_date": 52,
             "shared_diagnoses": 52,
             "teks_per_shared_diagnosis": 3.9230769231,
-            "shared_diagnoses_per_covid_case": 0.0053072056,
-            "covid_cases_es": 9798,
+            "shared_diagnoses_per_covid_case": 0.0125573533,
+            "covid_cases_es": 4141,
             "app_downloads_es": 0,
             "shared_diagnoses_es": 0,
             "shared_diagnoses_per_covid_case_es": 0.0,
