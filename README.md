@@ -18,7 +18,7 @@
 
 ## Last Results
 
-- [Report 2021-11-18@04](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2021-11-18@05](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
@@ -556,7 +556,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td>14412</td>
       <td>11</td>
       <td>90</td>
-      <td>0</td>
+      <td>94</td>
       <td>32</td>
       <td>5055</td>
     </tr>
@@ -567,7 +567,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td>16433</td>
       <td>16</td>
       <td>106</td>
-      <td>2681</td>
+      <td>6657</td>
       <td>111</td>
       <td>4907</td>
     </tr>
@@ -578,7 +578,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td>15379</td>
       <td>20</td>
       <td>91</td>
-      <td>7186</td>
+      <td>9778</td>
       <td>143</td>
       <td>4993</td>
     </tr>
@@ -589,7 +589,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td>20207</td>
       <td>28</td>
       <td>101</td>
-      <td>13774</td>
+      <td>16236</td>
       <td>189</td>
       <td>5096</td>
     </tr>
@@ -600,7 +600,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td>25372</td>
       <td>28</td>
       <td>131</td>
-      <td>21295</td>
+      <td>23594</td>
       <td>227</td>
       <td>5312</td>
     </tr>
@@ -611,7 +611,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td>28737</td>
       <td>38</td>
       <td>125</td>
-      <td>26626</td>
+      <td>28711</td>
       <td>270</td>
       <td>5374</td>
     </tr>
@@ -622,7 +622,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td>32718</td>
       <td>48</td>
       <td>130</td>
-      <td>32041</td>
+      <td>33933</td>
       <td>278</td>
       <td>5547</td>
     </tr>
@@ -633,7 +633,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td>36549</td>
       <td>44</td>
       <td>108</td>
-      <td>37186</td>
+      <td>38959</td>
       <td>287</td>
       <td>5603</td>
     </tr>
@@ -644,7 +644,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td>36145</td>
       <td>52</td>
       <td>99</td>
-      <td>37648</td>
+      <td>39319</td>
       <td>297</td>
       <td>5665</td>
     </tr>
@@ -655,7 +655,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td>33147</td>
       <td>55</td>
       <td>66</td>
-      <td>36714</td>
+      <td>38321</td>
       <td>273</td>
       <td>5698</td>
     </tr>
@@ -666,7 +666,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td>32817</td>
       <td>56</td>
       <td>48</td>
-      <td>40329</td>
+      <td>38617</td>
       <td>242</td>
       <td>5707</td>
     </tr>
@@ -677,7 +677,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td>32373</td>
       <td>64</td>
       <td>35</td>
-      <td>38136</td>
+      <td>35997</td>
       <td>188</td>
       <td>5748</td>
     </tr>
@@ -747,7 +747,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td>-</td>
       <td></td>
       <td></td>
-      <td>67.6%</td>
+      <td>69.7%</td>
       <td></td>
       <td>39.6%</td>
     </tr>
@@ -776,12 +776,12 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
     <tr style="text-align: center;">
       <th>EU@ES</th>
       <td>0.1%</td>
-      <td>56.9%</td>
-      <td>60.3%</td>
-      <td>57.2%</td>
-      <td>64.0%</td>
+      <td>60.1%</td>
+      <td>65.7%</td>
+      <td>55.7%</td>
+      <td>72.8%</td>
       <td>-</td>
-      <td>70.5%</td>
+      <td>72.3%</td>
       <td></td>
     </tr>
     <tr style="text-align: center;">
