@@ -18,7 +18,7 @@
 
 ## Last Results
 
-- [Report 2021-11-29@01](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2021-11-29@02](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
@@ -65,11 +65,11 @@
       <th>ES</th>
       <td>4956</td>
       <td></td>
-      <td>8</td>
+      <td>9</td>
       <td></td>
-      <td>8</td>
+      <td>9</td>
       <td>1.00</td>
-      <td>0.16%</td>
+      <td>0.18%</td>
       <td>4956</td>
       <td></td>
       <td></td>
@@ -79,7 +79,7 @@
       <th>2021-11-28</th>
       <th>ES</th>
       <td>4956</td>
-      <td>51</td>
+      <td>52</td>
       <td>132</td>
       <td>43</td>
       <td>43</td>
@@ -529,14 +529,14 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
   <tbody>
     <tr>
       <th>2021-11-28</th>
-      <td>290</td>
+      <td>294</td>
       <td>4205</td>
       <td>1838</td>
       <td>4</td>
-      <td>51</td>
-      <td>2295</td>
+      <td>52</td>
+      <td>2298</td>
       <td>0</td>
-      <td>4178</td>
+      <td>4384</td>
     </tr>
     <tr>
       <th>2021-11-27</th>
@@ -724,10 +724,10 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td>-</td>
       <td>100.0%</td>
       <td></td>
-      <td>86.9%</td>
+      <td>86.8%</td>
       <td>90.9%</td>
       <td>1.0%</td>
-      <td>82.4%</td>
+      <td>82.2%</td>
     </tr>
     <tr style="text-align: center;">
       <th>DE@ES</th>
@@ -738,7 +738,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td></td>
       <td>79.1%</td>
       <td></td>
-      <td>55.5%</td>
+      <td>55.3%</td>
     </tr>
     <tr style="text-align: center;">
       <th>EE</th>
@@ -771,7 +771,7 @@ _**NOTE:** These tables include data extracted from different Exposure Notificat
       <td>100.0%</td>
       <td>-</td>
       <td>100.0%</td>
-      <td>75.9%</td>
+      <td>75.7%</td>
     </tr>
     <tr style="text-align: center;">
       <th>IT@ES</th>
