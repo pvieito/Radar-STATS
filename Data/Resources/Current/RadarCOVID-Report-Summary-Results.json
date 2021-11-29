@@ -3,11 +3,11 @@
     "source_regions": [
         "ES"
     ],
-    "extraction_datetime": 1638158995409,
+    "extraction_datetime": 1638162505346,
     "extraction_date": "2021-11-29",
-    "extraction_date_with_hour": "2021-11-29@04",
+    "extraction_date_with_hour": "2021-11-29@05",
     "last_hour": {
-        "shared_teks_by_upload_date": 1,
+        "shared_teks_by_upload_date": 0,
         "shared_diagnoses": 0
     },
     "today": {
@@ -15,43 +15,43 @@
         "source_regions": [
             "ES"
         ],
-        "covid_cases": 4956,
+        "covid_cases": 3304,
         "shared_teks_by_generation_date": 1,
         "shared_teks_by_upload_date": 10,
         "shared_teks_uploaded_on_generation_date": 1,
         "shared_diagnoses": 9,
         "teks_per_shared_diagnosis": 1.1111111111,
-        "shared_diagnoses_per_covid_case": 0.0018159806,
-        "covid_cases_es": 4956,
+        "shared_diagnoses_per_covid_case": 0.0027239709,
+        "covid_cases_es": 3304,
         "app_downloads_es": 0,
         "shared_diagnoses_es": 0,
         "shared_diagnoses_per_covid_case_es": 0.0,
         "sample_date_string": "2021-11-29"
     },
     "last_7_days": {
-        "covid_cases": 44065,
-        "covid_cases_es": 44065,
-        "covid_cases_for_ratio": 44065,
+        "covid_cases": 46302,
+        "covid_cases_es": 46302,
+        "covid_cases_for_ratio": 46302,
         "covid_cases_for_ratio_es": 0,
         "shared_teks_by_generation_date": 1135,
         "shared_teks_by_upload_date": 1467,
         "shared_diagnoses": 519,
         "shared_diagnoses_es": 0,
-        "teks_per_shared_diagnosis": 0.0332917281,
-        "shared_diagnoses_per_covid_case": 0.0117780551,
+        "teks_per_shared_diagnosis": 0.0316832966,
+        "shared_diagnoses_per_covid_case": 0.011209019,
         "shared_diagnoses_per_covid_case_es": 0.0
     },
     "last_14_days": {
-        "covid_cases": 71199,
-        "covid_cases_es": 71199,
-        "covid_cases_for_ratio": 71199,
+        "covid_cases": 73436,
+        "covid_cases_es": 73436,
+        "covid_cases_for_ratio": 73436,
         "covid_cases_for_ratio_es": 27134,
         "shared_teks_by_generation_date": 1467,
         "shared_teks_by_upload_date": 2559,
         "shared_diagnoses": 833,
         "shared_diagnoses_es": 342,
-        "teks_per_shared_diagnosis": 0.035941516,
-        "shared_diagnoses_per_covid_case": 0.0116996025,
+        "teks_per_shared_diagnosis": 0.0348466692,
+        "shared_diagnoses_per_covid_case": 0.0113432104,
         "shared_diagnoses_per_covid_case_es": 0.0126041129
     },
     "daily_results": [
@@ -60,14 +60,14 @@
             "source_regions": [
                 "ES"
             ],
-            "covid_cases": 4956,
+            "covid_cases": 3304,
             "shared_teks_by_generation_date": 1,
             "shared_teks_by_upload_date": 10,
             "shared_teks_uploaded_on_generation_date": 1,
             "shared_diagnoses": 9,
             "teks_per_shared_diagnosis": 1.1111111111,
-            "shared_diagnoses_per_covid_case": 0.0018159806,
-            "covid_cases_es": 4956,
+            "shared_diagnoses_per_covid_case": 0.0027239709,
+            "covid_cases_es": 3304,
             "app_downloads_es": 0,
             "shared_diagnoses_es": 0,
             "shared_diagnoses_per_covid_case_es": 0.0,
@@ -78,14 +78,14 @@
             "source_regions": [
                 "ES"
             ],
-            "covid_cases": 4956,
+            "covid_cases": 7193,
             "shared_teks_by_generation_date": 52,
             "shared_teks_by_upload_date": 132,
             "shared_teks_uploaded_on_generation_date": 43,
             "shared_diagnoses": 43,
             "teks_per_shared_diagnosis": 3.0697674419,
-            "shared_diagnoses_per_covid_case": 0.0086763519,
-            "covid_cases_es": 4956,
+            "shared_diagnoses_per_covid_case": 0.0059780342,
+            "covid_cases_es": 7193,
             "app_downloads_es": 0,
             "shared_diagnoses_es": 0,
             "shared_diagnoses_per_covid_case_es": 0.0,
