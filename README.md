@@ -18,7 +18,7 @@
 
 ## Last Results
 
-- [Report 2021-12-01@08](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2021-12-01@09](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
@@ -116,9 +116,9 @@
       <td>3.07</td>
       <td>0.60%</td>
       <td>7193</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>4007</td>
+      <td>82</td>
+      <td>1.14%</td>
     </tr>
     <tr>
       <th>2021-11-27</th>
@@ -131,9 +131,9 @@
       <td>3.07</td>
       <td>0.82%</td>
       <td>7193</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>4007</td>
+      <td>82</td>
+      <td>1.14%</td>
     </tr>
     <tr>
       <th>2021-11-26</th>
@@ -146,9 +146,9 @@
       <td>3.38</td>
       <td>1.18%</td>
       <td>7193</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>4007</td>
+      <td>82</td>
+      <td>1.14%</td>
     </tr>
     <tr>
       <th>2021-11-25</th>
@@ -161,9 +161,9 @@
       <td>2.67</td>
       <td>1.61%</td>
       <td>6725</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>4007</td>
+      <td>82</td>
+      <td>1.22%</td>
     </tr>
     <tr>
       <th>2021-11-24</th>
@@ -176,9 +176,9 @@
       <td>2.49</td>
       <td>1.40%</td>
       <td>6304</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>4007</td>
+      <td>82</td>
+      <td>1.30%</td>
     </tr>
     <tr>
       <th>2021-11-23</th>
@@ -191,9 +191,9 @@
       <td>2.75</td>
       <td>1.26%</td>
       <td>6039</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>4007</td>
+      <td>82</td>
+      <td>1.36%</td>
     </tr>
     <tr>
       <th>2021-11-22</th>
@@ -206,9 +206,9 @@
       <td>2.52</td>
       <td>1.06%</td>
       <td>5655</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>4007</td>
+      <td>82</td>
+      <td>1.45%</td>
     </tr>
     <tr>
       <th>2021-11-21</th>
