@@ -18,7 +18,7 @@
 
 ## Last Results
 
-- [Report 2021-12-15@06](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2021-12-15@07](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
@@ -116,9 +116,9 @@
       <td>3.25</td>
       <td>1.16%</td>
       <td>12474</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>4643</td>
+      <td>204</td>
+      <td>1.64%</td>
     </tr>
     <tr>
       <th>2021-12-11</th>
@@ -131,9 +131,9 @@
       <td>3.26</td>
       <td>1.66%</td>
       <td>12474</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>4643</td>
+      <td>204</td>
+      <td>1.64%</td>
     </tr>
     <tr>
       <th>2021-12-10</th>
@@ -146,9 +146,9 @@
       <td>3.75</td>
       <td>2.24%</td>
       <td>12474</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>4643</td>
+      <td>204</td>
+      <td>1.64%</td>
     </tr>
     <tr>
       <th>2021-12-09</th>
@@ -161,9 +161,9 @@
       <td>4.26</td>
       <td>1.33%</td>
       <td>11994</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>4643</td>
+      <td>204</td>
+      <td>1.70%</td>
     </tr>
     <tr>
       <th>2021-12-08</th>
@@ -176,9 +176,9 @@
       <td>3.46</td>
       <td>1.37%</td>
       <td>10292</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>4643</td>
+      <td>204</td>
+      <td>1.98%</td>
     </tr>
     <tr>
       <th>2021-12-07</th>
@@ -191,9 +191,9 @@
       <td>3.16</td>
       <td>1.04%</td>
       <td>11797</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>4643</td>
+      <td>204</td>
+      <td>1.73%</td>
     </tr>
     <tr>
       <th>2021-12-06</th>
@@ -206,9 +206,9 @@
       <td>3.21</td>
       <td>1.30%</td>
       <td>7005</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>4643</td>
+      <td>204</td>
+      <td>2.91%</td>
     </tr>
     <tr>
       <th>2021-12-05</th>
