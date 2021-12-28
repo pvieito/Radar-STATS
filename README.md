@@ -18,7 +18,7 @@
 
 ## Last Results
 
-- [Report 2021-12-28@04](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2021-12-28@05](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
@@ -63,14 +63,14 @@
     <tr>
       <th>2021-12-28</th>
       <th>ES</th>
-      <td>72912</td>
+      <td>214619</td>
       <td>11</td>
       <td>522</td>
       <td>11</td>
       <td>339</td>
       <td>1.54</td>
-      <td>0.46%</td>
-      <td>72912</td>
+      <td>0.16%</td>
+      <td>214619</td>
       <td></td>
       <td></td>
       <td></td>
@@ -78,14 +78,14 @@
     <tr>
       <th>2021-12-27</th>
       <th>ES</th>
-      <td>72912</td>
+      <td>56771</td>
       <td>1158</td>
       <td>2484</td>
       <td>819</td>
       <td>819</td>
       <td>3.03</td>
-      <td>1.12%</td>
-      <td>72912</td>
+      <td>1.44%</td>
+      <td>56771</td>
       <td></td>
       <td></td>
       <td></td>
@@ -93,14 +93,14 @@
     <tr>
       <th>2021-12-26</th>
       <th>ES</th>
-      <td>72912</td>
+      <td>37497</td>
       <td>1045</td>
       <td>1644</td>
       <td>579</td>
       <td>579</td>
       <td>2.84</td>
-      <td>0.79%</td>
-      <td>72912</td>
+      <td>1.54%</td>
+      <td>37497</td>
       <td></td>
       <td></td>
       <td></td>
@@ -108,14 +108,14 @@
     <tr>
       <th>2021-12-25</th>
       <th>ES</th>
-      <td>72912</td>
+      <td>37497</td>
       <td>1292</td>
       <td>1742</td>
       <td>599</td>
       <td>599</td>
       <td>2.91</td>
-      <td>0.82%</td>
-      <td>72912</td>
+      <td>1.60%</td>
+      <td>37497</td>
       <td></td>
       <td></td>
       <td></td>
@@ -123,14 +123,14 @@
     <tr>
       <th>2021-12-24</th>
       <th>ES</th>
-      <td>72912</td>
+      <td>37497</td>
       <td>1602</td>
       <td>2681</td>
       <td>785</td>
       <td>785</td>
       <td>3.42</td>
-      <td>1.08%</td>
-      <td>72912</td>
+      <td>2.09%</td>
+      <td>37497</td>
       <td></td>
       <td></td>
       <td></td>
