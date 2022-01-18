@@ -18,7 +18,7 @@
 
 ## Last Results
 
-- [Report 2022-01-18@04](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2022-01-18@05](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
@@ -63,14 +63,14 @@
     <tr>
       <th>2022-01-18</th>
       <th>ES</th>
-      <td>162508</td>
+      <td>331467</td>
       <td>4</td>
       <td>221</td>
       <td>4</td>
       <td>186</td>
       <td>1.19</td>
-      <td>0.11%</td>
-      <td>162508</td>
+      <td>0.06%</td>
+      <td>331467</td>
       <td></td>
       <td></td>
       <td></td>
@@ -78,14 +78,14 @@
     <tr>
       <th>2022-01-17</th>
       <th>ES</th>
-      <td>162508</td>
+      <td>138172</td>
       <td>782</td>
       <td>2159</td>
       <td>596</td>
       <td>596</td>
       <td>3.62</td>
-      <td>0.37%</td>
-      <td>162508</td>
+      <td>0.43%</td>
+      <td>138172</td>
       <td></td>
       <td></td>
       <td></td>
@@ -93,14 +93,14 @@
     <tr>
       <th>2022-01-16</th>
       <th>ES</th>
-      <td>162508</td>
+      <td>132590</td>
       <td>771</td>
       <td>1269</td>
       <td>377</td>
       <td>377</td>
       <td>3.37</td>
-      <td>0.23%</td>
-      <td>162508</td>
+      <td>0.28%</td>
+      <td>132590</td>
       <td></td>
       <td></td>
       <td></td>
@@ -108,14 +108,14 @@
     <tr>
       <th>2022-01-15</th>
       <th>ES</th>
-      <td>162508</td>
+      <td>132590</td>
       <td>1137</td>
       <td>1813</td>
       <td>566</td>
       <td>566</td>
       <td>3.20</td>
-      <td>0.35%</td>
-      <td>162508</td>
+      <td>0.43%</td>
+      <td>132590</td>
       <td></td>
       <td></td>
       <td></td>
