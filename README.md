@@ -18,7 +18,7 @@
 
 ## Last Results
 
-- [Report 2022-01-19@06](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
+- [Report 2022-01-19@07](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
 
 ### Daily Summary Plots
 
@@ -116,9 +116,9 @@
       <td>3.37</td>
       <td>0.28%</td>
       <td>132590</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>4256</td>
+      <td>836</td>
+      <td>0.63%</td>
     </tr>
     <tr>
       <th>2022-01-15</th>
@@ -131,9 +131,9 @@
       <td>3.20</td>
       <td>0.43%</td>
       <td>132590</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>4256</td>
+      <td>836</td>
+      <td>0.63%</td>
     </tr>
     <tr>
       <th>2022-01-14</th>
@@ -146,9 +146,9 @@
       <td>3.19</td>
       <td>0.49%</td>
       <td>132590</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>4256</td>
+      <td>836</td>
+      <td>0.63%</td>
     </tr>
     <tr>
       <th>2022-01-13</th>
@@ -161,9 +161,9 @@
       <td>3.85</td>
       <td>0.56%</td>
       <td>144009</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>4256</td>
+      <td>836</td>
+      <td>0.58%</td>
     </tr>
     <tr>
       <th>2022-01-12</th>
@@ -176,9 +176,9 @@
       <td>3.59</td>
       <td>0.59%</td>
       <td>121272</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>4256</td>
+      <td>836</td>
+      <td>0.69%</td>
     </tr>
     <tr>
       <th>2022-01-11</th>
@@ -191,9 +191,9 @@
       <td>3.26</td>
       <td>0.71%</td>
       <td>115279</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>4256</td>
+      <td>836</td>
+      <td>0.73%</td>
     </tr>
     <tr>
       <th>2022-01-10</th>
@@ -206,9 +206,9 @@
       <td>3.10</td>
       <td>0.56%</td>
       <td>112827</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>4256</td>
+      <td>836</td>
+      <td>0.74%</td>
     </tr>
     <tr>
       <th>2022-01-09</th>
