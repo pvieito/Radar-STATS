@@ -1,8 +1,12 @@
 # Radar STATS
 
-[![Report Update](https://github.com/pvieito/Radar-STATS/workflows/Report%20Update/badge.svg?event=schedule)](https://github.com/pvieito/Radar-STATS/blob/master/Notebooks/RadarCOVID-Report/Current/RadarCOVID-Report.ipynb)
-
 **Radar STATS** (_née RadarCOVID-STATS_) is an open-source project developed to monitor and report hourly statistics about Spain’s “Radar COVID” Exposure Notification app – Created by [@pvieito](https://twitter.com/pvieito)
+
+---
+
+_**NOTE**: The Radar STATS project has now been archived. All the data collected from August 2020 to January 2022 remains available for public research in the [Data directory](https://github.com/pvieito/Radar-STATS/raw/master/Data/)._
+
+---
 
 ## Links
 
