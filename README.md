@@ -4,7 +4,7 @@
 
 ---
 
-_**NOTE**: The Radar STATS project has now been archived. All the data collected from August 2020 to January 2022 remains available for public research in the [Data directory](https://github.com/pvieito/Radar-STATS/raw/master/Data/)._
+_**NOTE**: The Radar STATS project has been archived. All the data collected from August 2020 to January 2022 remains available for public research in the [Data directory](https://github.com/pvieito/Radar-STATS/raw/master/Data/)._
 
 ---
 
